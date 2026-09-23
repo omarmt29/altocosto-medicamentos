@@ -1,0 +1,164 @@
+LOG=/app/salida/nuevos_paises_20260909_170817.log
+
+======== START scrapper/py_puntofarma.py 2026-09-09T17:08:17+00:00 ========
+================================================================
+ PY Punto Farma → medicamentos_altos_costos_america
+================================================================
+Lista: 88 medicamentos
+Coincidencias a guardar: 0
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 0 filas · obsoletos: 0 · Paraguay Punto Farma: 0 · total tabla: 1414
+======== END scrapper/py_puntofarma.py rc=0 2026-09-09T17:20:39+00:00 ========
+
+======== START scrapper/py_prosalud.py 2026-09-09T17:20:39+00:00 ========
+================================================================
+ PY Prosalud Farma → medicamentos_altos_costos_america
+================================================================
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Paraguay Prosalud Farma: 0 · total tabla: 1414
+======== END scrapper/py_prosalud.py rc=0 2026-09-09T17:34:13+00:00 ========
+
+======== START scrapper/ve_saas.py 2026-09-09T17:34:13+00:00 ========
+================================================================
+ VE Farmacia SAAS → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   2  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+  aviso Anil: temporal HTTP 500
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 2  (ok=2, revisar=0, con precio=2)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 2 filas · obsoletos: 0 · Venezuela Farmacia SAAS: 2 · total tabla: 1416
+   2  Letrozol
+======== END scrapper/ve_saas.py rc=0 2026-09-09T17:37:45+00:00 ========
+
+======== START scrapper/gy_pharmax.py 2026-09-09T17:37:45+00:00 ========
+================================================================
+ GY Pharma-X Online → medicamentos_altos_costos_america
+================================================================
+Lista: 88 medicamentos
+Coincidencias a guardar: 73  (ok=69, revisar=4, con precio=73)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 73 filas · obsoletos: 0 · Guyana Pharma-X Online: 73 · total tabla: 1489
+======== END scrapper/gy_pharmax.py rc=0 2026-09-09T17:46:35+00:00 ========
+
+======== START scrapper/gy_poonai.py 2026-09-09T17:46:35+00:00 ========
+================================================================
+ GY Poonai Pharmacy → medicamentos_altos_costos_america
+================================================================
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Guyana Poonai Pharmacy: 0 · total tabla: 1489
+======== END scrapper/gy_poonai.py rc=0 2026-09-09T17:52:21+00:00 ========
+
+======== START scrapper/tt_trinipharma.py 2026-09-09T17:52:21+00:00 ========
+================================================================
+ TT TriniPharma → medicamentos_altos_costos_america
+================================================================
+Lista: 88 medicamentos
+Coincidencias a guardar: 1
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 1 filas · obsoletos: 0 · Trinidad y Tobago TriniPharma: 1 · total tabla: 1490
+======== END scrapper/tt_trinipharma.py rc=0 2026-09-09T17:55:34+00:00 ========
+
+======== START scrapper/bo_fsa.py 2026-09-09T17:55:34+00:00 ========
+================================================================
+ BO FSA Tienda Online → medicamentos_altos_costos_america
+================================================================
+Lista: 88 medicamentos
+Coincidencias a guardar: 1
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 1 filas · obsoletos: 0 · Bolivia FSA Tienda Online: 1 · total tabla: 1491
+======== END scrapper/bo_fsa.py rc=0 2026-09-09T17:58:33+00:00 ========
+DONE all nuevos paises 2026-09-09T17:58:33+00:00

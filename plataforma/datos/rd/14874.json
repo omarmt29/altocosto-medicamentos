@@ -1,0 +1,19 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 14874,
+  "nombre": "Bicalut 150mg, 30",
+  "precio": 2990.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Comprimidos",
+  "laboratorio": "Euro LTD",
+  "principios_activos": [
+    "Bicalutamida"
+  ],
+  "principios_activos_con_dosaje": [
+    {
+      "principio_activo": "Bicalutamida",
+      "dosaje": "150 mg"
+    }
+  ]
+}

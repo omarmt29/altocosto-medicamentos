@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 27385,
+  "nombre": "Antitetanica Tetglob 250U.I., 1 unidad ®",
+  "precio": 1625.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Ampollas",
+  "laboratorio": "Sued",
+  "principios_activos": [
+    "Inmunoglobulina"
+  ],
+  "principios_activos_con_dosaje": []
+}

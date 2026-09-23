@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 31656,
+  "nombre": "ProZoladex LA 10.8mg Accion Prolongada, 1 jeringa prellenada con funda protectora",
+  "precio": 55415.1,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Jeringas",
+  "laboratorio": "Astra Zeneca",
+  "principios_activos": [
+    "Goserelina"
+  ],
+  "principios_activos_con_dosaje": []
+}

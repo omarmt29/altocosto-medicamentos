@@ -1,0 +1,65 @@
+
+=== FARMACORP shopify ===
+BO /search/suggest.json?q=adalimumab&resources[type]=product&resources[limit]=5: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly9m | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+BO /products.json?limit=5: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly9m | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+BO /collections/medicamentos/products.json?limit=5: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly9m | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+BO /search?q=adalimumab&type=product: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly9m | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+
+=== FARMACORP www ===
+BO www home: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93 | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+BO www suggest: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93 | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+
+=== MIFARMA algolia reuse inkafarma keys ===
+algolia products: 200 {"hits":[],"nbHits":0,"page":0,"nbPages":0,"hitsPerPage":3,"exhaustiveNbHits":true,"exhaustiveTypo":true,"exhaustive":{"nbHits":true,"typo":true},"query":"adalimumab","queryAfterRe
+algolia mifarma_products: 404 {"message":"Index mifarma_products does not exist","status":404}
+algolia products_mifarma: 404 {"message":"Index products_mifarma does not exist","status":404}
+
+=== MIFARMA asset sniff ===
+mifarma home: 200 https://www.mifarma.com.pe/ | <!DOCTYPE html> <html lang="es"> 	<head> 		<meta name="language" content="es-PE"/> 		<meta charset="utf-8"/> 		<title>En Mifarma los descuen
+scripts 10
+js: ERR Invalid URL 'runtime.ca2b51a0babc4167.js': No scheme supplied. Perhaps you meant https://runtime.ca2b51a0babc4167.js?
+js: ERR Invalid URL 'main.5ac6c63d0fdebd2f.js': No scheme supplied. Perhaps you meant https://main.5ac6c63d0fdebd2f.js?
+
+=== MORE MAGENTO / VTEX ===
+CL Profar prices: 200 {"data":{"products":{"items":[{"name":"OMEPRAZOL 20 MG X 30 CAPS.","sku":"111232","price_range":{"minimum_price":{"regular_price":{"value":1489.880001,"currency":"CLP"},"final_price":{"value":1489.880001,"currency":"CLP"
+AR Farmaplus?: ERR HTTPSConnectionPool(host='www.farmaplusonline.com.ar', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaplusonline.com.ar', port=443): Failed to resolve 'www.farmaplusonline.com.ar' ([Errno -2] Name or service not known)"))
+AR Farmacity check: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93 | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+VE Farmahorro: 200 http://ww19.farmahorro.com | <html> <head ><style>*{margin: 0; padding: 0;}</style><meta  name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" 
+VE Farmatodo api only: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93 | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+BO Boliviafarma: ERR HTTPSConnectionPool(host='boliviafarma.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='boliviafarma.com', port=443): Failed to resolve 'boliviafarma.com' ([Errno -2] Name or service not known)"))
+BO Farmacia Chavez: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=59&pl=1&lu=0&url=aHR0cHM6Ly93 | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+PY farmaciacatedral woo: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93 | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+PY puntofarma already have: 200 https://www.puntofarma.com.py/ | <!DOCTYPE html><html lang="es"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="
+RD Carol already: ERR HTTPSConnectionPool(host='www.farmaciascarol.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.farmaciascarol.com', port=443) at 0x7f04a2f0ae90>, 'Connection to www.farmaciascarol.com timed out. (connect timeout=20)'))
+MX Roma: 200 https://farmaciasroma.com/ | <!doctype html> <html lang="es" prefix="og: https://ogp.me/ns#"> <head> 	<meta charset="UTF-8"> 	<meta name="viewport" content="width=device
+CO Pasteur vtex: 404 https://www.drogueriaspasteur.com.co/api/catalog_system/pub/products/search?ft=o | 404 Not Found
+UY Farmashop already: 403 https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93 | <!doctype html>                 <html>                     <head>                         <meta charset='utf-8'>                         <ti
+SV San Nicolas already: ERR HTTPSConnectionPool(host='www.sannicolas.com.sv', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sannicolas.com.sv', port=443) at 0x7f04a2f09bd0>, 'Connection to www.sannicolas.com.sv timed out. (connect timeout=20)'))
+PA Metrofarma alt: ERR HTTPSConnectionPool(host='metrofarma.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='metrofarma.com', port=443): Failed to resolve 'metrofarma.com' ([Errno -5] No address associated with hostname)"))
+PA Rey: ERR HTTPSConnectionPool(host='www.rey.com.pa', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.rey.com.pa', port=443): Failed to resolve 'www.rey.com.pa' ([Errno -2] Name or service not known)"))
+TT Jusamco: ERR HTTPSConnectionPool(host='www.jusamco.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jusamco.com', port=443) at 0x7f04a2f0b750>, 'Connection to www.jusamco.com timed out. (connect timeout=20)'))
+GY Courts: ERR HTTPSConnectionPool(host='www.courts.com.gy', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.courts.com.gy', port=443): Failed to resolve 'www.courts.com.gy' ([Errno -2] Name or service not known)"))
+BR Drogaria Sao Paulo: 403 https://www.drogariasaopaulo.com.br/ | <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> <HTML><HEAD><META HTTP-EQUIV="Content
+BR Ultrafarma: 200 https://www.ultrafarma.com.br/ |   <!DOCTYPE html> <html lang="pt-br"> <head>     <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-sca
+AR Farmatodo AR?: 200 https://www.farmatodo.com.ar/ | <!DOCTYPE html><html lang="es"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="
+EC Farmacias Económicas: 200 https://www.farmaciaseconomicas.com.ec/ | <!doctype html> <html lang="es"> <head> 	<meta charset="UTF-8"> 	<meta name="viewport" content="width=device-width, initial-scale=1"> 	<link
+HN DelAhorro already: ERR HTTPSConnectionPool(host='www.fahorro.hn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.fahorro.hn', port=443): Failed to resolve 'www.fahorro.hn' ([Errno -2] Name or service not known)"))
+
+=== PROFAR / UNIVERSAL term sweep ===
+Profar adalimumab: 4 -> ['(REF) HUMIRA  AUTOINYECTOR 40 MG / 0,4 ML SOL. INY', '(REF) IDACIO 40 MG / 0,8 ML X 2 AUTO INY.', '(REF) AMGEVITA 40MG /0.8M X 2 JERINGAS']
+Profar trastuzumab: 1 -> ['(REF) PHESGO 1200/600 SOLUCION INYECTABLE']
+Profar bevacizumab: 0 -> []
+Profar sofosbuvir: 1 -> ['EPCLUSA 400 MG / 100 MG X 28 COMP. REC.']
+Profar filgrastim: 3 -> ['(REF) TEVAGRASTIM 300 MCG / 0,5 ML SOL. INY. X 1 J', '(REF) BLAUTRIM  300 MCG X 1 JERINGA PRELLENADA', '(REF) FOLTRAN 300 MCG / 1 ML SOL. INY. X 1 JER. PR']
+Profar omeprazol: 28 -> ['OMEPRAZOL 20 MG X 30 CAPS.', 'OMEPRAZOL 20 MG X 30 CAPS.', 'OMEPRAZOL 20 MG X 60 CAPS.']
+Universal omeprazol: 206 n=4 ['Omeprazol 20 mg PT Cápsulas - Blíster 10 und', 'Omeprazol 20 mg FI Cápsulas - Blíster 10 und', 'Esomeprazol 40 mg Tabletas - Caja 30 und', 'Esomeprazol 20 mg BN Tabletas de Liberación - Caja 30 und']
+Universal imatinib: 200 n=0 []
+Universal metformina: 206 n=4 ['Metformina 850 mg GF Tabletas - Caja 30 und', 'Metformina Clorhidrato 850 mg PT Tabletas - Blíster 10 und', 'Metfortabs 850 mg Tabletas - Caja 30 und', 'Galvus Met 50 mg + 500 mg Tabletas - Blíster 10 und']
+Universal insulina: 206 n=4 ['Verifine Jeringa para Insulina (1 ml x 6 mm) - Sobre 1 und', 'Verifine Jeringa para Insulina (0.5 ml x 6 mm) - Sobre 1 und', 'BD Ultra Fine Aguja para Insulina Mini (5 mm) - Bolsa 10 und', 'Sure Comfort Agujas para Insulina Micron 32G (4 mm) - Bolsa ']
+Universal humira: 200 n=0 []
+Universal mabthera: 200 n=0 []
+
+=== LOCATEL VE currency sniff ===
+price 367386.47 list 367386.47 currency? None
+keys item0 ['itemId', 'name', 'nameComplete', 'complementName', 'ean', 'referenceId', 'measurementUnit', 'unitMultiplier', 'modalType', 'isKit', 'images', 'sellers', 'Videos', 'estimatedDateArrival']
+{"productId": "2120445", "brand": "RELIANCE", "productName": "ADALIMUMAB ADALIREL 40 MGX1 JERINGA P/LLE."}

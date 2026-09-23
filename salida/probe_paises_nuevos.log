@@ -1,0 +1,53 @@
+-- JM Fontana
+JM|Fontana|200|-|NO_API||https://www.fontanaonline.com/
+-- JM SuperPlus
+JM|SuperPlus|HOME_ERR|HTTPSConnectionPool(host='www.superplusfoodstores.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.superplusfoodstores.com', port=443): Failed to resolve 'www.superplusfoodstores.com' ([Errno -2] Name or service not known)"))
+-- JM Pharmacy Plus
+JM|Pharmacy Plus|HOME_ERR|HTTPSConnectionPool(host='www.pharmacyplusja.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.pharmacyplusja.com', port=443): Failed to resolve 'www.pharmacyplusja.com' ([Errno -2] Name or service not known)"))
+-- JM Mega Pharmacy
+JM|Mega Pharmacy|HOME_ERR|HTTPSConnectionPool(host='www.megapharmacyja.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.megapharmacyja.com', port=443): Failed to resolve 'www.megapharmacyja.com' ([Errno -2] Name or service not known)"))
+-- JM Kingston Pharmacy
+JM|Kingston Pharmacy|HOME_ERR|HTTPSConnectionPool(host='www.kingstonpharmacy.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError("HTTPSConnection(host='www.kingstonpharmacy.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable"))
+-- BB Super Centre
+BB|Super Centre|200|-|NO_API||https://www.supercentre.com/
+-- BB Jordan Pharmacy
+BB|Jordan Pharmacy|200|-|NO_API||https://jordanpharmacy.com/
+-- BB Collins
+BB|Collins|401|-|NO_API||http://192.168.131.1:8091/v1/ntlm/ntlmauth.html?1www.collinsmedical.ne
+-- BZ Brothers
+BZ|Brothers|HOME_ERR|HTTPSConnectionPool(host='www.brothersbelize.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.brothersbelize.com', port=443): Failed to resolve 'www.brothersbelize.com' ([Errno -2] Name or service not known)"))
+-- BZ Pharmacy Belize
+BZ|Pharmacy Belize|HOME_ERR|HTTPSConnectionPool(host='www.pharmacybelize.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.pharmacybelize.com', port=443): Failed to resolve 'www.pharmacybelize.com' ([Errno -2] Name or service not known)"))
+-- SR Het Anker
+SR|Het Anker|HOME_ERR|HTTPSConnectionPool(host='www.apotheekhetanker.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.apotheekhetanker.com', port=443): Failed to resolve 'www.apotheekhetanker.com' ([Errno -2] Name or service not known)"))
+-- SR Drogisterij
+SR|Drogisterij|HOME_ERR|HTTPSConnectionPool(host='www.drogisterij.com.sr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.drogisterij.com.sr', port=443): Failed to resolve 'www.drogisterij.com.sr' ([Errno -2] Name or service not known)"))
+-- BS Lowes
+BS|Lowes|200|-|NO_API||https://www.lowespharmacybahamas.com/
+-- BS Solomons
+BS|Solomons|HOME_ERR|HTTPSConnectionPool(host='www.solomonsonline.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.solomonsonline.com', port=443): Failed to resolve 'www.solomonsonline.com' ([Errno -2] Name or service not known)"))
+-- PR Caridad
+PR|Caridad|200|shopify|OK|shopify:0|https://www.farmaciascaridad.com/
+-- PR Walgreens
+PR|Walgreens|PROXY|403
+-- PR El Amiguito
+PR|El Amiguito|HOME_ERR|HTTPSConnectionPool(host='www.farmaciaselamiguito.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciaselamiguito.com', port=443): Failed to resolve 'www.farmaciaselamiguito.com' ([Errno -2] Name or service not known)"))
+-- HT Caribe
+HT|Caribe|HOME_ERR|HTTPSConnectionPool(host='www.pharmaciecaribe.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.pharmaciecaribe.com', port=443): Failed to resolve 'www.pharmaciecaribe.com' ([Errno -2] Name or service not known)"))
+-- CW Botica
+CW|Botica|200|-|NO_API||https://www.botica.com/
+-- AW Farmacia Aruba
+AW|Farmacia Aruba|HOME_ERR|HTTPSConnectionPool(host='www.farmaciaaruba.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciaaruba.com', port=443): Failed to resolve 'www.farmaciaaruba.com' ([Errno -2] Name or service not known)"))
+-- CA Well.ca
+CA|Well.ca|PROXY|403
+-- CA Shoppers
+CA|Shoppers|PROXY|403
+-- CA London Drugs
+CA|London Drugs|PROXY|403
+-- US Cost Plus Drugs
+US|Cost Plus Drugs|200|-|NO_API||https://www.costplusdrugs.com/
+-- US Honeybee
+US|Honeybee|200|-|NO_API||https://honeybeehealth.com:443/
+-- US skip
+-- PY Catedral
+PY|Catedral|PROXY|403

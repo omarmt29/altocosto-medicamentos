@@ -1,0 +1,19 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 6739,
+  "nombre": "Femara 2.5mg, 30",
+  "precio": 9527.04,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Tabletas",
+  "laboratorio": "Novartis",
+  "principios_activos": [
+    "Letrozol"
+  ],
+  "principios_activos_con_dosaje": [
+    {
+      "principio_activo": "Letrozol",
+      "dosaje": "2.5mg"
+    }
+  ]
+}

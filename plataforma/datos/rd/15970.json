@@ -1,0 +1,19 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 15970,
+  "nombre": "Bunide 150mg, 30",
+  "precio": 2925.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Tabletas",
+  "laboratorio": "Pharmatech",
+  "principios_activos": [
+    "Bicalutamida"
+  ],
+  "principios_activos_con_dosaje": [
+    {
+      "principio_activo": "Bicalutamida",
+      "dosaje": "150mg"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 31404,
+  "nombre": "Zometa 4mg/5ml, 1 Ampolla",
+  "precio": 23484.24,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Ampollas",
+  "laboratorio": "Novartis",
+  "principios_activos": [
+    "Acido Zolendronico"
+  ],
+  "principios_activos_con_dosaje": []
+}

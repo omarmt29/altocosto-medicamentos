@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 17517,
+  "nombre": "Anti-D Inmunoglobulina Humana Rhoclone 300mcg, ampolla 1ml",
+  "precio": 6500.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Ampollas",
+  "laboratorio": "BSV",
+  "principios_activos": [
+    "Inmunoglobulina"
+  ],
+  "principios_activos_con_dosaje": []
+}

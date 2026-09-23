@@ -1,0 +1,37 @@
+{
+  "fuente": "https://www.farmaciasmedicity.com",
+  "plataforma": "VTEX IO (cuenta farmaenlace, grupo Farmaenlace)",
+  "fecha_prueba": "2026-08-28",
+  "nota": "Prueba manual vía API pública VTEX. El servidor local recibe HTTP 403 (filtro corporativo cat. 45); los resultados provienen de consultas externas exitosas.",
+  "medicamentos_con_match": 0,
+  "medicamentos_total": 88,
+  "terminos_probados_sin_resultado": [
+    "adalimumab", "trastuzumab", "rituximab", "cetuximab", "pembrolizumab",
+    "imatinib", "goserelina", "pegfilgrastim", "humira", "herceptin",
+    "mabthera", "keytruda", "enbrel", "zoledronico"
+  ],
+  "categoria_especialidad_online": {
+    "id_vtex": "532",
+    "ruta": "Medicina/Especialidad",
+    "productos_visibles": 21,
+    "ejemplos": [
+      "Eutirox Tabletas",
+      "Ozempic Duald Solución Inyectable",
+      "Lamotrigina Mk",
+      "Pregabalina Mk",
+      "Suprahyal Solución Inyectable"
+    ],
+    "observacion": "Catálogo online de especialidad limitado a genéricos y algunos productos de venta libre; sin biológicos/oncológicos de alto costo."
+  },
+  "programa_pmf": {
+    "url": "https://www.farmaciasmedicity.com/especialidad",
+    "descripcion": "Programa de medicina de especialidad (PMF) para crónicos y alta complejidad; requiere contacto/receta, no precios públicos en web.",
+    "relevancia_scraping": "Baja: los principios DAMAC/FOMAC no están indexados en el buscador VTEX."
+  },
+  "comparacion_farmacias_ec_actuales": {
+    "pharmacys_cruzazul_matches_cache": 22,
+    "comparativo_con_precio_ec": 5,
+    "farmacia_con_mas_cobertura": "Pharmacy's y Cruz Azul (mismo grupo DIFARE, catálogo VTEX completo)"
+  },
+  "recomendacion": "No integrar Medicity al cron: no aporta principios faltantes. Priorizar Fybeca (mismo ecosistema si se desbloquea WAF) o contacto comercial PMF Medicity para lista de precios."
+}

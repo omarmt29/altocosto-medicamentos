@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 31546,
+  "nombre": "Bosetrax 125mg, caja de 60 tabletas recubiertas",
+  "precio": 14300.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Caja",
+  "laboratorio": "Alfa Eticos",
+  "principios_activos": [
+    "Bosentan"
+  ],
+  "principios_activos_con_dosaje": []
+}

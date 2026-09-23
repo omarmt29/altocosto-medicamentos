@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 32647,
+  "nombre": "Miconato 360mg, caja de 30 capletas",
+  "precio": 5070.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Caja",
+  "laboratorio": "Alfa Eticos",
+  "principios_activos": [
+    "Micofenolato Mofetilo"
+  ],
+  "principios_activos_con_dosaje": []
+}

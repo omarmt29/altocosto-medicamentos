@@ -1,0 +1,3557 @@
+Creating medicamentos_alto_costo_medicamentos-alto-costo_run ... 
+Creating medicamentos_alto_costo_medicamentos-alto-costo_run ... done
+========================================================================
+ Cobertura baja · países CA + CO bloqueadas + Perú
+========================================================================
+
+>>> Colombia · Cruz Verde (bloqueada)
+================================================================
+ CO Cruz Verde → medicamentos_altos_costos_america
+ API https://api.cruzverde.com.co · zona COCV_zona64
+================================================================
+  red no disponible (bloqueado HTTP 403). Sigo con caché local.
+  Tip: exporta CRUZVERDE_COOKIE='connect.sid=...' (cookie del navegador) y corre fuera del proxy corporativo.
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Colombia Cruz Verde: 0 · total: 1110
+
+>>> Colombia · La Rebaja (bloqueada)
+================================================================
+ CO La Rebaja → medicamentos_altos_costos_america
+================================================================
+  red no disponible (bloqueado HTTP 403). Sigo con caché local.
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Colombia La Rebaja: 0 · total tabla: 1110
+
+>>> Colombia · Cafam (bloqueada)
+================================================================
+ CO Droguerías Cafam → medicamentos_altos_costos_america
+================================================================
+  red no disponible (bloqueado HTTP 403). Sigo con caché local.
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Colombia Droguerías Cafam: 0 · total tabla: 1110
+
+>>> Colombia · Locatel
+================================================================
+ CO Locatel → medicamentos_altos_costos_america
+================================================================
+  ·   1  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   2  Acetato de goserelina
+  ·   2  Acetato de leuprorelina
+  ·   1  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+  ·   1  Azacitidina
+      0  Basiliximab
+  ·   1  Bendamustina
+  ·   1  Bevacizumab
+      0  Bicalutamida
+  ·   1  Bortezomib
+      0  Bosentán
+  ·   2  Capecitabina
+  ·   1  Cetuximab
+  ·   2  Ciclosporina
+  ·   1  Cladribina
+      0  Daratumumab
+  ·   1  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+  ·   2  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+  ·   1  Fingolimod
+  ·   1  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+  aviso TREMFYA 200 MG / 20 ML (10 MG/ML): HTTP 400
+      0  Guselkumab
+      0  Ibrutinib
+  ·   3  Imatinib
+      0  Imiglucerasa
+  ·   1  Infliximab
+  ·   1  Inmunoglobulina humana
+  ·   2  Interferón beta 1A
+  ·   1  Interferón beta 1B
+  ·   1  Lapatinib ditosilato
+  aviso LENALIDOMIDA (FORMA-H1): HTTP 400
+      0  Lenalidomida
+  ·   3  Letrozol
+  aviso MICOFENOLATO 250 MG (LINEA INTRALAB): HTTP 400
+  aviso MICOFENOLATO 500 MG (LINEA INTRALAB): HTTP 400
+  ·   2  Micofenolato mofetilo
+  ·   1  Micofenolato sódico
+  ·   1  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+  ·   1  Octreotida
+      0  Olaparib
+  ·   1  Omalizumab
+  ·   1  Osimertinib mesilato
+  ·   1  Palbociclib
+  ·   2  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+  ·   1  Riluzol
+      0  Riociguat
+  ·   2  Rituximab
+      0  Secukinumab
+  ·   1  Sirolimus
+  ·   1  Sofosbuvir/Velpatasvir
+  ·   2  Somatropina
+  ·   1  Sorafenib tosilato
+  ·   3  Sunitinib
+  ·   5  Tacrolimus
+      0  Teriflunomida
+  ·   1  Teriparatida
+  aviso Timoglobulina de conejo (antitimocitos humana): HTTP 400
+      0  Timoglobulina de conejo (antitimocitos humana)
+  ·   2  Tocilizumab
+  ·   1  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+  ·   1  Valganciclovir
+      0  Blinatumomab
+  aviso PEG-ASP (pegilada): HTTP 400
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+  aviso NETUPITANT + PALONOSETRON: HTTP 400
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 69  (ok=58, revisar=11, con precio=69)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 69 filas · obsoletos: 0 · Colombia Locatel: 69 · total tabla: 1110
+   5  Tacrolimus
+   3  Imatinib
+   3  Letrozol
+   3  Sunitinib
+   2  Acetato de goserelina
+   2  Acetato de leuprorelina
+   2  Capecitabina
+   2  Ciclosporina
+   2  Etanercept
+   2  Filgrastim
+   2  Interferón beta 1A
+   2  Micofenolato sódico
+   2  Palmitato de paliperidona
+   2  Rituximab
+   2  Somatropina
+   2  Tocilizumab
+   1  Acetato de abiraterona
+   1  Adalimumab
+   1  Azacitidina
+   1  Bendamustina
+   1  Bevacizumab
+   1  Bortezomib
+   1  Cetuximab
+   1  Cladribina
+   1  Dasatinib
+   1  Everolimus
+   1  Fingolimod
+   1  Fulvestrant
+   1  Infliximab
+   1  Inmunoglobulina humana
+   1  Interferón beta 1B
+   1  Lapatinib ditosilato
+   1  Micofenolato mofetilo
+   1  Nilotinib
+   1  Octreotida
+   1  Omalizumab
+   1  Osimertinib mesilato
+   1  Palbociclib
+   1  Riluzol
+   1  Sirolimus
+   1  Sofosbuvir/Velpatasvir
+   1  Sorafenib tosilato
+   1  Teriparatida
+   1  Tofacitinib
+   1  Trastuzumab
+   1  Valganciclovir
+   1  Ácido zoledrónico
+
+>>> Colombia · Farmatodo
+================================================================
+ CO Farmatodo → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   5  Acetato de goserelina
+  ·   2  Acetato de leuprorelina
+  ·   1  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   2  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+  ·   2  Capecitabina
+  ·   1  Cetuximab
+  ·   3  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+  ·   1  Dasatinib
+      0  Deferasirox
+  ·   1  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+  ·   1  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+  ·   1  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+  ·   3  Palmitato de paliperidona
+  ·   2  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+  ·   1  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   8  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+  ·   6  Tacrolimus
+      0  Teriflunomida
+  ·   2  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+  ·   1  Tocilizumab
+      0  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 49  (ok=38, revisar=11)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 49 filas · obsoletos: 0 · Colombia Farmatodo: 49 · total: 1110
+   8  Somatropina
+   6  Tacrolimus
+   5  Acetato de goserelina
+   3  Ciclosporina
+   3  Palmitato de paliperidona
+   2  Acetato de leuprorelina
+   2  Bicalutamida
+   2  Capecitabina
+   2  Filgrastim
+   2  Pembrolizumab
+   2  Teriparatida
+   1  Adalimumab
+   1  Cetuximab
+   1  Dasatinib
+   1  Dornasa alfa
+   1  Everolimus
+   1  Fingolimod
+   1  Letrozol
+   1  Micofenolato sódico
+   1  Rituximab
+   1  Tocilizumab
+   1  Trastuzumab
+   1  Ácido zoledrónico
+
+>>> Colombia · Carulla
+================================================================
+ CO Carulla → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+  ·   1  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+  ·   1  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+  aviso TREMFYA 200 MG / 20 ML (10 MG/ML): HTTP 400
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+  aviso LENALIDOMIDA (FORMA-H1): HTTP 400
+      0  Lenalidomida
+      0  Letrozol
+  aviso MICOFENOLATO 250 MG (LINEA INTRALAB): HTTP 400
+  aviso MICOFENOLATO 500 MG (LINEA INTRALAB): HTTP 400
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+  ·   1  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   1  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+  ·   4  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+  aviso Timoglobulina de conejo (antitimocitos humana): HTTP 400
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+  aviso PEG-ASP (pegilada): HTTP 400
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+  aviso NETUPITANT + PALONOSETRON: HTTP 400
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 8  (ok=4, revisar=4, con precio=8)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 8 filas · obsoletos: 0 · Colombia Carulla: 8 · total tabla: 1110
+   4  Tacrolimus
+   1  Acetato de leuprorelina
+   1  Factor IX
+   1  Riluzol
+   1  Somatropina
+
+>>> Guatemala · Siman
+================================================================
+ GT Siman → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   2  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 2  (ok=2, revisar=0, con precio=2)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 2 filas · obsoletos: 0 · Guatemala Siman: 2 · total tabla: 1110
+   2  Letrozol
+
+>>> Guatemala · Batres
+================================================================
+ GT Farmacias Batres → medicamentos_altos_costos_america
+================================================================
+  red no disponible (bloqueado HTTP 403). Sigo con caché local.
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Guatemala Farmacias Batres: 0 · total tabla: 1110
+
+>>> Guatemala · Galeno
+================================================================
+ GT Farmacias Galeno → medicamentos_altos_costos_america
+================================================================
+  aviso abiraterona: HTTP 404
+  aviso abiraterone: HTTP 404
+  aviso zytiga: HTTP 404
+  aviso acetato de abiraterona: HTTP 404
+      0  Acetato de abiraterona
+  aviso glatiramer: HTTP 404
+  aviso glamatir: HTTP 404
+      0  Acetato de glatiramer
+  aviso goserelina: HTTP 404
+  aviso goserelin: HTTP 404
+  aviso gosserrelina: HTTP 404
+  aviso zoladex: HTTP 404
+  aviso prozoladex: HTTP 404
+  aviso prozoladex la: HTTP 404
+  aviso govolyx: HTTP 404
+      0  Acetato de goserelina
+  aviso leuprorelina: HTTP 404
+  aviso leuprolide: HTTP 404
+  aviso leuprorelin: HTTP 404
+  aviso leuprorrelina: HTTP 404
+  aviso lupron: HTTP 404
+  aviso lectrum: HTTP 404
+  aviso lupron depot: HTTP 404
+  aviso eligard: HTTP 404
+      0  Acetato de leuprorelina
+  aviso zoledronico: HTTP 404
+  aviso zoledronic: HTTP 404
+  aviso zoledronate: HTTP 404
+  aviso zometa: HTTP 404
+  aviso aclasta: HTTP 404
+  aviso acido zoledronico: HTTP 404
+      0  Ácido zoledrónico
+  aviso adalimumab: HTTP 404
+  aviso humira: HTTP 404
+  aviso amgevita: HTTP 404
+  aviso hulio: HTTP 404
+  aviso hyrimoz: HTTP 404
+  aviso hadlima: HTTP 404
+  aviso idacio: HTTP 404
+  aviso yuflyma: HTTP 404
+      0  Adalimumab
+  aviso agalsidasa: HTTP 404
+  aviso agalsidase: HTTP 404
+  aviso fabrazyme: HTTP 404
+      0  Agalsidasa beta
+  aviso atezolizumab: HTTP 404
+  aviso tecentriq: HTTP 404
+      0  Atezolizumab
+  aviso azacitidina: HTTP 404
+  aviso azacitidine: HTTP 404
+  aviso vidaza: HTTP 404
+  aviso zactidyn: HTTP 404
+  aviso winduza: HTTP 404
+  aviso xitidin: HTTP 404
+  aviso azadual: HTTP 404
+      0  Azacitidina
+  aviso basiliximab: HTTP 404
+  aviso simulect: HTTP 404
+      0  Basiliximab
+  aviso bendamustina: HTTP 404
+  aviso bendamustine: HTTP 404
+      0  Bendamustina
+  aviso bevacizumab: HTTP 404
+  aviso avastin: HTTP 404
+  aviso mvasi: HTTP 404
+  aviso zirabev: HTTP 404
+  aviso vegzelma: HTTP 404
+      0  Bevacizumab
+  aviso bicalutamida: HTTP 404
+  aviso bicalutamide: HTTP 404
+  aviso casodex: HTTP 404
+      0  Bicalutamida
+  aviso bortezomib: HTTP 404
+  aviso velcade: HTTP 404
+      0  Bortezomib
+  aviso bosentan: HTTP 404
+  aviso tracleer: HTTP 404
+  aviso canabosen: HTTP 404
+      0  Bosentán
+  aviso capecitabina: HTTP 404
+  aviso capecitabine: HTTP 404
+  aviso xeloda: HTTP 404
+  aviso capcitox: HTTP 404
+  aviso capetero: HTTP 404
+  aviso relicitabine: HTTP 404
+      0  Capecitabina
+  aviso cetuximab: HTTP 404
+  aviso erbitux: HTTP 404
+      0  Cetuximab
+  aviso ciclosporina: HTTP 404
+  aviso cyclosporine: HTTP 404
+  aviso cyclosporin: HTTP 404
+  aviso neoral: HTTP 404
+  aviso sandimmun: HTTP 404
+  aviso equoral: HTTP 404
+  aviso sandimmun neoral: HTTP 404
+      0  Ciclosporina
+  aviso cladribina: HTTP 404
+  aviso cladribine: HTTP 404
+  aviso mavenclad: HTTP 404
+      0  Cladribina
+  aviso daratumumab: HTTP 404
+  aviso darzalex: HTTP 404
+  aviso darzalex faspro: HTTP 404
+      0  Daratumumab
+  aviso dasatinib: HTTP 404
+  aviso sprycel: HTTP 404
+      0  Dasatinib
+  aviso deferasirox: HTTP 404
+  aviso exjade: HTTP 404
+  aviso jadenu: HTTP 404
+      0  Deferasirox
+  aviso dornasa: HTTP 404
+  aviso dornase: HTTP 404
+  aviso pulmozyme: HTTP 404
+      0  Dornasa alfa
+  aviso eltrombopag: HTTP 404
+  aviso revolade: HTTP 404
+  aviso promacta: HTTP 404
+      0  Eltrombopag
+  aviso emicizumab: HTTP 404
+  aviso hemlibra: HTTP 404
+      0  Emicizumab
+  aviso enzalutamida: HTTP 404
+  aviso enzalutamide: HTTP 404
+  aviso xtandi: HTTP 404
+      0  Enzalutamida
+  aviso etanercept: HTTP 404
+  aviso enbrel: HTTP 404
+  aviso brenzys: HTTP 404
+  aviso erelzi: HTTP 404
+  aviso nepexto: HTTP 404
+      0  Etanercept
+  aviso everolimus: HTTP 404
+  aviso afinitor: HTTP 404
+  aviso certican: HTTP 404
+  aviso nat-everolimus: HTTP 404
+      0  Everolimus
+  aviso factor viii: HTTP 404
+  aviso factor 8: HTTP 404
+  aviso octocog: HTTP 404
+  aviso moroctocog: HTTP 404
+  aviso antihemophilic: HTTP 404
+  aviso advate: HTTP 404
+  aviso xyntha: HTTP 404
+  aviso octanate: HTTP 404
+  aviso nuwiq: HTTP 404
+      0  Factor de coagulación VIII
+  aviso factor de crecimiento epidermico: HTTP 404
+  aviso epidermal growth factor: HTTP 404
+  aviso heberprot: HTTP 404
+  aviso rh-egf: HTTP 404
+  aviso rhegf: HTTP 404
+  aviso heberprot-p: HTTP 404
+      0  Factor de crecimiento epidérmico humano recombinante
+  aviso factor ix: HTTP 404
+  aviso factor 9: HTTP 404
+  aviso nonacog: HTTP 404
+  aviso benefix: HTTP 404
+  aviso alprolix: HTTP 404
+      0  Factor IX
+  aviso filgrastim: HTTP 404
+  aviso neupogen: HTTP 404
+  aviso filatil: HTTP 404
+  aviso zarzio: HTTP 404
+      0  Filgrastim
+  aviso fingolimod: HTTP 404
+  aviso gilenya: HTTP 404
+      0  Fingolimod
+  aviso fulvestrant: HTTP 404
+  aviso faslodex: HTTP 404
+      0  Fulvestrant
+  aviso galsulfasa: HTTP 404
+  aviso galsulfase: HTTP 404
+  aviso naglazyme: HTTP 404
+      0  Galsulfasa
+  aviso golimumab: HTTP 404
+  aviso simponi: HTTP 404
+      0  Golimumab
+  aviso guselkumab: HTTP 404
+  aviso tremfya: HTTP 404
+      0  Guselkumab
+  aviso ibrutinib: HTTP 404
+  aviso imbruvica: HTTP 404
+      0  Ibrutinib
+  aviso imatinib: HTTP 404
+  aviso gleevec: HTTP 404
+  aviso glivec: HTTP 404
+      0  Imatinib
+  aviso imiglucerasa: HTTP 404
+  aviso imiglucerase: HTTP 404
+  aviso cerezyme: HTTP 404
+      0  Imiglucerasa
+  aviso infliximab: HTTP 404
+  aviso remicade: HTTP 404
+  aviso remsima: HTTP 404
+  aviso inflectra: HTTP 404
+  aviso ixifi: HTTP 404
+      0  Infliximab
+  aviso inmunoglobulina: HTTP 404
+  aviso immunoglobulin: HTTP 404
+  aviso imunoglobulina: HTTP 404
+  aviso ivig: HTTP 404
+  aviso gamunex: HTTP 404
+  aviso privigen: HTTP 404
+  aviso flebogamma: HTTP 404
+  aviso octagam: HTTP 404
+      0  Inmunoglobulina humana
+  aviso interferon beta-1a: HTTP 404
+  aviso interferon beta 1a: HTTP 404
+  aviso interferon beta 1-a: HTTP 404
+  aviso interferona beta 1a: HTTP 404
+  aviso avonex: HTTP 404
+  aviso rebif: HTTP 404
+  aviso plegridy: HTTP 404
+      0  Interferón beta 1A
+  aviso interferon beta-1b: HTTP 404
+  aviso interferon beta 1b: HTTP 404
+  aviso interferona beta 1b: HTTP 404
+  aviso betaseron: HTTP 404
+  aviso betaferon: HTTP 404
+  aviso extavia: HTTP 404
+      0  Interferón beta 1B
+  aviso lapatinib: HTTP 404
+  aviso tykerb: HTTP 404
+  aviso tyverb: HTTP 404
+      0  Lapatinib ditosilato
+  aviso lenalidomida: HTTP 404
+  aviso lenalidomide: HTTP 404
+  aviso revlimid: HTTP 404
+      0  Lenalidomida
+  aviso letrozol: HTTP 404
+  aviso letrozole: HTTP 404
+  aviso femara: HTTP 404
+      0  Letrozol
+  aviso micofenolato mofetilo: HTTP 404
+  aviso mycophenolate mofetil: HTTP 404
+  aviso cellcept: HTTP 404
+  aviso micofenolato de mofetilo: HTTP 404
+  aviso micofenolato: HTTP 404
+  aviso mofetilo: HTTP 404
+      0  Micofenolato mofetilo
+  aviso micofenolato sodico: HTTP 404
+  aviso mycophenolate sodium: HTTP 404
+  aviso myfortic: HTTP 404
+      0  Micofenolato sódico
+  aviso nilotinib: HTTP 404
+  aviso tasigna: HTTP 404
+  aviso nilotinib hydrochloride: HTTP 404
+      0  Nilotinib
+  aviso obinutuzumab: HTTP 404
+  aviso gazyva: HTTP 404
+  aviso gazyvaro: HTTP 404
+      0  Obinutuzumab
+  aviso ocrelizumab: HTTP 404
+  aviso ocrevus: HTTP 404
+  aviso ocrevus zunovo: HTTP 404
+      0  Ocrelizumab
+  aviso octreotida: HTTP 404
+  aviso octreotide: HTTP 404
+  aviso sandostatin: HTTP 404
+  aviso sandostatina: HTTP 404
+  aviso sandostatin lar: HTTP 404
+      0  Octreotida
+  aviso olaparib: HTTP 404
+  aviso lynparza: HTTP 404
+      0  Olaparib
+  aviso omalizumab: HTTP 404
+  aviso xolair: HTTP 404
+      0  Omalizumab
+  aviso osimertinib: HTTP 404
+  aviso tagrisso: HTTP 404
+      0  Osimertinib mesilato
+  aviso palbociclib: HTTP 404
+  aviso palbociclibe: HTTP 404
+  aviso ibrance: HTTP 404
+      0  Palbociclib
+  aviso paliperidona: HTTP 404
+  aviso paliperidone: HTTP 404
+  aviso invega: HTTP 404
+  aviso xeplion: HTTP 404
+  aviso trinza: HTTP 404
+  aviso invega hafyera: HTTP 404
+  aviso hafyera: HTTP 404
+  aviso invega sustenna: HTTP 404
+  aviso sustenna: HTTP 404
+  aviso invega trinza: HTTP 404
+      0  Palmitato de paliperidona
+  aviso pembrolizumab: HTTP 404
+  aviso pembrolizumabe: HTTP 404
+  aviso keytruda: HTTP 404
+      0  Pembrolizumab
+  aviso pertuzumab: HTTP 404
+  aviso perjeta: HTTP 404
+      0  Pertuzumab
+  aviso pertuzumab y trastuzumab: HTTP 404
+  aviso pertuzumab/trastuzumab: HTTP 404
+  aviso phesgo: HTTP 404
+      0  Pertuzumab/Trastuzumab
+  aviso pirfenidona: HTTP 404
+  aviso pirfenidone: HTTP 404
+  aviso esbriet: HTTP 404
+  aviso pirfone: HTTP 404
+      0  Pirfenidona
+  aviso regorafenib: HTTP 404
+  aviso stivarga: HTTP 404
+      0  Regorafenib
+  aviso remdesivir: HTTP 404
+  aviso veklury: HTTP 404
+      0  Remdesivir
+  aviso ribociclib: HTTP 404
+  aviso kisqali: HTTP 404
+      0  Ribociclib
+  aviso riluzol: HTTP 404
+  aviso riluzole: HTTP 404
+  aviso rilutek: HTTP 404
+      0  Riluzol
+  aviso riociguat: HTTP 404
+  aviso adempas: HTTP 404
+  aviso rioci: HTTP 404
+      0  Riociguat
+  aviso rituximab: HTTP 404
+  aviso mabthera: HTTP 404
+  aviso rituxan: HTTP 404
+  aviso truxima: HTTP 404
+  aviso rixathon: HTTP 404
+      0  Rituximab
+  aviso secukinumab: HTTP 404
+  aviso cosentyx: HTTP 404
+      0  Secukinumab
+  aviso sirolimus: HTTP 404
+  aviso rapamune: HTTP 404
+      0  Sirolimus
+  aviso sofosbuvir: HTTP 404
+  aviso velpatasvir: HTTP 404
+  aviso epclusa: HTTP 404
+      0  Sofosbuvir/Velpatasvir
+  aviso somatropina: HTTP 404
+  aviso somatropin: HTTP 404
+  aviso genotropin: HTTP 404
+  aviso norditropin: HTTP 404
+  aviso saizen: HTTP 404
+  aviso humatrope: HTTP 404
+  aviso norditropin flexpro: HTTP 404
+      0  Somatropina
+  aviso sorafenib: HTTP 404
+  aviso nexavar: HTTP 404
+      0  Sorafenib tosilato
+  aviso sunitinib: HTTP 404
+  aviso sutent: HTTP 404
+  aviso sunitinib malato: HTTP 404
+      0  Sunitinib
+  aviso tacrolimus: HTTP 404
+  aviso prograf: HTTP 404
+  aviso advagraf: HTTP 404
+      0  Tacrolimus
+  aviso teriflunomida: HTTP 404
+  aviso teriflunomide: HTTP 404
+  aviso aubagio: HTTP 404
+      0  Teriflunomida
+  aviso teriparatida: HTTP 404
+  aviso teriparatide: HTTP 404
+  aviso forteo: HTTP 404
+      0  Teriparatida
+  aviso timoglobulina: HTTP 404
+  aviso thymoglobulin: HTTP 404
+  aviso antitimocito: HTTP 404
+  aviso antithymocyte: HTTP 404
+      0  Timoglobulina de conejo (antitimocitos humana)
+  aviso tocilizumab: HTTP 404
+  aviso actemra: HTTP 404
+  aviso roactemra: HTTP 404
+      0  Tocilizumab
+  aviso tofacitinib: HTTP 404
+  aviso xeljanz: HTTP 404
+  aviso xeljanz xr: HTTP 404
+      0  Tofacitinib
+  aviso trastuzumab: HTTP 404
+  aviso herceptin: HTTP 404
+  aviso herzuma: HTTP 404
+  aviso trazimera: HTTP 404
+      0  Trastuzumab
+  aviso ustekinumab: HTTP 404
+  aviso stelara: HTTP 404
+  aviso selarsdi: HTTP 404
+      0  Ustekinumab
+  aviso valganciclovir: HTTP 404
+  aviso valcyte: HTTP 404
+  aviso seveclo: HTTP 404
+      0  Valganciclovir
+  aviso blinatumomab: HTTP 404
+  aviso blincyto: HTTP 404
+      0  Blinatumomab
+  aviso pegaspargasa: HTTP 404
+  aviso pegaspargase: HTTP 404
+  aviso peg-asp: HTTP 404
+  aviso oncaspar: HTTP 404
+  aviso asparaginasa pegilada: HTTP 404
+      0  PEG-ASP (pegilada)
+  aviso risdiplam: HTTP 404
+  aviso evrysdi: HTTP 404
+      0  Risdiplam
+  aviso pegfilgrastim: HTTP 404
+  aviso pegfilgastrim: HTTP 404
+  aviso neulasta: HTTP 404
+  aviso neulastim: HTTP 404
+  aviso ristempa: HTTP 404
+  aviso ziextenzo: HTTP 404
+  aviso fulphila: HTTP 404
+      0  Pegfilgrastim
+  aviso palonosetron: HTTP 404
+  aviso palonosetrona: HTTP 404
+  aviso aloxi: HTTP 404
+  aviso onicit: HTTP 404
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Guatemala Farmacias Galeno: 0 · total tabla: 1110
+
+>>> Nicaragua · Siman
+================================================================
+ NI Siman → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   2  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 2  (ok=2, revisar=0, con precio=2)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 2 filas · obsoletos: 0 · Nicaragua Siman: 2 · total tabla: 1110
+   2  Letrozol
+
+>>> Nicaragua · Kielsa
+================================================================
+ NI Kielsa → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   1  Acetato de goserelina
+  ·   1  Acetato de leuprorelina
+  ·   1  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   1  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+  ·   1  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   1  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+  ·   2  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+  ·   1  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+  ·   1  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 10  (ok=9, revisar=1)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 10 filas · obsoletos: 0 · Nicaragua Kielsa: 10 · total tabla: 1110
+
+>>> Nicaragua · Farmacias del Ahorro
+================================================================
+ NI Farmacias del Ahorro → medicamentos_altos_costos_america
+================================================================
+  aviso abiraterona: respuesta no JSON
+  aviso abiraterone: respuesta no JSON
+  aviso zytiga: respuesta no JSON
+  aviso acetato de abiraterona: respuesta no JSON
+      0  Acetato de abiraterona
+  aviso glatiramer: respuesta no JSON
+  aviso glamatir: respuesta no JSON
+      0  Acetato de glatiramer
+  aviso goserelina: respuesta no JSON
+  aviso goserelin: respuesta no JSON
+  aviso gosserrelina: respuesta no JSON
+  aviso zoladex: respuesta no JSON
+  aviso prozoladex: respuesta no JSON
+  aviso prozoladex la: respuesta no JSON
+  aviso govolyx: respuesta no JSON
+      0  Acetato de goserelina
+  aviso leuprorelina: respuesta no JSON
+  aviso leuprolide: respuesta no JSON
+  aviso leuprorelin: respuesta no JSON
+  aviso leuprorrelina: respuesta no JSON
+  aviso lupron: respuesta no JSON
+  aviso lectrum: respuesta no JSON
+  aviso lupron depot: respuesta no JSON
+  aviso eligard: respuesta no JSON
+      0  Acetato de leuprorelina
+  aviso zoledronico: respuesta no JSON
+  aviso zoledronic: respuesta no JSON
+  aviso zoledronate: respuesta no JSON
+  aviso zometa: respuesta no JSON
+  aviso aclasta: respuesta no JSON
+  aviso acido zoledronico: respuesta no JSON
+      0  Ácido zoledrónico
+  aviso adalimumab: respuesta no JSON
+  aviso humira: respuesta no JSON
+  aviso amgevita: respuesta no JSON
+  aviso hulio: respuesta no JSON
+  aviso hyrimoz: respuesta no JSON
+  aviso hadlima: respuesta no JSON
+  aviso idacio: respuesta no JSON
+  aviso yuflyma: respuesta no JSON
+      0  Adalimumab
+  aviso agalsidasa: respuesta no JSON
+  aviso agalsidase: respuesta no JSON
+  aviso fabrazyme: respuesta no JSON
+      0  Agalsidasa beta
+  aviso atezolizumab: respuesta no JSON
+  aviso tecentriq: respuesta no JSON
+      0  Atezolizumab
+  aviso azacitidina: respuesta no JSON
+  aviso azacitidine: respuesta no JSON
+  aviso vidaza: respuesta no JSON
+  aviso zactidyn: respuesta no JSON
+  aviso winduza: respuesta no JSON
+  aviso xitidin: respuesta no JSON
+  aviso azadual: respuesta no JSON
+      0  Azacitidina
+  aviso basiliximab: respuesta no JSON
+  aviso simulect: respuesta no JSON
+      0  Basiliximab
+  aviso bendamustina: respuesta no JSON
+  aviso bendamustine: respuesta no JSON
+      0  Bendamustina
+  aviso bevacizumab: respuesta no JSON
+  aviso avastin: respuesta no JSON
+  aviso mvasi: respuesta no JSON
+  aviso zirabev: respuesta no JSON
+  aviso vegzelma: respuesta no JSON
+      0  Bevacizumab
+  aviso bicalutamida: respuesta no JSON
+  aviso bicalutamide: respuesta no JSON
+  aviso casodex: respuesta no JSON
+      0  Bicalutamida
+  aviso bortezomib: respuesta no JSON
+  aviso velcade: respuesta no JSON
+      0  Bortezomib
+  aviso bosentan: respuesta no JSON
+  aviso tracleer: respuesta no JSON
+  aviso canabosen: respuesta no JSON
+      0  Bosentán
+  aviso capecitabina: respuesta no JSON
+  aviso capecitabine: respuesta no JSON
+  aviso xeloda: respuesta no JSON
+  aviso capcitox: respuesta no JSON
+  aviso capetero: respuesta no JSON
+  aviso relicitabine: respuesta no JSON
+      0  Capecitabina
+  aviso cetuximab: respuesta no JSON
+  aviso erbitux: respuesta no JSON
+      0  Cetuximab
+  aviso ciclosporina: respuesta no JSON
+  aviso cyclosporine: respuesta no JSON
+  aviso cyclosporin: respuesta no JSON
+  aviso neoral: respuesta no JSON
+  aviso sandimmun: respuesta no JSON
+  aviso equoral: respuesta no JSON
+  aviso sandimmun neoral: respuesta no JSON
+      0  Ciclosporina
+  aviso cladribina: respuesta no JSON
+  aviso cladribine: respuesta no JSON
+  aviso mavenclad: respuesta no JSON
+      0  Cladribina
+  aviso daratumumab: respuesta no JSON
+  aviso darzalex: respuesta no JSON
+  aviso darzalex faspro: respuesta no JSON
+      0  Daratumumab
+  aviso dasatinib: respuesta no JSON
+  aviso sprycel: respuesta no JSON
+      0  Dasatinib
+  aviso deferasirox: respuesta no JSON
+  aviso exjade: respuesta no JSON
+  aviso jadenu: respuesta no JSON
+      0  Deferasirox
+  aviso dornasa: respuesta no JSON
+  aviso dornase: respuesta no JSON
+  aviso pulmozyme: respuesta no JSON
+      0  Dornasa alfa
+  aviso eltrombopag: respuesta no JSON
+  aviso revolade: respuesta no JSON
+  aviso promacta: respuesta no JSON
+      0  Eltrombopag
+  aviso emicizumab: respuesta no JSON
+  aviso hemlibra: respuesta no JSON
+      0  Emicizumab
+  aviso enzalutamida: respuesta no JSON
+  aviso enzalutamide: respuesta no JSON
+  aviso xtandi: respuesta no JSON
+      0  Enzalutamida
+  aviso etanercept: respuesta no JSON
+  aviso enbrel: respuesta no JSON
+  aviso brenzys: respuesta no JSON
+  aviso erelzi: respuesta no JSON
+  aviso nepexto: respuesta no JSON
+      0  Etanercept
+  aviso everolimus: respuesta no JSON
+  aviso afinitor: respuesta no JSON
+  aviso certican: respuesta no JSON
+  aviso nat-everolimus: respuesta no JSON
+      0  Everolimus
+  aviso factor viii: respuesta no JSON
+  aviso factor 8: respuesta no JSON
+  aviso octocog: respuesta no JSON
+  aviso moroctocog: respuesta no JSON
+  aviso antihemophilic: respuesta no JSON
+  aviso advate: respuesta no JSON
+  aviso xyntha: respuesta no JSON
+  aviso octanate: respuesta no JSON
+  aviso nuwiq: respuesta no JSON
+      0  Factor de coagulación VIII
+  aviso factor de crecimiento epidermico: respuesta no JSON
+  aviso epidermal growth factor: respuesta no JSON
+  aviso heberprot: respuesta no JSON
+  aviso rh-egf: respuesta no JSON
+  aviso rhegf: respuesta no JSON
+  aviso heberprot-p: respuesta no JSON
+      0  Factor de crecimiento epidérmico humano recombinante
+  aviso factor ix: respuesta no JSON
+  aviso factor 9: respuesta no JSON
+  aviso nonacog: respuesta no JSON
+  aviso benefix: respuesta no JSON
+  aviso alprolix: respuesta no JSON
+      0  Factor IX
+  aviso filgrastim: respuesta no JSON
+  aviso neupogen: respuesta no JSON
+  aviso filatil: respuesta no JSON
+  aviso zarzio: respuesta no JSON
+      0  Filgrastim
+  aviso fingolimod: respuesta no JSON
+  aviso gilenya: respuesta no JSON
+      0  Fingolimod
+  aviso fulvestrant: respuesta no JSON
+  aviso faslodex: respuesta no JSON
+      0  Fulvestrant
+  aviso galsulfasa: respuesta no JSON
+  aviso galsulfase: respuesta no JSON
+  aviso naglazyme: respuesta no JSON
+      0  Galsulfasa
+  aviso golimumab: respuesta no JSON
+  aviso simponi: respuesta no JSON
+      0  Golimumab
+  aviso guselkumab: respuesta no JSON
+  aviso tremfya: respuesta no JSON
+      0  Guselkumab
+  aviso ibrutinib: respuesta no JSON
+  aviso imbruvica: respuesta no JSON
+      0  Ibrutinib
+  aviso imatinib: respuesta no JSON
+  aviso gleevec: respuesta no JSON
+  aviso glivec: respuesta no JSON
+      0  Imatinib
+  aviso imiglucerasa: respuesta no JSON
+  aviso imiglucerase: respuesta no JSON
+  aviso cerezyme: respuesta no JSON
+      0  Imiglucerasa
+  aviso infliximab: respuesta no JSON
+  aviso remicade: respuesta no JSON
+  aviso remsima: respuesta no JSON
+  aviso inflectra: respuesta no JSON
+  aviso ixifi: respuesta no JSON
+      0  Infliximab
+  aviso inmunoglobulina: respuesta no JSON
+  aviso immunoglobulin: respuesta no JSON
+  aviso imunoglobulina: respuesta no JSON
+  aviso ivig: respuesta no JSON
+  aviso gamunex: respuesta no JSON
+  aviso privigen: respuesta no JSON
+  aviso flebogamma: respuesta no JSON
+  aviso octagam: respuesta no JSON
+      0  Inmunoglobulina humana
+  aviso interferon beta-1a: respuesta no JSON
+  aviso interferon beta 1a: respuesta no JSON
+  aviso interferon beta 1-a: respuesta no JSON
+  aviso interferona beta 1a: respuesta no JSON
+  aviso avonex: respuesta no JSON
+  aviso rebif: respuesta no JSON
+  aviso plegridy: respuesta no JSON
+      0  Interferón beta 1A
+  aviso interferon beta-1b: respuesta no JSON
+  aviso interferon beta 1b: respuesta no JSON
+  aviso interferona beta 1b: respuesta no JSON
+  aviso betaseron: respuesta no JSON
+  aviso betaferon: respuesta no JSON
+  aviso extavia: respuesta no JSON
+      0  Interferón beta 1B
+  aviso lapatinib: respuesta no JSON
+  aviso tykerb: respuesta no JSON
+  aviso tyverb: respuesta no JSON
+      0  Lapatinib ditosilato
+  aviso lenalidomida: respuesta no JSON
+  aviso lenalidomide: respuesta no JSON
+  aviso revlimid: respuesta no JSON
+      0  Lenalidomida
+  aviso letrozol: respuesta no JSON
+  aviso letrozole: respuesta no JSON
+  aviso femara: respuesta no JSON
+      0  Letrozol
+  aviso micofenolato mofetilo: respuesta no JSON
+  aviso mycophenolate mofetil: respuesta no JSON
+  aviso cellcept: respuesta no JSON
+  aviso micofenolato de mofetilo: respuesta no JSON
+  aviso micofenolato: respuesta no JSON
+  aviso mofetilo: respuesta no JSON
+      0  Micofenolato mofetilo
+  aviso micofenolato sodico: respuesta no JSON
+  aviso mycophenolate sodium: respuesta no JSON
+  aviso myfortic: respuesta no JSON
+      0  Micofenolato sódico
+  aviso nilotinib: respuesta no JSON
+  aviso tasigna: respuesta no JSON
+  aviso nilotinib hydrochloride: respuesta no JSON
+      0  Nilotinib
+  aviso obinutuzumab: respuesta no JSON
+  aviso gazyva: respuesta no JSON
+  aviso gazyvaro: respuesta no JSON
+      0  Obinutuzumab
+  aviso ocrelizumab: respuesta no JSON
+  aviso ocrevus: respuesta no JSON
+  aviso ocrevus zunovo: respuesta no JSON
+      0  Ocrelizumab
+  aviso octreotida: respuesta no JSON
+  aviso octreotide: respuesta no JSON
+  aviso sandostatin: respuesta no JSON
+  aviso sandostatina: respuesta no JSON
+  aviso sandostatin lar: respuesta no JSON
+      0  Octreotida
+  aviso olaparib: respuesta no JSON
+  aviso lynparza: respuesta no JSON
+      0  Olaparib
+  aviso omalizumab: respuesta no JSON
+  aviso xolair: respuesta no JSON
+      0  Omalizumab
+  aviso osimertinib: respuesta no JSON
+  aviso tagrisso: respuesta no JSON
+      0  Osimertinib mesilato
+  aviso palbociclib: respuesta no JSON
+  aviso palbociclibe: respuesta no JSON
+  aviso ibrance: respuesta no JSON
+      0  Palbociclib
+  aviso paliperidona: respuesta no JSON
+  aviso paliperidone: respuesta no JSON
+  aviso invega: respuesta no JSON
+  aviso xeplion: respuesta no JSON
+  aviso trinza: respuesta no JSON
+  aviso invega hafyera: respuesta no JSON
+  aviso hafyera: respuesta no JSON
+  aviso invega sustenna: respuesta no JSON
+  aviso sustenna: respuesta no JSON
+  aviso invega trinza: respuesta no JSON
+      0  Palmitato de paliperidona
+  aviso pembrolizumab: respuesta no JSON
+  aviso pembrolizumabe: respuesta no JSON
+  aviso keytruda: respuesta no JSON
+      0  Pembrolizumab
+  aviso pertuzumab: respuesta no JSON
+  aviso perjeta: respuesta no JSON
+      0  Pertuzumab
+  aviso pertuzumab y trastuzumab: respuesta no JSON
+  aviso pertuzumab/trastuzumab: respuesta no JSON
+  aviso phesgo: respuesta no JSON
+      0  Pertuzumab/Trastuzumab
+  aviso pirfenidona: respuesta no JSON
+  aviso pirfenidone: respuesta no JSON
+  aviso esbriet: respuesta no JSON
+  aviso pirfone: respuesta no JSON
+      0  Pirfenidona
+  aviso regorafenib: respuesta no JSON
+  aviso stivarga: respuesta no JSON
+      0  Regorafenib
+  aviso remdesivir: respuesta no JSON
+  aviso veklury: respuesta no JSON
+      0  Remdesivir
+  aviso ribociclib: respuesta no JSON
+  aviso kisqali: respuesta no JSON
+      0  Ribociclib
+  aviso riluzol: respuesta no JSON
+  aviso riluzole: respuesta no JSON
+  aviso rilutek: respuesta no JSON
+      0  Riluzol
+  aviso riociguat: respuesta no JSON
+  aviso adempas: respuesta no JSON
+  aviso rioci: respuesta no JSON
+      0  Riociguat
+  aviso rituximab: respuesta no JSON
+  aviso mabthera: respuesta no JSON
+  aviso rituxan: respuesta no JSON
+  aviso truxima: respuesta no JSON
+  aviso rixathon: respuesta no JSON
+      0  Rituximab
+  aviso secukinumab: respuesta no JSON
+  aviso cosentyx: respuesta no JSON
+      0  Secukinumab
+  aviso sirolimus: respuesta no JSON
+  aviso rapamune: respuesta no JSON
+      0  Sirolimus
+  aviso sofosbuvir: respuesta no JSON
+  aviso velpatasvir: respuesta no JSON
+  aviso epclusa: respuesta no JSON
+      0  Sofosbuvir/Velpatasvir
+  aviso somatropina: respuesta no JSON
+  aviso somatropin: respuesta no JSON
+  aviso genotropin: respuesta no JSON
+  aviso norditropin: respuesta no JSON
+  aviso saizen: respuesta no JSON
+  aviso humatrope: respuesta no JSON
+  aviso norditropin flexpro: respuesta no JSON
+      0  Somatropina
+  aviso sorafenib: respuesta no JSON
+  aviso nexavar: respuesta no JSON
+      0  Sorafenib tosilato
+  aviso sunitinib: respuesta no JSON
+  aviso sutent: respuesta no JSON
+  aviso sunitinib malato: respuesta no JSON
+      0  Sunitinib
+  aviso tacrolimus: respuesta no JSON
+  aviso prograf: respuesta no JSON
+  aviso advagraf: respuesta no JSON
+      0  Tacrolimus
+  aviso teriflunomida: respuesta no JSON
+  aviso teriflunomide: respuesta no JSON
+  aviso aubagio: respuesta no JSON
+      0  Teriflunomida
+  aviso teriparatida: respuesta no JSON
+  aviso teriparatide: respuesta no JSON
+  aviso forteo: respuesta no JSON
+      0  Teriparatida
+  aviso timoglobulina: respuesta no JSON
+  aviso thymoglobulin: respuesta no JSON
+  aviso antitimocito: respuesta no JSON
+  aviso antithymocyte: respuesta no JSON
+      0  Timoglobulina de conejo (antitimocitos humana)
+  aviso tocilizumab: respuesta no JSON
+  aviso actemra: respuesta no JSON
+  aviso roactemra: respuesta no JSON
+      0  Tocilizumab
+  aviso tofacitinib: respuesta no JSON
+  aviso xeljanz: respuesta no JSON
+  aviso xeljanz xr: respuesta no JSON
+      0  Tofacitinib
+  aviso trastuzumab: respuesta no JSON
+  aviso herceptin: respuesta no JSON
+  aviso herzuma: respuesta no JSON
+  aviso trazimera: respuesta no JSON
+      0  Trastuzumab
+  aviso ustekinumab: respuesta no JSON
+  aviso stelara: respuesta no JSON
+  aviso selarsdi: respuesta no JSON
+      0  Ustekinumab
+  aviso valganciclovir: respuesta no JSON
+  aviso valcyte: respuesta no JSON
+  aviso seveclo: respuesta no JSON
+      0  Valganciclovir
+  aviso blinatumomab: respuesta no JSON
+  aviso blincyto: respuesta no JSON
+      0  Blinatumomab
+  aviso pegaspargasa: respuesta no JSON
+  aviso pegaspargase: respuesta no JSON
+  aviso peg-asp: respuesta no JSON
+  aviso oncaspar: respuesta no JSON
+  aviso asparaginasa pegilada: respuesta no JSON
+      0  PEG-ASP (pegilada)
+  aviso risdiplam: respuesta no JSON
+  aviso evrysdi: respuesta no JSON
+      0  Risdiplam
+  aviso pegfilgrastim: respuesta no JSON
+  aviso pegfilgastrim: respuesta no JSON
+  aviso neulasta: respuesta no JSON
+  aviso neulastim: respuesta no JSON
+  aviso ristempa: respuesta no JSON
+  aviso ziextenzo: respuesta no JSON
+  aviso fulphila: respuesta no JSON
+      0  Pegfilgrastim
+  aviso palonosetron: respuesta no JSON
+  aviso palonosetrona: respuesta no JSON
+  aviso aloxi: respuesta no JSON
+  aviso onicit: respuesta no JSON
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Nicaragua Farmacias del Ahorro: 0 · total tabla: 1110
+
+>>> Costa Rica · Siman
+================================================================
+ CR Siman → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   2  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 2  (ok=2, revisar=0, con precio=2)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 2 filas · obsoletos: 0 · Costa Rica Siman: 2 · total tabla: 1110
+   2  Letrozol
+
+>>> Costa Rica · Kölbi
+================================================================
+ CR Kölbi → medicamentos_altos_costos_america
+================================================================
+  red no disponible (bloqueado HTTP 403). Sigo con caché local.
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Costa Rica Kölbi: 0 · total tabla: 1110
+
+>>> Costa Rica · Fischel
+================================================================
+ CR Farmacias Fischel → medicamentos_altos_costos_america
+================================================================
+  aviso abiraterona: HTTP 404
+  aviso abiraterone: HTTP 404
+  aviso zytiga: HTTP 404
+  aviso acetato de abiraterona: HTTP 404
+      0  Acetato de abiraterona
+  aviso glatiramer: HTTP 404
+  aviso glamatir: HTTP 404
+      0  Acetato de glatiramer
+  aviso goserelina: HTTP 404
+  aviso goserelin: HTTP 404
+  aviso gosserrelina: HTTP 404
+  aviso zoladex: HTTP 404
+  aviso prozoladex: HTTP 404
+  aviso prozoladex la: HTTP 404
+  aviso govolyx: HTTP 404
+      0  Acetato de goserelina
+  aviso leuprorelina: HTTP 404
+  aviso leuprolide: HTTP 404
+  aviso leuprorelin: HTTP 404
+  aviso leuprorrelina: HTTP 404
+  aviso lupron: HTTP 404
+  aviso lectrum: HTTP 404
+  aviso lupron depot: HTTP 404
+  aviso eligard: HTTP 404
+      0  Acetato de leuprorelina
+  aviso zoledronico: HTTP 404
+  aviso zoledronic: HTTP 404
+  aviso zoledronate: HTTP 404
+  aviso zometa: HTTP 404
+  aviso aclasta: HTTP 404
+  aviso acido zoledronico: HTTP 404
+      0  Ácido zoledrónico
+  aviso adalimumab: HTTP 404
+  aviso humira: HTTP 404
+  aviso amgevita: HTTP 404
+  aviso hulio: HTTP 404
+  aviso hyrimoz: HTTP 404
+  aviso hadlima: HTTP 404
+  aviso idacio: HTTP 404
+  aviso yuflyma: HTTP 404
+      0  Adalimumab
+  aviso agalsidasa: HTTP 404
+  aviso agalsidase: HTTP 404
+  aviso fabrazyme: HTTP 404
+      0  Agalsidasa beta
+  aviso atezolizumab: HTTP 404
+  aviso tecentriq: HTTP 404
+      0  Atezolizumab
+  aviso azacitidina: HTTP 404
+  aviso azacitidine: HTTP 404
+  aviso vidaza: HTTP 404
+  aviso zactidyn: HTTP 404
+  aviso winduza: HTTP 404
+  aviso xitidin: HTTP 404
+  aviso azadual: HTTP 404
+      0  Azacitidina
+  aviso basiliximab: HTTP 404
+  aviso simulect: HTTP 404
+      0  Basiliximab
+  aviso bendamustina: HTTP 404
+  aviso bendamustine: HTTP 404
+      0  Bendamustina
+  aviso bevacizumab: HTTP 404
+  aviso avastin: HTTP 404
+  aviso mvasi: HTTP 404
+  aviso zirabev: HTTP 404
+  aviso vegzelma: HTTP 404
+      0  Bevacizumab
+  aviso bicalutamida: HTTP 404
+  aviso bicalutamide: HTTP 404
+  aviso casodex: HTTP 404
+      0  Bicalutamida
+  aviso bortezomib: HTTP 404
+  aviso velcade: HTTP 404
+      0  Bortezomib
+  aviso bosentan: HTTP 404
+  aviso tracleer: HTTP 404
+  aviso canabosen: HTTP 404
+      0  Bosentán
+  aviso capecitabina: HTTP 404
+  aviso capecitabine: HTTP 404
+  aviso xeloda: HTTP 404
+  aviso capcitox: HTTP 404
+  aviso capetero: HTTP 404
+  aviso relicitabine: HTTP 404
+      0  Capecitabina
+  aviso cetuximab: HTTP 404
+  aviso erbitux: HTTP 404
+      0  Cetuximab
+  aviso ciclosporina: HTTP 404
+  aviso cyclosporine: HTTP 404
+  aviso cyclosporin: HTTP 404
+  aviso neoral: HTTP 404
+  aviso sandimmun: HTTP 404
+  aviso equoral: HTTP 404
+  aviso sandimmun neoral: HTTP 404
+      0  Ciclosporina
+  aviso cladribina: HTTP 404
+  aviso cladribine: HTTP 404
+  aviso mavenclad: HTTP 404
+      0  Cladribina
+  aviso daratumumab: HTTP 404
+  aviso darzalex: HTTP 404
+  aviso darzalex faspro: HTTP 404
+      0  Daratumumab
+  aviso dasatinib: HTTP 404
+  aviso sprycel: HTTP 404
+      0  Dasatinib
+  aviso deferasirox: HTTP 404
+  aviso exjade: HTTP 404
+  aviso jadenu: HTTP 404
+      0  Deferasirox
+  aviso dornasa: HTTP 404
+  aviso dornase: HTTP 404
+  aviso pulmozyme: HTTP 404
+      0  Dornasa alfa
+  aviso eltrombopag: HTTP 404
+  aviso revolade: HTTP 404
+  aviso promacta: HTTP 404
+      0  Eltrombopag
+  aviso emicizumab: HTTP 404
+  aviso hemlibra: HTTP 404
+      0  Emicizumab
+  aviso enzalutamida: HTTP 404
+  aviso enzalutamide: HTTP 404
+  aviso xtandi: HTTP 404
+      0  Enzalutamida
+  aviso etanercept: HTTP 404
+  aviso enbrel: HTTP 404
+  aviso brenzys: HTTP 404
+  aviso erelzi: HTTP 404
+  aviso nepexto: HTTP 404
+      0  Etanercept
+  aviso everolimus: HTTP 404
+  aviso afinitor: HTTP 404
+  aviso certican: HTTP 404
+  aviso nat-everolimus: HTTP 404
+      0  Everolimus
+  aviso factor viii: HTTP 404
+  aviso factor 8: HTTP 404
+  aviso octocog: HTTP 404
+  aviso moroctocog: HTTP 404
+  aviso antihemophilic: HTTP 404
+  aviso advate: HTTP 404
+  aviso xyntha: HTTP 404
+  aviso octanate: HTTP 404
+  aviso nuwiq: HTTP 404
+      0  Factor de coagulación VIII
+  aviso factor de crecimiento epidermico: HTTP 404
+  aviso epidermal growth factor: HTTP 404
+  aviso heberprot: HTTP 404
+  aviso rh-egf: HTTP 404
+  aviso rhegf: HTTP 404
+  aviso heberprot-p: HTTP 404
+      0  Factor de crecimiento epidérmico humano recombinante
+  aviso factor ix: HTTP 404
+  aviso factor 9: HTTP 404
+  aviso nonacog: HTTP 404
+  aviso benefix: HTTP 404
+  aviso alprolix: HTTP 404
+      0  Factor IX
+  aviso filgrastim: HTTP 404
+  aviso neupogen: HTTP 404
+  aviso filatil: HTTP 404
+  aviso zarzio: HTTP 404
+      0  Filgrastim
+  aviso fingolimod: HTTP 404
+  aviso gilenya: HTTP 404
+      0  Fingolimod
+  aviso fulvestrant: HTTP 404
+  aviso faslodex: HTTP 404
+      0  Fulvestrant
+  aviso galsulfasa: HTTP 404
+  aviso galsulfase: HTTP 404
+  aviso naglazyme: HTTP 404
+      0  Galsulfasa
+  aviso golimumab: HTTP 404
+  aviso simponi: HTTP 404
+      0  Golimumab
+  aviso guselkumab: HTTP 404
+  aviso tremfya: HTTP 404
+      0  Guselkumab
+  aviso ibrutinib: HTTP 404
+  aviso imbruvica: HTTP 404
+      0  Ibrutinib
+  aviso imatinib: HTTP 404
+  aviso gleevec: HTTP 404
+  aviso glivec: HTTP 404
+      0  Imatinib
+  aviso imiglucerasa: HTTP 404
+  aviso imiglucerase: HTTP 404
+  aviso cerezyme: HTTP 404
+      0  Imiglucerasa
+  aviso infliximab: HTTP 404
+  aviso remicade: HTTP 404
+  aviso remsima: HTTP 404
+  aviso inflectra: HTTP 404
+  aviso ixifi: HTTP 404
+      0  Infliximab
+  aviso inmunoglobulina: HTTP 404
+  aviso immunoglobulin: HTTP 404
+  aviso imunoglobulina: HTTP 404
+  aviso ivig: HTTP 404
+  aviso gamunex: HTTP 404
+  aviso privigen: HTTP 404
+  aviso flebogamma: HTTP 404
+  aviso octagam: HTTP 404
+      0  Inmunoglobulina humana
+  aviso interferon beta-1a: HTTP 404
+  aviso interferon beta 1a: HTTP 404
+  aviso interferon beta 1-a: HTTP 404
+  aviso interferona beta 1a: HTTP 404
+  aviso avonex: HTTP 404
+  aviso rebif: HTTP 404
+  aviso plegridy: HTTP 404
+      0  Interferón beta 1A
+  aviso interferon beta-1b: HTTP 404
+  aviso interferon beta 1b: HTTP 404
+  aviso interferona beta 1b: HTTP 404
+  aviso betaseron: HTTP 404
+  aviso betaferon: HTTP 404
+  aviso extavia: HTTP 404
+      0  Interferón beta 1B
+  aviso lapatinib: HTTP 404
+  aviso tykerb: HTTP 404
+  aviso tyverb: HTTP 404
+      0  Lapatinib ditosilato
+  aviso lenalidomida: HTTP 404
+  aviso lenalidomide: HTTP 404
+  aviso revlimid: HTTP 404
+      0  Lenalidomida
+  aviso letrozol: HTTP 404
+  aviso letrozole: HTTP 404
+  aviso femara: HTTP 404
+      0  Letrozol
+  aviso micofenolato mofetilo: HTTP 404
+  aviso mycophenolate mofetil: HTTP 404
+  aviso cellcept: HTTP 404
+  aviso micofenolato de mofetilo: HTTP 404
+  aviso micofenolato: HTTP 404
+  aviso mofetilo: HTTP 404
+      0  Micofenolato mofetilo
+  aviso micofenolato sodico: HTTP 404
+  aviso mycophenolate sodium: HTTP 404
+  aviso myfortic: HTTP 404
+      0  Micofenolato sódico
+  aviso nilotinib: HTTP 404
+  aviso tasigna: HTTP 404
+  aviso nilotinib hydrochloride: HTTP 404
+      0  Nilotinib
+  aviso obinutuzumab: HTTP 404
+  aviso gazyva: HTTP 404
+  aviso gazyvaro: HTTP 404
+      0  Obinutuzumab
+  aviso ocrelizumab: HTTP 404
+  aviso ocrevus: HTTP 404
+  aviso ocrevus zunovo: HTTP 404
+      0  Ocrelizumab
+  aviso octreotida: HTTP 404
+  aviso octreotide: HTTP 404
+  aviso sandostatin: HTTP 404
+  aviso sandostatina: HTTP 404
+  aviso sandostatin lar: HTTP 404
+      0  Octreotida
+  aviso olaparib: HTTP 404
+  aviso lynparza: HTTP 404
+      0  Olaparib
+  aviso omalizumab: HTTP 404
+  aviso xolair: HTTP 404
+      0  Omalizumab
+  aviso osimertinib: HTTP 404
+  aviso tagrisso: HTTP 404
+      0  Osimertinib mesilato
+  aviso palbociclib: HTTP 404
+  aviso palbociclibe: HTTP 404
+  aviso ibrance: HTTP 404
+      0  Palbociclib
+  aviso paliperidona: HTTP 404
+  aviso paliperidone: HTTP 404
+  aviso invega: HTTP 404
+  aviso xeplion: HTTP 404
+  aviso trinza: HTTP 404
+  aviso invega hafyera: HTTP 404
+  aviso hafyera: HTTP 404
+  aviso invega sustenna: HTTP 404
+  aviso sustenna: HTTP 404
+  aviso invega trinza: HTTP 404
+      0  Palmitato de paliperidona
+  aviso pembrolizumab: HTTP 404
+  aviso pembrolizumabe: HTTP 404
+  aviso keytruda: HTTP 404
+      0  Pembrolizumab
+  aviso pertuzumab: HTTP 404
+  aviso perjeta: HTTP 404
+      0  Pertuzumab
+  aviso pertuzumab y trastuzumab: HTTP 404
+  aviso pertuzumab/trastuzumab: HTTP 404
+  aviso phesgo: HTTP 404
+      0  Pertuzumab/Trastuzumab
+  aviso pirfenidona: HTTP 404
+  aviso pirfenidone: HTTP 404
+  aviso esbriet: HTTP 404
+  aviso pirfone: HTTP 404
+      0  Pirfenidona
+  aviso regorafenib: HTTP 404
+  aviso stivarga: HTTP 404
+      0  Regorafenib
+  aviso remdesivir: HTTP 404
+  aviso veklury: HTTP 404
+      0  Remdesivir
+  aviso ribociclib: HTTP 404
+  aviso kisqali: HTTP 404
+      0  Ribociclib
+  aviso riluzol: HTTP 404
+  aviso riluzole: HTTP 404
+  aviso rilutek: HTTP 404
+      0  Riluzol
+  aviso riociguat: HTTP 404
+  aviso adempas: HTTP 404
+  aviso rioci: HTTP 404
+      0  Riociguat
+  aviso rituximab: HTTP 404
+  aviso mabthera: HTTP 404
+  aviso rituxan: HTTP 404
+  aviso truxima: HTTP 404
+  aviso rixathon: HTTP 404
+      0  Rituximab
+  aviso secukinumab: HTTP 404
+  aviso cosentyx: HTTP 404
+      0  Secukinumab
+  aviso sirolimus: HTTP 404
+  aviso rapamune: HTTP 404
+      0  Sirolimus
+  aviso sofosbuvir: HTTP 404
+  aviso velpatasvir: HTTP 404
+  aviso epclusa: HTTP 404
+      0  Sofosbuvir/Velpatasvir
+  aviso somatropina: HTTP 404
+  aviso somatropin: HTTP 404
+  aviso genotropin: HTTP 404
+  aviso norditropin: HTTP 404
+  aviso saizen: HTTP 404
+  aviso humatrope: HTTP 404
+  aviso norditropin flexpro: HTTP 404
+      0  Somatropina
+  aviso sorafenib: HTTP 404
+  aviso nexavar: HTTP 404
+      0  Sorafenib tosilato
+  aviso sunitinib: HTTP 404
+  aviso sutent: HTTP 404
+  aviso sunitinib malato: HTTP 404
+      0  Sunitinib
+  aviso tacrolimus: HTTP 404
+  aviso prograf: HTTP 404
+  aviso advagraf: HTTP 404
+      0  Tacrolimus
+  aviso teriflunomida: HTTP 404
+  aviso teriflunomide: HTTP 404
+  aviso aubagio: HTTP 404
+      0  Teriflunomida
+  aviso teriparatida: HTTP 404
+  aviso teriparatide: HTTP 404
+  aviso forteo: HTTP 404
+      0  Teriparatida
+  aviso timoglobulina: HTTP 404
+  aviso thymoglobulin: HTTP 404
+  aviso antitimocito: HTTP 404
+  aviso antithymocyte: HTTP 404
+      0  Timoglobulina de conejo (antitimocitos humana)
+  aviso tocilizumab: HTTP 404
+  aviso actemra: HTTP 404
+  aviso roactemra: HTTP 404
+      0  Tocilizumab
+  aviso tofacitinib: HTTP 404
+  aviso xeljanz: HTTP 404
+  aviso xeljanz xr: HTTP 404
+      0  Tofacitinib
+  aviso trastuzumab: HTTP 404
+  aviso herceptin: HTTP 404
+  aviso herzuma: HTTP 404
+  aviso trazimera: HTTP 404
+      0  Trastuzumab
+  aviso ustekinumab: HTTP 404
+  aviso stelara: HTTP 404
+  aviso selarsdi: HTTP 404
+      0  Ustekinumab
+  aviso valganciclovir: HTTP 404
+  aviso valcyte: HTTP 404
+  aviso seveclo: HTTP 404
+      0  Valganciclovir
+  aviso blinatumomab: HTTP 404
+  aviso blincyto: HTTP 404
+      0  Blinatumomab
+  aviso pegaspargasa: HTTP 404
+  aviso pegaspargase: HTTP 404
+  aviso peg-asp: HTTP 404
+  aviso oncaspar: HTTP 404
+  aviso asparaginasa pegilada: HTTP 404
+      0  PEG-ASP (pegilada)
+  aviso risdiplam: HTTP 404
+  aviso evrysdi: HTTP 404
+      0  Risdiplam
+  aviso pegfilgrastim: HTTP 404
+  aviso pegfilgastrim: HTTP 404
+  aviso neulasta: HTTP 404
+  aviso neulastim: HTTP 404
+  aviso ristempa: HTTP 404
+  aviso ziextenzo: HTTP 404
+  aviso fulphila: HTTP 404
+      0  Pegfilgrastim
+  aviso palonosetron: HTTP 404
+  aviso palonosetrona: HTTP 404
+  aviso aloxi: HTTP 404
+  aviso onicit: HTTP 404
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Costa Rica Farmacias Fischel: 0 · total tabla: 1110
+
+>>> El Salvador · Siman
+================================================================
+ SV Siman → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   2  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 2  (ok=2, revisar=0, con precio=2)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 2 filas · obsoletos: 0 · El Salvador Siman: 2 · total tabla: 1110
+   2  Letrozol
+
+>>> Perú · Inkafarma
+================================================================
+ PE Inkafarma → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+  ·   3  Acetato de leuprorelina
+  ·   4  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   1  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+  ·   1  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   1  Filgrastim
+      0  Fingolimod
+  ·   1  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+  ·   1  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+  ·   1  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+  ·   1  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+  ·   1  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+  ·   1  Sunitinib
+  ·   1  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Coincidencias a guardar: 18  (ok=17, revisar=1)
+MERGE 18 filas · obsoletos: 0 · Perú Inkafarma: 18 · total tabla: 1110
+
+>>> Perú · Boticas Perú
+================================================================
+ PE Boticas Perú → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Coincidencias a guardar: 0  (ok=0, revisar=0)
+MERGE 0 filas · obsoletos: 0 · Perú Boticas: 0 · total tabla: 1110
+
+>>> Honduras · Siman
+================================================================
+ HN Siman → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   2  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 2  (ok=2, revisar=0, con precio=2)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 2 filas · obsoletos: 0 · Honduras Siman: 2 · total tabla: 1110
+   2  Letrozol
+
+>>> Honduras · Kielsa
+================================================================
+ HN Kielsa → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   1  Acetato de goserelina
+  ·   1  Acetato de leuprorelina
+  ·   2  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+  ·   1  Bendamustina
+  ·   1  Bevacizumab
+  ·   1  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+  ·   1  Capecitabina
+      0  Cetuximab
+  ·   1  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+  ·   1  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+  ·   1  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+  ·   1  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   1  Filgrastim
+      0  Fingolimod
+  ·   1  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+  ·   1  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+  ·   1  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+  ·   1  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+  ·   1  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+  ·   1  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+  ·   1  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+  ·   1  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+  ·   1  Sorafenib tosilato
+      0  Sunitinib
+  ·   1  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+  ·   1  Tocilizumab
+      0  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+  ·   1  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+  ·   1  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 28  (ok=26, revisar=2)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 28 filas · obsoletos: 0 · Honduras Kielsa: 28 · total tabla: 1110
+
+>>> Honduras · Farmacias del Ahorro
+================================================================
+ HN Farmacias del Ahorro → medicamentos_altos_costos_america
+================================================================
+  aviso abiraterona: respuesta no JSON
+  aviso abiraterone: respuesta no JSON
+  aviso zytiga: respuesta no JSON
+  aviso acetato de abiraterona: respuesta no JSON
+      0  Acetato de abiraterona
+  aviso glatiramer: respuesta no JSON
+  aviso glamatir: respuesta no JSON
+      0  Acetato de glatiramer
+  aviso goserelina: respuesta no JSON
+  aviso goserelin: respuesta no JSON
+  aviso gosserrelina: respuesta no JSON
+  aviso zoladex: respuesta no JSON
+  aviso prozoladex: respuesta no JSON
+  aviso prozoladex la: respuesta no JSON
+  aviso govolyx: respuesta no JSON
+      0  Acetato de goserelina
+  aviso leuprorelina: respuesta no JSON
+  aviso leuprolide: respuesta no JSON
+  aviso leuprorelin: respuesta no JSON
+  aviso leuprorrelina: respuesta no JSON
+  aviso lupron: respuesta no JSON
+  aviso lectrum: respuesta no JSON
+  aviso lupron depot: respuesta no JSON
+  aviso eligard: respuesta no JSON
+      0  Acetato de leuprorelina
+  aviso zoledronico: respuesta no JSON
+  aviso zoledronic: respuesta no JSON
+  aviso zoledronate: respuesta no JSON
+  aviso zometa: respuesta no JSON
+  aviso aclasta: respuesta no JSON
+  aviso acido zoledronico: respuesta no JSON
+      0  Ácido zoledrónico
+  aviso adalimumab: respuesta no JSON
+  aviso humira: respuesta no JSON
+  aviso amgevita: respuesta no JSON
+  aviso hulio: respuesta no JSON
+  aviso hyrimoz: respuesta no JSON
+  aviso hadlima: respuesta no JSON
+  aviso idacio: respuesta no JSON
+  aviso yuflyma: respuesta no JSON
+      0  Adalimumab
+  aviso agalsidasa: respuesta no JSON
+  aviso agalsidase: respuesta no JSON
+  aviso fabrazyme: respuesta no JSON
+      0  Agalsidasa beta
+  aviso atezolizumab: respuesta no JSON
+  aviso tecentriq: respuesta no JSON
+      0  Atezolizumab
+  aviso azacitidina: respuesta no JSON
+  aviso azacitidine: respuesta no JSON
+  aviso vidaza: respuesta no JSON
+  aviso zactidyn: respuesta no JSON
+  aviso winduza: respuesta no JSON
+  aviso xitidin: respuesta no JSON
+  aviso azadual: respuesta no JSON
+      0  Azacitidina
+  aviso basiliximab: respuesta no JSON
+  aviso simulect: respuesta no JSON
+      0  Basiliximab
+  aviso bendamustina: respuesta no JSON
+  aviso bendamustine: respuesta no JSON
+      0  Bendamustina
+  aviso bevacizumab: respuesta no JSON
+  aviso avastin: respuesta no JSON
+  aviso mvasi: respuesta no JSON
+  aviso zirabev: respuesta no JSON
+  aviso vegzelma: respuesta no JSON
+      0  Bevacizumab
+  aviso bicalutamida: respuesta no JSON
+  aviso bicalutamide: respuesta no JSON
+  aviso casodex: respuesta no JSON
+      0  Bicalutamida
+  aviso bortezomib: respuesta no JSON
+  aviso velcade: respuesta no JSON
+      0  Bortezomib
+  aviso bosentan: respuesta no JSON
+  aviso tracleer: respuesta no JSON
+  aviso canabosen: respuesta no JSON
+      0  Bosentán
+  aviso capecitabina: respuesta no JSON
+  aviso capecitabine: respuesta no JSON
+  aviso xeloda: respuesta no JSON
+  aviso capcitox: respuesta no JSON
+  aviso capetero: respuesta no JSON
+  aviso relicitabine: respuesta no JSON
+      0  Capecitabina
+  aviso cetuximab: respuesta no JSON
+  aviso erbitux: respuesta no JSON
+      0  Cetuximab
+  aviso ciclosporina: respuesta no JSON
+  aviso cyclosporine: respuesta no JSON
+  aviso cyclosporin: respuesta no JSON
+  aviso neoral: respuesta no JSON
+  aviso sandimmun: respuesta no JSON
+  aviso equoral: respuesta no JSON
+  aviso sandimmun neoral: respuesta no JSON
+      0  Ciclosporina
+  aviso cladribina: respuesta no JSON
+  aviso cladribine: respuesta no JSON
+  aviso mavenclad: respuesta no JSON
+      0  Cladribina
+  aviso daratumumab: respuesta no JSON
+  aviso darzalex: respuesta no JSON
+  aviso darzalex faspro: respuesta no JSON
+      0  Daratumumab
+  aviso dasatinib: respuesta no JSON
+  aviso sprycel: respuesta no JSON
+      0  Dasatinib
+  aviso deferasirox: respuesta no JSON
+  aviso exjade: respuesta no JSON
+  aviso jadenu: respuesta no JSON
+      0  Deferasirox
+  aviso dornasa: respuesta no JSON
+  aviso dornase: respuesta no JSON
+  aviso pulmozyme: respuesta no JSON
+      0  Dornasa alfa
+  aviso eltrombopag: respuesta no JSON
+  aviso revolade: respuesta no JSON
+  aviso promacta: respuesta no JSON
+      0  Eltrombopag
+  aviso emicizumab: respuesta no JSON
+  aviso hemlibra: respuesta no JSON
+      0  Emicizumab
+  aviso enzalutamida: respuesta no JSON
+  aviso enzalutamide: respuesta no JSON
+  aviso xtandi: respuesta no JSON
+      0  Enzalutamida
+  aviso etanercept: respuesta no JSON
+  aviso enbrel: respuesta no JSON
+  aviso brenzys: respuesta no JSON
+  aviso erelzi: respuesta no JSON
+  aviso nepexto: respuesta no JSON
+      0  Etanercept
+  aviso everolimus: respuesta no JSON
+  aviso afinitor: respuesta no JSON
+  aviso certican: respuesta no JSON
+  aviso nat-everolimus: respuesta no JSON
+      0  Everolimus
+  aviso factor viii: respuesta no JSON
+  aviso factor 8: respuesta no JSON
+  aviso octocog: respuesta no JSON
+  aviso moroctocog: respuesta no JSON
+  aviso antihemophilic: respuesta no JSON
+  aviso advate: respuesta no JSON
+  aviso xyntha: respuesta no JSON
+  aviso octanate: respuesta no JSON
+  aviso nuwiq: respuesta no JSON
+      0  Factor de coagulación VIII
+  aviso factor de crecimiento epidermico: respuesta no JSON
+  aviso epidermal growth factor: respuesta no JSON
+  aviso heberprot: respuesta no JSON
+  aviso rh-egf: respuesta no JSON
+  aviso rhegf: respuesta no JSON
+  aviso heberprot-p: respuesta no JSON
+      0  Factor de crecimiento epidérmico humano recombinante
+  aviso factor ix: respuesta no JSON
+  aviso factor 9: respuesta no JSON
+  aviso nonacog: respuesta no JSON
+  aviso benefix: respuesta no JSON
+  aviso alprolix: respuesta no JSON
+      0  Factor IX
+  aviso filgrastim: respuesta no JSON
+  aviso neupogen: respuesta no JSON
+  aviso filatil: respuesta no JSON
+  aviso zarzio: respuesta no JSON
+      0  Filgrastim
+  aviso fingolimod: respuesta no JSON
+  aviso gilenya: respuesta no JSON
+      0  Fingolimod
+  aviso fulvestrant: respuesta no JSON
+  aviso faslodex: respuesta no JSON
+      0  Fulvestrant
+  aviso galsulfasa: respuesta no JSON
+  aviso galsulfase: respuesta no JSON
+  aviso naglazyme: respuesta no JSON
+      0  Galsulfasa
+  aviso golimumab: respuesta no JSON
+  aviso simponi: respuesta no JSON
+      0  Golimumab
+  aviso guselkumab: respuesta no JSON
+  aviso tremfya: respuesta no JSON
+      0  Guselkumab
+  aviso ibrutinib: respuesta no JSON
+  aviso imbruvica: respuesta no JSON
+      0  Ibrutinib
+  aviso imatinib: respuesta no JSON
+  aviso gleevec: respuesta no JSON
+  aviso glivec: respuesta no JSON
+      0  Imatinib
+  aviso imiglucerasa: respuesta no JSON
+  aviso imiglucerase: respuesta no JSON
+  aviso cerezyme: respuesta no JSON
+      0  Imiglucerasa
+  aviso infliximab: respuesta no JSON
+  aviso remicade: respuesta no JSON
+  aviso remsima: respuesta no JSON
+  aviso inflectra: respuesta no JSON
+  aviso ixifi: respuesta no JSON
+      0  Infliximab
+  aviso inmunoglobulina: respuesta no JSON
+  aviso immunoglobulin: respuesta no JSON
+  aviso imunoglobulina: respuesta no JSON
+  aviso ivig: respuesta no JSON
+  aviso gamunex: respuesta no JSON
+  aviso privigen: respuesta no JSON
+  aviso flebogamma: respuesta no JSON
+  aviso octagam: respuesta no JSON
+      0  Inmunoglobulina humana
+  aviso interferon beta-1a: respuesta no JSON
+  aviso interferon beta 1a: respuesta no JSON
+  aviso interferon beta 1-a: respuesta no JSON
+  aviso interferona beta 1a: respuesta no JSON
+  aviso avonex: respuesta no JSON
+  aviso rebif: respuesta no JSON
+  aviso plegridy: respuesta no JSON
+      0  Interferón beta 1A
+  aviso interferon beta-1b: respuesta no JSON
+  aviso interferon beta 1b: respuesta no JSON
+  aviso interferona beta 1b: respuesta no JSON
+  aviso betaseron: respuesta no JSON
+  aviso betaferon: respuesta no JSON
+  aviso extavia: respuesta no JSON
+      0  Interferón beta 1B
+  aviso lapatinib: respuesta no JSON
+  aviso tykerb: respuesta no JSON
+  aviso tyverb: respuesta no JSON
+      0  Lapatinib ditosilato
+  aviso lenalidomida: respuesta no JSON
+  aviso lenalidomide: respuesta no JSON
+  aviso revlimid: respuesta no JSON
+      0  Lenalidomida
+  aviso letrozol: respuesta no JSON
+  aviso letrozole: respuesta no JSON
+  aviso femara: respuesta no JSON
+      0  Letrozol
+  aviso micofenolato mofetilo: respuesta no JSON
+  aviso mycophenolate mofetil: respuesta no JSON
+  aviso cellcept: respuesta no JSON
+  aviso micofenolato de mofetilo: respuesta no JSON
+  aviso micofenolato: respuesta no JSON
+  aviso mofetilo: respuesta no JSON
+      0  Micofenolato mofetilo
+  aviso micofenolato sodico: respuesta no JSON
+  aviso mycophenolate sodium: respuesta no JSON
+  aviso myfortic: respuesta no JSON
+      0  Micofenolato sódico
+  aviso nilotinib: respuesta no JSON
+  aviso tasigna: respuesta no JSON
+  aviso nilotinib hydrochloride: respuesta no JSON
+      0  Nilotinib
+  aviso obinutuzumab: respuesta no JSON
+  aviso gazyva: respuesta no JSON
+  aviso gazyvaro: respuesta no JSON
+      0  Obinutuzumab
+  aviso ocrelizumab: respuesta no JSON
+  aviso ocrevus: respuesta no JSON
+  aviso ocrevus zunovo: respuesta no JSON
+      0  Ocrelizumab
+  aviso octreotida: respuesta no JSON
+  aviso octreotide: respuesta no JSON
+  aviso sandostatin: respuesta no JSON
+  aviso sandostatina: respuesta no JSON
+  aviso sandostatin lar: respuesta no JSON
+      0  Octreotida
+  aviso olaparib: respuesta no JSON
+  aviso lynparza: respuesta no JSON
+      0  Olaparib
+  aviso omalizumab: respuesta no JSON
+  aviso xolair: respuesta no JSON
+      0  Omalizumab
+  aviso osimertinib: respuesta no JSON
+  aviso tagrisso: respuesta no JSON
+      0  Osimertinib mesilato
+  aviso palbociclib: respuesta no JSON
+  aviso palbociclibe: respuesta no JSON
+  aviso ibrance: respuesta no JSON
+      0  Palbociclib
+  aviso paliperidona: respuesta no JSON
+  aviso paliperidone: respuesta no JSON
+  aviso invega: respuesta no JSON
+  aviso xeplion: respuesta no JSON
+  aviso trinza: respuesta no JSON
+  aviso invega hafyera: respuesta no JSON
+  aviso hafyera: respuesta no JSON
+  aviso invega sustenna: respuesta no JSON
+  aviso sustenna: respuesta no JSON
+  aviso invega trinza: respuesta no JSON
+      0  Palmitato de paliperidona
+  aviso pembrolizumab: respuesta no JSON
+  aviso pembrolizumabe: respuesta no JSON
+  aviso keytruda: respuesta no JSON
+      0  Pembrolizumab
+  aviso pertuzumab: respuesta no JSON
+  aviso perjeta: respuesta no JSON
+      0  Pertuzumab
+  aviso pertuzumab y trastuzumab: respuesta no JSON
+  aviso pertuzumab/trastuzumab: respuesta no JSON
+  aviso phesgo: respuesta no JSON
+      0  Pertuzumab/Trastuzumab
+  aviso pirfenidona: respuesta no JSON
+  aviso pirfenidone: respuesta no JSON
+  aviso esbriet: respuesta no JSON
+  aviso pirfone: respuesta no JSON
+      0  Pirfenidona
+  aviso regorafenib: respuesta no JSON
+  aviso stivarga: respuesta no JSON
+      0  Regorafenib
+  aviso remdesivir: respuesta no JSON
+  aviso veklury: respuesta no JSON
+      0  Remdesivir
+  aviso ribociclib: respuesta no JSON
+  aviso kisqali: respuesta no JSON
+      0  Ribociclib
+  aviso riluzol: respuesta no JSON
+  aviso riluzole: respuesta no JSON
+  aviso rilutek: respuesta no JSON
+      0  Riluzol
+  aviso riociguat: respuesta no JSON
+  aviso adempas: respuesta no JSON
+  aviso rioci: respuesta no JSON
+      0  Riociguat
+  aviso rituximab: respuesta no JSON
+  aviso mabthera: respuesta no JSON
+  aviso rituxan: respuesta no JSON
+  aviso truxima: respuesta no JSON
+  aviso rixathon: respuesta no JSON
+      0  Rituximab
+  aviso secukinumab: respuesta no JSON
+  aviso cosentyx: respuesta no JSON
+      0  Secukinumab
+  aviso sirolimus: respuesta no JSON
+  aviso rapamune: respuesta no JSON
+      0  Sirolimus
+  aviso sofosbuvir: respuesta no JSON
+  aviso velpatasvir: respuesta no JSON
+  aviso epclusa: respuesta no JSON
+      0  Sofosbuvir/Velpatasvir
+  aviso somatropina: respuesta no JSON
+  aviso somatropin: respuesta no JSON
+  aviso genotropin: respuesta no JSON
+  aviso norditropin: respuesta no JSON
+  aviso saizen: respuesta no JSON
+  aviso humatrope: respuesta no JSON
+  aviso norditropin flexpro: respuesta no JSON
+      0  Somatropina
+  aviso sorafenib: respuesta no JSON
+  aviso nexavar: respuesta no JSON
+      0  Sorafenib tosilato
+  aviso sunitinib: respuesta no JSON
+  aviso sutent: respuesta no JSON
+  aviso sunitinib malato: respuesta no JSON
+      0  Sunitinib
+  aviso tacrolimus: respuesta no JSON
+  aviso prograf: respuesta no JSON
+  aviso advagraf: respuesta no JSON
+      0  Tacrolimus
+  aviso teriflunomida: respuesta no JSON
+  aviso teriflunomide: respuesta no JSON
+  aviso aubagio: respuesta no JSON
+      0  Teriflunomida
+  aviso teriparatida: respuesta no JSON
+  aviso teriparatide: respuesta no JSON
+  aviso forteo: respuesta no JSON
+      0  Teriparatida
+  aviso timoglobulina: respuesta no JSON
+  aviso thymoglobulin: respuesta no JSON
+  aviso antitimocito: respuesta no JSON
+  aviso antithymocyte: respuesta no JSON
+      0  Timoglobulina de conejo (antitimocitos humana)
+  aviso tocilizumab: respuesta no JSON
+  aviso actemra: respuesta no JSON
+  aviso roactemra: respuesta no JSON
+      0  Tocilizumab
+  aviso tofacitinib: respuesta no JSON
+  aviso xeljanz: respuesta no JSON
+  aviso xeljanz xr: respuesta no JSON
+      0  Tofacitinib
+  aviso trastuzumab: respuesta no JSON
+  aviso herceptin: respuesta no JSON
+  aviso herzuma: respuesta no JSON
+  aviso trazimera: respuesta no JSON
+      0  Trastuzumab
+  aviso ustekinumab: respuesta no JSON
+  aviso stelara: respuesta no JSON
+  aviso selarsdi: respuesta no JSON
+      0  Ustekinumab
+  aviso valganciclovir: respuesta no JSON
+  aviso valcyte: respuesta no JSON
+  aviso seveclo: respuesta no JSON
+      0  Valganciclovir
+  aviso blinatumomab: respuesta no JSON
+  aviso blincyto: respuesta no JSON
+      0  Blinatumomab
+  aviso pegaspargasa: respuesta no JSON
+  aviso pegaspargase: respuesta no JSON
+  aviso peg-asp: respuesta no JSON
+  aviso oncaspar: respuesta no JSON
+  aviso asparaginasa pegilada: respuesta no JSON
+      0  PEG-ASP (pegilada)
+  aviso risdiplam: respuesta no JSON
+  aviso evrysdi: respuesta no JSON
+      0  Risdiplam
+  aviso pegfilgrastim: respuesta no JSON
+  aviso pegfilgastrim: respuesta no JSON
+  aviso neulasta: respuesta no JSON
+  aviso neulastim: respuesta no JSON
+  aviso ristempa: respuesta no JSON
+  aviso ziextenzo: respuesta no JSON
+  aviso fulphila: respuesta no JSON
+      0  Pegfilgrastim
+  aviso palonosetron: respuesta no JSON
+  aviso palonosetrona: respuesta no JSON
+  aviso aloxi: respuesta no JSON
+  aviso onicit: respuesta no JSON
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Honduras Farmacias del Ahorro: 0 · total tabla: 1110
+
+>>> Honduras · MiFarmacia
+================================================================
+ HN MiFarmacia → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 0  (ok=0, revisar=0, con precio=0)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+  aviso: 0 coincidencias — no se purgan filas existentes
+MERGE 0 filas · obsoletos: 0 · Honduras MiFarmacia: 0 · total tabla: 1110
+
+========================================================================
+ Fin cobertura baja (rc=0)

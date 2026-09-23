@@ -1,0 +1,857 @@
+Creating medicamentos_alto_costo_medicamentos-alto-costo_run ... 
+Creating medicamentos_alto_costo_medicamentos-alto-costo_run ... done
+=== Persistiendo PE · EC · CO ===
+
+>>> scrapper/pe_inkafarma.py
+================================================================
+ PE Inkafarma → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+  ·   3  Acetato de leuprorelina
+  ·   4  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   1  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+  ·   1  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   1  Filgrastim
+      0  Fingolimod
+  ·   1  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+  ·   1  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+  ·   1  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+  ·   1  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+  ·   1  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+  ·   1  Sunitinib
+  ·   1  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Coincidencias a guardar: 18  (ok=17, revisar=1)
+MERGE 18 filas · obsoletos: 0 · Perú Inkafarma: 18 · total tabla: 1110
+
+>>> scrapper/pe_boticasperu.py
+================================================================
+ PE Boticas Perú → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Coincidencias a guardar: 0  (ok=0, revisar=0)
+MERGE 0 filas · obsoletos: 0 · Perú Boticas: 0 · total tabla: 1110
+
+>>> scrapper/ec_pharmacys.py
+================================================================
+ EC Pharmacy's → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   1  Acetato de goserelina
+  ·   5  Acetato de leuprorelina
+  ·   2  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   1  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+  ·   1  Cetuximab
+  ·   2  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+  ·   1  Deferasirox
+      0  Dornasa alfa
+  ·   1  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+  ·   1  Omalizumab
+  ·   1  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+  ·   1  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+  ·   1  Ribociclib
+      0  Riluzol
+      0  Riociguat
+  ·   1  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   4  Somatropina
+  ·   1  Sorafenib tosilato
+      0  Sunitinib
+  ·   1  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+  ·   1  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 32  (ok=32, revisar=0, con precio=32)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 32 filas · obsoletos: 0 · Ecuador Pharmacy's: 32 · total tabla: 1110
+   5  Acetato de leuprorelina
+   4  Somatropina
+   2  Ciclosporina
+   2  Filgrastim
+   2  Ácido zoledrónico
+   1  Acetato de goserelina
+   1  Adalimumab
+   1  Bicalutamida
+   1  Cetuximab
+   1  Deferasirox
+   1  Eltrombopag
+   1  Everolimus
+   1  Letrozol
+   1  Omalizumab
+   1  Osimertinib mesilato
+   1  Pegfilgrastim
+   1  Pembrolizumab
+   1  Ribociclib
+   1  Rituximab
+   1  Sorafenib tosilato
+   1  Tacrolimus
+   1  Trastuzumab
+
+>>> scrapper/ec_cruzazul.py
+================================================================
+ EC Cruz Azul → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   1  Acetato de goserelina
+  ·   5  Acetato de leuprorelina
+  ·   2  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   1  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+  ·   1  Cetuximab
+  ·   2  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+  ·   1  Deferasirox
+      0  Dornasa alfa
+  ·   1  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+  ·   1  Omalizumab
+  ·   1  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+  ·   1  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+  ·   1  Ribociclib
+      0  Riluzol
+      0  Riociguat
+  ·   1  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   4  Somatropina
+  ·   1  Sorafenib tosilato
+      0  Sunitinib
+  ·   1  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+  ·   1  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 32  (ok=32, revisar=0, con precio=32)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 32 filas · obsoletos: 0 · Ecuador Cruz Azul: 32 · total tabla: 1110
+   5  Acetato de leuprorelina
+   4  Somatropina
+   2  Ciclosporina
+   2  Filgrastim
+   2  Ácido zoledrónico
+   1  Acetato de goserelina
+   1  Adalimumab
+   1  Bicalutamida
+   1  Cetuximab
+   1  Deferasirox
+   1  Eltrombopag
+   1  Everolimus
+   1  Letrozol
+   1  Omalizumab
+   1  Osimertinib mesilato
+   1  Pegfilgrastim
+   1  Pembrolizumab
+   1  Ribociclib
+   1  Rituximab
+   1  Sorafenib tosilato
+   1  Tacrolimus
+   1  Trastuzumab
+
+>>> scrapper/co_locatel.py
+================================================================
+ CO Locatel → medicamentos_altos_costos_america
+================================================================
+  ·   1  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   2  Acetato de goserelina
+  ·   2  Acetato de leuprorelina
+  ·   1  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+  ·   1  Azacitidina
+      0  Basiliximab
+  ·   1  Bendamustina
+  ·   1  Bevacizumab
+      0  Bicalutamida
+  ·   1  Bortezomib
+      0  Bosentán
+  ·   2  Capecitabina
+  ·   1  Cetuximab
+  ·   2  Ciclosporina
+  ·   1  Cladribina
+      0  Daratumumab
+  ·   1  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+  ·   2  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+  ·   1  Fingolimod
+  ·   1  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+  aviso TREMFYA 200 MG / 20 ML (10 MG/ML): HTTP 400
+      0  Guselkumab
+      0  Ibrutinib
+  ·   3  Imatinib
+      0  Imiglucerasa
+  ·   1  Infliximab
+  ·   1  Inmunoglobulina humana
+  ·   2  Interferón beta 1A
+  ·   1  Interferón beta 1B
+  ·   1  Lapatinib ditosilato
+  aviso LENALIDOMIDA (FORMA-H1): HTTP 400
+      0  Lenalidomida
+  ·   3  Letrozol
+  aviso MICOFENOLATO 250 MG (LINEA INTRALAB): HTTP 400
+  aviso MICOFENOLATO 500 MG (LINEA INTRALAB): HTTP 400
+  ·   2  Micofenolato mofetilo
+  ·   1  Micofenolato sódico
+  ·   1  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+  ·   1  Octreotida
+      0  Olaparib
+  ·   1  Omalizumab
+  ·   1  Osimertinib mesilato
+  ·   1  Palbociclib
+  ·   2  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+  ·   1  Riluzol
+      0  Riociguat
+  ·   2  Rituximab
+      0  Secukinumab
+  ·   1  Sirolimus
+  ·   1  Sofosbuvir/Velpatasvir
+  ·   2  Somatropina
+  ·   1  Sorafenib tosilato
+  ·   3  Sunitinib
+  ·   5  Tacrolimus
+      0  Teriflunomida
+  ·   1  Teriparatida
+  aviso Timoglobulina de conejo (antitimocitos humana): HTTP 400
+      0  Timoglobulina de conejo (antitimocitos humana)
+  ·   2  Tocilizumab
+  ·   1  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+  ·   1  Valganciclovir
+      0  Blinatumomab
+  aviso PEG-ASP (pegilada): HTTP 400
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+  aviso NETUPITANT + PALONOSETRON: HTTP 400
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 69  (ok=58, revisar=11, con precio=69)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 69 filas · obsoletos: 0 · Colombia Locatel: 69 · total tabla: 1110
+   5  Tacrolimus
+   3  Imatinib
+   3  Letrozol
+   3  Sunitinib
+   2  Acetato de goserelina
+   2  Acetato de leuprorelina
+   2  Capecitabina
+   2  Ciclosporina
+   2  Etanercept
+   2  Filgrastim
+   2  Interferón beta 1A
+   2  Micofenolato sódico
+   2  Palmitato de paliperidona
+   2  Rituximab
+   2  Somatropina
+   2  Tocilizumab
+   1  Acetato de abiraterona
+   1  Adalimumab
+   1  Azacitidina
+   1  Bendamustina
+   1  Bevacizumab
+   1  Bortezomib
+   1  Cetuximab
+   1  Cladribina
+   1  Dasatinib
+   1  Everolimus
+   1  Fingolimod
+   1  Fulvestrant
+   1  Infliximab
+   1  Inmunoglobulina humana
+   1  Interferón beta 1B
+   1  Lapatinib ditosilato
+   1  Micofenolato mofetilo
+   1  Nilotinib
+   1  Octreotida
+   1  Omalizumab
+   1  Osimertinib mesilato
+   1  Palbociclib
+   1  Riluzol
+   1  Sirolimus
+   1  Sofosbuvir/Velpatasvir
+   1  Sorafenib tosilato
+   1  Teriparatida
+   1  Tofacitinib
+   1  Trastuzumab
+   1  Valganciclovir
+   1  Ácido zoledrónico
+
+>>> scrapper/co_farmatodo.py
+================================================================
+ CO Farmatodo → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   5  Acetato de goserelina
+  ·   2  Acetato de leuprorelina
+  ·   1  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   2  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+  ·   2  Capecitabina
+  ·   1  Cetuximab
+  ·   3  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+  ·   1  Dasatinib
+      0  Deferasirox
+  ·   1  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+  ·   1  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+  ·   1  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+  ·   3  Palmitato de paliperidona
+  ·   2  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+  ·   1  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   8  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+  ·   6  Tacrolimus
+      0  Teriflunomida
+  ·   2  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+  ·   1  Tocilizumab
+      0  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 49  (ok=38, revisar=11)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 49 filas · obsoletos: 0 · Colombia Farmatodo: 49 · total: 1110
+   8  Somatropina
+   6  Tacrolimus
+   5  Acetato de goserelina
+   3  Ciclosporina
+   3  Palmitato de paliperidona
+   2  Acetato de leuprorelina
+   2  Bicalutamida
+   2  Capecitabina
+   2  Filgrastim
+   2  Pembrolizumab
+   2  Teriparatida
+   1  Adalimumab
+   1  Cetuximab
+   1  Dasatinib
+   1  Dornasa alfa
+   1  Everolimus
+   1  Fingolimod
+   1  Letrozol
+   1  Micofenolato sódico
+   1  Rituximab
+   1  Tocilizumab
+   1  Trastuzumab
+   1  Ácido zoledrónico
+
+>>> scrapper/co_carulla.py
+================================================================
+ CO Carulla → medicamentos_altos_costos_america
+================================================================
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+  ·   1  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+  ·   1  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+  aviso TREMFYA 200 MG / 20 ML (10 MG/ML): HTTP 400
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+  aviso LENALIDOMIDA (FORMA-H1): HTTP 400
+      0  Lenalidomida
+      0  Letrozol
+  aviso MICOFENOLATO 250 MG (LINEA INTRALAB): HTTP 400
+  aviso MICOFENOLATO 500 MG (LINEA INTRALAB): HTTP 400
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+  ·   1  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   1  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+  ·   4  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+  aviso Timoglobulina de conejo (antitimocitos humana): HTTP 400
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+  aviso PEG-ASP (pegilada): HTTP 400
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+  aviso NETUPITANT + PALONOSETRON: HTTP 400
+      0  Palonosetrón
+Lista: 88 medicamentos
+Coincidencias a guardar: 8  (ok=4, revisar=4, con precio=8)
+Tabla lista: P_aguila.medicamentos_altos_costos_america
+MERGE 8 filas · obsoletos: 0 · Colombia Carulla: 8 · total tabla: 1110
+   4  Tacrolimus
+   1  Acetato de leuprorelina
+   1  Factor IX
+   1  Riluzol
+   1  Somatropina
+
+=== generar_comparativo ===
+Tasas de cambio...
+  BCRD venta 58.8735 DOP por 1 USD (2026-08-31)
+  DOP: 1 USD = 58.8735 (BCRD venta · 2026-08-31)
+  ARS: 1 USD = 1530.0 (BCRA / dólar oficial venta · 2026-08-31)
+  BRL: 1 USD = 5.1816 (BCB PTAX venta · 2026-08-31)
+  COP: 1 USD = 3202.79 (TRM (peso por dólar) · 2026-08-29)
+  PEN: 1 USD = 3.358 (BCRP tipo de cambio venta · 28.Ago.26)
+  CLP: 1 USD = 929.18 (Dólar observado BCCh · 2026-08-31)
+  MXN: 1 USD = 17.0427 (Banxico FIX (SF43718) · 2026-08-28)
+  CRC: 1 USD = 453.350358 (Reserva (mercado) · s/f)
+  HNL: 1 USD = 26.831742 (Reserva (mercado) · s/f)
+  GTQ: 1 USD = 7.629367 (Reserva (mercado) · s/f)
+  NIO: 1 USD = 36.769702 (Reserva (mercado) · s/f)
+  UYU: 1 USD = 40.195938 (Reserva (mercado) · s/f)
+  PAB: 1 USD = 1.0 (Reserva (mercado) · s/f)
+República Dominicana: tabla consolidada
+  238 coincidencias
+Tabla consolidada: México, Panamá, Uruguay, El Salvador, Ecuador, Honduras, Guatemala, Nicaragua, Costa Rica
+  187 coincidencias
+Argentina: farmacity (VTEX)
+  error glamatir: HTTPSConnectionPool(host='www.farmacity.com', port=443): Max retries exceeded with url: /api/catalog_system/pub/products/search?ft=glamatir&_from=0&_to=19 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+  error darzalex faspro: HTTPSConnectionPool(host='www.farmacity.com', port=443): Max retries exceeded with url: /api/catalog_system/pub/products/search?ft=darzalex%20faspro&_from=0&_to=19 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+  error interferona beta 1b: HTTPSConnectionPool(host='www.farmacity.com', port=443): Max retries exceeded with url: /api/catalog_system/pub/products/search?ft=interferona%20beta%201b&_from=0&_to=19 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+  error nilotinib hydrochloride: HTTPSConnectionPool(host='www.farmacity.com', port=443): Max retries exceeded with url: /api/catalog_system/pub/products/search?ft=nilotinib%20hydrochloride&_from=0&_to=19 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+  error ocrevus zunovo: HTTPSConnectionPool(host='www.farmacity.com', port=443): Max retries exceeded with url: /api/catalog_system/pub/products/search?ft=ocrevus%20zunovo&_from=0&_to=19 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+  error palbociclibe: HTTPSConnectionPool(host='www.farmacity.com', port=443): Max retries exceeded with url: /api/catalog_system/pub/products/search?ft=palbociclibe&_from=0&_to=19 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+  error rioci: HTTPSConnectionPool(host='www.farmacity.com', port=443): Max retries exceeded with url: /api/catalog_system/pub/products/search?ft=rioci&_from=0&_to=19 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+  error selarsdi: HTTPSConnectionPool(host='www.farmacity.com', port=443): Max retries exceeded with url: /api/catalog_system/pub/products/search?ft=selarsdi&_from=0&_to=19 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+  error pegfilgastrim: HTTPSConnectionPool(host='www.farmacity.com', port=443): Max retries exceeded with url: /api/catalog_system/pub/products/search?ft=pegfilgastrim&_from=0&_to=19 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))
+  129 coincidencias
+Brasil: paguemenos (VTEX)
+  122 coincidencias
+Colombia: locatel (VTEX)
+  63 coincidencias
+Peru: Inkafarma (buscador Algolia)
+  20 coincidencias
+Chile: Farmacias Ahumada (busqueda web)
+  8 coincidencias
+Listo: /app/salida/comparativo_alto_costo_20260831.xlsx
+Medicamentos con al menos un PVP de farmacia: 68/88
+
+=== exportar_web ===
+Leyendo comparativo_alto_costo_20260831.xlsx
+Escrito /app/plataforma/data.js (770 KB)

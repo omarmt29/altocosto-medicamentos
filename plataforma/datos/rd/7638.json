@@ -1,0 +1,19 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 7638,
+  "nombre": "Aclasta 5mg solucion IV, frasco",
+  "precio": 42490.5,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Frascos",
+  "laboratorio": "Sandoz",
+  "principios_activos": [
+    "Acido Zolendronico"
+  ],
+  "principios_activos_con_dosaje": [
+    {
+      "principio_activo": "Acido Zolendronico",
+      "dosaje": "5mg/100ml"
+    }
+  ]
+}

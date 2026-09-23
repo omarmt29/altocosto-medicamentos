@@ -1,0 +1,24 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 7312,
+  "nombre": "Tetanogamma Antitetanica 250U.I, jeringa precargada ?",
+  "precio": 2158.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Jeringas",
+  "laboratorio": "Behring",
+  "principios_activos": [
+    "Vacuna",
+    "Inmunoglobulina"
+  ],
+  "principios_activos_con_dosaje": [
+    {
+      "principio_activo": "Vacuna",
+      "dosaje": "nm"
+    },
+    {
+      "principio_activo": "Inmunoglobulina",
+      "dosaje": "250ui"
+    }
+  ]
+}

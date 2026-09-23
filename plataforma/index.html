@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Observatorio · Alto costo · SISALRIL</title>
+    <link rel="icon" href="/logo-sisalril.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css?v=170" />
+  </head>
+  <body>
+    <div class="app" id="appShell">
+      <aside class="sidebar">
+        <button type="button" class="side-toggle" id="sideToggle" title="Contraer menú" aria-label="Contraer menú" aria-expanded="true">
+          <span class="side-toggle-ico" aria-hidden="true"></span>
+        </button>
+        <div class="brand">
+          <span class="brand-kicker">DAMAC · FOMAC</span>
+          <span class="brand-title">Observatorio</span>
+          <span class="brand-mini" aria-hidden="true">AO</span>
+          <span class="brand-sub">Precio final al consumidor</span>
+        </div>
+        <nav class="nav" id="nav">
+          <button type="button" class="nav-item is-active" data-view="tablero" title="Tablero">
+            <span class="nav-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 13h6V4H4v9zm10 7h6V4h-6v16zM4 20h6v-5H4v5z"/></svg>
+            </span>
+            <span class="nav-label">Tablero</span>
+          </button>
+          <button type="button" class="nav-item" data-view="tendencias" title="Análisis de precios">
+            <span class="nav-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19h16M5 15l4-5 3 3 6-8"/><path d="M16 5h3v3"/></svg>
+            </span>
+            <span class="nav-label">Análisis</span>
+          </button>
+          <button type="button" class="nav-item" data-view="alertas" title="Alertas">
+            <span class="nav-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3a6 6 0 0 1 6 6c0 4-3 6-3 9H9c0-3-3-5-3-9a6 6 0 0 1 6-6z"/><path d="M10 21h4"/></svg>
+            </span>
+            <span class="nav-label">Alertas</span>
+            <span class="nav-badge" id="navAlertasBadge" hidden></span>
+          </button>
+          <button type="button" class="nav-item" data-view="fuentes" title="Fuentes">
+            <span class="nav-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 6H7a3 3 0 0 0 0 6h3M14 18h3a3 3 0 0 0 0-6h-3"/><path d="M8 12h8"/></svg>
+            </span>
+            <span class="nav-label">Fuentes</span>
+          </button>
+          <button type="button" class="nav-item" data-view="documentacion" title="Documentación">
+            <span class="nav-ico" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 4h9l3 3v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"/><path d="M14 4v4h4M8 12h8M8 16h6"/></svg>
+            </span>
+            <span class="nav-label">Documentación</span>
+          </button>
+        </nav>
+        <div class="sidebar-foot">
+          <div class="fx-chip" id="fxChip">BCRD · —</div>
+          <p>Cada PVP se pasa a USD con lo que vale el dólar en ese país. El equivalente en DOP usa la venta del Banco Central.</p>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <p class="crumb" id="crumb">Tablero</p>
+            <h1 id="pageTitle">Panorama</h1>
+          </div>
+          <div class="top-right">
+            <div class="live-pills">
+              <div class="live-pill" id="livePill" hidden></div>
+              <div class="top-alerts" id="topAlerts">
+                <button type="button" class="live-pill live-pill--alert-btn" id="headerAlertBtn" aria-haspopup="dialog" aria-expanded="false" aria-controls="headerAlertPanel" title="Alertas">
+                  <span class="top-alerts-ico" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3a6 6 0 0 1 6 6c0 4-3 6-3 9H9c0-3-3-5-3-9a6 6 0 0 1 6-6z"/><path d="M10 21h4"/></svg>
+                  </span>
+                  <span>Alertas</span>
+                  <span class="top-alerts-badge" id="headerAlertBadge" hidden>0</span>
+                </button>
+                <div class="top-alerts-panel" id="headerAlertPanel" hidden>
+                  <div class="top-alerts-head">
+                    <strong id="headerAlertTitle">Alertas</strong>
+                    <button type="button" class="top-alerts-link" data-header-alertas-open>Ver módulo</button>
+                  </div>
+                  <div class="top-alerts-body" id="headerAlertBody">
+                    <p class="muted">Cargando alertas…</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="top-logo" href="https://www.sisalril.gob.do/" target="_blank" rel="noreferrer" title="Superintendencia de Salud y Riesgos Laborales">
+              <img src="/logo-sisalril.svg" alt="SISALRIL" />
+            </a>
+          </div>
+        </header>
+        <section class="stage" id="stage"></section>
+      </main>
+    </div>
+
+    <div class="modal" id="fichaModal" hidden>
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" data-close-modal aria-label="Cerrar">×</button>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+
+    <div class="modal modal--mini" id="coverListModal" hidden>
+      <div class="modal-backdrop" data-close-cover-list></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="coverListTitle">
+        <button class="modal-close" type="button" data-close-cover-list aria-label="Cerrar">×</button>
+        <div id="coverListBody"></div>
+      </div>
+    </div>
+
+    <div class="modal modal--mini modal--reg-compare" id="regCompareModal" hidden>
+      <div class="modal-backdrop" data-close-reg-compare></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="regCompareTitle">
+        <button class="modal-close" type="button" data-close-reg-compare aria-label="Cerrar">×</button>
+        <div id="regCompareBody"></div>
+      </div>
+    </div>
+
+    <div class="modal modal--help" id="emaSrcHelpModal" hidden>
+      <div class="modal-backdrop" data-close-ema-src-help></div>
+      <div class="modal-card modal-card--help" role="dialog" aria-modal="true" aria-labelledby="emaSrcHelpTitle">
+        <button class="modal-close" type="button" data-close-ema-src-help aria-label="Cerrar">×</button>
+        <div class="fda-src-help-body">
+          <h2 id="emaSrcHelpTitle">Datos EMA: origen y estados</h2>
+          <p class="muted">Las tablas de esta ficha salen del catálogo público de la Agencia Europea de Medicamentos (EMA), no de precios de farmacia ni de fichas nacionales.</p>
+          <ol class="fda-src-help-steps">
+            <li>
+              <strong>Catálogo EMA (XLSX)</strong>
+              (<a href="https://www.ema.europa.eu/en/medicines/download-medicine-data" target="_blank" rel="noopener">descargar datos</a>
+              · <a href="https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx" target="_blank" rel="noopener">Excel directo</a>)
+              <span>Archivo oficial <code>medicines-output-medicines-report_en.xlsx</code>. Importamos el snapshot y cruzamos por INN, sustancia activa y nombre comercial con el principio de DAMAC/FOMAC.</span>
+            </li>
+            <li>
+              <strong>Columna <code>Medicine status</code></strong>
+              <span>Define si el medicamento va en <em>Medicamentos autorizados</em> (<code>Authorised</code>) o en <em>Otros estados</em> (<code>Withdrawn</code>, <code>Refused</code>, <code>Application withdrawn</code>, etc.).</span>
+            </li>
+            <li>
+              <strong>Ficha EPAR por medicamento</strong>
+              (<a href="https://www.ema.europa.eu/en/medicines" target="_blank" rel="noopener">buscar en EMA</a>)
+              <span>Cada fila trae el enlace <em>EPAR</em> de la columna <code>Medicine URL</code> del Excel (p. ej. la ficha de Protopy o Protopic). Ahí se ve el estado en la cabecera y los documentos regulatorios.</span>
+            </li>
+          </ol>
+          <div class="fda-src-help-box">
+            <p><strong>¿Cómo verificarlo online?</strong></p>
+            <ul class="fda-src-help-list">
+              <li><strong>Listado completo:</strong> descarga el Excel, filtra por INN / <em>Active substance</em> y revisa <em>Medicine status</em>.</li>
+              <li><strong>Un medicamento:</strong> usa el enlace <em>EPAR</em> de la tabla (misma URL que en el catálogo).</li>
+              <li><strong>Búsqueda web:</strong> en <a href="https://www.ema.europa.eu/en/medicines" target="_blank" rel="noopener">Medicines search</a> por principio activo o marca comercial.</li>
+            </ul>
+            <p>No hay una URL de la EMA que reproduzca exactamente el cruce por principio de esta plataforma; por eso mostramos el catálogo masivo + las fichas EPAR de cada fila.</p>
+          </div>
+          <div class="fda-src-help-box">
+            <p><strong>Indicaciones terapéuticas</strong></p>
+            <p>Primero la columna <code>Therapeutic indication</code> del mismo Excel. Si existe, intentamos el PDF <em>Medicine overview</em> en español desde la ficha EPAR; si no, traducción automática.</p>
+          </div>
+          <p class="muted sku-note">Los PDF «All Authorised presentations» u otros anexos EPAR no alimentan estas tablas; son documentos más detallados en la ficha de cada medicamento.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal--help" id="fdaPatentesHelpModal" hidden>
+      <div class="modal-backdrop" data-close-fda-patentes-help></div>
+      <div class="modal-card modal-card--help" role="dialog" aria-modal="true" aria-labelledby="fdaPatentesHelpTitle">
+        <button class="modal-close" type="button" data-close-fda-patentes-help aria-label="Cerrar">×</button>
+        <div class="fda-src-help-body">
+          <h2 id="fdaPatentesHelpTitle">Patentes FDA: origen y columnas</h2>
+          <p class="muted">Los números y etiquetas de patente en esta ficha salen de registros públicos de la FDA, no de precios de farmacia ni de bases privadas.</p>
+          <ol class="fda-src-help-steps">
+            <li>
+              <strong>Orange Book</strong> (<a href="https://www.fda.gov/drugs/drug-approvals-and-databases/orange-book-data-files" target="_blank" rel="noopener">archivos de datos FDA</a>)
+              <span>Moléculas pequeñas (NDA/ANDA). Descargamos el ZIP mensual oficial (<code>patent.txt</code>, <code>products.txt</code>, etc.) y cruzamos por ingrediente activo y número de aplicación.</span>
+            </li>
+            <li>
+              <strong>Purple Book · Patent List</strong> (<a href="https://purplebooksearch.fda.gov/index.cfm?event=patentlist" target="_blank" rel="noopener">lista de patentes</a>)
+              <span>Biológicos (BLA). Tabla HTML pública con patente, titular, marca y fecha de expiración por producto licenciado.</span>
+            </li>
+            <li>
+              <strong>Purple Book · CSV mensual</strong>
+              <span>El snapshot de productos licenciados incluye la columna <em>Patent list provided</em> (¿el titular declaró lista de patentes?).</span>
+            </li>
+          </ol>
+          <div class="fda-src-help-box">
+            <p><strong>Columna «Patente» (Orange Book)</strong></p>
+            <p>Número de patente estadounidense tal como figura en el Orange Book (p. ej. <code>9876543</code>, <code>RE45678</code>). El sufijo <code>*PED</code> marca una entrada con exclusividad pediátrica (+6 meses) sobre esa patente.</p>
+            <p>Debajo del número pueden aparecer:</p>
+            <ul class="fda-src-help-list">
+              <li><strong>Código de uso</strong> (<code>Patent_Use_Code</code>): clasificación FDA de lo que cubre la patente (sustancia, método de uso, formulación, etc.).</li>
+              <li><strong>sustancia</strong>: la reivindicación aplica al principio activo (<code>Drug_Substance_Flag</code>).</li>
+              <li><strong>producto</strong>: la reivindicación aplica al producto terminado / formulación (<code>Drug_Product_Flag</code>).</li>
+            </ul>
+            <p>Una misma patente puede repetirse si está ligada a varias aplicaciones o variantes; por eso el resumen distingue «patentes distintas» y «entradas en tabla».</p>
+          </div>
+          <div class="fda-src-help-box">
+            <p><strong>Columna «Patentes» (Purple Book)</strong></p>
+            <p>Indica si el titular de la BLA <em>declaró</em> una lista de patentes ante la FDA (valores típicos: <code>Yes</code> / <code>No</code>). Los números de patente de biológicos están en <a href="https://purplebooksearch.fda.gov/index.cfm?event=patentlist" target="_blank" rel="noopener">Purple Book · Patent List</a>; al hacer clic en un número se abre esa lista con el valor resaltado (formato con comas, como en FDA). La ficha BLA del producto no lista los números individualmente.</p>
+          </div>
+          <p class="muted sku-note">Vigente / Expirada se calcula comparando la fecha de expiración del registro con la fecha actual. Consulta siempre la ficha oficial en FDA antes de decisiones regulatorias o de compra.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal modal--ap-config" id="apConfigModal" hidden>
+      <div class="modal-backdrop" data-close-ap-config></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="apConfigTitle">
+        <button class="modal-close" type="button" data-close-ap-config aria-label="Cerrar">×</button>
+        <div id="apConfigModalBody"></div>
+      </div>
+    </div>
+
+    <div class="modal modal--ap-config" id="patConfigModal" hidden>
+      <div class="modal-backdrop" data-close-pat-config></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="patConfigTitle">
+        <button class="modal-close" type="button" data-close-pat-config aria-label="Cerrar">×</button>
+        <div id="patConfigModalBody"></div>
+      </div>
+    </div>
+
+    <script src="/data.js?v=18"></script>
+    <script src="/app.js?v=288"></script>
+  </body>
+</html>

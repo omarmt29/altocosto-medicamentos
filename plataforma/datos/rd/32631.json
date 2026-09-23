@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 32631,
+  "nombre": "Tipuric 0.1% Unguento Dermico, tubo de 15g",
+  "precio": 1849.9,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Tubo",
+  "laboratorio": "Lafage",
+  "principios_activos": [
+    "Tacrolimus"
+  ],
+  "principios_activos_con_dosaje": []
+}

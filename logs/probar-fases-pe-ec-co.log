@@ -1,0 +1,724 @@
+Creating medicamentos_alto_costo_medicamentos-alto-costo_run ... 
+Creating medicamentos_alto_costo_medicamentos-alto-costo_run ... done
+========================================================================
+ Prueba búsqueda ampliada (principio + marcas cruzadas)
+ Modo: caché + red · 88 principios
+========================================================================
+
+>>> Perú · Inkafarma
+------------------------------------------------------------------------
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+  ·   3  Acetato de leuprorelina
+  ·   4  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   1  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+  ·   1  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   1  Filgrastim
+      0  Fingolimod
+  ·   1  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+  ·   1  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+  ·   1  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+  ·   1  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+  ·   1  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+  ·   1  Sunitinib
+  ·   1  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+  → 18 filas · 13 principios · 18 con precio
+  Top principios:
+     4  Ácido zoledrónico
+     3  Acetato de leuprorelina
+     1  Bicalutamida
+     1  Capecitabina
+     1  Filgrastim
+     1  Fulvestrant
+     1  Inmunoglobulina humana
+     1  Letrozol
+
+>>> Perú · Boticas Perú
+------------------------------------------------------------------------
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+      0  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+      0  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+      0  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+      0  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+  → 0 filas · 0 principios · 0 con precio
+
+>>> Ecuador · Pharmacy's
+------------------------------------------------------------------------
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   1  Acetato de goserelina
+  ·   5  Acetato de leuprorelina
+  ·   2  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   1  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+  ·   1  Cetuximab
+  ·   2  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+  ·   1  Deferasirox
+      0  Dornasa alfa
+  ·   1  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+  ·   1  Omalizumab
+  ·   1  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+  ·   1  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+  ·   1  Ribociclib
+      0  Riluzol
+      0  Riociguat
+  ·   1  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   4  Somatropina
+  ·   1  Sorafenib tosilato
+      0  Sunitinib
+  ·   1  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+  ·   1  Pegfilgrastim
+      0  Palonosetrón
+  → 32 filas · 22 principios · 32 con precio
+  Top principios:
+     5  Acetato de leuprorelina
+     4  Somatropina
+     2  Ciclosporina
+     2  Filgrastim
+     2  Ácido zoledrónico
+     1  Acetato de goserelina
+     1  Adalimumab
+     1  Bicalutamida
+
+>>> Ecuador · Cruz Azul
+------------------------------------------------------------------------
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   1  Acetato de goserelina
+  ·   5  Acetato de leuprorelina
+  ·   2  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   1  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+  ·   1  Cetuximab
+  ·   2  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+  ·   1  Deferasirox
+      0  Dornasa alfa
+  ·   1  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+  ·   1  Omalizumab
+  ·   1  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+  ·   1  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+  ·   1  Ribociclib
+      0  Riluzol
+      0  Riociguat
+  ·   1  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   4  Somatropina
+  ·   1  Sorafenib tosilato
+      0  Sunitinib
+  ·   1  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+  ·   1  Pegfilgrastim
+      0  Palonosetrón
+  → 32 filas · 22 principios · 32 con precio
+  Top principios:
+     5  Acetato de leuprorelina
+     4  Somatropina
+     2  Ciclosporina
+     2  Filgrastim
+     2  Ácido zoledrónico
+     1  Acetato de goserelina
+     1  Adalimumab
+     1  Bicalutamida
+
+>>> Colombia · Locatel
+------------------------------------------------------------------------
+  ·   1  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   2  Acetato de goserelina
+  ·   2  Acetato de leuprorelina
+  ·   1  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+  ·   1  Azacitidina
+      0  Basiliximab
+  ·   1  Bendamustina
+  ·   1  Bevacizumab
+      0  Bicalutamida
+  ·   1  Bortezomib
+      0  Bosentán
+  ·   2  Capecitabina
+  ·   1  Cetuximab
+  ·   2  Ciclosporina
+  ·   1  Cladribina
+      0  Daratumumab
+  ·   1  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+  ·   2  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+  ·   1  Fingolimod
+  ·   1  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+  aviso TREMFYA 200 MG / 20 ML (10 MG/ML): HTTP 400
+      0  Guselkumab
+      0  Ibrutinib
+  ·   3  Imatinib
+      0  Imiglucerasa
+  ·   1  Infliximab
+  ·   1  Inmunoglobulina humana
+  ·   2  Interferón beta 1A
+  ·   1  Interferón beta 1B
+  ·   1  Lapatinib ditosilato
+  aviso LENALIDOMIDA (FORMA-H1): HTTP 400
+      0  Lenalidomida
+  ·   3  Letrozol
+  aviso MICOFENOLATO 250 MG (LINEA INTRALAB): HTTP 400
+  aviso MICOFENOLATO 500 MG (LINEA INTRALAB): HTTP 400
+  ·   2  Micofenolato mofetilo
+  ·   1  Micofenolato sódico
+  ·   1  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+  ·   1  Octreotida
+      0  Olaparib
+  ·   1  Omalizumab
+  ·   1  Osimertinib mesilato
+  ·   1  Palbociclib
+  ·   2  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+  ·   1  Riluzol
+      0  Riociguat
+  ·   2  Rituximab
+      0  Secukinumab
+  ·   1  Sirolimus
+  ·   1  Sofosbuvir/Velpatasvir
+  ·   2  Somatropina
+  ·   1  Sorafenib tosilato
+  ·   3  Sunitinib
+  ·   5  Tacrolimus
+      0  Teriflunomida
+  ·   1  Teriparatida
+  aviso Timoglobulina de conejo (antitimocitos humana): HTTP 400
+      0  Timoglobulina de conejo (antitimocitos humana)
+  ·   2  Tocilizumab
+  ·   1  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+  ·   1  Valganciclovir
+      0  Blinatumomab
+  aviso PEG-ASP (pegilada): HTTP 400
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+  aviso NETUPITANT + PALONOSETRON: HTTP 400
+      0  Palonosetrón
+  → 69 filas · 47 principios · 69 con precio
+  Top principios:
+     5  Tacrolimus
+     3  Imatinib
+     3  Letrozol
+     3  Sunitinib
+     2  Acetato de goserelina
+     2  Acetato de leuprorelina
+     2  Capecitabina
+     2  Ciclosporina
+
+>>> Colombia · Farmatodo
+------------------------------------------------------------------------
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+  ·   5  Acetato de goserelina
+  ·   2  Acetato de leuprorelina
+  ·   1  Ácido zoledrónico
+  ·   1  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+  ·   2  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+  ·   2  Capecitabina
+  ·   1  Cetuximab
+  ·   3  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+  ·   1  Dasatinib
+      0  Deferasirox
+  ·   1  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+  ·   1  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+      0  Factor IX
+  ·   2  Filgrastim
+  ·   1  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+      0  Lenalidomida
+  ·   1  Letrozol
+  ·   1  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+  ·   3  Palmitato de paliperidona
+  ·   2  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+      0  Riluzol
+      0  Riociguat
+  ·   1  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   8  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+  ·   6  Tacrolimus
+      0  Teriflunomida
+  ·   2  Teriparatida
+      0  Timoglobulina de conejo (antitimocitos humana)
+  ·   1  Tocilizumab
+      0  Tofacitinib
+  ·   1  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+      0  Palonosetrón
+  → 49 filas · 23 principios · 49 con precio
+  Top principios:
+     8  Somatropina
+     6  Tacrolimus
+     5  Acetato de goserelina
+     3  Ciclosporina
+     3  Palmitato de paliperidona
+     2  Acetato de leuprorelina
+     2  Bicalutamida
+     2  Capecitabina
+
+>>> Colombia · Carulla
+------------------------------------------------------------------------
+      0  Acetato de abiraterona
+      0  Acetato de glatiramer
+      0  Acetato de goserelina
+  ·   1  Acetato de leuprorelina
+      0  Ácido zoledrónico
+      0  Adalimumab
+      0  Agalsidasa beta
+      0  Atezolizumab
+      0  Azacitidina
+      0  Basiliximab
+      0  Bendamustina
+      0  Bevacizumab
+      0  Bicalutamida
+      0  Bortezomib
+      0  Bosentán
+      0  Capecitabina
+      0  Cetuximab
+      0  Ciclosporina
+      0  Cladribina
+      0  Daratumumab
+      0  Dasatinib
+      0  Deferasirox
+      0  Dornasa alfa
+      0  Eltrombopag
+      0  Emicizumab
+      0  Enzalutamida
+      0  Etanercept
+      0  Everolimus
+      0  Factor de coagulación VIII
+      0  Factor de crecimiento epidérmico humano recombinante
+  ·   1  Factor IX
+      0  Filgrastim
+      0  Fingolimod
+      0  Fulvestrant
+      0  Galsulfasa
+      0  Golimumab
+  aviso TREMFYA 200 MG / 20 ML (10 MG/ML): HTTP 400
+      0  Guselkumab
+      0  Ibrutinib
+      0  Imatinib
+      0  Imiglucerasa
+      0  Infliximab
+      0  Inmunoglobulina humana
+      0  Interferón beta 1A
+      0  Interferón beta 1B
+      0  Lapatinib ditosilato
+  aviso LENALIDOMIDA (FORMA-H1): HTTP 400
+      0  Lenalidomida
+      0  Letrozol
+  aviso MICOFENOLATO 250 MG (LINEA INTRALAB): HTTP 400
+  aviso MICOFENOLATO 500 MG (LINEA INTRALAB): HTTP 400
+      0  Micofenolato mofetilo
+      0  Micofenolato sódico
+      0  Nilotinib
+      0  Obinutuzumab
+      0  Ocrelizumab
+      0  Octreotida
+      0  Olaparib
+      0  Omalizumab
+      0  Osimertinib mesilato
+      0  Palbociclib
+      0  Palmitato de paliperidona
+      0  Pembrolizumab
+      0  Pertuzumab
+      0  Pertuzumab/Trastuzumab
+      0  Pirfenidona
+      0  Regorafenib
+      0  Remdesivir
+      0  Ribociclib
+  ·   1  Riluzol
+      0  Riociguat
+      0  Rituximab
+      0  Secukinumab
+      0  Sirolimus
+      0  Sofosbuvir/Velpatasvir
+  ·   1  Somatropina
+      0  Sorafenib tosilato
+      0  Sunitinib
+  ·   4  Tacrolimus
+      0  Teriflunomida
+      0  Teriparatida
+  aviso Timoglobulina de conejo (antitimocitos humana): HTTP 400
+      0  Timoglobulina de conejo (antitimocitos humana)
+      0  Tocilizumab
+      0  Tofacitinib
+      0  Trastuzumab
+      0  Ustekinumab
+      0  Valganciclovir
+      0  Blinatumomab
+  aviso PEG-ASP (pegilada): HTTP 400
+      0  PEG-ASP (pegilada)
+      0  Risdiplam
+      0  Pegfilgrastim
+  aviso NETUPITANT + PALONOSETRON: HTTP 400
+      0  Palonosetrón
+  → 8 filas · 5 principios · 8 con precio
+  Top principios:
+     4  Tacrolimus
+     1  Acetato de leuprorelina
+     1  Factor IX
+     1  Riluzol
+     1  Somatropina
+
+========================================================================
+ Resumen por país
+========================================================================
+  Perú: 18 filas · 13 principios distintos
+  Ecuador: 64 filas · 22 principios distintos
+  Colombia: 126 filas · 51 principios distintos
+
+Total combinado: 208 filas · 56 principios distintos

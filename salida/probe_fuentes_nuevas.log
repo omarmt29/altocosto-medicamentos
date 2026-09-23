@@ -1,0 +1,33 @@
+CL|Cruz Verde|200|https://www.cruzverde.cl/|magento|vtex:200 ; woo:200 ; shopify:200
+CL|Dr Simi|403|https://www.drsimi.cl/||vtex:403 ; woo:403 ; shopify:403
+CL|Knop|200|https://www.farmaciasknop.com/|magento|vtex:404 ; woo:404 ; shopify:404
+CL|Profar|200|https://profar.cl/|magento|vtex:404 ; woo:404 ; shopify:404
+AR|Dr Ahorro|ERR|HTTPSConnectionPool(host='www.drahorro.com.ar', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.drahorro.com.ar', port=443): Failed to resolve 'www.drahorro.com.ar' ([Errno -2] Name or service not known)"))
+AR|Openfarma|200|https://www.openfarma.com.ar/|magento|vtex:ERR ; woo:404 ; shopify:404
+AR|Farmaloop|ERR|HTTPSConnectionPool(host='www.farmaloop.com.ar', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaloop.com.ar', port=443): Failed to resolve 'www.farmaloop.com.ar' ([Errno -2] Name or service not known)"))
+PE|Mifarma|200|https://www.mifarma.com.pe/|magento|vtex:200 ; woo:200 ; shopify:200
+PE|Farmacia Universal|200|https://www.farmaciauniversal.com/|vtex|vtex:OK:[] ; woo:404 ; shopify:404
+VE|Farmatodo|403|https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93d3cuZmFybWF0b2RvLmNvbS52ZQ~~|magento|vtex:403 ; woo:403 ; shopify:403
+VE|Locatel|200|https://www.locatel.com.ve/|vtex|vtex:206 ; woo:404 ; shopify:404
+BO|Farmacorp|403|https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93d3cuZmFybWFjb3JwLmNvbQ~~|magento|vtex:403 ; woo:403 ; shopify:403
+BO|Hipermaxi|403|https://www.hipermaxi.com/||vtex:403 ; woo:403 ; shopify:403
+PY|Catedral|403|https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93d3cuZmFybWFjaWFjYXRlZHJhbC5jb20ucHk~|magento|vtex:403 ; woo:403 ; shopify:403
+PY|Catedral alt|ERR|HTTPSConnectionPool(host='www.catedral.com.py', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.catedral.com.py', port=443): Failed to resolve 'www.catedral.com.py' ([Errno -2] Name or service not known)"))
+PY|FarmaPatronal|ERR|HTTPSConnectionPool(host='www.farmapatronal.com.py', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmapatronal.com.py', port=443): Failed to resolve 'www.farmapatronal.com.py' ([Errno -2] Name or service not known)"))
+MX|Guadalajara|403|https://www.farmaciasguadalajara.com/||vtex:403 ; woo:403 ; shopify:403
+MX|Benavides|403|https://www.benavides.com.mx/||vtex:403 ; woo:403 ; shopify:403
+EC|Medicity|403|https://192.168.131.1:8090/v1/ips/block/webcat?cat=45&pl=1&lu=0&url=aHR0cHM6Ly93d3cuZmFybWFjaWFzbWVkaWNpdHkuY29t|magento|vtex:403 ; woo:403 ; shopify:403
+PA|Metro Farma|ERR|HTTPSConnectionPool(host='www.metrofarma.com.pa', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.metrofarma.com.pa', port=443): Failed to resolve 'www.metrofarma.com.pa' ([Errno -2] Name or service not known)"))
+PA|Revilla|530|https://www.farmaciasrevilla.com/||vtex:530 ; woo:530 ; shopify:530
+SV|San Francisco|ERR|HTTPSConnectionPool(host='www.farmaciasanfrancisco.com.sv', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciasanfrancisco.com.sv', port=443): Failed to resolve 'www.farmaciasanfrancisco.com.sv' ([Errno -2] Name or service not known)"))
+TT|SuperPharm|200|https://www.superpharmtt.com/|magento|vtex:200 ; woo:200 ; shopify:403
+UY|Farmaciasur|ERR|HTTPSConnectionPool(host='www.farmaciasur.com.uy', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciasur.com.uy', port=443): Failed to resolve 'www.farmaciasur.com.uy' ([Errno -2] Name or service not known)"))
+RD|Jones|ERR|HTTPSConnectionPool(host='www.farmaciasjones.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciasjones.com', port=443): Failed to resolve 'www.farmaciasjones.com' ([Errno -2] Name or service not known)"))
+RD|San Rafael|ERR|HTTPSConnectionPool(host='www.farmaciassanrafael.com.do', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciassanrafael.com.do', port=443): Failed to resolve 'www.farmaciassanrafael.com.do' ([Errno -2] Name or service not known)"))
+CO|Pasteur|500|https://www.drogueriaspasteur.com.co/||vtex:404 ; woo:404 ; shopify:404
+CR|La Bomba|200|https://www.farmacialabomba.com/|magento|vtex:200 ; woo:200 ; shopify:200
+GT|Gallito|ERR|HTTPSConnectionPool(host='www.farmaciasgallito.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciasgallito.com', port=443): Failed to resolve 'www.farmaciasgallito.com' ([Errno -2] Name or service not known)"))
+HN|Farmacias del Pueblo|ERR|HTTPSConnectionPool(host='www.farmaciasdelpueblo.hn', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciasdelpueblo.hn', port=443): Failed to resolve 'www.farmaciasdelpueblo.hn' ([Errno -2] Name or service not known)"))
+NI|Prevenir|ERR|HTTPSConnectionPool(host='www.farmaciaprevenir.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciaprevenir.com', port=443): Failed to resolve 'www.farmaciaprevenir.com' ([Errno -2] Name or service not known)"))
+BR|Pague Menos check|200|https://www.paguemenos.com.br/|vtex,magento|vtex:OK:[] ; woo:404 ; shopify:404
+GY|Medicine Chest|ERR|HTTPSConnectionPool(host='www.medicinechestgy.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.medicinechestgy.com', port=443): Failed to resolve 'www.medicinechestgy.com' ([Errno -3] Temporary failure in name resolution)"))

@@ -1,0 +1,148 @@
+
+=== VE Locatel https://www.locatel.com.ve
+  home 200 -> https://www.locatel.com.ve/
+  VTEX adalimumab -> 200 ct=application/json; charset=utf-8 len=7172
+    n=2
+    - ADALIMUMAB ADALIREL 40 MGX1 JERINGA P/LLE.
+    - HUMIRA AC 40MG/0,4ML X 2 JRG P/LLENADAS
+  VTEX imatinib -> 200 ct=application/json; charset=utf-8 len=2
+    n=0
+  VTEX rituximab -> 200 ct=application/json; charset=utf-8 len=6622
+    n=2
+    - RITUXIMAB RITUXIREL 100MG/10 ML X1 VIAL
+    - RITUXIMAB RITUXIREL 500 MG/50 ML X1 VIAL
+  VTEX lenalidomida -> 200 ct=application/json; charset=utf-8 len=2
+    n=0
+
+=== PE Universal https://www.farmaciauniversal.com
+  home 200 -> https://www.farmaciauniversal.com/
+  VTEX adalimumab -> 200 ct=application/json; charset=utf-8 len=2
+    n=0
+  VTEX rituximab -> 200 ct=application/json; charset=utf-8 len=2
+    n=0
+  VTEX lenalidomida -> 200 ct=application/json; charset=utf-8 len=2
+    n=0
+
+=== PE Mifarma https://www.mifarma.com.pe
+  home 200 -> https://www.mifarma.com.pe/
+  algolia sniff app=[] key=[] idx=[]
+  VTEX adalimumab -> 200 ct=text/html len=5176
+    not json: '<!DOCTYPE html>\n<html lang="es">\n\t<head>\n\t\t<meta name="language" content="es-PE"/>\n\t\t<meta charset="'
+  MAGENTO adalimumab -> 405
+    not json: '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>ngin'
+  VTEX imatinib -> 200 ct=text/html len=5176
+    not json: '<!DOCTYPE html>\n<html lang="es">\n\t<head>\n\t\t<meta name="language" content="es-PE"/>\n\t\t<meta charset="'
+  MAGENTO imatinib -> 405
+    not json: '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>ngin'
+  VTEX rituximab -> 200 ct=text/html len=5176
+    not json: '<!DOCTYPE html>\n<html lang="es">\n\t<head>\n\t\t<meta name="language" content="es-PE"/>\n\t\t<meta charset="'
+  MAGENTO rituximab -> 405
+    not json: '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>ngin'
+  VTEX lenalidomida -> 200 ct=text/html len=5176
+    not json: '<!DOCTYPE html>\n<html lang="es">\n\t<head>\n\t\t<meta name="language" content="es-PE"/>\n\t\t<meta charset="'
+  MAGENTO lenalidomida -> 405
+    not json: '<html>\r\n<head><title>405 Not Allowed</title></head>\r\n<body>\r\n<center><h1>405 Not Allowed</h1></center>\r\n<hr><center>ngin'
+
+=== TT SuperPharm https://www.superpharmtt.com
+  home 200 -> https://www.superpharmtt.com/
+  VTEX adalimumab -> 200 ct=text/html len=1467
+    not json: "<!DOCTYPE html><html><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new "
+  WOO adalimumab -> 200
+    not json: "<!DOCTYPE html><html><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new "
+  MAGENTO adalimumab -> 403
+    not json: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">\n<HTML><HEAD><META'
+  VTEX imatinib -> 200 ct=text/html len=1467
+    not json: "<!DOCTYPE html><html><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new "
+  WOO imatinib -> 200
+    not json: "<!DOCTYPE html><html><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new "
+  MAGENTO imatinib -> 403
+    not json: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">\n<HTML><HEAD><META'
+  VTEX rituximab -> 200 ct=text/html len=1467
+    not json: "<!DOCTYPE html><html><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new "
+  WOO rituximab -> 200
+    not json: "<!DOCTYPE html><html><head><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n  new "
+  MAGENTO rituximab -> 403
+    not json: '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">\n<HTML><HEAD><META'
+
+=== CR La Bomba https://www.farmacialabomba.com
+  home 200 -> https://www.farmacialabomba.com/
+  VTEX adalimumab -> 200 ct=text/html; charset=utf-8 len=55459
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta'
+  WOO adalimumab -> 200
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta'
+  SHOPIFY adalimumab -> 200
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta'
+  MAGENTO adalimumab -> 200
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta name="viewport" con'
+  VTEX imatinib -> 200 ct=text/html; charset=utf-8 len=55453
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta'
+  WOO imatinib -> 200
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta'
+  SHOPIFY imatinib -> 200
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta'
+  MAGENTO imatinib -> 200
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta name="viewport" con'
+  VTEX rituximab -> 200 ct=text/html; charset=utf-8 len=55466
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta'
+  WOO rituximab -> 200
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta'
+  SHOPIFY rituximab -> 200
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta'
+  MAGENTO rituximab -> 200
+    not json: '\r\n\r\n<!DOCTYPE html>\r\n<html lang="en" class="no-js">\r\n<head>\r\n    <meta charset="utf-8" />\r\n    <meta name="viewport" con'
+
+=== AR Openfarma https://www.openfarma.com.ar
+  home 200 -> https://www.openfarma.com.ar/
+  ERR https://www.openfarma.com.ar/api/catalog_system/pub/products/search :: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+  MAGENTO adalimumab -> 404
+    not json: '<!DOCTYPE html>\n<html>\n  <head data-hook="inside_head">\n    <meta http-equiv="Content-Type" content="text/html; charset='
+  ERR https://www.openfarma.com.ar/api/catalog_system/pub/products/search :: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+  MAGENTO imatinib -> 404
+    not json: '<!DOCTYPE html>\n<html>\n  <head data-hook="inside_head">\n    <meta http-equiv="Content-Type" content="text/html; charset='
+  ERR https://www.openfarma.com.ar/api/catalog_system/pub/products/search :: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+  MAGENTO rituximab -> 404
+    not json: '<!DOCTYPE html>\n<html>\n  <head data-hook="inside_head">\n    <meta http-equiv="Content-Type" content="text/html; charset='
+
+=== CL Cruz Verde https://www.cruzverde.cl
+  home 200 -> https://www.cruzverde.cl/
+  VTEX adalimumab -> 200 ct=text/html len=2864
+    not json: '<!DOCTYPE html>\n<html lang="es">\n  <head>\n    <title></title>\n    <base href="/"/>\n    <meta charset'
+  MAGENTO adalimumab -> 405
+    not json: '<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>MethodNotAllowed</Code><Message>The specified method is not allowed '
+  VTEX imatinib -> 200 ct=text/html len=2863
+    not json: '<!DOCTYPE html>\n<html lang="es">\n  <head>\n    <title></title>\n    <base href="/"/>\n    <meta charset'
+  MAGENTO imatinib -> 405
+    not json: '<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>MethodNotAllowed</Code><Message>The specified method is not allowed '
+  VTEX rituximab -> 200 ct=text/html len=2864
+    not json: '<!DOCTYPE html>\n<html lang="es">\n  <head>\n    <title></title>\n    <base href="/"/>\n    <meta charset'
+  MAGENTO rituximab -> 405
+    not json: '<?xml version="1.0" encoding="UTF-8"?>\n<Error><Code>MethodNotAllowed</Code><Message>The specified method is not allowed '
+
+=== CL Knop https://www.farmaciasknop.com
+  home 200 -> https://www.farmaciasknop.com/
+  MAGENTO adalimumab -> 404
+    not json: '<!doctype html>\n<html lang="es">\n<head>\n  <meta charset="utf-8"/>\n  <meta http-equiv="X-UA-Compatible" content="IE=edge,'
+  MAGENTO imatinib -> 404
+    not json: '<!doctype html>\n<html lang="es">\n<head>\n  <meta charset="utf-8"/>\n  <meta http-equiv="X-UA-Compatible" content="IE=edge,'
+  MAGENTO rituximab -> 404
+    not json: '<!doctype html>\n<html lang="es">\n<head>\n  <meta charset="utf-8"/>\n  <meta http-equiv="X-UA-Compatible" content="IE=edge,'
+
+=== CL Profar https://profar.cl
+  home 200 -> https://profar.cl/
+  MAGENTO adalimumab -> 200
+    n=3
+    - (REF) HUMIRA  AUTOINYECTOR 40 MG / 0,4 ML SOL. INY. X 2 PEN
+    - (REF) IDACIO 40 MG / 0,8 ML X 2 AUTO INY.
+    - (REF) AMGEVITA 40MG /0.8M X 2 JERINGAS
+  MAGENTO imatinib -> 200
+    n=3
+    - IMATINIB 100 MG X 60 COMP. REC.
+    - IMATINIB MESILATO 400 MG X 30 COMP. REC.
+    - GLIVEC 100 MG X 60 COMP.
+  MAGENTO rituximab -> 200
+    n=2
+    - (REF) MABTHERA 100 MG / 10 ML SOL. INF. X 2 FA
+    - LENANGIO 25 MG X 21 CAPS.
+
+=== UY Pigalle check https://www.farmaciapigalle.com.uy
+  ERR https://www.farmaciapigalle.com.uy :: HTTPSConnectionPool(host='www.farmaciapigalle.com.uy', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.farmaciapigalle.com.uy', port=443): Failed to resolve 'www.farmaciapigalle.com.uy' ([Errno -2] Name or service not known)"))

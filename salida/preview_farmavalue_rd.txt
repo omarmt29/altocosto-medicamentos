@@ -1,0 +1,159 @@
+PREVIEW FarmaValue (República Dominicana) × lista DAMAC/FOMAC
+Generado: 2026-08-18T13:26:00
+Fuente: FarmaValue / API 3C Group GET /api/v1/producto
+Ficha pública: https://www.farmavalue.com/producto/{id}
+
+Catálogo completo: 12,421 productos
+Con precio desencriptado: 11,670
+Sin precio usable: 751
+Productos que pegan con la lista: 35
+Filas (un producto puede pegar a más de un ítem de lista): 35
+Medicamentos de la lista CON al menos un producto: 14 / 88
+Medicamentos SIN hallazgo: 74
+
+Campos que trae cada ítem de la API:
+  activo, agotado, barcode, barcode2, bioequivalente, cantidad_bonificacion, cantidad_requerida, clasificaciones, controlado, dcto, descuento, id, isv, laboratorio, medico, nombre, palabras_clave, porcentaje_promocion, prd_sust, precio, precio_marcado, precio_unidad, presentacion, primera_opcion, principios_activos, principios_activos_con_dosaje, prioridad_app, receta, relacionados, scat, tema_venta_app, tipo_presentacion, unid, unid_frac
+
+=== CON DATO (nombre comercial, presentación, concentración, precio DOP) ===
+
+#01  Acetato de abiraterona  [DAMAC]  → 1 presentación(es)
+     · Abiraterona Acetato, 60 tabletas | Tabletas | — | Sandoz | DOP 93,498.60 | Disponible | id=31765
+
+#03  Acetato de goserelina  [DAMAC]  → 1 presentación(es)
+     · ProZoladex LA 10.8mg Accion Prolongada, 1 jeringa prellenada con funda protectora | Jeringas | — | Astra Zeneca | sin precio | Disponible | id=31656
+
+#04  Acetato de leuprorelina  [DAMAC]  → 4 presentación(es)
+     · Lupron Depot 11.25mg/mL Solucion Inyectable - 3 Meses, jeringa precargada | Jeringas | — | Abbvie | sin precio | Disponible | id=32525
+     · Lupron Depot 22.5mg/1.5ml, 1 tratamiento | Ampollas | — | Abbott | DOP 41,669.33 | Disponible | id=22545
+     · Lupron Depot 3.75mg/ml, 1 tratamiento | Vial | Leuprolida; Acetato 3.75mg | Abbott | DOP 12,441.00 | Disponible | id=19757
+     · Lupron Depot 7.5mg/ml, 1 tratamiento | Ampollas | — | Abbott | DOP 15,306.72 | Disponible | id=23621
+
+#05  Ácido zoledrónico  [DAMAC]  → 2 presentación(es)
+     · Aclasta 5mg solucion IV, frasco | Frascos | Acido Zolendronico 5mg/100ml | Sandoz | DOP 42,490.50 | Disponible | id=7638
+     · Zometa 4mg/5ml, 1 Ampolla | Ampollas | — | Novartis | DOP 23,484.24 | Disponible | id=31404
+
+#06  Adalimumab  [DAMAC-FOMAC]  → 1 presentación(es)
+     · Z1-Amgevita 40mg/0.8mL Solucion Inyectable | Caja | — | Asofarma | DOP 15,583.10 | Disponible | id=32130
+
+#13  Bicalutamida  [DAMAC]  → 7 presentación(es)
+     · Bicalut 150mg, 30 | Comprimidos | Bicalutamida 150 mg | Euro LTD | DOP 2,990.00 | Disponible | id=14874
+     · Bicalut 50mg, 30 | Comprimidos | Bicalutamida 50 mg | Euro LTD | DOP 1,790.01 | Disponible | id=14875
+     · Binusyl 150, 30 | Comprimidos | Bicalutamida 150mg | LAM Eticos 2 | DOP 3,496.22 | Disponible | id=19052
+     · Binusyl 50mg, 30 | Comprimidos | Bicalutamida 50mg | LAM Eticos 2 | DOP 1,781.62 | Disponible | id=19393
+     · Bunide 150mg, 30 | Tabletas | Bicalutamida 150mg | Pharmatech | DOP 2,925.00 | Disponible | id=15970
+     · Limux 50mg, caja de 30 tabletas | Caja | — | Alfa Eticos | DOP 1,690.00 | Disponible | id=31029
+     · Prostaclean 150mg, 30 tabletas | Caja | — | Sued | sin precio | Disponible | id=29861
+
+#15  Bosentán  [DAMAC]  → 1 presentación(es)
+     · Bosetrax 125mg, caja de 60 tabletas | Caja | — | Alfa Eticos | DOP 14,300.00 | Disponible | id=31546
+
+#32  Filgrastim  [DAMAC]  → 1 presentación(es)
+     · Filgrastim 300mcg Injectable Biosidus, 1 vial? | Ampollas | — | Biosidus | DOP 3,461.35 | Disponible | id=22502
+
+#42  Inmunoglobulina humana  [DAMAC]  → 6 presentación(es)
+     · Anti-D Inmunoglobulina Humana Rhoclone 300mcg, ampolla 1ml | Ampollas | — | BSV | DOP 6,500.00 | Disponible | id=17517
+     · Antitetanica Tetglob 250U.I., 1 unidad ® | Ampollas | — | Sued | DOP 1,625.00 | Disponible | id=27385
+     · HyperRHO-D Inmunoglobulina Humana Anti-D, Jeringa pre-cargada? | Caja | Vacuna nm | Grifols | sin precio | Disponible | id=11098
+     · RhoGam RHO-D Immune Globulin, Vial 1 | Jeringas | — | Kedrion  | sin precio | Disponible | id=21801
+     · Rhophylac 300 Anti-D Inmunoglobulina Humana, ampolla ? | Ampollas | — | Rowe | DOP 6,890.00 | Disponible | id=21261
+     · Tetanogamma Antitetanica 250U.I, jeringa precargada ? | Jeringas | Vacuna nm; Inmunoglobulina 250ui | Behring | DOP 2,158.00 | Disponible | id=7312
+
+#47  Letrozol  [DAMAC]  → 1 presentación(es)
+     · Femara 2.5mg, 30 | Tabletas | Letrozol 2.5mg | Novartis | DOP 9,527.04 | Disponible | id=6739
+
+#48  Micofenolato mofetilo  [DAMAC]  → 3 presentación(es)
+     · Cellcept 500mg, 50 | Comprimidos | Micofenolato Mofetilo 500mg | Roche | DOP 5,189.60 | Disponible | id=6660
+     · Micoflavin 500mg, 50 | Comprimidos | Micofenolato Mofetilo 500mg | Roemmers | DOP 4,368.00 | Disponible | id=11791
+     · Miconato 360mg, caja de 30 capletas | Caja | — | Alfa Eticos | DOP 5,070.00 | Disponible | id=32647
+
+#62  Pirfenidona  [DAMAC]  → 1 presentación(es)
+     · Kitos Cell Gel, 10 gramos | Unidad | — | Biogenesis  Pharmaceuticals | sin precio | Disponible | id=26147
+
+#75  Tacrolimus  [DAMAC]  → 5 presentación(es)
+     · Cromus 0.03% Ung?ento , 30g | Tubo | — | Procaps | DOP 2,843.92 | Disponible | id=13035
+     · Cromus 0.1% ung?ento x 30 g | Tubo | — | Procaps | DOP 3,433.79 | Disponible | id=12445
+     · Tacrolimus Sandoz 1mg, 50 capsulas | Capsulas | — | Sandoz | DOP 7,528.30 | Disponible | id=29273
+     · Talgraf Unguento 0.1%, tubo 20g | Tubo | Tacrolimus 0.1 | Pharmatech | DOP 1,950.00 | Disponible | id=17719
+     · Tipuric 0.1% Unguento Dermico, tubo de 15g | Tubo | — | Lafage | DOP 1,849.90 | Disponible | id=32631
+
+#77  Teriparatida  [DAMAC]  → 1 presentación(es)
+     · Forteo 250mcg/ml, jeringa prellenada 3ml | Caja | ADN Recombinante 250mcg/ml | Lilly | sin precio | Disponible | id=7201
+
+=== SIN HALLAZGO EN FARMAVALUE ===
+  #02  Acetato de glatiramer  [DAMAC]
+  #07  Agalsidasa beta  [DAMAC]
+  #08  Atezolizumab  [DAMAC]
+  #09  Azacitidina  [DAMAC]
+  #10  Basiliximab  [DAMAC]
+  #11  Bendamustina  [DAMAC]
+  #12  Bevacizumab  [DAMAC]
+  #14  Bortezomib  [DAMAC]
+  #16  Capecitabina  [DAMAC]
+  #17  Cetuximab  [DAMAC]
+  #18  Ciclosporina  [DAMAC]
+  #19  Cladribina  [DAMAC]
+  #20  Daratumumab  [DAMAC]
+  #21  Dasatinib  [DAMAC]
+  #22  Deferasirox  [DAMAC]
+  #23  Dornasa alfa  [DAMAC]
+  #24  Eltrombopag  [DAMAC]
+  #25  Emicizumab  [DAMAC]
+  #26  Enzalutamida  [DAMAC]
+  #27  Etanercept  [DAMAC-FOMAC]
+  #28  Everolimus  [DAMAC]
+  #29  Factor de coagulación VIII  [DAMAC]
+  #30  Factor de crecimiento epidérmico humano recombinante  [DAMAC]
+  #31  Factor IX  [DAMAC]
+  #33  Fingolimod  [DAMAC]
+  #34  Fulvestrant  [DAMAC]
+  #35  Galsulfasa  [DAMAC]
+  #36  Golimumab  [DAMAC-FOMAC]
+  #37  Guselkumab  [DAMAC]
+  #38  Ibrutinib  [DAMAC]
+  #39  Imatinib  [DAMAC]
+  #40  Imiglucerasa  [DAMAC]
+  #41  Infliximab  [DAMAC-FOMAC]
+  #43  Interferón beta 1A  [DAMAC]
+  #44  Interferón beta 1B  [DAMAC]
+  #45  Lapatinib ditosilato  [DAMAC]
+  #46  Lenalidomida  [DAMAC]
+  #49  Micofenolato sódico  [DAMAC]
+  #50  Nilotinib  [DAMAC]
+  #51  Obinutuzumab  [DAMAC]
+  #52  Ocrelizumab  [DAMAC]
+  #53  Octreotida  [DAMAC-FOMAC]
+  #54  Olaparib  [DAMAC]
+  #55  Omalizumab  [DAMAC]
+  #56  Osimertinib mesilato  [DAMAC]
+  #57  Palbociclib  [DAMAC-FOMAC]
+  #58  Palmitato de paliperidona  [DAMAC]
+  #59  Pembrolizumab  [DAMAC-FOMAC]
+  #60  Pertuzumab  [DAMAC]
+  #61  Pertuzumab/Trastuzumab  [DAMAC]
+  #63  Regorafenib  [DAMAC]
+  #64  Remdesivir  [DAMAC]
+  #65  Ribociclib  [DAMAC-FOMAC]
+  #66  Riluzol  [DAMAC]
+  #67  Riociguat  [DAMAC]
+  #68  Rituximab  [DAMAC]
+  #69  Secukinumab  [DAMAC]
+  #70  Sirolimus  [DAMAC]
+  #71  Sofosbuvir/Velpatasvir  [DAMAC]
+  #72  Somatropina  [DAMAC]
+  #73  Sorafenib tosilato  [DAMAC]
+  #74  Sunitinib  [DAMAC]
+  #76  Teriflunomida  [DAMAC]
+  #78  Timoglobulina de conejo (antitimocitos humana)  [DAMAC]
+  #79  Tocilizumab  [DAMAC-FOMAC]
+  #80  Tofacitinib  [DAMAC]
+  #81  Trastuzumab  [DAMAC]
+  #82  Ustekinumab  [DAMAC-FOMAC]
+  #83  Valganciclovir  [DAMAC]
+  #84  Blinatumomab  [FOMAC]
+  #85  PEG-ASP (pegilada)  [FOMAC]
+  #86  Risdiplam  [FOMAC]
+  #87  Pegfilgrastim  [FOMAC*]
+  #88  Palonosetrón  [FOMAC*]
+
+Tabla propuesta (aún NO creada): P_aguila.medicamentos_altos_costos
+  id, pais, farmacia, fuente_url, id_producto_farmacia, sku, medicamento_lista, programa, nombre_comercial, principio_activo, concentracion, presentacion, laboratorio, precio, moneda, disponibilidad, fecha_publicacion, fecha_registro, fecha_dato

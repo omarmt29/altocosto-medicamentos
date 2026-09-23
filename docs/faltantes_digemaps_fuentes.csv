@@ -1,0 +1,1018 @@
+pais_faltante,dci_lista,match_csv,csv_dci,csv_marca,fuentes_encontradas,concentraciones_vistas,presentaciones_vistas,productos_vistos,nota
+Argentina,Acetato de glatiramer,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Argentina,Agalsidasa beta,si,AGALSIDASA BETA,FABRAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Atezolizumab,si,ATEZOLIZUMAB,TECENTRIQ,México::Macrofarmacias,1200 mg/20 ml,Frasco-ampolla x 1,TECENTRIQ (ATEZOLIZUMAB) 1200MG/20ML FCO AMP,
+Argentina,Basiliximab,si,BASILIXIMAB,SIMULECT,México::Macrofarmacias | República Dominicana::Los Hidalgos,20 mg,Ampolla x 2,SIMULECT (BASILIXIMAB) 20MG C/2 FCOS AMP | SIMULECT LYVI 20MG,
+Argentina,Bendamustina,si,CLORHIDRATO DE BENDAMUSTINA 100 MG,BENDAVAR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bendamustina,si,CLORHIDRATO DE BENDAMUSTINA,RIBOMUSTIN,Colombia::Locatel,100 mg,Solución inyectable x 1,Ribomustin Polvo Solucion Inyectable Vial 100mg X 1,
+Argentina,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,RAMIZA 100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,QUERAMUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,BESUMID 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bendamustina,si,BENDAMUSTINA HCL,LEUKUSTIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,BENDAMUSTINA 100 mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,GENSTINA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bendamustina,si,BENDAMUSTINA,BENZIMIR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bendamustina,si,BENDAMUSTINA,BENDAWEL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,BOTEMIB 3.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,VELCADE,México::Macrofarmacias | República Dominicana::Los Hidalgos,3.5 mg,Frasco-ampolla x 1 | x 5,VELCADE (BORTEZOMIB) 3.5MG C/1 FCO AMP | VELCADE 3.5 VIAL SET DE 1 FCO,
+Argentina,Bortezomib,si,BORTEZOMIB,BOTEMIB 1,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,BOTEMIB 2.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,BORTEZOMIB LIBRA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,VOTOBEL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,BORTEZOMIB KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB (COMO BORONATO ESTER DE MANITOL),BORVIZ  3.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,ZOMITER 3.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,BORTEZOMIB RICHMOND,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,BORTEZOMIB IMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,BORTIREL 3.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,MIBZO BORTEZOMIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,BORTEZOMIB,Colombia::Locatel | México::Macrofarmacias | República Dominicana::Los Hidalgos,100 mg | 3.5 mg,Frasco-ampolla x 1 | Solución inyectable x 1 | x 1 | x 5,"BORTEZOMIB SANDOZ 3,5MG X 1 ML VIAL | Etoposido Solucion Inyectable Vial 100mg / 5Mml X 1 | VELCADE (BORTEZOMIB) 3.5MG C/1 FCO AMP | VELCADE 3.5 VIAL SET DE 1 FCO",
+Argentina,Bortezomib,si,BORTEZOMIB,BORTEZOMIB DEVA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,NEOMIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Bortezomib,si,BORTEZOMIB,LEUCEMIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Cetuximab,si,CETUXIMAB,ERBITUX,Brasil::Pague Menos | Colombia::Locatel | México::Macrofarmacias | República Dominicana::Los Hidalgos,5 mg/ml,Frasco-ampolla x 1 | Solución inyectable x 1 | Solución x 1,ERBITUX (CETUXIMAB) 5MG/ML FCO AMP 20ML | ERBITUX 5MG/ML SOL. X 1 VIAL | Erbitux 5mg/Ml 1 Frasco Ampola Com 20ml Com Solução De Uso Intravenoso | Erbitux 5mg/Ml 1 Frasco Ampola Solução Uso Intravenoso 100ml | Erbitux Solucion Inyectable Vial 5mg / Ml 20ml X 1,
+Argentina,Ciclosporina,si,CICLOSPORINA,SANDIMMUN NEORAL,Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Los Hidalgos,100 mg | 25 mg | 50 mg,Cápsulas x 50 | x 50,SANDIMMUN NEORAL (CICLOSPORINA) 100MG FCO 50ML | SANDIMMUN NEORAL 100MG 50ML SOL | SANDIMMUN NEORAL 100MG X 50CAP | SANDIMMUN NEORAL 25MG X 50 CAP | Sandimmun Neoral 100mg 50 Cápsulas Sandimmun Neoral 100mg Com 50 Cápsulas | Sandimmun Neoral 100mg 50ml Sandimnun Neoral 100mg 50ml Sl - Imunossupressor | Sandimmun Neoral 25mg 50 Cápsulas Sandimmun Neoral 25mg Com 50 Cápsulas - Imunossupressor | Sandimmun Neoral 50mg 50 Cápsulas Sandimmun Neoral 50mg Com 50 Cápsulas,
+Argentina,Ciclosporina,si,CICLOSPORINA A,MODUSIK - A OFTENO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ciclosporina,si,CICLOSPORINA,SANDIMMUN NEORAL 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ciclosporina,si,CICLOSPORINA,SANDIMMUN NEORAL 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ciclosporina,si,CICLOSPORINA,CITABICLOS 50,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ciclosporina,si,CICLOSPORINA,CITABICLOS 25,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ciclosporina,si,CICLOSPORINA,CITABICLOS 100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ciclosporina,si,CICLOSPORINA,RESTASIS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ciclosporina,si,CICLOSPORINA,CICLOSPORINA,Brasil::Pague Menos | Colombia::Locatel | México::Macrofarmacias | República Dominicana::Los Hidalgos,0.1 % | 100 mg | 25 mg | 50 mg,Cápsulas x 50 | x 5 | x 50,EMICROX (CICLOSPORINA) 100MG C/50 CAP | Modusik A Solucion 0.1% X 5Ml | Neoral 100mg X 50 Capsulas | SANDIMMUN NEORAL (CICLOSPORINA) 100MG FCO 50ML | SANDIMMUN NEORAL 100MG 50ML SOL | SANDIMMUN NEORAL 100MG X 50CAP | SANDIMMUN NEORAL 25MG X 50 CAP | Sandimmun Neoral 100mg 50 Cápsulas Sandimmun Neoral 100mg Com 50 Cápsulas,
+Argentina,Daratumumab,si,DARATUMUMAB,DARZALEX,México::Macrofarmacias | República Dominicana::Los Hidalgos,400 mg/20 ml,Ampolla x 1 | Frasco-ampolla,DARZALEX (DARATUMUMAB) 400MG/20ML FRASCO AMPULA CON 20ML | DARZALEX 400MG/20 ML X 1 AMP,
+Argentina,Daratumumab,si,DARATUMUMAB,DARZALEX FASPRO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,LITEDA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,VARITINIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,KIDELIS  50,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,KIDELIS 70,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,KIDELIS  100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB MONOHIDRATO,DASATIXANE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,DASATINIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,DASATINIB 70 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,DASATINIB 50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,DASATINIB 20 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB (COMO MONOHIDRATO),DASATINIB,Colombia::Locatel,70 mg,Tabletas,Sprycel Tabletas 70mg X 60,
+Argentina,Dasatinib,si,DASATINIB,TYKOSAT,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,DASTILA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,DASATINIB KEMEX 50MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,DASATINIB KEMEX 70 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,DASATINIB KEMEX 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Dasatinib,si,DASATINIB,DAPIBUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Emicizumab,si,EMICIZUMAB,HEMLIBRA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Everolimus,si,EVEROLIMUS,CERTICAN,Brasil::Pague Menos | República Dominicana::Los Hidalgos,0.5 mg | 0.75 mg | 1 mg,Comprimidos x 60 | Tabletas x 60,"CERTICAN TAB 0.50 MG X 60 TAB | CERTICAN TAB 0.75 MG X 60 TAB | Certican 0,5mg Com 60 Comprimidos | Certican 0,75mg Com 60 Comprimidos | Certican 1mg Com 60 Comprimidos",
+Argentina,Everolimus,si,EVEROLIMUS,AFINITOR 10 mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Everolimus,si,EVEROLIMUS,EVEROLIMUS,Brasil::Pague Menos | República Dominicana::Los Hidalgos,0.5 mg | 0.75 mg | 1 mg | 10 mg | 2.5 mg | 5 mg,Comprimidos x 30 | Comprimidos x 60 | Tabletas x 10 | Tabletas x 30 | Tabletas x 60,"AFINITOR 10MG X 30TAB | Afinitor 10mg Com 30 Comprimidos | Afinitor 2,5mg Com 30 Comprimidos | Afinitor 5mg Com 30 Comprimidos | CERTICAN TAB 0.50 MG X 60 TAB | CERTICAN TAB 0.75 MG X 60 TAB | Certican 0,5mg Com 60 Comprimidos | Certican 0,75mg Com 60 Comprimidos",
+Argentina,Everolimus,si,EVEROLIMUS,XILCATOR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Everolimus,si,EVEROLIMUS,EVEROLIMUS 0.75 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Everolimus,si,EVEROLIMUS,EVEROLIMUS 0.50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Everolimus,si,EVEROLIMUS,NAT-EVEROLIMUS 5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Everolimus,si,EVEROLIMUS,NAT-EVEROLIMUS 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Everolimus,si,EVEROLIMUS,EVEROLIMUS 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Everolimus,si,EVEROLIMUS,EVEROLIMUS 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Factor de crecimiento epidérmico humano recombinante,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Argentina,Factor IX,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Argentina,Galsulfasa,si,GALSULFASA,NAGLAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Guselkumab,si,GUSELKUMAB,TREMFYA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 2 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 20 ML (10 MG/ML),,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ibrutinib,si,IBRUTINIB,IMBRUVICA,Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::Los Hidalgos,140 mg | 420 mg | 560 mg,Comprimidos x 30 | Cápsulas x 120 | Cápsulas x 90 | Tabletas x 30 | x 30,IMBRUVICA 420 MG 30 TABLETAS | IMBRUVICA 420MG X 30CAP | IMBRUVICA 560MG X 30CAP | Imbruvica 140 Mg Com 120 Cápsulas | Imbruvica 140 Mg Com 90 Capsulas | Imbruvica 140mg Com 30 Comprimidos | Imbruvica 420mg Com 30 comprimidos | Imbruvica 560 Mg Com Rev Ct Bl Al Plas Pvc/Pctfe Trans X 30,
+Argentina,Ibrutinib,si,IBRUTINIB,BRUTIB 140 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ibrutinib,si,IBRUTINIB,BRIKATIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ibrutinib,si,IBRUTINIB INN,IBRUTINIB 140 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ibrutinib,si,IBRUTINIB,VILANOR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ibrutinib,si,IBRUTINIB,IBRUTINIB ELEA 140 MG CÁPSULAS DURAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ibrutinib,si,IBRUTINIB,RUTIX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ibrutinib,si,IBRUTINIB,IBRUTINIB,Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::Los Hidalgos | República Dominicana::Qualipharma,140 mg | 420 mg | 560 mg,Comprimidos x 30 | Cápsulas x 120 | Cápsulas x 90 | Tabletas x 30 | x 30,IMBRUVICA 420 MG 30 TABLETAS | IMBRUVICA 420MG X 30CAP | IMBRUVICA 560MG X 30CAP | Ibruxen (Ibrutinib) Frasco | Imbruvica 140 Mg Com 120 Cápsulas | Imbruvica 140 Mg Com 90 Capsulas | Imbruvica 140mg Com 30 Comprimidos | Imbruvica 420mg Com 30 comprimidos,
+Argentina,Ibrutinib,si,IBRUTINIB,IBRUTINIB KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ibrutinib,si,IBRUTINIB,IBRULEU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Imiglucerasa,si,IMIGLUCERASA,CEREZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1A,si,INTERFERON B-1 a,REBIF NF 44 MCG / 0.5 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1A,si,INTERFERON RECOMBINANTE BETA 1B,BETAFERON,Colombia::Locatel,0.25 mg,Ampolla x 1,Betaferon Interferon Beta-1B Vial 0.25mg X 15,
+Argentina,Interferón beta 1A,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 5 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1A,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 3 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1A,si,INTERFERÓN BETA-1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1A,si,INTERFERÓN BETA1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1A,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 10 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1A,si,INTERFERON ALFA- 2B RECOMBINANTE,BIOFERON 3 MUI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1A,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 3 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1A,si,INTERFERON BETA 1 A,AVONEX,Colombia::Locatel,30 mcg/0.5 ml,Solución inyectable x 1,Avonex Solucion Inyectable Vial 30mcg / 0.5ml X 4,
+Argentina,Interferón beta 1B,si,INTERFERON B-1 a,REBIF NF 44 MCG / 0.5 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1B,si,INTERFERON RECOMBINANTE BETA 1B,BETAFERON,Colombia::Locatel,0.25 mg,Ampolla x 1,Betaferon Interferon Beta-1B Vial 0.25mg X 15,
+Argentina,Interferón beta 1B,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 5 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1B,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 3 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1B,si,INTERFERÓN BETA-1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1B,si,INTERFERÓN BETA1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1B,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 10 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1B,si,INTERFERON ALFA- 2B RECOMBINANTE,BIOFERON 3 MUI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1B,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 3 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Interferón beta 1B,si,INTERFERON BETA 1 A,AVONEX,Colombia::Locatel,30 mcg/0.5 ml,Solución inyectable x 1,Avonex Solucion Inyectable Vial 30mcg / 0.5ml X 4,
+Argentina,Lapatinib ditosilato,si,LAPATINIB DITOSILATO EQ. A LAPATINIB,LAPATINIB 250 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lapatinib ditosilato,si,LAPATINIB DITOSILATO MONOHIDRATO,NOTISTIR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,NUVYOR 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,REVLIMID,México::Macrofarmacias,25 mg,x 21,REVLIMID (LENALIDOMIDA) 25MG C/21 CAP,
+Argentina,Lenalidomida,si,LENALIDOMIDA,KEVIDRAX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,RENGED 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,RENGED 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,RENGED 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,RENGED 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,LENALIDOMIDA,México::Macrofarmacias,25 mg,x 21,REVLIMID (LENALIDOMIDA) 25MG C/21 CAP,
+Argentina,Lenalidomida,si,LENALIDOMIDA,RELIDOMIDE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,NUVYOR 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,NUVYOR 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,NUVYOR 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,LENAKAST-10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,LENALIM 5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,LENALIM 10MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,LENALIM 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,LENALIM 25MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,MYELOPAST 25,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,MYELOPAST 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,NAT-LENALIDOMIDA 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,NAT-LENALIDOMIDA 25,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,LIDOXIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,TRONARIN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,LIMIDE 5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA,LIMIDE 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Lenalidomida,si,LENALIDOMIDA (FORMA-H1),LIMIDE 15,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Nilotinib,si,NILOTINIB,NILOTINIB 150 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Nilotinib,si,NILOTINIB,TASICАР 150 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Nilotinib,si,NILOTINIB CLORHIDRATO MONOHIDRATO,HENILOT IMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Nilotinib,si,NILOTINIB,NILOTINIB,Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Los Hidalgos,150 mg | 200 mg,Cápsulas x 112 | Cápsulas x 120 | Tabletas | x 112,TASIGNA 200MG X 112CAP | Tasigna 150mg Com 120 Capsulas Gelatinosas Dura | Tasigna 200mg Com 112 Capsulas Gelatinosas Dura | Tasigna Tabletas 200mg X 120,
+Argentina,Nilotinib,si,NILOTINIB,NILOVITAE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Nilotinib,si,NILOTINIB,TASICAP 200 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Nilotinib,si,NILOTINIB,TYKONIL 200,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Nilotinib,si,NILOTINIB,TYKONIL 150,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Obinutuzumab,si,OBINUTUZUMAB,GAZYVA,México::Macrofarmacias,1000 mg/40 ml,x 1,GAZYVA (OBINUTUZUMAB) 1000MG/40ML 1 VIAL,
+Argentina,Ocrelizumab,si,OCRELIZUMAB,OCREVUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,IBRANCE 75MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,IBRANCE 100MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,IBRANCE 100 MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,IBRANCE 125MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,IBRANCE 125 MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALNIBO 125,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALNIBO 75,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALNIBO 100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PARITERIB TUTEUR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB INN,PALBOCICLIB 125 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALBOLIX 75 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALBOLIX 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALBOLIX 125 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALBOCICLIB,Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Los Hidalgos | República Dominicana::Qualipharma,100 mg | 125 mg | 75 mg,Cápsulas x 21 | x 21,IBRANCE 100 MG X 21 CAPS | IBRANCE 125MG X 21CAP | IBRANCE-21 (PALBOCICLIB) 125MG FCO C/21 CAP | Ibrance 100 Mg Com 21 Capsulas | Ibrance 125 Mg Com 21 Capsulas | Ibrance 75mg Com 21 Capsulas | Palboxen (Palbociclib) Frasco,
+Argentina,Palbociclib,si,PALBOCICLIB,PALBOCICLIB 75 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALBOCICLIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALFIRST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,VETRANO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALBOCICLIB 100MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALBOCICLIB 125MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Palbociclib,si,PALBOCICLIB,PALBOCICLIB KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pertuzumab,si,PERTUZUMAB,PERJETA,Brasil::Pague Menos,420 mg,Frasco-ampolla x 1,Perjeta 420mg Com 1 Frasco-Ampola Com 14ml De Solução Para Infusão De Uso Intravenoso (Embalagem Hospitalar),
+Argentina,Pertuzumab,si,PERTUZUMAB / TRASTUZUMAB,PHESGO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pertuzumab/Trastuzumab,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Argentina,Pirfenidona,si,PIRFENIDONA,KITOSCELL LP,México::Macrofarmacias,600 mg,Tabletas x 90,KITOSCELL LP (PIRFENIDONA) 600MG C/90 TAB,
+Argentina,Pirfenidona,si,PIRFENIDONA,ESGRINIL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pirfenidona,si,PIRFENIDONA,MISOFAGAN 267,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pirfenidona,si,PIRFENIDONA,PIRFENIDONA,Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::FarmaValue,267 mg | 600 mg,Cápsulas x 270 | Gel | Tabletas x 90,"Esbriet 267mg Com 270 Capsulas | KITOSCELL LP (PIRFENIDONA) 600MG C/90 TAB | Kitos Cell Gel, 10 gramos",
+Argentina,Pirfenidona,si,PIRFENIDONA,FRIOXOL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pirfenidona,si,PIRFENIDONA,PIRFONE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pirfenidona,si,PIRFENIDONA,FIXPUL 267 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pirfenidona,si,PIRFENIDONA,FIXPUL 801MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pirfenidona,si,PIRFENIDONA,FIXPUL 534 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pirfenidona,si,PIRFENIDONA,PIRFETON 267,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Regorafenib,si,REGORAFENIB,STIVARGA®,Brasil::Pague Menos,40 mg,Comprimidos x 28 | Comprimidos x 84,Stivarga 40mg Com 28 Comprimidos | Stivarga 40mg Com 84 Comprimidos,
+Argentina,Remdesivir,si,REMDESIVIR,REMDESIVIR,República Dominicana::Los Hidalgos,100 mg,Ampolla x 1,JUBI-R 100MG X 1AMP (REMDESIVIR) | NINAVIR 100MG VIAL ( REMDESIVIR) | REMDESIVIR 100MG INY BDREM,
+Argentina,Riociguat,si,RIOCIGUAT,ADEMPAS®,Brasil::Pague Menos,0.5 mg | 1 mg | 1.5 mg | 2 mg,Comprimidos x 42,"Adempas 0,5mg Com 42 Comprimidos | Adempas 1,5mg 42 Comprimidos Revestidos | Adempas 1mg 42 Comprimidos Revestidos | Adempas 2mg Com 42 Comprimidos Revestidos",
+Argentina,Riociguat,si,RIOCIGUAT,RIOCIGUAT 1MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,PULLMOGUAT 1MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,RIOCIGUAT 2 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,PULLMOGUAT 2MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,RIOCIGUAT 2.5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,PULLMOGUAT 2.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,RIOCIGUAT 1.5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,PULLMOGUAT 1.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,RIOCI 2,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,RIOCI 1.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,RIOCI 0.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,RIOCI 1,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Riociguat,si,RIOCIGUAT,RIOCI 2.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Sofosbuvir/Velpatasvir,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Argentina,Sorafenib tosilato,si,SORAFENIB TOSILATO,SORAFENIB TOSILATO 200 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Sorafenib tosilato,si,SORAFENIB TOSILATO,NEXAVAR®,Colombia::Locatel | República Dominicana::Carol,200 mg,Tabletas | Tabletas x 60,NEXAVAR 200 MG 60 TABLETAS | Nexavar Tabletas 200mg X 60,
+Argentina,Sorafenib tosilato,si,SORAFENIB TOSILATO EQUIV. A SORAFENIB,SORAFENIB 200 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Teriflunomida,si,TERIFLUNOMIDA,AUBAGIO®,Brasil::Pague Menos | México::Macrofarmacias,14 mg,Comprimidos x 30 | Tabletas x 28,AUBAGIO (TERIFLUNOMIDA) 14MG C/28 TAB | Aubagio 14mg Com 30 Comprimidos Psicotropico,
+Argentina,Teriflunomida,si,TERIFLUNOMIDA,AUBAGIO,Brasil::Pague Menos | México::Macrofarmacias,14 mg,Comprimidos x 30 | Tabletas x 28,AUBAGIO (TERIFLUNOMIDA) 14MG C/28 TAB | Aubagio 14mg Com 30 Comprimidos Psicotropico,
+Argentina,Teriflunomida,si,TERIFLUNOMIDA,TERFLIMIDA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Teriflunomida,si,TERIFLUNOMIDA,TERIFLUNOMIDA 14 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Teriflunomida,si,TERIFLUNOMIDA,TEFLUMID 14  mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Teriflunomida,si,TERIFLUNOMIDA,TERIFLUNOMIDA,Brasil::Pague Menos | México::Macrofarmacias,14 mg,Comprimidos x 30 | Tabletas x 28,AUBAGIO (TERIFLUNOMIDA) 14MG C/28 TAB | Aubagio 14mg Com 30 Comprimidos Psicotropico | Teriflunomida 14mg Com 30 Comprimidos,
+Argentina,Teriflunomida,si,TERIFLUNOMIDA,TERITENER,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Teriflunomida,si,TERIFLUNOMIDA,LUPEX®,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Teriflunomida,si,TERIFLUNOMIDA,TERIFLUNOMIDA 14 MG SANDOZ,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ustekinumab,si,USTEKINUMAB,STELARA,Brasil::Pague Menos | República Dominicana::Carol,130 mg | 45 mg | 90 mg,Frasco-ampolla x 1 | Jeringa x 1 | Solución inyectable,"STELARA 90 MG 1 ML SOLUCION INYECTABLE | Stelara 130mg Solução Injetável 1 Frasco-Ampola 26ml | Stelara 45 Mg Com 1 Seringa Preenchida Com Dispositivo De Seguranca 0,5ml De Solucao De Uso Subcutaneo | Stelara 45mg  Com 1 Frasco-Ampola Com 5ml De Solucao De Uso Subcutaneo | Stelara 90mg Solucao Com 1 Seringa Preenchida Com Dispositivo De Segurança Com 1ml De Solução De Uso Subcutâneo",
+Argentina,Ustekinumab,si,USTEKINUMAB,USTEKINUMAB,Brasil::Pague Menos | República Dominicana::Carol,130 mg | 45 mg | 90 mg,Frasco-ampolla x 1 | Jeringa x 1 | Solución inyectable,"STELARA 90 MG 1 ML SOLUCION INYECTABLE | Stelara 130mg Solução Injetável 1 Frasco-Ampola 26ml | Stelara 45 Mg Com 1 Seringa Preenchida Com Dispositivo De Seguranca 0,5ml De Solucao De Uso Subcutaneo | Stelara 45mg  Com 1 Frasco-Ampola Com 5ml De Solucao De Uso Subcutaneo | Stelara 90mg Solucao Com 1 Seringa Preenchida Com Dispositivo De Segurança Com 1ml De Solução De Uso Subcutâneo",
+Argentina,Ustekinumab,si,USTEKINUMAB,USTEKINUMAB 90 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ustekinumab,si,USTEKINUMAB,USTEKINUMAB 45 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Ustekinumab,si,USTEKINUMAB,UZTOK,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Blinatumomab,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Argentina,PEG-ASP (pegilada),no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Argentina,Risdiplam,si,RISDIPLAM,EVRYSDI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pegfilgrastim,si,PEGFILGRASTIM,PEG-RELIGRAST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pegfilgrastim,si,PEGFILGRASTIM,PEG - RELIGRAST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pegfilgrastim,si,PEGFILGRASTIM,ZIEXTENZO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Argentina,Pegfilgrastim,si,PEGFILGRASTIM,PEGISTRIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Acetato de glatiramer,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Brasil,Agalsidasa beta,si,AGALSIDASA BETA,FABRAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Atezolizumab,si,ATEZOLIZUMAB,TECENTRIQ,México::Macrofarmacias,1200 mg/20 ml,Frasco-ampolla x 1,TECENTRIQ (ATEZOLIZUMAB) 1200MG/20ML FCO AMP,
+Brasil,Azacitidina,si,AZACITIDINA,ICLACITIDINA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Azacitidina,si,AZACITIDINA,VIDAZA,Colombia::Locatel | República Dominicana::Los Hidalgos,100 mg,Ampolla x 1 | Solución inyectable,VIDAZA 100MG X 1 AMPOLLA | Vidaza Polvo Solucion Inyectable 100mg X 1,
+Brasil,Azacitidina,si,AZACITIDINA,AZACITIDINA KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Azacitidina,si,AZACITIDINA,AZZA IMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Azacitidina,si,AZACITIDINA,ITERBIL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Azacitidina,si,AZACITIDINA,AZADINE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Azacitidina,si,AZACITIDINA,XITIDIN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Azacitidina,si,AZACITIDINA,AZACITIDINA 100 MG,Argentina::Farmacity,100 mg,Frasco x 1,Zylatadina Azacitidina 100 mg Polvo Liofilizado x 1 Frasco Ampolla,
+Brasil,Azacitidina,si,AZACITIDINA,CITAZA 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Azacitidina,si,AZACITIDINA,AZACITE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Azacitidina,si,AZACITIDINA,AZATIREL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Azacitidina,si,AZACITIDINA,AZADUAL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Basiliximab,si,BASILIXIMAB,SIMULECT,México::Macrofarmacias | República Dominicana::Los Hidalgos,20 mg,Ampolla x 2,SIMULECT (BASILIXIMAB) 20MG C/2 FCOS AMP | SIMULECT LYVI 20MG,
+Brasil,Bendamustina,si,CLORHIDRATO DE BENDAMUSTINA 100 MG,BENDAVAR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bendamustina,si,CLORHIDRATO DE BENDAMUSTINA,RIBOMUSTIN,Colombia::Locatel,100 mg,Solución inyectable x 1,Ribomustin Polvo Solucion Inyectable Vial 100mg X 1,
+Brasil,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,RAMIZA 100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,QUERAMUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,BESUMID 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bendamustina,si,BENDAMUSTINA HCL,LEUKUSTIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,BENDAMUSTINA 100 mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,GENSTINA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bendamustina,si,BENDAMUSTINA,BENZIMIR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bendamustina,si,BENDAMUSTINA,BENDAWEL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,BOTEMIB 3.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,VELCADE,México::Macrofarmacias | República Dominicana::Los Hidalgos,3.5 mg,Frasco-ampolla x 1 | x 5,VELCADE (BORTEZOMIB) 3.5MG C/1 FCO AMP | VELCADE 3.5 VIAL SET DE 1 FCO,
+Brasil,Bortezomib,si,BORTEZOMIB,BOTEMIB 1,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,BOTEMIB 2.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,BORTEZOMIB LIBRA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,VOTOBEL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,BORTEZOMIB KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB (COMO BORONATO ESTER DE MANITOL),BORVIZ  3.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,ZOMITER 3.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,BORTEZOMIB RICHMOND,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,BORTEZOMIB IMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,BORTIREL 3.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,MIBZO BORTEZOMIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,BORTEZOMIB,Colombia::Locatel | México::Macrofarmacias | República Dominicana::Los Hidalgos,100 mg | 3.5 mg,Frasco-ampolla x 1 | Solución inyectable x 1 | x 1 | x 5,"BORTEZOMIB SANDOZ 3,5MG X 1 ML VIAL | Etoposido Solucion Inyectable Vial 100mg / 5Mml X 1 | VELCADE (BORTEZOMIB) 3.5MG C/1 FCO AMP | VELCADE 3.5 VIAL SET DE 1 FCO",
+Brasil,Bortezomib,si,BORTEZOMIB,BORTEZOMIB DEVA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,NEOMIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Bortezomib,si,BORTEZOMIB,LEUCEMIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Daratumumab,si,DARATUMUMAB,DARZALEX,México::Macrofarmacias | República Dominicana::Los Hidalgos,400 mg/20 ml,Ampolla x 1 | Frasco-ampolla,DARZALEX (DARATUMUMAB) 400MG/20ML FRASCO AMPULA CON 20ML | DARZALEX 400MG/20 ML X 1 AMP,
+Brasil,Daratumumab,si,DARATUMUMAB,DARZALEX FASPRO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,LITEDA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,VARITINIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,KIDELIS  50,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,KIDELIS 70,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,KIDELIS  100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB MONOHIDRATO,DASATIXANE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,DASATINIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,DASATINIB 70 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,DASATINIB 50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,DASATINIB 20 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB (COMO MONOHIDRATO),DASATINIB,Colombia::Locatel,70 mg,Tabletas,Sprycel Tabletas 70mg X 60,
+Brasil,Dasatinib,si,DASATINIB,TYKOSAT,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,DASTILA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,DASATINIB KEMEX 50MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,DASATINIB KEMEX 70 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,DASATINIB KEMEX 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dasatinib,si,DASATINIB,DAPIBUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Dornasa alfa,si,DORNASA ALFA,PULMOZYME,Argentina::Farmacity | México::Macrofarmacias,2.5 mg | 2.5 mg/2.5 ml,Ampolla x 1 | Frasco-ampolla x 6,"PULMOZYME (DORNASA ALFA) 2.5MG/2.5ML C/6 FCO AMP | Pulmozyme Dnasa 2,5 mg Inyección Ampolla x 6",
+Brasil,Emicizumab,si,EMICIZUMAB,HEMLIBRA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,OCTANATE 1000,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Factor de coagulación VIII,si,ACTIVIDAD DE DESVIO DEL INHNIBIDOR DE FACTOR VIII,FEIBA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Factor de coagulación VIII,si,RH FACTOR DE COAGULACION VIII,NUWIQ,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,BERIATE,Argentina::Farmacity,1000 ui,Frasco x 1,Beriate P 1000 Ui Factor VIII x 1 Frasco Ampolla + Equipo de Transfusión,
+Brasil,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,FACTOR VIII DE COAGULACIÓN HUMANA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Factor de crecimiento epidérmico humano recombinante,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Brasil,Factor IX,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Brasil,Galsulfasa,si,GALSULFASA,NAGLAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Guselkumab,si,GUSELKUMAB,TREMFYA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 2 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 20 ML (10 MG/ML),,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Imiglucerasa,si,IMIGLUCERASA,CEREZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA ANTITETANICA HUMANA,TETANOGAMMA ® P,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA G HUMANA NORMAL,INMUNOGLUBLINA G ENDOVENOSA UNC AL 5%,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,PROTEÍNA DE INMUNOGLOBULINA (HUMANA),GAMUNEX​­-C,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,PROTEÍNA DE INMUNOGLOBULINA (HUMANA),GAMUNEX-C,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA ANTIHEPATITIS B (HUMANA),HYPERHEP B,República Dominicana::Los Hidalgos,,Solución inyectable,HYPERHEP-B SOL INY 5ML INMUNOGLOBULINA),
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA ANTI­​ D,RHOPHYLAC 300,Argentina::Farmacity | Colombia::Locatel | México::Macrofarmacias | República Dominicana::FarmaValue,300 mcg | 300 mcg/2 ml,Ampolla x 1 | Jeringa prellenada,"RHOPHYLAC (INMUNOGLOBULINA ANTI-D) 300MCG/2ML JER PRELL 2ML | Rhophylac 300 Anti-D Inmunoglobulina Humana, ampolla ? | Rhophylac 300 mcg Inmunoglobulina Jeringa Prellenada x 1 | Rhophylac 300mcg Ampolla X 1",
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA,OCTAGAM,México::Macrofarmacias | República Dominicana::Carol | República Dominicana::Los Hidalgos,10 % | 5 %,Frasco-ampolla x 1,OCTAGAM (INMUNOGLOBULINA HUMANA) 5% 5GR FCO AMP 100ML | OCTAGAM 10% 100ML | OCTAGAM 10% 10G 100 ML (INMUNOGLOBULINA HUMANA),
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA NORMAL,PRIVIGEN®,Argentina::Farmacity,,Ampolla x 100,Privigen 10 Inmunoglobulina Ampolla x 1 x 100 ml | Privigen Inmunoglobulina Humana 50 ml x  1,
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA ANTI RHO-D (MONOCLONAL),RHOCLONE,República Dominicana::Carol | República Dominicana::FarmaValue | República Dominicana::Los Hidalgos,300 mcg,Ampolla x 1,"Anti-D Inmunoglobulina Humana Rhoclone 300mcg, ampolla 1ml | RHOCLONE 300 MCG INMUNOGLOBULINA ANTI RHO-D 1 ML | RHOCLONE 300MCG ANTI-RHO 1ML INY INMUNOGLOBULINA",
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA NORMAL,IMMUNOREL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA NORMAL,INMUNOGLOBULINA 10%,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA,BIOVEN MONO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA,BIOGAM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA NORMAL,LIV-GAMMA SN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA PH4,IVGLOBE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA,GAMMARAAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA NORMAL (HUMANA),INMUNOGLOBULINA NORMAL (HUMANA),,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA,INMUNOGLOBULINA HUMANA (PH 4),Argentina::Farmacity | Colombia::Locatel | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::FarmaValue | República Dominicana::Los Hidalgos,10 % | 16.5 % | 25 mg/5 ml | 250 ui | 300 mcg | 300 mcg/2 ml | 5 % | Vacuna nm | Vacuna nm; Inmunoglobulina 250ui,Ampolla x 1 | Ampolla x 100 | Ampolla x 2 | Ampollas | Caja | Frasco-ampolla x 1 | Inyectable x 5 | Jeringa prellenada | Solución inyectable | x 1 | x 2,"Anti-D Inmunoglobulina Humana Rhoclone 300mcg, ampolla 1ml | Antitetanica Tetglob 250U.I., 1 unidad ® | Gammaglobulina -T Inmunoglobulina Humana 16.5% Inyectable x 5 ml | HYPERHEP-B SOL INY 5ML INMUNOGLOBULINA) | HyperRHO-D Inmunoglobulina Humana Anti-D, Jeringa pre-cargada? | IGANTET INMUNOGLOBULINA HUMANA 250 UI.1ML | INMUNOGLOBULINA HUMANA DEL TETANO 250UI INY | Immunorho 300 mcg Inmunoglobulina Anti-rho x 1 x 2 ml",
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA ANTI-HEPATITIS B,INMUNOGLOBULINA ANTI-HEPATITIS B 100 UI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA ANTI-HEPATITIS B,INMUNOGLOBULINA ANTI-HEPATITIS B 200 UI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Inmunoglobulina humana,si,INMUNOGLOBULINA HUMANA NORMAL,VITAGLOB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1A,si,INTERFERON B-1 a,REBIF NF 44 MCG / 0.5 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1A,si,INTERFERON RECOMBINANTE BETA 1B,BETAFERON,Colombia::Locatel,0.25 mg,Ampolla x 1,Betaferon Interferon Beta-1B Vial 0.25mg X 15,
+Brasil,Interferón beta 1A,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 5 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1A,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 3 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1A,si,INTERFERÓN BETA-1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1A,si,INTERFERÓN BETA1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1A,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 10 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1A,si,INTERFERON ALFA- 2B RECOMBINANTE,BIOFERON 3 MUI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1A,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 3 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1A,si,INTERFERON BETA 1 A,AVONEX,Colombia::Locatel,30 mcg/0.5 ml,Solución inyectable x 1,Avonex Solucion Inyectable Vial 30mcg / 0.5ml X 4,
+Brasil,Interferón beta 1B,si,INTERFERON B-1 a,REBIF NF 44 MCG / 0.5 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1B,si,INTERFERON RECOMBINANTE BETA 1B,BETAFERON,Colombia::Locatel,0.25 mg,Ampolla x 1,Betaferon Interferon Beta-1B Vial 0.25mg X 15,
+Brasil,Interferón beta 1B,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 5 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1B,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 3 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1B,si,INTERFERÓN BETA-1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1B,si,INTERFERÓN BETA1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1B,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 10 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1B,si,INTERFERON ALFA- 2B RECOMBINANTE,BIOFERON 3 MUI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1B,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 3 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Interferón beta 1B,si,INTERFERON BETA 1 A,AVONEX,Colombia::Locatel,30 mcg/0.5 ml,Solución inyectable x 1,Avonex Solucion Inyectable Vial 30mcg / 0.5ml X 4,
+Brasil,Lenalidomida,si,LENALIDOMIDA,NUVYOR 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,REVLIMID,México::Macrofarmacias,25 mg,x 21,REVLIMID (LENALIDOMIDA) 25MG C/21 CAP,
+Brasil,Lenalidomida,si,LENALIDOMIDA,KEVIDRAX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,RENGED 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,RENGED 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,RENGED 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,RENGED 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,LENALIDOMIDA,México::Macrofarmacias,25 mg,x 21,REVLIMID (LENALIDOMIDA) 25MG C/21 CAP,
+Brasil,Lenalidomida,si,LENALIDOMIDA,RELIDOMIDE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,NUVYOR 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,NUVYOR 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,NUVYOR 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,LENAKAST-10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,LENALIM 5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,LENALIM 10MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,LENALIM 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,LENALIM 25MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,MYELOPAST 25,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,MYELOPAST 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,NAT-LENALIDOMIDA 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,NAT-LENALIDOMIDA 25,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,LIDOXIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,TRONARIN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,LIMIDE 5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA,LIMIDE 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Lenalidomida,si,LENALIDOMIDA (FORMA-H1),LIMIDE 15,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Obinutuzumab,si,OBINUTUZUMAB,GAZYVA,México::Macrofarmacias,1000 mg/40 ml,x 1,GAZYVA (OBINUTUZUMAB) 1000MG/40ML 1 VIAL,
+Brasil,Ocrelizumab,si,OCRELIZUMAB,OCREVUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Pertuzumab/Trastuzumab,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Brasil,Remdesivir,si,REMDESIVIR,REMDESIVIR,República Dominicana::Los Hidalgos,100 mg,Ampolla x 1,JUBI-R 100MG X 1AMP (REMDESIVIR) | NINAVIR 100MG VIAL ( REMDESIVIR) | REMDESIVIR 100MG INY BDREM,
+Brasil,Rituximab,si,RITUXIMAB,MABTHERA,Argentina::Farmacity | Colombia::Locatel | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::Los Hidalgos,100 mcg/10 ml | 100 mg/10 ml | 1400 mg/11.7 ml | 500 mcg/50 ml | 500 mg | 500 mg/50 ml,Ampolla x 1 | Ampolla x 2 (detalle) | Frasco-ampolla x 1 | Frasco-ampolla x 2 | Solución inyectable x 1 | x 1,MABTHERA (RITUXIMAB) 100MG/10ML C/2 FCO AMP 10ML | MABTHERA (RITUXIMAB) 500MG/50ML FCO AMP | MABTHERA 100MG/10ML 2 AMP***DET | MABTHERA 1400MG/11.7 ML1 VIAL | MABTHERA 500 MG 50 ML 1 AMPOLLA SOL. | MABTHERA 500 MG 50 ML X 1 VIAL | Mabthera 500 mg/50 ml Rituximab Frasco Ampolla x 1 | Mabthera Solucion Inyectable Ampolla 100mcg / 10ml X 2,
+Brasil,Rituximab,si,RITUXIMAB,RIXATHON,República Dominicana::Los Hidalgos,100 mg/10 ml | 500 mg/50 ml,,RIXATHON 100MG/ 10ML | RIXATHON 500MG/ 50ML IV,
+Brasil,Rituximab,si,RITUXIMAB,TRUXIMA,República Dominicana::Los Hidalgos,100 mg/10 ml | 500 mg/50 ml,,TRUXIMA 100MG/10ML FCO | TRUXIMA 500MG/50ML( 10MG/ML),
+Brasil,Rituximab,si,RITUXIMAB,RITUXIREL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Rituximab,si,RITUXIMAB,RITUXIMAB 500,Argentina::Farmacity,500 mg,Ampolla x 1,Novex 500 Rituximab 500 mg Vial x 1 Ampolla,
+Brasil,Rituximab,si,RITUXIMAB,USMAL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Rituximab,si,RITUXIMAB,RITUXAM 100 MG/10 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Rituximab,si,RITUXIMAB,BAMIX 500mg / 50mL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Rituximab,si,RITUXIMAB,BAMIX 500 mg / 50 mL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Rituximab,si,RITUXIMAB,BAMIX 100 mg / 10 mL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Rituximab,si,RITUXIMAB,REDDITUX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Rituximab,si,RITUXIMAB (R-DNA ORIGIN),RITUXIMAB 100 MG / 10 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Secukinumab,si,SECUKINUMAB,SCAPHO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Sofosbuvir/Velpatasvir,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Brasil,Sorafenib tosilato,si,SORAFENIB TOSILATO,SORAFENIB TOSILATO 200 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Sorafenib tosilato,si,SORAFENIB TOSILATO,NEXAVAR®,Colombia::Locatel | República Dominicana::Carol,200 mg,Tabletas | Tabletas x 60,NEXAVAR 200 MG 60 TABLETAS | Nexavar Tabletas 200mg X 60,
+Brasil,Sorafenib tosilato,si,SORAFENIB TOSILATO EQUIV. A SORAFENIB,SORAFENIB 200 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Timoglobulina de conejo (antitimocitos humana),no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Brasil,Tocilizumab,si,TOCILIZUMAB,ACTEMRA,Argentina::Farmacity | Colombia::Locatel | México::Macrofarmacias | República Dominicana::Carol,162 mg/0.9 ml | 200 mg | 200 mg/10 ml | 80 mg,Ampolla x 1 | Solución inyectable,"ACTEMRA 20 MG/ML 200 MG/10ML 1 AMPOLLA | Actemra Sc Tocilizumab 162mg/0,9 ml Jeringa x 4 un | Actemra Solucion Inyectable 200mg X 1 | Actemra Solucion Inyectable 80mg X 1 | Actemra Tocilizumab 200 mg x  1 | ROACTEMRA (TOCILIZUMAB) 200MG/10ML F.A.",
+Brasil,Tocilizumab,si,TOCILIZUMAB,AVTOZMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,HERCEPTIN,Argentina::Farmacity | Colombia::Locatel | República Dominicana::Carol | República Dominicana::Los Hidalgos,44 mg/50 ml | 600 mg | 600 mg/5 ml,Ampolla x 1 | Solución inyectable | Solución inyectable x 1,HERCEPTIN 600 MG 5ML SOLUCION INYECTABLE | HERCEPTIN 600MG/5ML | Herceptin Sc Trastuzumab 600 mg/5 ml Vial x 1 | Herceptin Solucion Inyectable Vial 44mg / 50ml X 1,
+Brasil,Trastuzumab,si,TRASTUZUMAB EMTANSINA,KADCYLA,México::Macrofarmacias,100 mg | 160 mg/8 ml,Frasco-ampolla x 1,KADCYLA (TRASTUZUMAB EMTANSINA) 100MG FCO AMP | KADCYLA (TRASTUZUMAB EMTANSINA) 160MG/8ML FCO AMP,
+Brasil,Trastuzumab,si,TRASTUZUMAB,PRIUNTA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,HERZUMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,TUZDAL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,TRASTUREL 440 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,TRASTUREL 150 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,TRAZIMERA 440 mg POLVO.....(VER AL DORSO).,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,TRAZIMERA 440 MG POLVO.....(VER AL DORSO),,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,TRAZIMERA 440MG,México::Macrofarmacias,440 mg,Frasco-ampolla x 1,TRAZIMERA (TRASTUZUMAB) 440MG FCO AMP,
+Brasil,Trastuzumab,si,PERTUZUMAB / TRASTUZUMAB,PHESGO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,HERMAB 440 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Trastuzumab,si,TRASTUZUMAB,HERMAB 150MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Blinatumomab,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Brasil,Risdiplam,si,RISDIPLAM,EVRYSDI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Pegfilgrastim,si,PEGFILGRASTIM,PEG-RELIGRAST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Pegfilgrastim,si,PEGFILGRASTIM,PEG - RELIGRAST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Pegfilgrastim,si,PEGFILGRASTIM,ZIEXTENZO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Brasil,Pegfilgrastim,si,PEGFILGRASTIM,PEGISTRIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Acetato de glatiramer,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Colombia,Agalsidasa beta,si,AGALSIDASA BETA,FABRAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Atezolizumab,si,ATEZOLIZUMAB,TECENTRIQ,México::Macrofarmacias,1200 mg/20 ml,Frasco-ampolla x 1,TECENTRIQ (ATEZOLIZUMAB) 1200MG/20ML FCO AMP,
+Colombia,Basiliximab,si,BASILIXIMAB,SIMULECT,México::Macrofarmacias | República Dominicana::Los Hidalgos,20 mg,Ampolla x 2,SIMULECT (BASILIXIMAB) 20MG C/2 FCOS AMP | SIMULECT LYVI 20MG,
+Colombia,Bicalutamida,si,BICALUTAMIDA,CASODEX,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::Los Hidalgos,150 mg | 50 mg,Comprimidos x 28 | Tabletas x 28,CASODEX 150 MG 28 TABLETAS | CASODEX 150MG X 28TAB | CASODEX 50 MG 28 TABLETAS | CASODEX 50MG/28 TABS | Casodex 50mg Com 28 Comprimidos | Casodex Bicalutamida 50 mg x 28 Comp,
+Colombia,Bicalutamida,si,BICALUTAMIDA,BICALUT,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::FarmaValue | República Dominicana::Los Hidalgos,150 mg | 50 mg | Bicalutamida 150mg,Comprimidos | Comprimidos x 28 | Comprimidos x 30 | Tabletas | Tabletas x 28 | Tabletas x 30,"BICALUTAMIDA SANDOZ 50 MG 30 TABLETAS | BICALUTAMIDA SANDOZ 50MG X 30 TAB | Bicalut 150mg, 30 | Bicalut 50mg, 30 | Bicalutamida 50mg 30 Comprimidos Genérico Oncoprod | Bicalutamida 50mg 30 Comprimidos Revestidos Genérico Eurofarma | Bicalutamida Ima Bicalutamida 50 mg x 28 Comp | Bicalutamida Kemex Bicalutamida 50 mg x 28 Comp Recubiertos",
+Colombia,Bicalutamida,si,BICALUTAMIDA,BINUSYL® 50,República Dominicana::FarmaValue,50 mg,Comprimidos,"Binusyl 50mg, 30",
+Colombia,Bicalutamida,si,BICALUTAMIDA,BUNIDE,República Dominicana::FarmaValue,150 mg,Tabletas,"Bunide 150mg, 30",
+Colombia,Bicalutamida,si,BICALUTAMIDA,BICALUTAMIDA SANDOZ,República Dominicana::Carol | República Dominicana::Los Hidalgos,50 mg,Tabletas x 30,BICALUTAMIDA SANDOZ 50 MG 30 TABLETAS | BICALUTAMIDA SANDOZ 50MG X 30 TAB,
+Colombia,Bicalutamida,si,BICALUTAMIDA,HETROCALT 50 mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bicalutamida,si,BICALUTAMIDA,HETROCALT 150 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bicalutamida,si,BICALUTAMIDA,BICALUTAMIDA IMA 50MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bicalutamida,si,BICALUTAMIDA,PROSTACLEAN,República Dominicana::FarmaValue,150 mg,Tabletas x 30,"Prostaclean 150mg, 30 tabletas",
+Colombia,Bicalutamida,si,BICALUTAMIDA,BICALUTAMIDA,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::FarmaValue | República Dominicana::Los Hidalgos,150 mg | 50 mg | Bicalutamida 150mg,Comprimidos | Comprimidos x 28 | Comprimidos x 30 | Tabletas | Tabletas x 28 | Tabletas x 30,"BICALUTAMIDA SANDOZ 50 MG 30 TABLETAS | BICALUTAMIDA SANDOZ 50MG X 30 TAB | Bicalut 150mg, 30 | Bicalut 50mg, 30 | Bicalutamida 50mg 30 Comprimidos Genérico Oncoprod | Bicalutamida 50mg 30 Comprimidos Revestidos Genérico Eurofarma | Bicalutamida Ima Bicalutamida 50 mg x 28 Comp | Bicalutamida Kemex Bicalutamida 50 mg x 28 Comp Recubiertos",
+Colombia,Bicalutamida,si,BICALUTAMIDA,LIMUX® 50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bicalutamida,si,BICALUTAMIDA,TEOPRIN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bicalutamida,si,BICALUTAMIDA,BINUSYL® 150,República Dominicana::FarmaValue,Bicalutamida 150mg,Comprimidos,"Binusyl 150, 30",
+Colombia,Bicalutamida,si,BICALUTAMIDA,LIMUX® 150 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bosentán,si,BOSENTAN,USENTA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bosentán,si,MONOHIDRATO DE BOSENTAN,CANABOSEN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bosentán,si,BOSENTAN,BOSENTAN,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::FarmaValue,125 mg | 62.5 mg,Comprimidos x 60 | Tabletas x 60,"Bosentana 125mg Com 60 Comprimidos | Bosentana 125mg Com 60 Comprimidos Genérico Biolab | Bosentana 125mg Com 60 Comprimidos Genérico Janssen | Bosetrax 125mg, caja de 60 tabletas | Masican Bosentan 62.5 mg x 60 Comp Recubiertos",
+Colombia,Bosentán,si,BOSENTAN MONOHIDRATO,BOSENTAN 62.5MG MK,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bosentán,si,BOSENTAN MONOHIDRATO,BOSENTAN 125MG MK,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bosentán,si,BOSENTAN HIDRATO,BOSENTAN 125 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bosentán,si,BOSENTÁN,BUNTREXIL 125,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bosentán,si,BOSENTÁN,"BUNTREXIL 62,5",,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Bosentán,si,BOSENTÁN MONOHIDRATO EQUIVALENTE A BOSENTÁN,BOSENTÁN,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::FarmaValue,125 mg | 62.5 mg,Comprimidos x 60 | Tabletas x 60,"Bosentana 125mg Com 60 Comprimidos | Bosentana 125mg Com 60 Comprimidos Genérico Biolab | Bosentana 125mg Com 60 Comprimidos Genérico Janssen | Bosetrax 125mg, caja de 60 tabletas | Masican Bosentan 62.5 mg x 60 Comp Recubiertos",
+Colombia,Daratumumab,si,DARATUMUMAB,DARZALEX,México::Macrofarmacias | República Dominicana::Los Hidalgos,400 mg/20 ml,Ampolla x 1 | Frasco-ampolla,DARZALEX (DARATUMUMAB) 400MG/20ML FRASCO AMPULA CON 20ML | DARZALEX 400MG/20 ML X 1 AMP,
+Colombia,Daratumumab,si,DARATUMUMAB,DARZALEX FASPRO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Deferasirox,si,DEFERASIROX,FERASIRO,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Los Hidalgos,125 mg | 250 mg | 500 mg | 90 mg,Comprimidos x 28 | Comprimidos x 30 | Tabletas x 28,Deferade Deferasirox 125 mg x 28 Comp Dispersables | Deferade Deferasirox 250 mg x 28 Comp Dispersables | Deferade Deferasirox 500 mg x 28 Comp Dispersables | EXJADE 500MG X 28TAB | Exjade 125mg Com 28 Comprimidos | Exjade 250mg Com 28 Comprimidos | Exjade 500mg Com 28 Comprimidos | Jadenu Deferasirox 90 mg x 30 Comp,
+Colombia,Deferasirox,si,DEFERASIROX,DEFERADE TUTEUR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Deferasirox,si,DEFERASIROX,EXJADE,Brasil::Pague Menos | República Dominicana::Los Hidalgos,125 mg | 250 mg | 500 mg,Comprimidos x 28 | Tabletas x 28,EXJADE 500MG X 28TAB | Exjade 125mg Com 28 Comprimidos | Exjade 250mg Com 28 Comprimidos | Exjade 500mg Com 28 Comprimidos,
+Colombia,Deferasirox,si,DEFERASIROX,GUMAB 500 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Deferasirox,si,DEFERASIROX,FERASIRO FCT,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Deferasirox,si,DEFERASIROX,DEFERASIROX,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Los Hidalgos,125 mg | 250 mg | 500 mg | 90 mg,Comprimidos x 28 | Comprimidos x 30 | Tabletas x 28,Deferade Deferasirox 125 mg x 28 Comp Dispersables | Deferade Deferasirox 250 mg x 28 Comp Dispersables | Deferade Deferasirox 500 mg x 28 Comp Dispersables | EXJADE 500MG X 28TAB | Exjade 125mg Com 28 Comprimidos | Exjade 250mg Com 28 Comprimidos | Exjade 500mg Com 28 Comprimidos | Jadenu Deferasirox 90 mg x 30 Comp,
+Colombia,Dornasa alfa,si,DORNASA ALFA,PULMOZYME,Argentina::Farmacity | México::Macrofarmacias,2.5 mg | 2.5 mg/2.5 ml,Ampolla x 1 | Frasco-ampolla x 6,"PULMOZYME (DORNASA ALFA) 2.5MG/2.5ML C/6 FCO AMP | Pulmozyme Dnasa 2,5 mg Inyección Ampolla x 6",
+Colombia,Eltrombopag,si,ELTROMBOPAG,ELOPAG TUTEUR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Eltrombopag,si,ELTROMBOPAG OLAMINA,REVOLADE 50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Eltrombopag,si,ELTROMBOPAG OLAMINA,REVOLADE 25 MG,República Dominicana::Carol,25 mg,Tabletas x 28,REVOLADE 25 MG 28 TABLETAS,
+Colombia,Eltrombopag,si,ELTROMBOPAG,ELTROMBOPAG,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::Los Hidalgos,25 mg | 50 mg,Comprimidos x 14 | Comprimidos x 28 | Tabletas x 28,Elopag Eltrombopag 25 mg x 28 Comp | Eltrombopague Olamina 25mg 14 Comprimidos Genérico Oncorp | Eltrombopague Olamina 50mg 14 Comprimidos Genérico Oncorp | REVOLADE (ELTROMBOPAG) 25MG C/28 TAB | REVOLADE (ELTROMBOPAG) 50MG C/28 TAB | REVOLADE 25 MG 28 TABLETAS | REVOLADE 25MG X 28TAB | Revolade 25mg 14 Comprimidos Revestidos,
+Colombia,Eltrombopag,si,ELTROMBOPAG,TROMBOLADE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Eltrombopag,si,ELTROMBOPAG OLAMINA,ELTROMBOPAG 25 MG,Argentina::Farmacity,25 mg,Comprimidos x 28,Elopag Eltrombopag 25 mg x 28 Comp | Revolade Eltrombopag 25 mg x 28 Comp,
+Colombia,Eltrombopag,si,ELTROMBOPAG OLAMINA,ELTROMBOPAG 50 MG,Argentina::Farmacity,50 mg,Comprimidos x 28,Revolade Eltrombopag 50 mg x 28 Comp,
+Colombia,Eltrombopag,si,ELTROMBOPAG OLAMINA,BIEMPAG – GENBIE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Eltrombopag,si,ELTROMBOPAG OLAMINA,ELTROM 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Eltrombopag,si,ELTROMBOPAG,ORNATE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Emicizumab,si,EMICIZUMAB,HEMLIBRA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Enzalutamida,si,ENZALUTAMIDA,ENZALUTAMIDA,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::Los Hidalgos,40 mg,Comprimidos x 112 | Cápsulas x 120,XTANDI (ENZALUTAMIDA) 40MG C/120 CAPS | XTANDI 40 MG X 120 CAPSULAS | XTANDI 40MG X 120 CAPS | Xtandi 40mg 112 Comprimidos Revestidos | Xtandi 40mg 120 Cápsulas Gelatinosas Moles Xtandi 40mg Com 120 Cápsulas Gelatinosas Moles | Zalutex 40 mg Enzalutamida x 120 Cáps,
+Colombia,Enzalutamida,si,"ENZALUTAMIDA 40,00 MG",ENZALUTAMIDA ELEA,Argentina::Farmacity,40 mg,Cápsulas x 120,Zalutex 40 mg Enzalutamida x 120 Cáps,
+Colombia,Enzalutamida,si,ENZALUTAMIDA,INDENZA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Enzalutamida,si,ENZALUTAMIDA,XALUT,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Enzalutamida,si,ENZALUTAMIDA,ENZALUTAMIDA 40 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Enzalutamida,si,ENZALUTAMIDA 40MG,PROCAPS ALUDEL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Enzalutamida,si,ENZALUTAMIDA,KREVEDA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Enzalutamida,si,ENZALUTAMIDA,ENZALUXANE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Enzalutamida,si,ENZALUTAMIDA,ENZAVITAE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Enzalutamida,si,ENZALUTAMIDA,ENZA,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::Los Hidalgos,40 mg,Comprimidos x 112 | Cápsulas x 120,XTANDI (ENZALUTAMIDA) 40MG C/120 CAPS | XTANDI 40 MG X 120 CAPSULAS | XTANDI 40MG X 120 CAPS | Xtandi 40mg 112 Comprimidos Revestidos | Xtandi 40mg 120 Cápsulas Gelatinosas Moles Xtandi 40mg Com 120 Cápsulas Gelatinosas Moles | Zalutex 40 mg Enzalutamida x 120 Cáps,
+Colombia,Everolimus,si,EVEROLIMUS,CERTICAN,Brasil::Pague Menos | República Dominicana::Los Hidalgos,0.5 mg | 0.75 mg | 1 mg,Comprimidos x 60 | Tabletas x 60,"CERTICAN TAB 0.50 MG X 60 TAB | CERTICAN TAB 0.75 MG X 60 TAB | Certican 0,5mg Com 60 Comprimidos | Certican 0,75mg Com 60 Comprimidos | Certican 1mg Com 60 Comprimidos",
+Colombia,Everolimus,si,EVEROLIMUS,AFINITOR 10 mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Everolimus,si,EVEROLIMUS,EVEROLIMUS,Brasil::Pague Menos | República Dominicana::Los Hidalgos,0.5 mg | 0.75 mg | 1 mg | 10 mg | 2.5 mg | 5 mg,Comprimidos x 30 | Comprimidos x 60 | Tabletas x 10 | Tabletas x 30 | Tabletas x 60,"AFINITOR 10MG X 30TAB | Afinitor 10mg Com 30 Comprimidos | Afinitor 2,5mg Com 30 Comprimidos | Afinitor 5mg Com 30 Comprimidos | CERTICAN TAB 0.50 MG X 60 TAB | CERTICAN TAB 0.75 MG X 60 TAB | Certican 0,5mg Com 60 Comprimidos | Certican 0,75mg Com 60 Comprimidos",
+Colombia,Everolimus,si,EVEROLIMUS,XILCATOR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Everolimus,si,EVEROLIMUS,EVEROLIMUS 0.75 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Everolimus,si,EVEROLIMUS,EVEROLIMUS 0.50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Everolimus,si,EVEROLIMUS,NAT-EVEROLIMUS 5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Everolimus,si,EVEROLIMUS,NAT-EVEROLIMUS 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Everolimus,si,EVEROLIMUS,EVEROLIMUS 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Everolimus,si,EVEROLIMUS,EVEROLIMUS 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,OCTANATE 1000,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Factor de coagulación VIII,si,ACTIVIDAD DE DESVIO DEL INHNIBIDOR DE FACTOR VIII,FEIBA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Factor de coagulación VIII,si,RH FACTOR DE COAGULACION VIII,NUWIQ,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,BERIATE,Argentina::Farmacity,1000 ui,Frasco x 1,Beriate P 1000 Ui Factor VIII x 1 Frasco Ampolla + Equipo de Transfusión,
+Colombia,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,FACTOR VIII DE COAGULACIÓN HUMANA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Factor de crecimiento epidérmico humano recombinante,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Colombia,Factor IX,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Colombia,Galsulfasa,si,GALSULFASA,NAGLAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Golimumab,si,GOLIMUMAB,SIMPONI,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Los Hidalgos,50 mg,Jeringa prellenada x 1 | Pluma x 1,"SIMPONI (GOLIMUMAB) 50MG CAJ C/1 JGA PRELL | SIMPONI 50MG 0.5ML | Simponi 50mg Solucao Injetavel 0,5ml Com 1 Caneta Manga Seguradora | Simponi 50mg Solução Injetável 0,5ml Com 1 Caneta | Simponi Golimumab 50 mg Autoinyector",
+Colombia,Golimumab,si,GOLIMUMAB,GOLIMUMAB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Golimumab,si,GOLIMUMAB,GOLIMUREL 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Golimumab,si,GOLIMUMAB,GOLIMUMAB 50 MG,Argentina::Farmacity,50 mg,,Simponi Golimumab 50 mg Autoinyector,
+Colombia,Golimumab,si,GOLIMUMAB,GOLIMUREL 50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Guselkumab,si,GUSELKUMAB,TREMFYA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 2 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 20 ML (10 MG/ML),,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ibrutinib,si,IBRUTINIB,IMBRUVICA,Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::Los Hidalgos,140 mg | 420 mg | 560 mg,Comprimidos x 30 | Cápsulas x 120 | Cápsulas x 90 | Tabletas x 30 | x 30,IMBRUVICA 420 MG 30 TABLETAS | IMBRUVICA 420MG X 30CAP | IMBRUVICA 560MG X 30CAP | Imbruvica 140 Mg Com 120 Cápsulas | Imbruvica 140 Mg Com 90 Capsulas | Imbruvica 140mg Com 30 Comprimidos | Imbruvica 420mg Com 30 comprimidos | Imbruvica 560 Mg Com Rev Ct Bl Al Plas Pvc/Pctfe Trans X 30,
+Colombia,Ibrutinib,si,IBRUTINIB,BRUTIB 140 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ibrutinib,si,IBRUTINIB,BRIKATIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ibrutinib,si,IBRUTINIB INN,IBRUTINIB 140 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ibrutinib,si,IBRUTINIB,VILANOR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ibrutinib,si,IBRUTINIB,IBRUTINIB ELEA 140 MG CÁPSULAS DURAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ibrutinib,si,IBRUTINIB,RUTIX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ibrutinib,si,IBRUTINIB,IBRUTINIB,Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::Los Hidalgos | República Dominicana::Qualipharma,140 mg | 420 mg | 560 mg,Comprimidos x 30 | Cápsulas x 120 | Cápsulas x 90 | Tabletas x 30 | x 30,IMBRUVICA 420 MG 30 TABLETAS | IMBRUVICA 420MG X 30CAP | IMBRUVICA 560MG X 30CAP | Ibruxen (Ibrutinib) Frasco | Imbruvica 140 Mg Com 120 Cápsulas | Imbruvica 140 Mg Com 90 Capsulas | Imbruvica 140mg Com 30 Comprimidos | Imbruvica 420mg Com 30 comprimidos,
+Colombia,Ibrutinib,si,IBRUTINIB,IBRUTINIB KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ibrutinib,si,IBRUTINIB,IBRULEU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Imiglucerasa,si,IMIGLUCERASA,CEREZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,NUVYOR 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,REVLIMID,México::Macrofarmacias,25 mg,x 21,REVLIMID (LENALIDOMIDA) 25MG C/21 CAP,
+Colombia,Lenalidomida,si,LENALIDOMIDA,KEVIDRAX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,RENGED 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,RENGED 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,RENGED 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,RENGED 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,LENALIDOMIDA,México::Macrofarmacias,25 mg,x 21,REVLIMID (LENALIDOMIDA) 25MG C/21 CAP,
+Colombia,Lenalidomida,si,LENALIDOMIDA,RELIDOMIDE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,NUVYOR 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,NUVYOR 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,NUVYOR 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,LENAKAST-10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,LENALIM 5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,LENALIM 10MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,LENALIM 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,LENALIM 25MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,MYELOPAST 25,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,MYELOPAST 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,NAT-LENALIDOMIDA 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,NAT-LENALIDOMIDA 25,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,LIDOXIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,TRONARIN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,LIMIDE 5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA,LIMIDE 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Lenalidomida,si,LENALIDOMIDA (FORMA-H1),LIMIDE 15,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETILO,CELLCEPT,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::FarmaValue | República Dominicana::Los Hidalgos,250 mg | 500 mg,Comprimidos | Comprimidos x 50 | Cápsulas x 100 | Tabletas x 50 (detalle),"CELLCEPT (ACIDO MICOFENOLICO MOFETILO) 500MG C/50 COMP | CELLCEPT 500 MG 50 COMPRIMIDOS | CELLCEPT 500MG X 50TAB***DET | Cellcept 250 mg + Micofenolato Mofetil x 100 Cáps | Cellcept 500 mg + Micofenolato Mofetil x 50 Comp | Cellcept 500mg Com 50 Comprimidos | Cellcept 500mg, 50",
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETIL,MOFILET,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO DE MOFETILO,MICOFENOLATO MOFETILO,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::FarmaValue | República Dominicana::Los Hidalgos,250 mg | 500 mg,Comprimidos | Comprimidos x 50 | Cápsulas x 100 | Cápsulas x 50 | Tabletas x 50 | Tabletas x 50 (detalle),"CELLCEPT (ACIDO MICOFENOLICO MOFETILO) 500MG C/50 COMP | CELLCEPT 500 MG 50 COMPRIMIDOS | CELLCEPT 500MG X 50TAB***DET | Cellcept 250 mg + Micofenolato Mofetil x 100 Cáps | Cellcept 500 mg + Micofenolato Mofetil x 50 Comp | Cellcept 500mg Com 50 Comprimidos | Cellcept 500mg, 50 | ESPEFLUN (MICOFENOLATO DE MOFETILO) 500MG C/50 COMP",
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO DE MOFETILO,MICOFLAVIN 500,República Dominicana::FarmaValue,500 mg,Comprimidos,"Micoflavin 500mg, 50",
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO SODICO,MYFORTIC,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::Los Hidalgos,180 mg | 360 mg,Comprimidos x 120 | Tabletas | Tabletas x 120,MYFORTIC (ACIDO MICOFELONICO) 360MG C/120 TAB | MYFORTIC 360 MG 120 TABLETAS | MYFORTIC FCT 360MG X 120COMP | Myfortic 180mg Com 120 Comprimidos Revestidos | Myfortic 360 mg Micofenolato Sódico x 120 Comp | Myfortic 360mg Com 120 Comprimidos Revestidos | Myfortic Micofenolato Sódico 180 mg x 120 Comp | Myfortic Tabletas 180mg X 120,
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETILO,MICOFLAVIN 250,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETILO,MYMOF,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETILO,MYMOF 250,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETILO USP,IMMUTIL 250,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETILO,MICOFENOLATO 250 MG (LINEA INTRALAB),,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETILO,MICOFENOLATO 500 MG (LINEA INTRALAB),,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETILO,MICOFENOLATO  MOFETILO,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::FarmaValue | República Dominicana::Los Hidalgos,250 mg | 500 mg,Comprimidos | Comprimidos x 50 | Cápsulas x 100 | Cápsulas x 50 | Tabletas x 50 | Tabletas x 50 (detalle),"CELLCEPT (ACIDO MICOFENOLICO MOFETILO) 500MG C/50 COMP | CELLCEPT 500 MG 50 COMPRIMIDOS | CELLCEPT 500MG X 50TAB***DET | Cellcept 250 mg + Micofenolato Mofetil x 100 Cáps | Cellcept 500 mg + Micofenolato Mofetil x 50 Comp | Cellcept 500mg Com 50 Comprimidos | Cellcept 500mg, 50 | ESPEFLUN (MICOFENOLATO DE MOFETILO) 500MG C/50 COMP",
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO SÓDICO EQUIVALENTE A ÁCIDO MICOFENOLOÍCO,MICONATO®,República Dominicana::FarmaValue,360 mg,Capletas x 30,"Miconato 360mg, caja de 30 capletas",
+Colombia,Micofenolato mofetilo,si,MICOFENOLATO MOFETILO,MICOFENOLATO MOFETILO 500 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Obinutuzumab,si,OBINUTUZUMAB,GAZYVA,México::Macrofarmacias,1000 mg/40 ml,x 1,GAZYVA (OBINUTUZUMAB) 1000MG/40ML 1 VIAL,
+Colombia,Ocrelizumab,si,OCRELIZUMAB,OCREVUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Olaparib,si,OLAPARIB,LYNPARZA,Argentina::Farmacity | Brasil::Pague Menos,150 mg,Comprimidos x 56,Lynparza 150 mg Olaparib x 56 Comp | Lynparza 150mg Com 56 Comprimidos,
+Colombia,Olaparib,si,OLAPARIB,OLAPATER,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Olaparib,si,OLAPARIB,OLAPARIB 150 PROMECAN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Olaparib,si,OLAPARIB,OLAPARIB 50 PROMECAN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,IBRANCE 75MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,IBRANCE 100MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,IBRANCE 100 MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,IBRANCE 125MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,IBRANCE 125 MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALNIBO 125,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALNIBO 75,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALNIBO 100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PARITERIB TUTEUR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB INN,PALBOCICLIB 125 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALBOLIX 75 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALBOLIX 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALBOLIX 125 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALBOCICLIB,Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Los Hidalgos | República Dominicana::Qualipharma,100 mg | 125 mg | 75 mg,Cápsulas x 21 | x 21,IBRANCE 100 MG X 21 CAPS | IBRANCE 125MG X 21CAP | IBRANCE-21 (PALBOCICLIB) 125MG FCO C/21 CAP | Ibrance 100 Mg Com 21 Capsulas | Ibrance 125 Mg Com 21 Capsulas | Ibrance 75mg Com 21 Capsulas | Palboxen (Palbociclib) Frasco,
+Colombia,Palbociclib,si,PALBOCICLIB,PALBOCICLIB 75 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALBOCICLIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALFIRST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,VETRANO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALBOCICLIB 100MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALBOCICLIB 125MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palbociclib,si,PALBOCICLIB,PALBOCICLIB KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pembrolizumab,si,PEMBROLIZUMAB,KEYTRUDA,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Los Hidalgos,100 mg | 100 mg/4 ml,Frasco-ampolla x 1 | Solución inyectable | x 4,KEYTRUDA (PEMBROLIZUMAB) 100MG/4ML FCO AMP 4ML | KEYTRUDA SFI 100MG/4ML (10ML) | Keytruda 100 mg Vial Pembrolizumab x 1 x 4 ml | Keytruda 100mg/4ml Solução Injetavel | Keytruda 100mg/4ml Solução Injetável 2 Ampolas 4ml | Keytruda Pembrolizumab 100 mg x 4 ml,
+Colombia,Pembrolizumab,si,PEMBROLIZUMAB,PAZAMBRO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pertuzumab,si,PERTUZUMAB,PERJETA,Brasil::Pague Menos,420 mg,Frasco-ampolla x 1,Perjeta 420mg Com 1 Frasco-Ampola Com 14ml De Solução Para Infusão De Uso Intravenoso (Embalagem Hospitalar),
+Colombia,Pertuzumab,si,PERTUZUMAB / TRASTUZUMAB,PHESGO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pertuzumab/Trastuzumab,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Colombia,Pirfenidona,si,PIRFENIDONA,KITOSCELL LP,México::Macrofarmacias,600 mg,Tabletas x 90,KITOSCELL LP (PIRFENIDONA) 600MG C/90 TAB,
+Colombia,Pirfenidona,si,PIRFENIDONA,ESGRINIL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pirfenidona,si,PIRFENIDONA,MISOFAGAN 267,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pirfenidona,si,PIRFENIDONA,PIRFENIDONA,Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::FarmaValue,267 mg | 600 mg,Cápsulas x 270 | Gel | Tabletas x 90,"Esbriet 267mg Com 270 Capsulas | KITOSCELL LP (PIRFENIDONA) 600MG C/90 TAB | Kitos Cell Gel, 10 gramos",
+Colombia,Pirfenidona,si,PIRFENIDONA,FRIOXOL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pirfenidona,si,PIRFENIDONA,PIRFONE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pirfenidona,si,PIRFENIDONA,FIXPUL 267 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pirfenidona,si,PIRFENIDONA,FIXPUL 801MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pirfenidona,si,PIRFENIDONA,FIXPUL 534 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pirfenidona,si,PIRFENIDONA,PIRFETON 267,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Regorafenib,si,REGORAFENIB,STIVARGA®,Brasil::Pague Menos,40 mg,Comprimidos x 28 | Comprimidos x 84,Stivarga 40mg Com 28 Comprimidos | Stivarga 40mg Com 84 Comprimidos,
+Colombia,Remdesivir,si,REMDESIVIR,REMDESIVIR,República Dominicana::Los Hidalgos,100 mg,Ampolla x 1,JUBI-R 100MG X 1AMP (REMDESIVIR) | NINAVIR 100MG VIAL ( REMDESIVIR) | REMDESIVIR 100MG INY BDREM,
+Colombia,Ribociclib,si,SUCCINATO DE RIBOCICLIB,KISQALI,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Los Hidalgos,200 mg,Comprimidos x 21 | Comprimidos x 42 | Comprimidos x 63 | Tabletas x 63,KISQALI (RIBOCICLIB) 200MG C/63 COMP | KISQALI 200MG X 63 TABLETAS | Kisqali 200mg 21 Comprimidos | Kisqali 200mg 42 Comprimidos | Kisqali 200mg 63 Comprimidos Revestidos | Kisqali 200mg Com 21 Comprimidos Revestidos | Kisqali 200mg Com 42 Comprimidos Revestidos | Kisqali Ribociclib 200 mg x 63 Comp Recubiertos,
+Colombia,Riociguat,si,RIOCIGUAT,ADEMPAS®,Brasil::Pague Menos,0.5 mg | 1 mg | 1.5 mg | 2 mg,Comprimidos x 42,"Adempas 0,5mg Com 42 Comprimidos | Adempas 1,5mg 42 Comprimidos Revestidos | Adempas 1mg 42 Comprimidos Revestidos | Adempas 2mg Com 42 Comprimidos Revestidos",
+Colombia,Riociguat,si,RIOCIGUAT,RIOCIGUAT 1MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,PULLMOGUAT 1MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,RIOCIGUAT 2 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,PULLMOGUAT 2MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,RIOCIGUAT 2.5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,PULLMOGUAT 2.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,RIOCIGUAT 1.5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,PULLMOGUAT 1.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,RIOCI 2,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,RIOCI 1.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,RIOCI 0.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,RIOCI 1,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Riociguat,si,RIOCIGUAT,RIOCI 2.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Secukinumab,si,SECUKINUMAB,SCAPHO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Teriflunomida,si,TERIFLUNOMIDA,AUBAGIO®,Brasil::Pague Menos | México::Macrofarmacias,14 mg,Comprimidos x 30 | Tabletas x 28,AUBAGIO (TERIFLUNOMIDA) 14MG C/28 TAB | Aubagio 14mg Com 30 Comprimidos Psicotropico,
+Colombia,Teriflunomida,si,TERIFLUNOMIDA,AUBAGIO,Brasil::Pague Menos | México::Macrofarmacias,14 mg,Comprimidos x 30 | Tabletas x 28,AUBAGIO (TERIFLUNOMIDA) 14MG C/28 TAB | Aubagio 14mg Com 30 Comprimidos Psicotropico,
+Colombia,Teriflunomida,si,TERIFLUNOMIDA,TERFLIMIDA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Teriflunomida,si,TERIFLUNOMIDA,TERIFLUNOMIDA 14 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Teriflunomida,si,TERIFLUNOMIDA,TEFLUMID 14  mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Teriflunomida,si,TERIFLUNOMIDA,TERIFLUNOMIDA,Brasil::Pague Menos | México::Macrofarmacias,14 mg,Comprimidos x 30 | Tabletas x 28,AUBAGIO (TERIFLUNOMIDA) 14MG C/28 TAB | Aubagio 14mg Com 30 Comprimidos Psicotropico | Teriflunomida 14mg Com 30 Comprimidos,
+Colombia,Teriflunomida,si,TERIFLUNOMIDA,TERITENER,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Teriflunomida,si,TERIFLUNOMIDA,LUPEX®,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Teriflunomida,si,TERIFLUNOMIDA,TERIFLUNOMIDA 14 MG SANDOZ,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Timoglobulina de conejo (antitimocitos humana),no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Colombia,Ustekinumab,si,USTEKINUMAB,STELARA,Brasil::Pague Menos | República Dominicana::Carol,130 mg | 45 mg | 90 mg,Frasco-ampolla x 1 | Jeringa x 1 | Solución inyectable,"STELARA 90 MG 1 ML SOLUCION INYECTABLE | Stelara 130mg Solução Injetável 1 Frasco-Ampola 26ml | Stelara 45 Mg Com 1 Seringa Preenchida Com Dispositivo De Seguranca 0,5ml De Solucao De Uso Subcutaneo | Stelara 45mg  Com 1 Frasco-Ampola Com 5ml De Solucao De Uso Subcutaneo | Stelara 90mg Solucao Com 1 Seringa Preenchida Com Dispositivo De Segurança Com 1ml De Solução De Uso Subcutâneo",
+Colombia,Ustekinumab,si,USTEKINUMAB,USTEKINUMAB,Brasil::Pague Menos | República Dominicana::Carol,130 mg | 45 mg | 90 mg,Frasco-ampolla x 1 | Jeringa x 1 | Solución inyectable,"STELARA 90 MG 1 ML SOLUCION INYECTABLE | Stelara 130mg Solução Injetável 1 Frasco-Ampola 26ml | Stelara 45 Mg Com 1 Seringa Preenchida Com Dispositivo De Seguranca 0,5ml De Solucao De Uso Subcutaneo | Stelara 45mg  Com 1 Frasco-Ampola Com 5ml De Solucao De Uso Subcutaneo | Stelara 90mg Solucao Com 1 Seringa Preenchida Com Dispositivo De Segurança Com 1ml De Solução De Uso Subcutâneo",
+Colombia,Ustekinumab,si,USTEKINUMAB,USTEKINUMAB 90 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ustekinumab,si,USTEKINUMAB,USTEKINUMAB 45 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Ustekinumab,si,USTEKINUMAB,UZTOK,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Blinatumomab,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Colombia,PEG-ASP (pegilada),no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+Colombia,Risdiplam,si,RISDIPLAM,EVRYSDI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pegfilgrastim,si,PEGFILGRASTIM,PEG-RELIGRAST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pegfilgrastim,si,PEGFILGRASTIM,PEG - RELIGRAST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pegfilgrastim,si,PEGFILGRASTIM,ZIEXTENZO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Pegfilgrastim,si,PEGFILGRASTIM,PEGISTRIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palonosetrón,si,NETUPITANT + PALONOSETRON,AKYNZEO,Argentina::Farmacity | Brasil::Pague Menos,300 mg,Cápsulas x 1,"Akynzeo 300mg Cloridrato De Palonosetrona + 0,56mg Netupitanto 1 Cápsula | Akynzeo Netupitant + Palonosetrón x 1 Cáps",
+Colombia,Palonosetrón,si,CLORHIDRATO DE PALONOSETRÓN,PALOHALT,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palonosetrón,si,CLORHIDRATO DE PALONOSETRÓN EQUIVALENTE A PALONOSETRÓN,PALONOSETRÓN,Argentina::Farmacity | Brasil::Pague Menos | México::Macrofarmacias | República Dominicana::Los Hidalgos,0.05 mg/ml | 0.25 mg | 0.5 mg/300 mg | 300 mg,Ampolla x 1 | Cápsulas x 1 | Frasco-ampolla x 1 | x 1,"AQYNZIO (PALONOSETRON/ NETUPITANT) 0.5MG/300MG C/1 CAP | Akynzeo 300mg Cloridrato De Palonosetrona + 0,56mg Netupitanto 1 Cápsula | Akynzeo Netupitant + Palonosetrón x 1 Cáps | GESENT (PALONOSETRON) 0.25MG FCO AMP 5 ML | ONICIT (PALONOSETRON) 0.05MG/ML FCO AMP 1.5ML | ONICIT INYECTABLE AMP.",
+Colombia,Palonosetrón,si,PALONOSETRÓN HCL EQUIV. A PALONOSETRON,KUMAB® 0.25 MG / 5 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+Colombia,Palonosetrón,si,PALONOSETRON CLORHIDRATO,PALTAZO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Acetato de glatiramer,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+México,Agalsidasa beta,si,AGALSIDASA BETA,FABRAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,ICLACITIDINA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,VIDAZA,Colombia::Locatel | República Dominicana::Los Hidalgos,100 mg,Ampolla x 1 | Solución inyectable,VIDAZA 100MG X 1 AMPOLLA | Vidaza Polvo Solucion Inyectable 100mg X 1,
+México,Azacitidina,si,AZACITIDINA,AZACITIDINA KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,AZZA IMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,ITERBIL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,AZADINE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,XITIDIN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,AZACITIDINA 100 MG,Argentina::Farmacity,100 mg,Frasco x 1,Zylatadina Azacitidina 100 mg Polvo Liofilizado x 1 Frasco Ampolla,
+México,Azacitidina,si,AZACITIDINA,CITAZA 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,AZACITE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,AZATIREL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Azacitidina,si,AZACITIDINA,AZADUAL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bicalutamida,si,BICALUTAMIDA,CASODEX,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::Los Hidalgos,150 mg | 50 mg,Comprimidos x 28 | Tabletas x 28,CASODEX 150 MG 28 TABLETAS | CASODEX 150MG X 28TAB | CASODEX 50 MG 28 TABLETAS | CASODEX 50MG/28 TABS | Casodex 50mg Com 28 Comprimidos | Casodex Bicalutamida 50 mg x 28 Comp,
+México,Bicalutamida,si,BICALUTAMIDA,BICALUT,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::FarmaValue | República Dominicana::Los Hidalgos,150 mg | 50 mg | Bicalutamida 150mg,Comprimidos | Comprimidos x 28 | Comprimidos x 30 | Tabletas | Tabletas x 28 | Tabletas x 30,"BICALUTAMIDA SANDOZ 50 MG 30 TABLETAS | BICALUTAMIDA SANDOZ 50MG X 30 TAB | Bicalut 150mg, 30 | Bicalut 50mg, 30 | Bicalutamida 50mg 30 Comprimidos Genérico Oncoprod | Bicalutamida 50mg 30 Comprimidos Revestidos Genérico Eurofarma | Bicalutamida Ima Bicalutamida 50 mg x 28 Comp | Bicalutamida Kemex Bicalutamida 50 mg x 28 Comp Recubiertos",
+México,Bicalutamida,si,BICALUTAMIDA,BINUSYL® 50,República Dominicana::FarmaValue,50 mg,Comprimidos,"Binusyl 50mg, 30",
+México,Bicalutamida,si,BICALUTAMIDA,BUNIDE,República Dominicana::FarmaValue,150 mg,Tabletas,"Bunide 150mg, 30",
+México,Bicalutamida,si,BICALUTAMIDA,BICALUTAMIDA SANDOZ,República Dominicana::Carol | República Dominicana::Los Hidalgos,50 mg,Tabletas x 30,BICALUTAMIDA SANDOZ 50 MG 30 TABLETAS | BICALUTAMIDA SANDOZ 50MG X 30 TAB,
+México,Bicalutamida,si,BICALUTAMIDA,HETROCALT 50 mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bicalutamida,si,BICALUTAMIDA,HETROCALT 150 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bicalutamida,si,BICALUTAMIDA,BICALUTAMIDA IMA 50MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bicalutamida,si,BICALUTAMIDA,PROSTACLEAN,República Dominicana::FarmaValue,150 mg,Tabletas x 30,"Prostaclean 150mg, 30 tabletas",
+México,Bicalutamida,si,BICALUTAMIDA,BICALUTAMIDA,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::FarmaValue | República Dominicana::Los Hidalgos,150 mg | 50 mg | Bicalutamida 150mg,Comprimidos | Comprimidos x 28 | Comprimidos x 30 | Tabletas | Tabletas x 28 | Tabletas x 30,"BICALUTAMIDA SANDOZ 50 MG 30 TABLETAS | BICALUTAMIDA SANDOZ 50MG X 30 TAB | Bicalut 150mg, 30 | Bicalut 50mg, 30 | Bicalutamida 50mg 30 Comprimidos Genérico Oncoprod | Bicalutamida 50mg 30 Comprimidos Revestidos Genérico Eurofarma | Bicalutamida Ima Bicalutamida 50 mg x 28 Comp | Bicalutamida Kemex Bicalutamida 50 mg x 28 Comp Recubiertos",
+México,Bicalutamida,si,BICALUTAMIDA,LIMUX® 50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bicalutamida,si,BICALUTAMIDA,TEOPRIN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bicalutamida,si,BICALUTAMIDA,BINUSYL® 150,República Dominicana::FarmaValue,Bicalutamida 150mg,Comprimidos,"Binusyl 150, 30",
+México,Bicalutamida,si,BICALUTAMIDA,LIMUX® 150 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bosentán,si,BOSENTAN,USENTA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bosentán,si,MONOHIDRATO DE BOSENTAN,CANABOSEN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bosentán,si,BOSENTAN,BOSENTAN,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::FarmaValue,125 mg | 62.5 mg,Comprimidos x 60 | Tabletas x 60,"Bosentana 125mg Com 60 Comprimidos | Bosentana 125mg Com 60 Comprimidos Genérico Biolab | Bosentana 125mg Com 60 Comprimidos Genérico Janssen | Bosetrax 125mg, caja de 60 tabletas | Masican Bosentan 62.5 mg x 60 Comp Recubiertos",
+México,Bosentán,si,BOSENTAN MONOHIDRATO,BOSENTAN 62.5MG MK,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bosentán,si,BOSENTAN MONOHIDRATO,BOSENTAN 125MG MK,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bosentán,si,BOSENTAN HIDRATO,BOSENTAN 125 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bosentán,si,BOSENTÁN,BUNTREXIL 125,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bosentán,si,BOSENTÁN,"BUNTREXIL 62,5",,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Bosentán,si,BOSENTÁN MONOHIDRATO EQUIVALENTE A BOSENTÁN,BOSENTÁN,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::FarmaValue,125 mg | 62.5 mg,Comprimidos x 60 | Tabletas x 60,"Bosentana 125mg Com 60 Comprimidos | Bosentana 125mg Com 60 Comprimidos Genérico Biolab | Bosentana 125mg Com 60 Comprimidos Genérico Janssen | Bosetrax 125mg, caja de 60 tabletas | Masican Bosentan 62.5 mg x 60 Comp Recubiertos",
+México,Cladribina,si,CLADRIBINA,MAVENCLAD,Argentina::Farmacity | Brasil::Pague Menos,10 mg,Comprimidos x 1 | Comprimidos x 4 | Comprimidos x 6,Mavenclad 10 mg Cladribina x 1 Comp | Mavenclad 10mg Com 1 Comprimido | Mavenclad 10mg Com 4 Comprimidos | Mavenclad 10mg Com 6 Comprimidos,
+México,Cladribina,si,CLADRIBINA,EMECLAD TUTEUR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Cladribina,si,CLADRIBINA,CLEUDRIT®,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,LITEDA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,VARITINIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,KIDELIS  50,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,KIDELIS 70,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,KIDELIS  100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB MONOHIDRATO,DASATIXANE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,DASATINIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,DASATINIB 70 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,DASATINIB 50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,DASATINIB 20 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB (COMO MONOHIDRATO),DASATINIB,Colombia::Locatel,70 mg,Tabletas,Sprycel Tabletas 70mg X 60,
+México,Dasatinib,si,DASATINIB,TYKOSAT,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,DASTILA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,DASATINIB KEMEX 50MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,DASATINIB KEMEX 70 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,DASATINIB KEMEX 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Dasatinib,si,DASATINIB,DAPIBUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Deferasirox,si,DEFERASIROX,FERASIRO,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Los Hidalgos,125 mg | 250 mg | 500 mg | 90 mg,Comprimidos x 28 | Comprimidos x 30 | Tabletas x 28,Deferade Deferasirox 125 mg x 28 Comp Dispersables | Deferade Deferasirox 250 mg x 28 Comp Dispersables | Deferade Deferasirox 500 mg x 28 Comp Dispersables | EXJADE 500MG X 28TAB | Exjade 125mg Com 28 Comprimidos | Exjade 250mg Com 28 Comprimidos | Exjade 500mg Com 28 Comprimidos | Jadenu Deferasirox 90 mg x 30 Comp,
+México,Deferasirox,si,DEFERASIROX,DEFERADE TUTEUR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Deferasirox,si,DEFERASIROX,EXJADE,Brasil::Pague Menos | República Dominicana::Los Hidalgos,125 mg | 250 mg | 500 mg,Comprimidos x 28 | Tabletas x 28,EXJADE 500MG X 28TAB | Exjade 125mg Com 28 Comprimidos | Exjade 250mg Com 28 Comprimidos | Exjade 500mg Com 28 Comprimidos,
+México,Deferasirox,si,DEFERASIROX,GUMAB 500 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Deferasirox,si,DEFERASIROX,FERASIRO FCT,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Deferasirox,si,DEFERASIROX,DEFERASIROX,Argentina::Farmacity | Brasil::Pague Menos | República Dominicana::Los Hidalgos,125 mg | 250 mg | 500 mg | 90 mg,Comprimidos x 28 | Comprimidos x 30 | Tabletas x 28,Deferade Deferasirox 125 mg x 28 Comp Dispersables | Deferade Deferasirox 250 mg x 28 Comp Dispersables | Deferade Deferasirox 500 mg x 28 Comp Dispersables | EXJADE 500MG X 28TAB | Exjade 125mg Com 28 Comprimidos | Exjade 250mg Com 28 Comprimidos | Exjade 500mg Com 28 Comprimidos | Jadenu Deferasirox 90 mg x 30 Comp,
+México,Emicizumab,si,EMICIZUMAB,HEMLIBRA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Everolimus,si,EVEROLIMUS,CERTICAN,Brasil::Pague Menos | República Dominicana::Los Hidalgos,0.5 mg | 0.75 mg | 1 mg,Comprimidos x 60 | Tabletas x 60,"CERTICAN TAB 0.50 MG X 60 TAB | CERTICAN TAB 0.75 MG X 60 TAB | Certican 0,5mg Com 60 Comprimidos | Certican 0,75mg Com 60 Comprimidos | Certican 1mg Com 60 Comprimidos",
+México,Everolimus,si,EVEROLIMUS,AFINITOR 10 mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Everolimus,si,EVEROLIMUS,EVEROLIMUS,Brasil::Pague Menos | República Dominicana::Los Hidalgos,0.5 mg | 0.75 mg | 1 mg | 10 mg | 2.5 mg | 5 mg,Comprimidos x 30 | Comprimidos x 60 | Tabletas x 10 | Tabletas x 30 | Tabletas x 60,"AFINITOR 10MG X 30TAB | Afinitor 10mg Com 30 Comprimidos | Afinitor 2,5mg Com 30 Comprimidos | Afinitor 5mg Com 30 Comprimidos | CERTICAN TAB 0.50 MG X 60 TAB | CERTICAN TAB 0.75 MG X 60 TAB | Certican 0,5mg Com 60 Comprimidos | Certican 0,75mg Com 60 Comprimidos",
+México,Everolimus,si,EVEROLIMUS,XILCATOR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Everolimus,si,EVEROLIMUS,EVEROLIMUS 0.75 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Everolimus,si,EVEROLIMUS,EVEROLIMUS 0.50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Everolimus,si,EVEROLIMUS,NAT-EVEROLIMUS 5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Everolimus,si,EVEROLIMUS,NAT-EVEROLIMUS 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Everolimus,si,EVEROLIMUS,EVEROLIMUS 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Everolimus,si,EVEROLIMUS,EVEROLIMUS 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,OCTANATE 1000,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Factor de coagulación VIII,si,ACTIVIDAD DE DESVIO DEL INHNIBIDOR DE FACTOR VIII,FEIBA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Factor de coagulación VIII,si,RH FACTOR DE COAGULACION VIII,NUWIQ,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,BERIATE,Argentina::Farmacity,1000 ui,Frasco x 1,Beriate P 1000 Ui Factor VIII x 1 Frasco Ampolla + Equipo de Transfusión,
+México,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,FACTOR VIII DE COAGULACIÓN HUMANA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Factor de crecimiento epidérmico humano recombinante,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+México,Factor IX,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+México,Fulvestrant,si,FULVESTRANT,FASLODEX,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Los Hidalgos,250 mg | 250 mg/5 ml,Jeringa prellenada x 5 | Solución inyectable | x 2,FASLODEX 250MG X 2 FCO 5ML JERING PRE-LLENADA (5 | FASLODEX 250MG/5ML SOL. INY. | Faslodex 250mg 5ml | Faslodex 250mg/5ml Com 2 Seringas | Faslodex Fulvestrant 250 mg Jeringa Prellenada x 2 x 5 ml | Faslodex Solucion Inyectable 250mg / 5ml X 2,
+México,Fulvestrant,si,FULVESTRANT,FULVESTRANT,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Los Hidalgos,250 mg | 250 mg/5 ml,Jeringa prellenada x 5 | Solución inyectable | x 2,FASLODEX 250MG X 2 FCO 5ML JERING PRE-LLENADA (5 | FASLODEX 250MG/5ML SOL. INY. | Faslodex 250mg 5ml | Faslodex 250mg/5ml Com 2 Seringas | Faslodex Fulvestrant 250 mg Jeringa Prellenada x 2 x 5 ml | Faslodex Solucion Inyectable 250mg / 5ml X 2,
+México,Fulvestrant,si,FULVESTRANT,SELETIV,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Fulvestrant,si,FULVESTRANT,KEMFLUD 250MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Fulvestrant,si,FULVESTRANT,FULVESTRANT IMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Fulvestrant,si,FULVESTRANT,FULL V  IMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Fulvestrant,si,FULVESTRANT,NILGABAN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Fulvestrant,si,FULVESTRANT,FULVITAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Fulvestrant,si,FULVESTRANT,FAVESAN®,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Fulvestrant,si,FULVESTRANT,FURETRANT 250 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Fulvestrant,si,FULVESTRANT,DIMERE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Galsulfasa,si,GALSULFASA,NAGLAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Guselkumab,si,GUSELKUMAB,TREMFYA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 2 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 20 ML (10 MG/ML),,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ibrutinib,si,IBRUTINIB,IMBRUVICA,Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::Los Hidalgos,140 mg | 420 mg | 560 mg,Comprimidos x 30 | Cápsulas x 120 | Cápsulas x 90 | Tabletas x 30 | x 30,IMBRUVICA 420 MG 30 TABLETAS | IMBRUVICA 420MG X 30CAP | IMBRUVICA 560MG X 30CAP | Imbruvica 140 Mg Com 120 Cápsulas | Imbruvica 140 Mg Com 90 Capsulas | Imbruvica 140mg Com 30 Comprimidos | Imbruvica 420mg Com 30 comprimidos | Imbruvica 560 Mg Com Rev Ct Bl Al Plas Pvc/Pctfe Trans X 30,
+México,Ibrutinib,si,IBRUTINIB,BRUTIB 140 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ibrutinib,si,IBRUTINIB,BRIKATIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ibrutinib,si,IBRUTINIB INN,IBRUTINIB 140 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ibrutinib,si,IBRUTINIB,VILANOR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ibrutinib,si,IBRUTINIB,IBRUTINIB ELEA 140 MG CÁPSULAS DURAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ibrutinib,si,IBRUTINIB,RUTIX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ibrutinib,si,IBRUTINIB,IBRUTINIB,Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::Los Hidalgos | República Dominicana::Qualipharma,140 mg | 420 mg | 560 mg,Comprimidos x 30 | Cápsulas x 120 | Cápsulas x 90 | Tabletas x 30 | x 30,IMBRUVICA 420 MG 30 TABLETAS | IMBRUVICA 420MG X 30CAP | IMBRUVICA 560MG X 30CAP | Ibruxen (Ibrutinib) Frasco | Imbruvica 140 Mg Com 120 Cápsulas | Imbruvica 140 Mg Com 90 Capsulas | Imbruvica 140mg Com 30 Comprimidos | Imbruvica 420mg Com 30 comprimidos,
+México,Ibrutinib,si,IBRUTINIB,IBRUTINIB KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ibrutinib,si,IBRUTINIB,IBRULEU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Imiglucerasa,si,IMIGLUCERASA,CEREZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1A,si,INTERFERON B-1 a,REBIF NF 44 MCG / 0.5 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1A,si,INTERFERON RECOMBINANTE BETA 1B,BETAFERON,Colombia::Locatel,0.25 mg,Ampolla x 1,Betaferon Interferon Beta-1B Vial 0.25mg X 15,
+México,Interferón beta 1A,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 5 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1A,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 3 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1A,si,INTERFERÓN BETA-1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1A,si,INTERFERÓN BETA1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1A,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 10 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1A,si,INTERFERON ALFA- 2B RECOMBINANTE,BIOFERON 3 MUI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1A,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 3 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1A,si,INTERFERON BETA 1 A,AVONEX,Colombia::Locatel,30 mcg/0.5 ml,Solución inyectable x 1,Avonex Solucion Inyectable Vial 30mcg / 0.5ml X 4,
+México,Interferón beta 1B,si,INTERFERON B-1 a,REBIF NF 44 MCG / 0.5 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1B,si,INTERFERON RECOMBINANTE BETA 1B,BETAFERON,Colombia::Locatel,0.25 mg,Ampolla x 1,Betaferon Interferon Beta-1B Vial 0.25mg X 15,
+México,Interferón beta 1B,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 5 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1B,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 3 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1B,si,INTERFERÓN BETA-1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1B,si,INTERFERÓN BETA1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1B,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 10 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1B,si,INTERFERON ALFA- 2B RECOMBINANTE,BIOFERON 3 MUI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1B,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 3 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Interferón beta 1B,si,INTERFERON BETA 1 A,AVONEX,Colombia::Locatel,30 mcg/0.5 ml,Solución inyectable x 1,Avonex Solucion Inyectable Vial 30mcg / 0.5ml X 4,
+México,Lapatinib ditosilato,si,LAPATINIB DITOSILATO EQ. A LAPATINIB,LAPATINIB 250 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Lapatinib ditosilato,si,LAPATINIB DITOSILATO MONOHIDRATO,NOTISTIR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Nilotinib,si,NILOTINIB,NILOTINIB 150 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Nilotinib,si,NILOTINIB,TASICАР 150 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Nilotinib,si,NILOTINIB CLORHIDRATO MONOHIDRATO,HENILOT IMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Nilotinib,si,NILOTINIB,NILOTINIB,Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Los Hidalgos,150 mg | 200 mg,Cápsulas x 112 | Cápsulas x 120 | Tabletas | x 112,TASIGNA 200MG X 112CAP | Tasigna 150mg Com 120 Capsulas Gelatinosas Dura | Tasigna 200mg Com 112 Capsulas Gelatinosas Dura | Tasigna Tabletas 200mg X 120,
+México,Nilotinib,si,NILOTINIB,NILOVITAE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Nilotinib,si,NILOTINIB,TASICAP 200 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Nilotinib,si,NILOTINIB,TYKONIL 200,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Nilotinib,si,NILOTINIB,TYKONIL 150,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ocrelizumab,si,OCRELIZUMAB,OCREVUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Olaparib,si,OLAPARIB,LYNPARZA,Argentina::Farmacity | Brasil::Pague Menos,150 mg,Comprimidos x 56,Lynparza 150 mg Olaparib x 56 Comp | Lynparza 150mg Com 56 Comprimidos,
+México,Olaparib,si,OLAPARIB,OLAPATER,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Olaparib,si,OLAPARIB,OLAPARIB 150 PROMECAN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Olaparib,si,OLAPARIB,OLAPARIB 50 PROMECAN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Omalizumab,si,OMALIZUMAB,XOLAIR 150 MG,Argentina::Farmacity | República Dominicana::Carol,150 mg | 150 mg/1.2 ml,Ampolla x 1 | Frasco-ampolla x 1,XOLAIR 150 MG/1.2 ML AMPOLLA INYECTABLE | xolair 150 mg Omalizumab Frasco Ampolla Liofilizado x 1,
+México,Omalizumab,si,OMALIZUMAB,OMALIZUMAB,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Carol,150 mg | 150 mg/1.2 ml | 150 mg/5 ml | 150 mg/ml,Ampolla x 1 | Frasco-ampolla x 1 | Jeringa prellenada | Jeringa x 1 | Solución inyectable x 1,XOLAIR 150 MG/1.2 ML AMPOLLA INYECTABLE | Xolair 150mg Solução Injetável 1 Seringa Preenchida 1ml | Xolair Solucion Inyectable Vial 150mg / 5ml X 1 | xolair 150 mg Omalizumab Frasco Ampolla Liofilizado x 1 | xolair Omalizumab 150 mg/ml Jeringa Prellenada x 1 un,
+México,Omalizumab,si,OMALIZUMAB,OMALIREL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Omalizumab,si,OMALIZUMAB,XOLAIR,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Carol,150 mg | 150 mg/1.2 ml | 150 mg/5 ml | 150 mg/ml,Ampolla x 1 | Frasco-ampolla x 1 | Jeringa prellenada | Jeringa x 1 | Solución inyectable x 1,XOLAIR 150 MG/1.2 ML AMPOLLA INYECTABLE | Xolair 150mg Solução Injetável 1 Seringa Preenchida 1ml | Xolair Solucion Inyectable Vial 150mg / 5ml X 1 | xolair 150 mg Omalizumab Frasco Ampolla Liofilizado x 1 | xolair Omalizumab 150 mg/ml Jeringa Prellenada x 1 un,
+México,Omalizumab,si,OMALIZUMAB,OMLYCLO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,BETAHISTINA MESILATO,VERTIX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,MESILATO DE DOXAZOSINA,CARDURA XL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,DABIGATRAN ETEXILATO MESILATO,PRADAXA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO,IMATINIB 400,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO,IMATINIB 100,Argentina::Farmacity,100 mg,Comprimidos x 180,Tagonib Imatinib 100 mg x 180 Comp,
+México,Osimertinib mesilato,si,DICLOFENAC SODICO + PRIDINOL MESILATO,DIOXAFLEX PLUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO,GLIVEC,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Carol | República Dominicana::Los Hidalgos,100 mg | 400 mg,Comprimidos | Comprimidos x 30 | Comprimidos x 60 | Tabletas x 30,GLIVEC 400 MG 30 TABLETAS | GLIVEC FCT 400MG X 30TAB IMP | Glivec 100 mg Imatinib x 60 Comp Recubiertos | Glivec 100mg Com 60 Comprimidos Revestidos | Glivec 400 mg Imatinib x 30 Comp Recubiertos | Glivec 400mg Com 30 Comprimidos | Glivec Comprimidos 400mg X 30,
+México,Osimertinib mesilato,si,MESILATO DE IMATINIBE,MESILATO DE IMATINIBE,Brasil::Pague Menos,100 mg | 400 mg,Comprimidos x 30 | Comprimidos x 60,Imatinibe 400mg 30 Comprimidos Revestidos Genérico Blau | Mesilato De Imatinibe 100mg Com 60 Comprimidos Revestidos Generico Eurofarma | Mesilato De Imatinibe 400mg 30 Comprimidos Genérico Sun Pharma | Mesilato De Imatinibe 400mg Com 30 Comprimidos Revestidos Generico Eurofarma | Mesilato de Imatinibe 100mg Com 60 comprimidos generico Cristalia | Mesilato de Imatinibe 400mg Com 30 comprimidos genérico Cristalia,
+México,Osimertinib mesilato,si,MESILATO DE IMATINIB,APO-IMATINIB,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,MELOXICAM + PRIDINOL MESILATO,MOVIX FLEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO,IMATERO 400 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO,MATIN IMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,LENVATINIB MESILATO 4MG,VARENVATIB 4 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,LENVATINIB MESILATO,VARENVATIB 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,BETAHISTINA MESILATO,FRISTAL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO,IMACORD 400,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO,IMACORD 100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,MESILATO IMATINIB,GLIVEC 400 MG,Argentina::Farmacity | República Dominicana::Carol,400 mg,Comprimidos x 30 | Tabletas x 30,GLIVEC 400 MG 30 TABLETAS | Glivec 400 mg Imatinib x 30 Comp Recubiertos,
+México,Osimertinib mesilato,si,IMATINIB MESILATO BP EQUIVALENTE A IMATINIB,IMATINIB 100 mg,Argentina::Farmacity,100 mg,Comprimidos x 180,Tagonib Imatinib 100 mg x 180 Comp,
+México,Osimertinib mesilato,si,IMATINIB MESILATO BP EQUIVALENTE A IMATINIB,IMATINIB 400 mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,DOXAZOSINA MESILATO EQUIVALENTEA DOXAZOSINA,DOXAZOSINA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,BETAHISTINA MESILATO,VERTILAM®  6,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,BETAHISTINA MESILATO,BETAHISTINA LAM®  6 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,BETAHISTINA MESILATO,BETAHISTINA MAMEY®  6 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,BETAHISTINA MESILATO,BEHISCOL 6,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,OSIMERTINIB MESILATO INN,OSIMERTINIB 80 MG,Argentina::Farmacity,80 mg,Comprimidos x 30,Tagrisso Osimertinib 80 mg x 30 Comp,
+México,Osimertinib mesilato,si,MESILATO DE DABRAFENIB MICRONIZADO,TAFINLAR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,RASAGILINA MESILATO EQUIVALENTE A RASAGILINA,RASAGILINA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO,IMATINIB CAPSULAS 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO EQ. UN IMATINIB,IMATINIB 400 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,MELOXICAM + PRIDINOL MESILATO,MELOFLEX R,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO,IMATINIB KEMEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,ERIBULINA MESILATO,ERIBULINA MESILATO 0.5MG/ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,IMATINIB MESILATO EQ. A IMATINIB,IMATINIB 400 AG PHARMA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,OSIMERTINIB MESYLATO,OSIMERTINIB 80 PROMECAN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,MESILATO DE IMATINIB,IMATINIB,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | México::Macrofarmacias | República Dominicana::Carol | República Dominicana::Los Hidalgos | República Dominicana::Qualipharma,100 mg | 400 mg,Comprimidos | Comprimidos x 180 | Comprimidos x 30 | Comprimidos x 60 | Tabletas | Tabletas x 14 | Tabletas x 30,GLIVEC 400 MG 30 TABLETAS | GLIVEC FCT 400MG X 30TAB IMP | Glivec 100 mg Imatinib x 60 Comp Recubiertos | Glivec 100mg Com 60 Comprimidos Revestidos | Glivec 400 mg Imatinib x 30 Comp Recubiertos | Glivec 400mg Com 30 Comprimidos | Glivec Comprimidos 400mg X 30 | INTICI (IMATINIB) 400MG C/30 TABLETAS,
+México,Osimertinib mesilato,si,LENVATINIB MESILATO,BDFOIE / LENVATINIB MESILATO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,MELOXICAM MICRONIZADO/ PRIDINOL MESILATO,REVERSAL® FLEX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Osimertinib mesilato,si,LEVANTINIB MESILATO,BDFOIE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Palmitato de paliperidona,si,PALMITATO DE PALIPERIDONA,INVEGA TRINZA,Argentina::Farmacity | Brasil::Pague Menos,175 mg | 263 mg | 350 mg | 525 mg,Jeringa prellenada | Jeringa x 1,"Invega Trinza 175mg Suspensão Injetável de Liberação Prolongada 1 Seringa Preenchida + 2 Agulhas | Invega Trinza 1x525mg Syr Brasil | Invega Trinza 263mg Suspensão Injetável de Liberação Prolongada 1 Seringa Preenchida + 2 Agulhas | Invega Trinza 350mg Suspensão Injetável de Liberação Prolongada 1 Seringa Preenchida de 1,75ml + 2 Agulhas | Invega Trinza Paliperidona 263 mg Jeringa Prellenada x 1 | Invega Trinza Paliperidona 350 mg Jeringa x 1 un | Invega Trinza Paliperidona 525 mg Jeringa x  1",
+México,Palmitato de paliperidona,si,PALMITATO DE PALIPERIDONA,INVEGA SUSTENNA,Brasil::Pague Menos | República Dominicana::Carol | República Dominicana::Los Hidalgos,100 mg | 100 mg/ml | 150 mg | 150 mg/1.5 ml | 50 mg | 75 mg,Jeringa | Jeringa prellenada | Jeringa x 1 | Solución,INVEGA SUSTENNA 100MG/1 JERINGA PRELLENADA | INVEGA SUSTENNA 100MG/ML X JERING PRE-LLENADA | INVEGA SUSTENNA 150 MG 1 JERINGA PRELLENADA | INVEGA SUSTENNA 75 MG 1 JERINGA PRELLENADA | INVEGA SUSTENNA150MG/1.5MLX JERING PRE-LLENADA | Invega Sustenna 100mg Suspensão Injetável Com 1 Seringa | Invega Sustenna 150mg Suspensão Injetável Com 1 Seringa | Invega Sustenna 50mg Suspensão Injetável + Seringa,
+México,Palmitato de paliperidona,si,PALIPERIDONA,INVEGA,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Carol | República Dominicana::Los Hidalgos,100 mg | 100 mg/ml | 150 mg | 150 mg/1.5 ml | 175 mg | 263 mg | 3 mg | 350 mg | 50 mg | 525 mg | 6 mg | 75 mg,Comprimidos x 28 | Jeringa | Jeringa prellenada | Jeringa x 1 | Solución | Tabletas x 14,INVEGA SUSTENA 75MG/0.75ML X JERING PRE-LLENADA | INVEGA SUSTENNA 100MG/1 JERINGA PRELLENADA | INVEGA SUSTENNA 100MG/ML X JERING PRE-LLENADA | INVEGA SUSTENNA 150 MG 1 JERINGA PRELLENADA | INVEGA SUSTENNA 75 MG 1 JERINGA PRELLENADA | INVEGA SUSTENNA150MG/1.5MLX JERING PRE-LLENADA | Invega 3 mg Paliperidona x 28 Comp Liberación Prolongada | Invega 3mg 28 Comprimidos Revestidos de Liberação Prolongada,
+México,Palmitato de paliperidona,si,PALIPERIDONA,PALIPERIDONA,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Carol | República Dominicana::Los Hidalgos,100 mg | 100 mg/ml | 150 mg | 150 mg/1.5 ml | 175 mg | 263 mg | 3 mg | 350 mg | 50 mg | 525 mg | 6 mg | 75 mg,Comprimidos x 28 | Jeringa | Jeringa prellenada | Jeringa x 1 | Solución | Tabletas x 14,INVEGA SUSTENA 75MG/0.75ML X JERING PRE-LLENADA | INVEGA SUSTENNA 100MG/1 JERINGA PRELLENADA | INVEGA SUSTENNA 100MG/ML X JERING PRE-LLENADA | INVEGA SUSTENNA 150 MG 1 JERINGA PRELLENADA | INVEGA SUSTENNA 75 MG 1 JERINGA PRELLENADA | INVEGA SUSTENNA150MG/1.5MLX JERING PRE-LLENADA | Invega 3 mg Paliperidona x 28 Comp Liberación Prolongada | Invega 3mg 28 Comprimidos Revestidos de Liberação Prolongada,
+México,Palmitato de paliperidona,si,PALMITATO DE PALIPERIDONA,VEGAPAL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Pertuzumab,si,PERTUZUMAB,PERJETA,Brasil::Pague Menos,420 mg,Frasco-ampolla x 1,Perjeta 420mg Com 1 Frasco-Ampola Com 14ml De Solução Para Infusão De Uso Intravenoso (Embalagem Hospitalar),
+México,Pertuzumab,si,PERTUZUMAB / TRASTUZUMAB,PHESGO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Pertuzumab/Trastuzumab,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+México,Regorafenib,si,REGORAFENIB,STIVARGA®,Brasil::Pague Menos,40 mg,Comprimidos x 28 | Comprimidos x 84,Stivarga 40mg Com 28 Comprimidos | Stivarga 40mg Com 84 Comprimidos,
+México,Remdesivir,si,REMDESIVIR,REMDESIVIR,República Dominicana::Los Hidalgos,100 mg,Ampolla x 1,JUBI-R 100MG X 1AMP (REMDESIVIR) | NINAVIR 100MG VIAL ( REMDESIVIR) | REMDESIVIR 100MG INY BDREM,
+México,Riluzol,si,RILUZOL,RILUTEK,Brasil::Pague Menos | Colombia::Locatel,50 mg,Comprimidos x 56 | Tabletas,Rilutek 50mg Com 56 Comprimidos | Rilutek Tabletas 50mg X 56,
+México,Riluzol,si,RILUZOL,EDILOSIV,Argentina::Farmacity,50 mg,Comprimidos x 60,Edilosiv Riluzol 50 mg x 60 Comp,
+México,Riluzol,si,RILUZOL,RILUZOL 50MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,ADEMPAS®,Brasil::Pague Menos,0.5 mg | 1 mg | 1.5 mg | 2 mg,Comprimidos x 42,"Adempas 0,5mg Com 42 Comprimidos | Adempas 1,5mg 42 Comprimidos Revestidos | Adempas 1mg 42 Comprimidos Revestidos | Adempas 2mg Com 42 Comprimidos Revestidos",
+México,Riociguat,si,RIOCIGUAT,RIOCIGUAT 1MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,PULLMOGUAT 1MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,RIOCIGUAT 2 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,PULLMOGUAT 2MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,RIOCIGUAT 2.5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,PULLMOGUAT 2.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,RIOCIGUAT 1.5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,PULLMOGUAT 1.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,RIOCI 2,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,RIOCI 1.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,RIOCI 0.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,RIOCI 1,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Riociguat,si,RIOCIGUAT,RIOCI 2.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Sofosbuvir/Velpatasvir,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+México,Somatropina,si,SOMATROPINA,HHT,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Somatropina,si,SOMATROPINA RECOMBINANTE,GENOTROPIN,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel,12 mg | 16 ui | 36 ui | 5.3 mg,Inyectable | Pluma x 1,"Genotropin  Polvo Inyectable 5.3mg (16Ui) X 1 | Genotropin 16ui Injetável P | Genotropin 36 Somatotrofina 12 mg x 1 Cartucho | Genotropin 36ui Injetável P | Genotropin 36ui Somatropina 12mg 1 Caneta Preenchida | Genotropin C Polvo Inyectable 12mg (36Ui) X 1 | Genotropin GoQuick 16UI (5,3mg) Pó para Solução Injetável 1 Caneta Aplicadora",
+México,Somatropina,si,SOMATROPINA (H01AC01),NORDITROPIN FLEXPRO 10 MG / 1.5 ML,República Dominicana::Carol,10 mg/1.5 ml,,NORDITROPIN FLEXPRO 10 MG / 1.5 ML,
+México,Somatropina,si,SOMATROPINA (HORMONA DE CRECIMIENTO HUMANO),SOMATROPINA,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Carol,10 mg | 10 mg/1.5 ml | 12 mg | 15 mg | 15 mg/1.5 ml | 16 ui | 36 ui | 5 mg | 5 mg/1.5 ml | 5.3 mg | 5.83 mg | 8 mg,Ampolla x 1 | Inyectable | Pluma x 1 | Solución inyectable,"Genotropin  Polvo Inyectable 5.3mg (16Ui) X 1 | Genotropin 16ui Injetável P | Genotropin 36 Somatotrofina 12 mg x 1 Cartucho | Genotropin 36ui Injetável P | Genotropin 36ui Somatropina 12mg 1 Caneta Preenchida | Genotropin C Polvo Inyectable 12mg (36Ui) X 1 | Genotropin GoQuick 16UI (5,3mg) Pó para Solução Injetável 1 Caneta Aplicadora | NORDITROPIN FLEXPRO 10 MG / 1.5 ML",
+México,Somatropina,si,SOMATROPINA,OMNITROPE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Sorafenib tosilato,si,SORAFENIB TOSILATO,SORAFENIB TOSILATO 200 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Sorafenib tosilato,si,SORAFENIB TOSILATO,NEXAVAR®,Colombia::Locatel | República Dominicana::Carol,200 mg,Tabletas | Tabletas x 60,NEXAVAR 200 MG 60 TABLETAS | Nexavar Tabletas 200mg X 60,
+México,Sorafenib tosilato,si,SORAFENIB TOSILATO EQUIV. A SORAFENIB,SORAFENIB 200 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Sunitinib,si,MALATO DE SUNITINIB,SUTENT,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Los Hidalgos,12.5 mg | 25 mg | 50 mg,Cápsulas | Cápsulas x 28 | Tabletas x 28 | x 28,"SUTENT 12.5 X 28 CAP | SUTENT 25 MG X 28 CAP | SUTENT 50MG X 28 TAB | Sutent 12,5mg Com 28 Capsulas Gelatinosas Dura | Sutent 25 Sunitinib 25 mg x 28 Caps | Sutent 25mg Com 28 Capsulas Gelatinosas Dura | Sutent 50 Sunitinib 50 mg x 28 Cáps | Sutent 50mg Com 28 Capsulas Gelatinosas Duras",
+México,Sunitinib,si,SUNITINIB MALATE,GATREL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Sunitinib,si,SUNITINIB MALATE,SUNITINIB,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | República Dominicana::Los Hidalgos,12.5 mg | 25 mg | 50 mg,Cápsulas | Cápsulas x 28 | Tabletas x 28 | x 28,"SUTENT 12.5 X 28 CAP | SUTENT 25 MG X 28 CAP | SUTENT 50MG X 28 TAB | Sutent 12,5mg Com 28 Capsulas Gelatinosas Dura | Sutent 25 Sunitinib 25 mg x 28 Caps | Sutent 25mg Com 28 Capsulas Gelatinosas Dura | Sutent 50 Sunitinib 50 mg x 28 Cáps | Sutent 50mg Com 28 Capsulas Gelatinosas Duras",
+México,Sunitinib,si,SUNITINIB MALATO,"UNITIOB 12,5 MG",,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Sunitinib,si,SUNITINIB MALATO,UNITIOB 50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Sunitinib,si,SUNITINIB MALATO,UNITIOB 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Sunitinib,si,SUNITINIB,SUNITINIB 25 MG,Argentina::Farmacity,25 mg,Cápsulas x 28,Sutent 25 Sunitinib 25 mg x 28 Caps,
+México,Sunitinib,si,SUNITINIB,SUNITINIB 50 MG,Argentina::Farmacity,50 mg,Cápsulas x 28,Sutent 50 Sunitinib 50 mg x 28 Cáps,
+México,Sunitinib,si,SUNITINIB,SUNITINIB 12.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Sunitinib,si,SUNITINIB MALATO,SUNITINIB MALATO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Tofacitinib,si,CITRATO DE TOFACITINIB,XELJANZ XR,Argentina::Farmacity,11 mg,Tabletas x 30,Xeljanz XR 11 mg Tofacitinib x 30 Tabletas,
+México,Tofacitinib,si,TOFACITINIB CITRATO,XELJANZ 5MG TABLETAS RECUBIERTAS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Tofacitinib,si,TOFACITINIB,TERFANIB TUTEUR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Tofacitinib,si,TOFACITINIB,TOFACITINIB 5 MG,Argentina::Farmacity,5 mg,Comprimidos x 60,Xeljanz Tofacitinib 5 mg x 60 Comp Recubiertos,
+México,Tofacitinib,si,TOFACITINIB,TOFACITINIB 11 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Tofacitinib,si,TOFACITINIB,MODISMUNE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ustekinumab,si,USTEKINUMAB,STELARA,Brasil::Pague Menos | República Dominicana::Carol,130 mg | 45 mg | 90 mg,Frasco-ampolla x 1 | Jeringa x 1 | Solución inyectable,"STELARA 90 MG 1 ML SOLUCION INYECTABLE | Stelara 130mg Solução Injetável 1 Frasco-Ampola 26ml | Stelara 45 Mg Com 1 Seringa Preenchida Com Dispositivo De Seguranca 0,5ml De Solucao De Uso Subcutaneo | Stelara 45mg  Com 1 Frasco-Ampola Com 5ml De Solucao De Uso Subcutaneo | Stelara 90mg Solucao Com 1 Seringa Preenchida Com Dispositivo De Segurança Com 1ml De Solução De Uso Subcutâneo",
+México,Ustekinumab,si,USTEKINUMAB,USTEKINUMAB,Brasil::Pague Menos | República Dominicana::Carol,130 mg | 45 mg | 90 mg,Frasco-ampolla x 1 | Jeringa x 1 | Solución inyectable,"STELARA 90 MG 1 ML SOLUCION INYECTABLE | Stelara 130mg Solução Injetável 1 Frasco-Ampola 26ml | Stelara 45 Mg Com 1 Seringa Preenchida Com Dispositivo De Seguranca 0,5ml De Solucao De Uso Subcutaneo | Stelara 45mg  Com 1 Frasco-Ampola Com 5ml De Solucao De Uso Subcutaneo | Stelara 90mg Solucao Com 1 Seringa Preenchida Com Dispositivo De Segurança Com 1ml De Solução De Uso Subcutâneo",
+México,Ustekinumab,si,USTEKINUMAB,USTEKINUMAB 90 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ustekinumab,si,USTEKINUMAB,USTEKINUMAB 45 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,Ustekinumab,si,USTEKINUMAB,UZTOK,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+México,PEG-ASP (pegilada),no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+México,Risdiplam,si,RISDIPLAM,EVRYSDI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Acetato de glatiramer,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+República Dominicana,Agalsidasa beta,si,AGALSIDASA BETA,FABRAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Atezolizumab,si,ATEZOLIZUMAB,TECENTRIQ,México::Macrofarmacias,1200 mg/20 ml,Frasco-ampolla x 1,TECENTRIQ (ATEZOLIZUMAB) 1200MG/20ML FCO AMP,
+República Dominicana,Bendamustina,si,CLORHIDRATO DE BENDAMUSTINA 100 MG,BENDAVAR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Bendamustina,si,CLORHIDRATO DE BENDAMUSTINA,RIBOMUSTIN,Colombia::Locatel,100 mg,Solución inyectable x 1,Ribomustin Polvo Solucion Inyectable Vial 100mg X 1,
+República Dominicana,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,RAMIZA 100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,QUERAMUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,BESUMID 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Bendamustina,si,BENDAMUSTINA HCL,LEUKUSTIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,BENDAMUSTINA 100 mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Bendamustina,si,BENDAMUSTINA CLORHIDRATO,GENSTINA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Bendamustina,si,BENDAMUSTINA,BENZIMIR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Bendamustina,si,BENDAMUSTINA,BENDAWEL,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Cladribina,si,CLADRIBINA,MAVENCLAD,Argentina::Farmacity | Brasil::Pague Menos,10 mg,Comprimidos x 1 | Comprimidos x 4 | Comprimidos x 6,Mavenclad 10 mg Cladribina x 1 Comp | Mavenclad 10mg Com 1 Comprimido | Mavenclad 10mg Com 4 Comprimidos | Mavenclad 10mg Com 6 Comprimidos,
+República Dominicana,Cladribina,si,CLADRIBINA,EMECLAD TUTEUR,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Cladribina,si,CLADRIBINA,CLEUDRIT®,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,LITEDA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,VARITINIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,KIDELIS  50,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,KIDELIS 70,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,KIDELIS  100,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB MONOHIDRATO,DASATIXANE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,DASATINIB 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,DASATINIB 70 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,DASATINIB 50 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,DASATINIB 20 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB (COMO MONOHIDRATO),DASATINIB,Colombia::Locatel,70 mg,Tabletas,Sprycel Tabletas 70mg X 60,
+República Dominicana,Dasatinib,si,DASATINIB,TYKOSAT,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,DASTILA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,DASATINIB KEMEX 50MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,DASATINIB KEMEX 70 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,DASATINIB KEMEX 100 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dasatinib,si,DASATINIB,DAPIBUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Dornasa alfa,si,DORNASA ALFA,PULMOZYME,Argentina::Farmacity | México::Macrofarmacias,2.5 mg | 2.5 mg/2.5 ml,Ampolla x 1 | Frasco-ampolla x 6,"PULMOZYME (DORNASA ALFA) 2.5MG/2.5ML C/6 FCO AMP | Pulmozyme Dnasa 2,5 mg Inyección Ampolla x 6",
+República Dominicana,Emicizumab,si,EMICIZUMAB,HEMLIBRA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,OCTANATE 1000,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Factor de coagulación VIII,si,ACTIVIDAD DE DESVIO DEL INHNIBIDOR DE FACTOR VIII,FEIBA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Factor de coagulación VIII,si,RH FACTOR DE COAGULACION VIII,NUWIQ,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,BERIATE,Argentina::Farmacity,1000 ui,Frasco x 1,Beriate P 1000 Ui Factor VIII x 1 Frasco Ampolla + Equipo de Transfusión,
+República Dominicana,Factor de coagulación VIII,si,FACTOR VIII DE COAGULACIÓN HUMANA,FACTOR VIII DE COAGULACIÓN HUMANA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Factor IX,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+República Dominicana,Fingolimod,si,FINGOLIMOD,FINGOLIMOD,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | México::Macrofarmacias,0.5 mg,Cápsulas | Cápsulas x 14 | Cápsulas x 28 | x 28,"Cloridrato De Fingolimode 0,5mg Com 14 Capsúlas | GILENYA (FINGOLIMOD) 0.5MG C/28 CAP | Gilenya 0,5mg Com 28 Capsulas Gelatinosas | Gilenya Capsulas 0.5mg X 28 | Gilenya Fingolimod 0,5 mg x 28 Cáps",
+República Dominicana,Fingolimod,si,FINGOLIMOD CLORHIDRATO,FINLIM 0.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Fingolimod,si,FINGOLIMOD (CLORHIDRATO),ICLOMOD,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Fingolimod,si,FINGOLIMOD CLORHIDRATO,FINGOLIMOD  0.5,Argentina::Farmacity,0.5 mg,Cápsulas x 28,"Gilenya Fingolimod 0,5 mg x 28 Cáps",
+República Dominicana,Fingolimod,si,FINGOLIMOD CLORHIDRATO,FINGOLIMOD  LAM® 0.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Fingolimod,si,FINGOLIMOD CLORHIDRATO,FINGOLIMOD MAMEY® 0.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Fingolimod,si,CLORHIDRATO DE FINGOLIMOD,GENBIEMOD,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Fingolimod,si,FINGOLIMOD CLORHIDRATO,VESLIMOD,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Galsulfasa,si,GALSULFASA,NAGLAZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Guselkumab,si,GUSELKUMAB,TREMFYA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 2 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Guselkumab,si,GUSELKUMAB,TREMFYA 200 MG / 20 ML (10 MG/ML),,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Imiglucerasa,si,IMIGLUCERASA,CEREZYME,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1A,si,INTERFERON B-1 a,REBIF NF 44 MCG / 0.5 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1A,si,INTERFERON RECOMBINANTE BETA 1B,BETAFERON,Colombia::Locatel,0.25 mg,Ampolla x 1,Betaferon Interferon Beta-1B Vial 0.25mg X 15,
+República Dominicana,Interferón beta 1A,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 5 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1A,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 3 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1A,si,INTERFERÓN BETA-1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1A,si,INTERFERÓN BETA1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1A,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 10 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1A,si,INTERFERON ALFA- 2B RECOMBINANTE,BIOFERON 3 MUI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1A,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 3 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1A,si,INTERFERON BETA 1 A,AVONEX,Colombia::Locatel,30 mcg/0.5 ml,Solución inyectable x 1,Avonex Solucion Inyectable Vial 30mcg / 0.5ml X 4,
+República Dominicana,Interferón beta 1B,si,INTERFERON B-1 a,REBIF NF 44 MCG / 0.5 ML,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1B,si,INTERFERON RECOMBINANTE BETA 1B,BETAFERON,Colombia::Locatel,0.25 mg,Ampolla x 1,Betaferon Interferon Beta-1B Vial 0.25mg X 15,
+República Dominicana,Interferón beta 1B,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 5 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1B,si,INTERFERÓN RECOMBINANTE HUMANO ALFA 2B,RELIFERON 3 MIU,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1B,si,INTERFERÓN BETA-1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1B,si,INTERFERÓN BETA1A RECOMBINANTE,RELIBETA 30,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1B,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 10 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1B,si,INTERFERON ALFA- 2B RECOMBINANTE,BIOFERON 3 MUI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1B,si,INTERFERON ALFA 2B HUMANO RECOMBINANTE,BIOFERON 3 M U.I.,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Interferón beta 1B,si,INTERFERON BETA 1 A,AVONEX,Colombia::Locatel,30 mcg/0.5 ml,Solución inyectable x 1,Avonex Solucion Inyectable Vial 30mcg / 0.5ml X 4,
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,NUVYOR 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,REVLIMID,México::Macrofarmacias,25 mg,x 21,REVLIMID (LENALIDOMIDA) 25MG C/21 CAP,
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,KEVIDRAX,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,RENGED 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,RENGED 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,RENGED 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,RENGED 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,LENALIDOMIDA,México::Macrofarmacias,25 mg,x 21,REVLIMID (LENALIDOMIDA) 25MG C/21 CAP,
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,RELIDOMIDE,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,NUVYOR 5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,NUVYOR 10 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,NUVYOR 25 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,LENAKAST-10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,LENALIM 5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,LENALIM 10MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,LENALIM 15 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,LENALIM 25MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,MYELOPAST 25,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,MYELOPAST 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,NAT-LENALIDOMIDA 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,NAT-LENALIDOMIDA 25,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,LIDOXIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,TRONARIN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,LIMIDE 5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA,LIMIDE 10,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Lenalidomida,si,LENALIDOMIDA (FORMA-H1),LIMIDE 15,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Obinutuzumab,si,OBINUTUZUMAB,GAZYVA,México::Macrofarmacias,1000 mg/40 ml,x 1,GAZYVA (OBINUTUZUMAB) 1000MG/40ML 1 VIAL,
+República Dominicana,Ocrelizumab,si,OCRELIZUMAB,OCREVUS,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Olaparib,si,OLAPARIB,LYNPARZA,Argentina::Farmacity | Brasil::Pague Menos,150 mg,Comprimidos x 56,Lynparza 150 mg Olaparib x 56 Comp | Lynparza 150mg Com 56 Comprimidos,
+República Dominicana,Olaparib,si,OLAPARIB,OLAPATER,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Olaparib,si,OLAPARIB,OLAPARIB 150 PROMECAN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Olaparib,si,OLAPARIB,OLAPARIB 50 PROMECAN,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Pertuzumab,si,PERTUZUMAB,PERJETA,Brasil::Pague Menos,420 mg,Frasco-ampolla x 1,Perjeta 420mg Com 1 Frasco-Ampola Com 14ml De Solução Para Infusão De Uso Intravenoso (Embalagem Hospitalar),
+República Dominicana,Pertuzumab,si,PERTUZUMAB / TRASTUZUMAB,PHESGO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Pertuzumab/Trastuzumab,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+República Dominicana,Regorafenib,si,REGORAFENIB,STIVARGA®,Brasil::Pague Menos,40 mg,Comprimidos x 28 | Comprimidos x 84,Stivarga 40mg Com 28 Comprimidos | Stivarga 40mg Com 84 Comprimidos,
+República Dominicana,Riociguat,si,RIOCIGUAT,ADEMPAS®,Brasil::Pague Menos,0.5 mg | 1 mg | 1.5 mg | 2 mg,Comprimidos x 42,"Adempas 0,5mg Com 42 Comprimidos | Adempas 1,5mg 42 Comprimidos Revestidos | Adempas 1mg 42 Comprimidos Revestidos | Adempas 2mg Com 42 Comprimidos Revestidos",
+República Dominicana,Riociguat,si,RIOCIGUAT,RIOCIGUAT 1MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,PULLMOGUAT 1MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,RIOCIGUAT 2 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,PULLMOGUAT 2MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,RIOCIGUAT 2.5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,PULLMOGUAT 2.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,RIOCIGUAT 1.5MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,PULLMOGUAT 1.5 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,RIOCI 2,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,RIOCI 1.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,RIOCI 0.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,RIOCI 1,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Riociguat,si,RIOCIGUAT,RIOCI 2.5,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Secukinumab,si,SECUKINUMAB,SCAPHO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Sofosbuvir/Velpatasvir,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+República Dominicana,Teriflunomida,si,TERIFLUNOMIDA,AUBAGIO®,Brasil::Pague Menos | México::Macrofarmacias,14 mg,Comprimidos x 30 | Tabletas x 28,AUBAGIO (TERIFLUNOMIDA) 14MG C/28 TAB | Aubagio 14mg Com 30 Comprimidos Psicotropico,
+República Dominicana,Teriflunomida,si,TERIFLUNOMIDA,AUBAGIO,Brasil::Pague Menos | México::Macrofarmacias,14 mg,Comprimidos x 30 | Tabletas x 28,AUBAGIO (TERIFLUNOMIDA) 14MG C/28 TAB | Aubagio 14mg Com 30 Comprimidos Psicotropico,
+República Dominicana,Teriflunomida,si,TERIFLUNOMIDA,TERFLIMIDA,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Teriflunomida,si,TERIFLUNOMIDA,TERIFLUNOMIDA 14 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Teriflunomida,si,TERIFLUNOMIDA,TEFLUMID 14  mg,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Teriflunomida,si,TERIFLUNOMIDA,TERIFLUNOMIDA,Brasil::Pague Menos | México::Macrofarmacias,14 mg,Comprimidos x 30 | Tabletas x 28,AUBAGIO (TERIFLUNOMIDA) 14MG C/28 TAB | Aubagio 14mg Com 30 Comprimidos Psicotropico | Teriflunomida 14mg Com 30 Comprimidos,
+República Dominicana,Teriflunomida,si,TERIFLUNOMIDA,TERITENER,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Teriflunomida,si,TERIFLUNOMIDA,LUPEX®,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Teriflunomida,si,TERIFLUNOMIDA,TERIFLUNOMIDA 14 MG SANDOZ,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Valganciclovir,si,CLORHIDRATO DE VALGANCICLOVIR,SEVECLO 450 MG,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Valganciclovir,si,VALGANCICLOVIR,VALGANCICLOVIR,Argentina::Farmacity | Brasil::Pague Menos | Colombia::Locatel | México::Macrofarmacias,450 mg,Comprimidos x 60 | Tabletas,VALCYTE (VALGANCICLOVIR) 450MG C/60 COMP | Valcyte 450mg Com 60 Comprimidos | Valixa Valganciclovir 450 mg x 60 Comp Recubiertos | Valkir Tabletas Recubiertas 450mg X 60,
+República Dominicana,Blinatumomab,no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+República Dominicana,PEG-ASP (pegilada),no,,,,,,,No se encontro match razonable en el CSV de Digemaps
+República Dominicana,Risdiplam,si,RISDIPLAM,EVRYSDI,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Pegfilgrastim,si,PEGFILGRASTIM,PEG-RELIGRAST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Pegfilgrastim,si,PEGFILGRASTIM,PEG - RELIGRAST,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Pegfilgrastim,si,PEGFILGRASTIM,ZIEXTENZO,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas
+República Dominicana,Pegfilgrastim,si,PEGFILGRASTIM,PEGISTRIM,,,,,Marca del CSV sin hallazgo directo en las fuentes actualmente cargadas

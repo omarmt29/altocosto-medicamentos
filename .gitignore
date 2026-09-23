@@ -1,0 +1,8 @@
+cache/
+export_local/
+salida/*.xlsx
+salida/*.tmp
+__pycache__/
+*.pyc
+.env
+

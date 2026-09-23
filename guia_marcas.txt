@@ -1,0 +1,137 @@
+Acetato de abiraterona	ZYTIGA
+Acetato de abiraterona	ACETATO DE ABIRATERONA
+Acetato de glatiramer	GLAMATIR
+Acetato de goserelina	ZOLADEX/ PROZOLADEX LA
+Acetato de goserelina	ZOLADEX/ PROZOLADEX
+Acetato de goserelina	Goserrelina/ GOVOLYX 3.6MG
+Acetato de goserelina	Goserrelina/ GOVOLYX 10.8 MG
+Acetato de leuprorelina	LUPRON DEPOT
+Acetato de leuprorelina	ELIGARD
+Ácido zoledrónico	ACLASTA
+Ácido zoledrónico	ZOMETA
+Ácido zoledrónico	ACIDO ZOLEDRÓNICO
+Azacitidina	VIDAZA
+Azacitidina	AZACITIDINE/ ZACTIDYN
+Azacitidina	AZACITIDINE/ WINDUZA
+Azacitidina	AZACITIDINE / XITIDIN
+Azacitidina	AZACITIDINE/ AZADUAL
+Bicalutamida	CASODEX
+Bortezomib	VELCADE
+Bortezomib	BORTEZOMIB
+Bosentán	CANABOSEN
+Capecitabina	CAPECITABINE / CAPCITOX
+Capecitabina	CAPECITABINE / CAPETERO
+Capecitabina	CAPECITABINE / RELICITABINE
+Capecitabina	CAPECITABINE / CAPECITABINA
+Ciclosporina	SANDIMMUN NEORAL
+Cladribina	MAVENCLAD
+Deferasirox	EXJADE
+Deferasirox	DEFERASIROX
+Eltrombopag	REVOLADE
+Enzalutamida	XTANDI
+Everolimus	AFINITOR
+Everolimus	NAT-EVEROLIMUS
+Everolimus	CERTICAN
+Fingolimod	GILENYA
+Fulvestrant	FASLODEX
+Ibrutinib	IMBRUVICA
+Imatinib	GLIVEC
+Imatinib	IMATINIB
+Lapatinib ditosilato	TYKERB
+Lenalidomida	REVLIMID
+Lenalidomida	LENALIDOMIDA
+Letrozol	FEMARA
+Micofenolato mofetilo	CELLCEPT
+Micofenolato mofetilo	MICOFENOLATO DE MOFETILO
+Micofenolato sódico	MYFORTIC
+Nilotinib	TASIGNA
+Nilotinib	NILOTINIB HYDROCHLORIDE
+Octreotida	SANDOSTATIN
+Octreotida	SANDOSTATIN LAR
+Olaparib	LYNPARZA
+Osimertinib mesilato	TAGRISSO
+Palbociclib	IBRANCE
+Palmitato de paliperidona	INVEGA
+Palmitato de paliperidona	INVEGA HAFYERA
+Palmitato de paliperidona	INVEGA SUSTENNA
+Palmitato de paliperidona	INVEGA TRINZA
+Palmitato de paliperidona	PALIPERIDONE
+Pirfenidona	PIRFENIDONE/ PIRFONE
+Regorafenib	STIVARGA
+Ribociclib	KISQALI
+Riluzol	RILUTEK
+Riociguat	ADEMPAS
+Riociguat	RIOCIGUAT/RIOCI
+Sirolimus	RAPAMUNE
+Sofosbuvir/Velpatasvir	EPCLUSA
+Sorafenib tosilato	NEXAVAR
+Sunitinib	SUTENT
+Sunitinib	SUNITINIB MALATO
+Tacrolimus	TACROLIMUS
+Tacrolimus	PROGRAF
+Tacrolimus	TIPURIC
+Teriflunomida	AUBAGIO
+Teriflunomida	TERIFLUNOMIDE
+Tofacitinib	XELJANZ XR
+Tofacitinib	XELJANZ
+Valganciclovir	VALGANCICLOVIR
+Valganciclovir	SEVECLO
+Adalimumab	HUMIRA
+Adalimumab	HYRIMOZ
+Adalimumab	AMGEVITA
+Adalimumab	IDACIO
+Adalimumab	YUFLYMA
+Agalsidasa beta	FABRAZYME
+Atezolizumab	TECENTRIQ
+Basiliximab	SIMULECT
+Bevacizumab	AVASTIN
+Bevacizumab	VEGZELMA
+Cetuximab	ERBITUX
+Daratumumab	DARZALEX FASPRO (SC)
+Daratumumab	DARZALEX
+Dornasa alfa	PULMOZYME
+Emicizumab	HEMLIBRA
+Etanercept	ENBREL
+Etanercept	ERELZI
+Etanercept	NEPEXTO
+Factor de coagulación VIII	OCTANATE
+Factor de coagulación VIII	NUWIQ
+Factor de crecimiento epidérmico humano recombinante	Heberprot-P
+Factor IX	BENEFIX
+Filgrastim	ZARZIO
+Galsulfasa	NAGLAZYME
+Golimumab	SIMPONI
+Guselkumab	TREMFYA
+Imiglucerasa	CEREZYME
+Infliximab	REMICADE
+Infliximab	REMSIMA
+Infliximab	IXIFI
+Inmunoglobulina humana	OCTAGAM
+Inmunoglobulina humana	PRIVIGEN
+Interferón beta 1A	REBIF
+Interferón beta 1A	AVONEX
+Interferón beta 1B	BETAFERON
+Obinutuzumab	GAZYVA
+Ocrelizumab	OCREVUS
+Ocrelizumab	OCREVUS ZUNOVO
+Omalizumab	XOLAIR
+Pembrolizumab	KEYTRUDA
+Pertuzumab	PERJETA
+Pertuzumab/Trastuzumab	PHESGO
+Rituximab	MABTHERA
+Rituximab	TRUXIMA
+Rituximab	RIXATHON
+Somatropina	GENOTROPIN
+Somatropina	SAIZEN
+Somatropina	NORDITROPIN FLEXPRO
+Teriparatida	FORTEO
+Timoglobulina de conejo (antitimocitos humana)	TIMOGLOBULINA
+Tocilizumab	ACTEMRA
+Trastuzumab	HERCEPTIN
+Trastuzumab	HERZUMA
+Trastuzumab	TRAZIMERA
+Ustekinumab	STELARA
+Ustekinumab	SELARSDI/ustekinumab
+Blinatumomab	Blincyto
+Risdiplam	Evrysdi
+Pegaspargasa	Oncaspar

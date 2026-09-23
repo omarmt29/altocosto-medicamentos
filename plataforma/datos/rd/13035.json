@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 13035,
+  "nombre": "Cromus 0.03% Ung?ento , 30g",
+  "precio": 2843.92,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Tubo",
+  "laboratorio": "Procaps",
+  "principios_activos": [
+    "Tacrolimus"
+  ],
+  "principios_activos_con_dosaje": []
+}

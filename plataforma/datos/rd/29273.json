@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 29273,
+  "nombre": "Tacrolimus Sandoz 1mg, 50 capsulas",
+  "precio": 7528.3,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Capsulas",
+  "laboratorio": "Sandoz",
+  "principios_activos": [
+    "Tacrolimus"
+  ],
+  "principios_activos_con_dosaje": []
+}

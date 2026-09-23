@@ -1,0 +1,2146 @@
+{
+  "generado": "2026-08-18T13:26:00",
+  "fuente": "FarmaValue / API 3C Group GET /api/v1/producto",
+  "url_producto": "https://www.farmavalue.com/producto/{id}",
+  "total_catalogo": 12421,
+  "con_precio_decifrado": 11670,
+  "sin_precio": 751,
+  "campos_crudos": [
+    "activo",
+    "agotado",
+    "barcode",
+    "barcode2",
+    "bioequivalente",
+    "cantidad_bonificacion",
+    "cantidad_requerida",
+    "clasificaciones",
+    "controlado",
+    "dcto",
+    "descuento",
+    "id",
+    "isv",
+    "laboratorio",
+    "medico",
+    "nombre",
+    "palabras_clave",
+    "porcentaje_promocion",
+    "prd_sust",
+    "precio",
+    "precio_marcado",
+    "precio_unidad",
+    "presentacion",
+    "primera_opcion",
+    "principios_activos",
+    "principios_activos_con_dosaje",
+    "prioridad_app",
+    "receta",
+    "relacionados",
+    "scat",
+    "tema_venta_app",
+    "tipo_presentacion",
+    "unid",
+    "unid_frac"
+  ],
+  "productos_unicos_match": 35,
+  "filas_match": 35,
+  "meds_con_dato": 14,
+  "meds_sin_dato": 74,
+  "con": [
+    {
+      "n": 1,
+      "nombre": "Acetato de abiraterona",
+      "programa": "DAMAC",
+      "hits": 1,
+      "productos": [
+        {
+          "id_producto": 31765,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/31765",
+          "nombre": "Abiraterona Acetato, 60 tabletas",
+          "principio_activo": "",
+          "concentracion": "",
+          "presentacion": "Tabletas",
+          "laboratorio": "Sandoz",
+          "precio_dop": 93498.6,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7401066242855",
+          "lista_n": [
+            1
+          ],
+          "lista_nombre": [
+            "Acetato de abiraterona"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "abiraterona",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "nombre": "Acetato de goserelina",
+      "programa": "DAMAC",
+      "hits": 1,
+      "productos": [
+        {
+          "id_producto": 31656,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/31656",
+          "nombre": "ProZoladex LA 10.8mg Accion Prolongada, 1 jeringa prellenada con funda protectora",
+          "principio_activo": "Goserelina",
+          "concentracion": "",
+          "presentacion": "Jeringas",
+          "laboratorio": "Astra Zeneca",
+          "precio_dop": null,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "31656",
+          "lista_n": [
+            3
+          ],
+          "lista_nombre": [
+            "Acetato de goserelina"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "goserelina",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "nombre": "Acetato de leuprorelina",
+      "programa": "DAMAC",
+      "hits": 4,
+      "productos": [
+        {
+          "id_producto": 32525,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/32525",
+          "nombre": "Lupron Depot 11.25mg/mL Solucion Inyectable - 3 Meses, jeringa precargada",
+          "principio_activo": "",
+          "concentracion": "",
+          "presentacion": "Jeringas",
+          "laboratorio": "Abbvie",
+          "precio_dop": null,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "8054083014951",
+          "lista_n": [
+            4
+          ],
+          "lista_nombre": [
+            "Acetato de leuprorelina"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "leuprorelina, lupron",
+          "multi_match": false
+        },
+        {
+          "id_producto": 22545,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/22545",
+          "nombre": "Lupron Depot 22.5mg/1.5ml, 1 tratamiento",
+          "principio_activo": "Leuprolida,  Acetato",
+          "concentracion": "",
+          "presentacion": "Ampollas",
+          "laboratorio": "Abbott",
+          "precio_dop": 41669.33,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "8054083014968",
+          "lista_n": [
+            4
+          ],
+          "lista_nombre": [
+            "Acetato de leuprorelina"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "lupron",
+          "multi_match": false
+        },
+        {
+          "id_producto": 19757,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/19757",
+          "nombre": "Lupron Depot 3.75mg/ml, 1 tratamiento",
+          "principio_activo": "Leuprolida,  Acetato",
+          "concentracion": "Leuprolida; Acetato 3.75mg",
+          "presentacion": "Vial",
+          "laboratorio": "Abbott",
+          "precio_dop": 12441.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "8054083014920",
+          "lista_n": [
+            4
+          ],
+          "lista_nombre": [
+            "Acetato de leuprorelina"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "lupron",
+          "multi_match": false
+        },
+        {
+          "id_producto": 23621,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/23621",
+          "nombre": "Lupron Depot 7.5mg/ml, 1 tratamiento",
+          "principio_activo": "Leuprolida,  Acetato",
+          "concentracion": "",
+          "presentacion": "Ampollas",
+          "laboratorio": "Abbott",
+          "precio_dop": 15306.72,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "8054083014937",
+          "lista_n": [
+            4
+          ],
+          "lista_nombre": [
+            "Acetato de leuprorelina"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "lupron",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "nombre": "Ácido zoledrónico",
+      "programa": "DAMAC",
+      "hits": 2,
+      "productos": [
+        {
+          "id_producto": 7638,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/7638",
+          "nombre": "Aclasta 5mg solucion IV, frasco",
+          "principio_activo": "Acido Zolendronico",
+          "concentracion": "Acido Zolendronico 5mg/100ml",
+          "presentacion": "Frascos",
+          "laboratorio": "Sandoz",
+          "precio_dop": 42490.5,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7453126800130",
+          "lista_n": [
+            5
+          ],
+          "lista_nombre": [
+            "Ácido zoledrónico"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "aclasta",
+          "multi_match": false
+        },
+        {
+          "id_producto": 31404,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/31404",
+          "nombre": "Zometa 4mg/5ml, 1 Ampolla",
+          "principio_activo": "Acido Zolendronico",
+          "concentracion": "",
+          "presentacion": "Ampollas",
+          "laboratorio": "Novartis",
+          "precio_dop": 23484.24,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7612797672006",
+          "lista_n": [
+            5
+          ],
+          "lista_nombre": [
+            "Ácido zoledrónico"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "zometa",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "nombre": "Adalimumab",
+      "programa": "DAMAC-FOMAC",
+      "hits": 1,
+      "productos": [
+        {
+          "id_producto": 32130,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/32130",
+          "nombre": "Z1-Amgevita 40mg/0.8mL Solucion Inyectable",
+          "principio_activo": "Adalimumab",
+          "concentracion": "",
+          "presentacion": "Caja",
+          "laboratorio": "Asofarma",
+          "precio_dop": 15583.1,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "8715131016432",
+          "lista_n": [
+            6
+          ],
+          "lista_nombre": [
+            "Adalimumab"
+          ],
+          "programa": [
+            "DAMAC-FOMAC"
+          ],
+          "alias_pegado": "adalimumab",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "nombre": "Bicalutamida",
+      "programa": "DAMAC",
+      "hits": 7,
+      "productos": [
+        {
+          "id_producto": 14874,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/14874",
+          "nombre": "Bicalut 150mg, 30",
+          "principio_activo": "Bicalutamida",
+          "concentracion": "Bicalutamida 150 mg",
+          "presentacion": "Comprimidos",
+          "laboratorio": "Euro LTD",
+          "precio_dop": 2990.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "74602650",
+          "lista_n": [
+            13
+          ],
+          "lista_nombre": [
+            "Bicalutamida"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "bicalutamida",
+          "multi_match": false
+        },
+        {
+          "id_producto": 14875,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/14875",
+          "nombre": "Bicalut 50mg, 30",
+          "principio_activo": "Bicalutamida",
+          "concentracion": "Bicalutamida 50 mg",
+          "presentacion": "Comprimidos",
+          "laboratorio": "Euro LTD",
+          "precio_dop": 1790.01,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "74602834",
+          "lista_n": [
+            13
+          ],
+          "lista_nombre": [
+            "Bicalutamida"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "bicalutamida",
+          "multi_match": false
+        },
+        {
+          "id_producto": 19052,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/19052",
+          "nombre": "Binusyl 150, 30",
+          "principio_activo": "Bicalutamida",
+          "concentracion": "Bicalutamida 150mg",
+          "presentacion": "Comprimidos",
+          "laboratorio": "LAM Eticos 2",
+          "precio_dop": 3496.22,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7468519664725",
+          "lista_n": [
+            13
+          ],
+          "lista_nombre": [
+            "Bicalutamida"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "bicalutamida",
+          "multi_match": false
+        },
+        {
+          "id_producto": 19393,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/19393",
+          "nombre": "Binusyl 50mg, 30",
+          "principio_activo": "Bicalutamida",
+          "concentracion": "Bicalutamida 50mg",
+          "presentacion": "Comprimidos",
+          "laboratorio": "LAM Eticos 2",
+          "precio_dop": 1781.62,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7468519664718",
+          "lista_n": [
+            13
+          ],
+          "lista_nombre": [
+            "Bicalutamida"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "bicalutamida",
+          "multi_match": false
+        },
+        {
+          "id_producto": 15970,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/15970",
+          "nombre": "Bunide 150mg, 30",
+          "principio_activo": "Bicalutamida",
+          "concentracion": "Bicalutamida 150mg",
+          "presentacion": "Tabletas",
+          "laboratorio": "Pharmatech",
+          "precio_dop": 2925.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7468517135180",
+          "lista_n": [
+            13
+          ],
+          "lista_nombre": [
+            "Bicalutamida"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "bicalutamida",
+          "multi_match": false
+        },
+        {
+          "id_producto": 31029,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/31029",
+          "nombre": "Limux 50mg, caja de 30 tabletas",
+          "principio_activo": "Bicalutamida",
+          "concentracion": "",
+          "presentacion": "Caja",
+          "laboratorio": "Alfa Eticos",
+          "precio_dop": 1690.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7468999118572",
+          "lista_n": [
+            13
+          ],
+          "lista_nombre": [
+            "Bicalutamida"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "bicalutamida",
+          "multi_match": false
+        },
+        {
+          "id_producto": 29861,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/29861",
+          "nombre": "Prostaclean 150mg, 30 tabletas",
+          "principio_activo": "Bicalutamida",
+          "concentracion": "",
+          "presentacion": "Caja",
+          "laboratorio": "Sued",
+          "precio_dop": null,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7460134303461",
+          "lista_n": [
+            13
+          ],
+          "lista_nombre": [
+            "Bicalutamida"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "bicalutamida",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "nombre": "Bosentán",
+      "programa": "DAMAC",
+      "hits": 1,
+      "productos": [
+        {
+          "id_producto": 31546,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/31546",
+          "nombre": "Bosetrax 125mg, caja de 60 tabletas",
+          "principio_activo": "Bosentan",
+          "concentracion": "",
+          "presentacion": "Caja",
+          "laboratorio": "Alfa Eticos",
+          "precio_dop": 14300.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7468999118855",
+          "lista_n": [
+            15
+          ],
+          "lista_nombre": [
+            "Bosentán"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "bosentan",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "nombre": "Filgrastim",
+      "programa": "DAMAC",
+      "hits": 1,
+      "productos": [
+        {
+          "id_producto": 22502,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/22502",
+          "nombre": "Filgrastim 300mcg Injectable Biosidus, 1 vial?",
+          "principio_activo": "Filgrastim",
+          "concentracion": "",
+          "presentacion": "Ampollas",
+          "laboratorio": "Biosidus",
+          "precio_dop": 3461.35,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7795355998203",
+          "lista_n": [
+            32
+          ],
+          "lista_nombre": [
+            "Filgrastim"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "filgrastim",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 42,
+      "nombre": "Inmunoglobulina humana",
+      "programa": "DAMAC",
+      "hits": 6,
+      "productos": [
+        {
+          "id_producto": 17517,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/17517",
+          "nombre": "Anti-D Inmunoglobulina Humana Rhoclone 300mcg, ampolla 1ml",
+          "principio_activo": "Inmunoglobulina",
+          "concentracion": "",
+          "presentacion": "Ampollas",
+          "laboratorio": "BSV",
+          "precio_dop": 6500.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "8904012482149",
+          "lista_n": [
+            42
+          ],
+          "lista_nombre": [
+            "Inmunoglobulina humana"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "inmunoglobulina",
+          "multi_match": false
+        },
+        {
+          "id_producto": 27385,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/27385",
+          "nombre": "Antitetanica Tetglob 250U.I., 1 unidad ®",
+          "principio_activo": "Inmunoglobulina",
+          "concentracion": "",
+          "presentacion": "Ampollas",
+          "laboratorio": "Sued",
+          "precio_dop": 1625.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "8904012481005",
+          "lista_n": [
+            42
+          ],
+          "lista_nombre": [
+            "Inmunoglobulina humana"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "inmunoglobulina",
+          "multi_match": false
+        },
+        {
+          "id_producto": 11098,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/11098",
+          "nombre": "HyperRHO-D Inmunoglobulina Humana Anti-D, Jeringa pre-cargada?",
+          "principio_activo": "Vacuna",
+          "concentracion": "Vacuna nm",
+          "presentacion": "Caja",
+          "laboratorio": "Grifols",
+          "precio_dop": null,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "00313533005344",
+          "lista_n": [
+            42
+          ],
+          "lista_nombre": [
+            "Inmunoglobulina humana"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "inmunoglobulina",
+          "multi_match": false
+        },
+        {
+          "id_producto": 21801,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/21801",
+          "nombre": "RhoGam RHO-D Immune Globulin, Vial 1",
+          "principio_activo": "Inmunoglobulina",
+          "concentracion": "",
+          "presentacion": "Jeringas",
+          "laboratorio": "Kedrion ",
+          "precio_dop": null,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "8060010",
+          "lista_n": [
+            42
+          ],
+          "lista_nombre": [
+            "Inmunoglobulina humana"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "inmunoglobulina",
+          "multi_match": false
+        },
+        {
+          "id_producto": 21261,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/21261",
+          "nombre": "Rhophylac 300 Anti-D Inmunoglobulina Humana, ampolla ?",
+          "principio_activo": "Inmunoglobulina",
+          "concentracion": "",
+          "presentacion": "Ampollas",
+          "laboratorio": "Rowe",
+          "precio_dop": 6890.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7798098720667",
+          "lista_n": [
+            42
+          ],
+          "lista_nombre": [
+            "Inmunoglobulina humana"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "inmunoglobulina",
+          "multi_match": false
+        },
+        {
+          "id_producto": 7312,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/7312",
+          "nombre": "Tetanogamma Antitetanica 250U.I, jeringa precargada ?",
+          "principio_activo": "Vacuna, Inmunoglobulina",
+          "concentracion": "Vacuna nm; Inmunoglobulina 250ui",
+          "presentacion": "Jeringas",
+          "laboratorio": "Behring",
+          "precio_dop": 2158.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7798098720513",
+          "lista_n": [
+            42
+          ],
+          "lista_nombre": [
+            "Inmunoglobulina humana"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "inmunoglobulina",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 47,
+      "nombre": "Letrozol",
+      "programa": "DAMAC",
+      "hits": 1,
+      "productos": [
+        {
+          "id_producto": 6739,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/6739",
+          "nombre": "Femara 2.5mg, 30",
+          "principio_activo": "Letrozol",
+          "concentracion": "Letrozol 2.5mg",
+          "presentacion": "Tabletas",
+          "laboratorio": "Novartis",
+          "precio_dop": 9527.04,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "6739",
+          "lista_n": [
+            47
+          ],
+          "lista_nombre": [
+            "Letrozol"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "letrozol, femara",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 48,
+      "nombre": "Micofenolato mofetilo",
+      "programa": "DAMAC",
+      "hits": 3,
+      "productos": [
+        {
+          "id_producto": 6660,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/6660",
+          "nombre": "Cellcept 500mg, 50",
+          "principio_activo": "Micofenolato Mofetilo",
+          "concentracion": "Micofenolato Mofetilo 500mg",
+          "presentacion": "Comprimidos",
+          "laboratorio": "Roche",
+          "precio_dop": 5189.6,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7640128010098",
+          "lista_n": [
+            48
+          ],
+          "lista_nombre": [
+            "Micofenolato mofetilo"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "micofenolato mofetilo, cellcept",
+          "multi_match": false
+        },
+        {
+          "id_producto": 11791,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/11791",
+          "nombre": "Micoflavin 500mg, 50",
+          "principio_activo": "Micofenolato Mofetilo",
+          "concentracion": "Micofenolato Mofetilo 500mg",
+          "presentacion": "Comprimidos",
+          "laboratorio": "Roemmers",
+          "precio_dop": 4368.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7730979511216",
+          "lista_n": [
+            48
+          ],
+          "lista_nombre": [
+            "Micofenolato mofetilo"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "micofenolato mofetilo",
+          "multi_match": false
+        },
+        {
+          "id_producto": 32647,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/32647",
+          "nombre": "Miconato 360mg, caja de 30 capletas",
+          "principio_activo": "Micofenolato Mofetilo",
+          "concentracion": "",
+          "presentacion": "Caja",
+          "laboratorio": "Alfa Eticos",
+          "precio_dop": 5070.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7468999119036",
+          "lista_n": [
+            48
+          ],
+          "lista_nombre": [
+            "Micofenolato mofetilo"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "micofenolato mofetilo",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 62,
+      "nombre": "Pirfenidona",
+      "programa": "DAMAC",
+      "hits": 1,
+      "productos": [
+        {
+          "id_producto": 26147,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/26147",
+          "nombre": "Kitos Cell Gel, 10 gramos",
+          "principio_activo": "Pirfenidona",
+          "concentracion": "",
+          "presentacion": "Unidad",
+          "laboratorio": "Biogenesis  Pharmaceuticals",
+          "precio_dop": null,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7502224228916",
+          "lista_n": [
+            62
+          ],
+          "lista_nombre": [
+            "Pirfenidona"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "pirfenidona",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 75,
+      "nombre": "Tacrolimus",
+      "programa": "DAMAC",
+      "hits": 5,
+      "productos": [
+        {
+          "id_producto": 13035,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/13035",
+          "nombre": "Cromus 0.03% Ung?ento , 30g",
+          "principio_activo": "Tacrolimus",
+          "concentracion": "",
+          "presentacion": "Tubo",
+          "laboratorio": "Procaps",
+          "precio_dop": 2843.92,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7703153018481",
+          "lista_n": [
+            75
+          ],
+          "lista_nombre": [
+            "Tacrolimus"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "tacrolimus",
+          "multi_match": false
+        },
+        {
+          "id_producto": 12445,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/12445",
+          "nombre": "Cromus 0.1% ung?ento x 30 g",
+          "principio_activo": "Tacrolimus",
+          "concentracion": "",
+          "presentacion": "Tubo",
+          "laboratorio": "Procaps",
+          "precio_dop": 3433.79,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7703153018504",
+          "lista_n": [
+            75
+          ],
+          "lista_nombre": [
+            "Tacrolimus"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "tacrolimus",
+          "multi_match": false
+        },
+        {
+          "id_producto": 29273,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/29273",
+          "nombre": "Tacrolimus Sandoz 1mg, 50 capsulas",
+          "principio_activo": "Tacrolimus",
+          "concentracion": "",
+          "presentacion": "Capsulas",
+          "laboratorio": "Sandoz",
+          "precio_dop": 7528.3,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "8901109317025",
+          "lista_n": [
+            75
+          ],
+          "lista_nombre": [
+            "Tacrolimus"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "tacrolimus",
+          "multi_match": false
+        },
+        {
+          "id_producto": 17719,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/17719",
+          "nombre": "Talgraf Unguento 0.1%, tubo 20g",
+          "principio_activo": "Tacrolimus",
+          "concentracion": "Tacrolimus 0.1",
+          "presentacion": "Tubo",
+          "laboratorio": "Pharmatech",
+          "precio_dop": 1950.0,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7468517134268",
+          "lista_n": [
+            75
+          ],
+          "lista_nombre": [
+            "Tacrolimus"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "tacrolimus",
+          "multi_match": false
+        },
+        {
+          "id_producto": 32631,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/32631",
+          "nombre": "Tipuric 0.1% Unguento Dermico, tubo de 15g",
+          "principio_activo": "Tacrolimus",
+          "concentracion": "",
+          "presentacion": "Tubo",
+          "laboratorio": "Lafage",
+          "precio_dop": 1849.9,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7401156646112",
+          "lista_n": [
+            75
+          ],
+          "lista_nombre": [
+            "Tacrolimus"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "tacrolimus",
+          "multi_match": false
+        }
+      ]
+    },
+    {
+      "n": 77,
+      "nombre": "Teriparatida",
+      "programa": "DAMAC",
+      "hits": 1,
+      "productos": [
+        {
+          "id_producto": 7201,
+          "farmacia": "FarmaValue",
+          "pais": "República Dominicana",
+          "fuente_url": "https://www.farmavalue.com/producto/7201",
+          "nombre": "Forteo 250mcg/ml, jeringa prellenada 3ml",
+          "principio_activo": "ADN Recombinante",
+          "concentracion": "ADN Recombinante 250mcg/ml",
+          "presentacion": "Caja",
+          "laboratorio": "Lilly",
+          "precio_dop": null,
+          "precio_marcado_dop": null,
+          "disponibilidad": "Disponible",
+          "sku": "7201",
+          "lista_n": [
+            77
+          ],
+          "lista_nombre": [
+            "Teriparatida"
+          ],
+          "programa": [
+            "DAMAC"
+          ],
+          "alias_pegado": "forteo",
+          "multi_match": false
+        }
+      ]
+    }
+  ],
+  "sin": [
+    {
+      "n": 2,
+      "nombre": "Acetato de glatiramer",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 7,
+      "nombre": "Agalsidasa beta",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 8,
+      "nombre": "Atezolizumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 9,
+      "nombre": "Azacitidina",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 10,
+      "nombre": "Basiliximab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 11,
+      "nombre": "Bendamustina",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 12,
+      "nombre": "Bevacizumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 14,
+      "nombre": "Bortezomib",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 16,
+      "nombre": "Capecitabina",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 17,
+      "nombre": "Cetuximab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 18,
+      "nombre": "Ciclosporina",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 19,
+      "nombre": "Cladribina",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 20,
+      "nombre": "Daratumumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 21,
+      "nombre": "Dasatinib",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 22,
+      "nombre": "Deferasirox",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 23,
+      "nombre": "Dornasa alfa",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 24,
+      "nombre": "Eltrombopag",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 25,
+      "nombre": "Emicizumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 26,
+      "nombre": "Enzalutamida",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 27,
+      "nombre": "Etanercept",
+      "programa": "DAMAC-FOMAC"
+    },
+    {
+      "n": 28,
+      "nombre": "Everolimus",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 29,
+      "nombre": "Factor de coagulación VIII",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 30,
+      "nombre": "Factor de crecimiento epidérmico humano recombinante",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 31,
+      "nombre": "Factor IX",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 33,
+      "nombre": "Fingolimod",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 34,
+      "nombre": "Fulvestrant",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 35,
+      "nombre": "Galsulfasa",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 36,
+      "nombre": "Golimumab",
+      "programa": "DAMAC-FOMAC"
+    },
+    {
+      "n": 37,
+      "nombre": "Guselkumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 38,
+      "nombre": "Ibrutinib",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 39,
+      "nombre": "Imatinib",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 40,
+      "nombre": "Imiglucerasa",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 41,
+      "nombre": "Infliximab",
+      "programa": "DAMAC-FOMAC"
+    },
+    {
+      "n": 43,
+      "nombre": "Interferón beta 1A",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 44,
+      "nombre": "Interferón beta 1B",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 45,
+      "nombre": "Lapatinib ditosilato",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 46,
+      "nombre": "Lenalidomida",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 49,
+      "nombre": "Micofenolato sódico",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 50,
+      "nombre": "Nilotinib",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 51,
+      "nombre": "Obinutuzumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 52,
+      "nombre": "Ocrelizumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 53,
+      "nombre": "Octreotida",
+      "programa": "DAMAC-FOMAC"
+    },
+    {
+      "n": 54,
+      "nombre": "Olaparib",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 55,
+      "nombre": "Omalizumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 56,
+      "nombre": "Osimertinib mesilato",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 57,
+      "nombre": "Palbociclib",
+      "programa": "DAMAC-FOMAC"
+    },
+    {
+      "n": 58,
+      "nombre": "Palmitato de paliperidona",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 59,
+      "nombre": "Pembrolizumab",
+      "programa": "DAMAC-FOMAC"
+    },
+    {
+      "n": 60,
+      "nombre": "Pertuzumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 61,
+      "nombre": "Pertuzumab/Trastuzumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 63,
+      "nombre": "Regorafenib",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 64,
+      "nombre": "Remdesivir",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 65,
+      "nombre": "Ribociclib",
+      "programa": "DAMAC-FOMAC"
+    },
+    {
+      "n": 66,
+      "nombre": "Riluzol",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 67,
+      "nombre": "Riociguat",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 68,
+      "nombre": "Rituximab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 69,
+      "nombre": "Secukinumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 70,
+      "nombre": "Sirolimus",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 71,
+      "nombre": "Sofosbuvir/Velpatasvir",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 72,
+      "nombre": "Somatropina",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 73,
+      "nombre": "Sorafenib tosilato",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 74,
+      "nombre": "Sunitinib",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 76,
+      "nombre": "Teriflunomida",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 78,
+      "nombre": "Timoglobulina de conejo (antitimocitos humana)",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 79,
+      "nombre": "Tocilizumab",
+      "programa": "DAMAC-FOMAC"
+    },
+    {
+      "n": 80,
+      "nombre": "Tofacitinib",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 81,
+      "nombre": "Trastuzumab",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 82,
+      "nombre": "Ustekinumab",
+      "programa": "DAMAC-FOMAC"
+    },
+    {
+      "n": 83,
+      "nombre": "Valganciclovir",
+      "programa": "DAMAC"
+    },
+    {
+      "n": 84,
+      "nombre": "Blinatumomab",
+      "programa": "FOMAC"
+    },
+    {
+      "n": 85,
+      "nombre": "PEG-ASP (pegilada)",
+      "programa": "FOMAC"
+    },
+    {
+      "n": 86,
+      "nombre": "Risdiplam",
+      "programa": "FOMAC"
+    },
+    {
+      "n": 87,
+      "nombre": "Pegfilgrastim",
+      "programa": "FOMAC*"
+    },
+    {
+      "n": 88,
+      "nombre": "Palonosetrón",
+      "programa": "FOMAC*"
+    }
+  ],
+  "filas": [
+    {
+      "id_producto": 31765,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/31765",
+      "nombre": "Abiraterona Acetato, 60 tabletas",
+      "principio_activo": "",
+      "concentracion": "",
+      "presentacion": "Tabletas",
+      "laboratorio": "Sandoz",
+      "precio_dop": 93498.6,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7401066242855",
+      "lista_n": 1,
+      "lista_nombre": "Acetato de abiraterona",
+      "programa": "DAMAC",
+      "alias_pegado": "abiraterona",
+      "multi_match": false
+    },
+    {
+      "id_producto": 31656,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/31656",
+      "nombre": "ProZoladex LA 10.8mg Accion Prolongada, 1 jeringa prellenada con funda protectora",
+      "principio_activo": "Goserelina",
+      "concentracion": "",
+      "presentacion": "Jeringas",
+      "laboratorio": "Astra Zeneca",
+      "precio_dop": null,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "31656",
+      "lista_n": 3,
+      "lista_nombre": "Acetato de goserelina",
+      "programa": "DAMAC",
+      "alias_pegado": "goserelina",
+      "multi_match": false
+    },
+    {
+      "id_producto": 32525,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/32525",
+      "nombre": "Lupron Depot 11.25mg/mL Solucion Inyectable - 3 Meses, jeringa precargada",
+      "principio_activo": "",
+      "concentracion": "",
+      "presentacion": "Jeringas",
+      "laboratorio": "Abbvie",
+      "precio_dop": null,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "8054083014951",
+      "lista_n": 4,
+      "lista_nombre": "Acetato de leuprorelina",
+      "programa": "DAMAC",
+      "alias_pegado": "leuprorelina, lupron",
+      "multi_match": false
+    },
+    {
+      "id_producto": 22545,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/22545",
+      "nombre": "Lupron Depot 22.5mg/1.5ml, 1 tratamiento",
+      "principio_activo": "Leuprolida,  Acetato",
+      "concentracion": "",
+      "presentacion": "Ampollas",
+      "laboratorio": "Abbott",
+      "precio_dop": 41669.33,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "8054083014968",
+      "lista_n": 4,
+      "lista_nombre": "Acetato de leuprorelina",
+      "programa": "DAMAC",
+      "alias_pegado": "lupron",
+      "multi_match": false
+    },
+    {
+      "id_producto": 19757,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/19757",
+      "nombre": "Lupron Depot 3.75mg/ml, 1 tratamiento",
+      "principio_activo": "Leuprolida,  Acetato",
+      "concentracion": "Leuprolida; Acetato 3.75mg",
+      "presentacion": "Vial",
+      "laboratorio": "Abbott",
+      "precio_dop": 12441.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "8054083014920",
+      "lista_n": 4,
+      "lista_nombre": "Acetato de leuprorelina",
+      "programa": "DAMAC",
+      "alias_pegado": "lupron",
+      "multi_match": false
+    },
+    {
+      "id_producto": 23621,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/23621",
+      "nombre": "Lupron Depot 7.5mg/ml, 1 tratamiento",
+      "principio_activo": "Leuprolida,  Acetato",
+      "concentracion": "",
+      "presentacion": "Ampollas",
+      "laboratorio": "Abbott",
+      "precio_dop": 15306.72,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "8054083014937",
+      "lista_n": 4,
+      "lista_nombre": "Acetato de leuprorelina",
+      "programa": "DAMAC",
+      "alias_pegado": "lupron",
+      "multi_match": false
+    },
+    {
+      "id_producto": 7638,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/7638",
+      "nombre": "Aclasta 5mg solucion IV, frasco",
+      "principio_activo": "Acido Zolendronico",
+      "concentracion": "Acido Zolendronico 5mg/100ml",
+      "presentacion": "Frascos",
+      "laboratorio": "Sandoz",
+      "precio_dop": 42490.5,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7453126800130",
+      "lista_n": 5,
+      "lista_nombre": "Ácido zoledrónico",
+      "programa": "DAMAC",
+      "alias_pegado": "aclasta",
+      "multi_match": false
+    },
+    {
+      "id_producto": 31404,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/31404",
+      "nombre": "Zometa 4mg/5ml, 1 Ampolla",
+      "principio_activo": "Acido Zolendronico",
+      "concentracion": "",
+      "presentacion": "Ampollas",
+      "laboratorio": "Novartis",
+      "precio_dop": 23484.24,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7612797672006",
+      "lista_n": 5,
+      "lista_nombre": "Ácido zoledrónico",
+      "programa": "DAMAC",
+      "alias_pegado": "zometa",
+      "multi_match": false
+    },
+    {
+      "id_producto": 32130,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/32130",
+      "nombre": "Z1-Amgevita 40mg/0.8mL Solucion Inyectable",
+      "principio_activo": "Adalimumab",
+      "concentracion": "",
+      "presentacion": "Caja",
+      "laboratorio": "Asofarma",
+      "precio_dop": 15583.1,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "8715131016432",
+      "lista_n": 6,
+      "lista_nombre": "Adalimumab",
+      "programa": "DAMAC-FOMAC",
+      "alias_pegado": "adalimumab",
+      "multi_match": false
+    },
+    {
+      "id_producto": 14874,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/14874",
+      "nombre": "Bicalut 150mg, 30",
+      "principio_activo": "Bicalutamida",
+      "concentracion": "Bicalutamida 150 mg",
+      "presentacion": "Comprimidos",
+      "laboratorio": "Euro LTD",
+      "precio_dop": 2990.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "74602650",
+      "lista_n": 13,
+      "lista_nombre": "Bicalutamida",
+      "programa": "DAMAC",
+      "alias_pegado": "bicalutamida",
+      "multi_match": false
+    },
+    {
+      "id_producto": 14875,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/14875",
+      "nombre": "Bicalut 50mg, 30",
+      "principio_activo": "Bicalutamida",
+      "concentracion": "Bicalutamida 50 mg",
+      "presentacion": "Comprimidos",
+      "laboratorio": "Euro LTD",
+      "precio_dop": 1790.01,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "74602834",
+      "lista_n": 13,
+      "lista_nombre": "Bicalutamida",
+      "programa": "DAMAC",
+      "alias_pegado": "bicalutamida",
+      "multi_match": false
+    },
+    {
+      "id_producto": 19052,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/19052",
+      "nombre": "Binusyl 150, 30",
+      "principio_activo": "Bicalutamida",
+      "concentracion": "Bicalutamida 150mg",
+      "presentacion": "Comprimidos",
+      "laboratorio": "LAM Eticos 2",
+      "precio_dop": 3496.22,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7468519664725",
+      "lista_n": 13,
+      "lista_nombre": "Bicalutamida",
+      "programa": "DAMAC",
+      "alias_pegado": "bicalutamida",
+      "multi_match": false
+    },
+    {
+      "id_producto": 19393,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/19393",
+      "nombre": "Binusyl 50mg, 30",
+      "principio_activo": "Bicalutamida",
+      "concentracion": "Bicalutamida 50mg",
+      "presentacion": "Comprimidos",
+      "laboratorio": "LAM Eticos 2",
+      "precio_dop": 1781.62,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7468519664718",
+      "lista_n": 13,
+      "lista_nombre": "Bicalutamida",
+      "programa": "DAMAC",
+      "alias_pegado": "bicalutamida",
+      "multi_match": false
+    },
+    {
+      "id_producto": 15970,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/15970",
+      "nombre": "Bunide 150mg, 30",
+      "principio_activo": "Bicalutamida",
+      "concentracion": "Bicalutamida 150mg",
+      "presentacion": "Tabletas",
+      "laboratorio": "Pharmatech",
+      "precio_dop": 2925.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7468517135180",
+      "lista_n": 13,
+      "lista_nombre": "Bicalutamida",
+      "programa": "DAMAC",
+      "alias_pegado": "bicalutamida",
+      "multi_match": false
+    },
+    {
+      "id_producto": 31029,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/31029",
+      "nombre": "Limux 50mg, caja de 30 tabletas",
+      "principio_activo": "Bicalutamida",
+      "concentracion": "",
+      "presentacion": "Caja",
+      "laboratorio": "Alfa Eticos",
+      "precio_dop": 1690.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7468999118572",
+      "lista_n": 13,
+      "lista_nombre": "Bicalutamida",
+      "programa": "DAMAC",
+      "alias_pegado": "bicalutamida",
+      "multi_match": false
+    },
+    {
+      "id_producto": 29861,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/29861",
+      "nombre": "Prostaclean 150mg, 30 tabletas",
+      "principio_activo": "Bicalutamida",
+      "concentracion": "",
+      "presentacion": "Caja",
+      "laboratorio": "Sued",
+      "precio_dop": null,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7460134303461",
+      "lista_n": 13,
+      "lista_nombre": "Bicalutamida",
+      "programa": "DAMAC",
+      "alias_pegado": "bicalutamida",
+      "multi_match": false
+    },
+    {
+      "id_producto": 31546,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/31546",
+      "nombre": "Bosetrax 125mg, caja de 60 tabletas",
+      "principio_activo": "Bosentan",
+      "concentracion": "",
+      "presentacion": "Caja",
+      "laboratorio": "Alfa Eticos",
+      "precio_dop": 14300.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7468999118855",
+      "lista_n": 15,
+      "lista_nombre": "Bosentán",
+      "programa": "DAMAC",
+      "alias_pegado": "bosentan",
+      "multi_match": false
+    },
+    {
+      "id_producto": 22502,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/22502",
+      "nombre": "Filgrastim 300mcg Injectable Biosidus, 1 vial?",
+      "principio_activo": "Filgrastim",
+      "concentracion": "",
+      "presentacion": "Ampollas",
+      "laboratorio": "Biosidus",
+      "precio_dop": 3461.35,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7795355998203",
+      "lista_n": 32,
+      "lista_nombre": "Filgrastim",
+      "programa": "DAMAC",
+      "alias_pegado": "filgrastim",
+      "multi_match": false
+    },
+    {
+      "id_producto": 17517,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/17517",
+      "nombre": "Anti-D Inmunoglobulina Humana Rhoclone 300mcg, ampolla 1ml",
+      "principio_activo": "Inmunoglobulina",
+      "concentracion": "",
+      "presentacion": "Ampollas",
+      "laboratorio": "BSV",
+      "precio_dop": 6500.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "8904012482149",
+      "lista_n": 42,
+      "lista_nombre": "Inmunoglobulina humana",
+      "programa": "DAMAC",
+      "alias_pegado": "inmunoglobulina",
+      "multi_match": false
+    },
+    {
+      "id_producto": 27385,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/27385",
+      "nombre": "Antitetanica Tetglob 250U.I., 1 unidad ®",
+      "principio_activo": "Inmunoglobulina",
+      "concentracion": "",
+      "presentacion": "Ampollas",
+      "laboratorio": "Sued",
+      "precio_dop": 1625.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "8904012481005",
+      "lista_n": 42,
+      "lista_nombre": "Inmunoglobulina humana",
+      "programa": "DAMAC",
+      "alias_pegado": "inmunoglobulina",
+      "multi_match": false
+    },
+    {
+      "id_producto": 11098,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/11098",
+      "nombre": "HyperRHO-D Inmunoglobulina Humana Anti-D, Jeringa pre-cargada?",
+      "principio_activo": "Vacuna",
+      "concentracion": "Vacuna nm",
+      "presentacion": "Caja",
+      "laboratorio": "Grifols",
+      "precio_dop": null,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "00313533005344",
+      "lista_n": 42,
+      "lista_nombre": "Inmunoglobulina humana",
+      "programa": "DAMAC",
+      "alias_pegado": "inmunoglobulina",
+      "multi_match": false
+    },
+    {
+      "id_producto": 21801,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/21801",
+      "nombre": "RhoGam RHO-D Immune Globulin, Vial 1",
+      "principio_activo": "Inmunoglobulina",
+      "concentracion": "",
+      "presentacion": "Jeringas",
+      "laboratorio": "Kedrion ",
+      "precio_dop": null,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "8060010",
+      "lista_n": 42,
+      "lista_nombre": "Inmunoglobulina humana",
+      "programa": "DAMAC",
+      "alias_pegado": "inmunoglobulina",
+      "multi_match": false
+    },
+    {
+      "id_producto": 21261,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/21261",
+      "nombre": "Rhophylac 300 Anti-D Inmunoglobulina Humana, ampolla ?",
+      "principio_activo": "Inmunoglobulina",
+      "concentracion": "",
+      "presentacion": "Ampollas",
+      "laboratorio": "Rowe",
+      "precio_dop": 6890.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7798098720667",
+      "lista_n": 42,
+      "lista_nombre": "Inmunoglobulina humana",
+      "programa": "DAMAC",
+      "alias_pegado": "inmunoglobulina",
+      "multi_match": false
+    },
+    {
+      "id_producto": 7312,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/7312",
+      "nombre": "Tetanogamma Antitetanica 250U.I, jeringa precargada ?",
+      "principio_activo": "Vacuna, Inmunoglobulina",
+      "concentracion": "Vacuna nm; Inmunoglobulina 250ui",
+      "presentacion": "Jeringas",
+      "laboratorio": "Behring",
+      "precio_dop": 2158.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7798098720513",
+      "lista_n": 42,
+      "lista_nombre": "Inmunoglobulina humana",
+      "programa": "DAMAC",
+      "alias_pegado": "inmunoglobulina",
+      "multi_match": false
+    },
+    {
+      "id_producto": 6739,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/6739",
+      "nombre": "Femara 2.5mg, 30",
+      "principio_activo": "Letrozol",
+      "concentracion": "Letrozol 2.5mg",
+      "presentacion": "Tabletas",
+      "laboratorio": "Novartis",
+      "precio_dop": 9527.04,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "6739",
+      "lista_n": 47,
+      "lista_nombre": "Letrozol",
+      "programa": "DAMAC",
+      "alias_pegado": "letrozol, femara",
+      "multi_match": false
+    },
+    {
+      "id_producto": 6660,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/6660",
+      "nombre": "Cellcept 500mg, 50",
+      "principio_activo": "Micofenolato Mofetilo",
+      "concentracion": "Micofenolato Mofetilo 500mg",
+      "presentacion": "Comprimidos",
+      "laboratorio": "Roche",
+      "precio_dop": 5189.6,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7640128010098",
+      "lista_n": 48,
+      "lista_nombre": "Micofenolato mofetilo",
+      "programa": "DAMAC",
+      "alias_pegado": "micofenolato mofetilo, cellcept",
+      "multi_match": false
+    },
+    {
+      "id_producto": 11791,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/11791",
+      "nombre": "Micoflavin 500mg, 50",
+      "principio_activo": "Micofenolato Mofetilo",
+      "concentracion": "Micofenolato Mofetilo 500mg",
+      "presentacion": "Comprimidos",
+      "laboratorio": "Roemmers",
+      "precio_dop": 4368.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7730979511216",
+      "lista_n": 48,
+      "lista_nombre": "Micofenolato mofetilo",
+      "programa": "DAMAC",
+      "alias_pegado": "micofenolato mofetilo",
+      "multi_match": false
+    },
+    {
+      "id_producto": 32647,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/32647",
+      "nombre": "Miconato 360mg, caja de 30 capletas",
+      "principio_activo": "Micofenolato Mofetilo",
+      "concentracion": "",
+      "presentacion": "Caja",
+      "laboratorio": "Alfa Eticos",
+      "precio_dop": 5070.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7468999119036",
+      "lista_n": 48,
+      "lista_nombre": "Micofenolato mofetilo",
+      "programa": "DAMAC",
+      "alias_pegado": "micofenolato mofetilo",
+      "multi_match": false
+    },
+    {
+      "id_producto": 26147,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/26147",
+      "nombre": "Kitos Cell Gel, 10 gramos",
+      "principio_activo": "Pirfenidona",
+      "concentracion": "",
+      "presentacion": "Unidad",
+      "laboratorio": "Biogenesis  Pharmaceuticals",
+      "precio_dop": null,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7502224228916",
+      "lista_n": 62,
+      "lista_nombre": "Pirfenidona",
+      "programa": "DAMAC",
+      "alias_pegado": "pirfenidona",
+      "multi_match": false
+    },
+    {
+      "id_producto": 13035,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/13035",
+      "nombre": "Cromus 0.03% Ung?ento , 30g",
+      "principio_activo": "Tacrolimus",
+      "concentracion": "",
+      "presentacion": "Tubo",
+      "laboratorio": "Procaps",
+      "precio_dop": 2843.92,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7703153018481",
+      "lista_n": 75,
+      "lista_nombre": "Tacrolimus",
+      "programa": "DAMAC",
+      "alias_pegado": "tacrolimus",
+      "multi_match": false
+    },
+    {
+      "id_producto": 12445,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/12445",
+      "nombre": "Cromus 0.1% ung?ento x 30 g",
+      "principio_activo": "Tacrolimus",
+      "concentracion": "",
+      "presentacion": "Tubo",
+      "laboratorio": "Procaps",
+      "precio_dop": 3433.79,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7703153018504",
+      "lista_n": 75,
+      "lista_nombre": "Tacrolimus",
+      "programa": "DAMAC",
+      "alias_pegado": "tacrolimus",
+      "multi_match": false
+    },
+    {
+      "id_producto": 29273,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/29273",
+      "nombre": "Tacrolimus Sandoz 1mg, 50 capsulas",
+      "principio_activo": "Tacrolimus",
+      "concentracion": "",
+      "presentacion": "Capsulas",
+      "laboratorio": "Sandoz",
+      "precio_dop": 7528.3,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "8901109317025",
+      "lista_n": 75,
+      "lista_nombre": "Tacrolimus",
+      "programa": "DAMAC",
+      "alias_pegado": "tacrolimus",
+      "multi_match": false
+    },
+    {
+      "id_producto": 17719,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/17719",
+      "nombre": "Talgraf Unguento 0.1%, tubo 20g",
+      "principio_activo": "Tacrolimus",
+      "concentracion": "Tacrolimus 0.1",
+      "presentacion": "Tubo",
+      "laboratorio": "Pharmatech",
+      "precio_dop": 1950.0,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7468517134268",
+      "lista_n": 75,
+      "lista_nombre": "Tacrolimus",
+      "programa": "DAMAC",
+      "alias_pegado": "tacrolimus",
+      "multi_match": false
+    },
+    {
+      "id_producto": 32631,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/32631",
+      "nombre": "Tipuric 0.1% Unguento Dermico, tubo de 15g",
+      "principio_activo": "Tacrolimus",
+      "concentracion": "",
+      "presentacion": "Tubo",
+      "laboratorio": "Lafage",
+      "precio_dop": 1849.9,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7401156646112",
+      "lista_n": 75,
+      "lista_nombre": "Tacrolimus",
+      "programa": "DAMAC",
+      "alias_pegado": "tacrolimus",
+      "multi_match": false
+    },
+    {
+      "id_producto": 7201,
+      "farmacia": "FarmaValue",
+      "pais": "República Dominicana",
+      "fuente_url": "https://www.farmavalue.com/producto/7201",
+      "nombre": "Forteo 250mcg/ml, jeringa prellenada 3ml",
+      "principio_activo": "ADN Recombinante",
+      "concentracion": "ADN Recombinante 250mcg/ml",
+      "presentacion": "Caja",
+      "laboratorio": "Lilly",
+      "precio_dop": null,
+      "precio_marcado_dop": null,
+      "disponibilidad": "Disponible",
+      "sku": "7201",
+      "lista_n": 77,
+      "lista_nombre": "Teriparatida",
+      "programa": "DAMAC",
+      "alias_pegado": "forteo",
+      "multi_match": false
+    }
+  ]
+}

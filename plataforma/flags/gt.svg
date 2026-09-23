@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-gt" viewBox="0 0 640 480">
+  <path fill="#4997d0" d="M0 0h640v192H0z"/>
+  <path fill="#fff" d="M0 192h640v96H0z"/>
+  <path fill="#4997d0" d="M0 288h640v192H0z"/>
+  <g transform="translate(320 240)">
+    <circle r="56" fill="#fff" stroke="#6d6e71" stroke-width="3"/>
+    <path fill="#6d6e71" d="M0-30c-10 14-18 26-18 36a18 18 0 1 0 36 0c0-10-8-22-18-36z"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 11791,
+  "nombre": "Micoflavin 500mg, 50",
+  "precio": 4160.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Comprimidos",
+  "laboratorio": "Roemmers",
+  "principios_activos": [
+    "Micofenolato Mofetilo"
+  ],
+  "principios_activos_con_dosaje": [
+    {
+      "principio_activo": "Micofenolato Mofetilo",
+      "dosaje": "500mg"
+    }
+  ]
+}

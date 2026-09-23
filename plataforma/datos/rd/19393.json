@@ -1,0 +1,19 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 19393,
+  "nombre": "Binusyl 50mg, 30",
+  "precio": 1781.62,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Comprimidos",
+  "laboratorio": "LAM Eticos 2",
+  "principios_activos": [
+    "Bicalutamida"
+  ],
+  "principios_activos_con_dosaje": [
+    {
+      "principio_activo": "Bicalutamida",
+      "dosaje": "50mg"
+    }
+  ]
+}

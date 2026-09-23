@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 32130,
+  "nombre": "Z1-Amgevita 40mg/0.8mL Solucion Inyectable",
+  "precio": 15582.5,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Caja",
+  "laboratorio": "Asofarma",
+  "principios_activos": [
+    "Adalimumab"
+  ],
+  "principios_activos_con_dosaje": []
+}

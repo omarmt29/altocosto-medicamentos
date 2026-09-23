@@ -1,0 +1,14 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 22502,
+  "nombre": "Filgrastim 300mcg Injectable Biosidus, 1 vial?",
+  "precio": 3461.35,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Ampollas",
+  "laboratorio": "Biosidus",
+  "principios_activos": [
+    "Filgrastim"
+  ],
+  "principios_activos_con_dosaje": []
+}

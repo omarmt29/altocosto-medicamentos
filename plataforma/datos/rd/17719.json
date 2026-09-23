@@ -1,0 +1,19 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 17719,
+  "nombre": "Talgraf Unguento 0.1%, tubo 20g",
+  "precio": 1950.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Tubo",
+  "laboratorio": "Pharmatech",
+  "principios_activos": [
+    "Tacrolimus"
+  ],
+  "principios_activos_con_dosaje": [
+    {
+      "principio_activo": "Tacrolimus",
+      "dosaje": "0.1"
+    }
+  ]
+}

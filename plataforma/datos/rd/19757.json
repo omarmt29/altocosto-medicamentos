@@ -1,0 +1,24 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 19757,
+  "nombre": "Lupron Depot 3.75mg/ml, 1 tratamiento",
+  "precio": 12441.0,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Vial",
+  "laboratorio": "Abbott",
+  "principios_activos": [
+    "Leuprolida",
+    " Acetato"
+  ],
+  "principios_activos_con_dosaje": [
+    {
+      "principio_activo": "Leuprolida",
+      "dosaje": null
+    },
+    {
+      "principio_activo": " Acetato",
+      "dosaje": "3.75mg"
+    }
+  ]
+}

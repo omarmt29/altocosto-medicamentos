@@ -1,0 +1,15 @@
+{
+  "origen": "catalogo/productos.json · Farmacia 3C",
+  "fecha": "2026-08-12",
+  "id": 23621,
+  "nombre": "Lupron Depot 7.5mg/ml, 1 tratamiento",
+  "precio": 15306.72,
+  "precio_marcado": 0.0,
+  "tipo_presentacion": "Ampollas",
+  "laboratorio": "Abbott",
+  "principios_activos": [
+    "Leuprolida",
+    " Acetato"
+  ],
+  "principios_activos_con_dosaje": []
+}

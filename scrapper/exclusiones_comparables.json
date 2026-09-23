@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "nota": "Exclusiones manuales de comparaciones cross-país (precios compartidos, gráficos, temas). Cada regla es un AND de los campos presentes. Campos: excluir_principio (n_lista), excluir_clave, excluir_clave_prefijo, n_lista, pais, farmacia_regex, nombre_comercial_regex, medicamento_lista_regex. Pon activo=false para desactivar sin borrar.",
+  "reglas": [
+    {
+      "id": "osimert-rd-osimert-vs-tagrisso",
+      "activo": true,
+      "motivo": "RD «Osimert» ~USD 259 no es consistente con Tagrisso 80 mg x 30 (~USD 9k–15k) en CO/AR/CL/BR; probable error de scrape o unidad. El Tagrisso RD real queda con otra clave (comprimido revestido).",
+      "n_lista": 56,
+      "pais": "República Dominicana",
+      "nombre_comercial_regex": "(?i)\\bosimert\\b"
+    },
+    {
+      "id": "palbociclib-rd-palboxen-vs-ibrance",
+      "activo": true,
+      "motivo": "RD «Palboxen» ~USD 146 no es consistente con Ibrance 125 mg x 21 (~USD 4k–9k) en BR/CL/RD Hidalgos; probable error de scrape o unidad. Quedan los Ibrance RD reales.",
+      "n_lista": 57,
+      "pais": "República Dominicana",
+      "nombre_comercial_regex": "(?i)\\bpalboxen\\b"
+    }
+  ]
+}
