@@ -83,7 +83,6 @@ def _flags_scraper() -> list[str]:
 def _correr_scrapers() -> int:
     from scrapper.rd_farmavalue import main as farmavalue
     from scrapper.rd_carol import main as carol
-    from scrapper.rd_farmacias_do import main as farmacias_do
     from scrapper.rd_qualipharma import main as qualipharma
     from scrapper.br_paguemenos import main as paguemenos
     from scrapper.br_drogasil import main as drogasil
@@ -159,7 +158,6 @@ def _correr_scrapers() -> int:
     pasos: list[tuple[str, Any]] = [
         ("farmavalue", farmavalue),
         ("carol", carol),
-        ("farmacias_do", farmacias_do),
         ("qualipharma", qualipharma),
         ("paguemenos", paguemenos),
         ("drogasil", drogasil),

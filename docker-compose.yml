@@ -2,13 +2,17 @@ services:
   medicamentos-alto-costo:
     build: .
     container_name: medicamentos-alto-costo
-    ports:
-      - "8099:8765"
+    network_mode: host
     env_file:
       - .env
+    environment:
+      HOST: 0.0.0.0
+      PORT: "8099"
+      RUNNING_IN_CONTAINER: "1"
     volumes:
       - ./plataforma:/app/plataforma
       - ./servir.py:/app/servir.py
+      - ./api_v1.py:/app/api_v1.py
       - ./db.py:/app/db.py
       - ./lista.py:/app/lista.py
       - ./marcas.py:/app/marcas.py
@@ -17,32 +21,35 @@ services:
       - ./exportar_web.py:/app/exportar_web.py
       - ./docs:/app/docs
       - ./scrapper:/app/scrapper
+      - ./schema:/app/schema
       - ./cache:/app/cache
+      - ./.env:/app/.env:ro
     restart: unless-stopped
-    mem_limit: 512m
-    cpus: 0.5
+    mem_limit: 280m
+    cpus: 0.4
 
-  # Worker de scrapes: cola SQL. Si un scraper explota, solo muere este
-  # contenedor (restart) y la web sigue sirviendo.
   medicamentos-alto-costo-worker:
     build: .
     container_name: medicamentos-alto-costo-worker
+    network_mode: host
     command: ["python", "scrapper/worker_cola.py"]
     env_file:
       - .env
     environment:
-      JOB_WORKER_POLL_SEC: "3"
+      JOB_WORKER_POLL_SEC: "5"
       JOB_WORKER_TIMEOUT_SEC: "7200"
       JOB_WORKER_STALE_MIN: "180"
+      RUNNING_IN_CONTAINER: "1"
     volumes:
       - ./scrapper:/app/scrapper
       - ./db.py:/app/db.py
       - ./lista.py:/app/lista.py
       - ./marcas.py:/app/marcas.py
+      - ./generar_comparativo.py:/app/generar_comparativo.py
       - ./cache:/app/cache
       - ./.env:/app/.env:ro
     restart: unless-stopped
-    mem_limit: 1536m
-    cpus: 1.0
+    mem_limit: 450m
+    cpus: 0.6
     depends_on:
       - medicamentos-alto-costo

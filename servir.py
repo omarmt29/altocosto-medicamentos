@@ -261,9 +261,26 @@ class Handler(SimpleHTTPRequestHandler):
         path = parsed.path
         qs = parse_qs(parsed.query)
 
-        if path in ("/api/salud", "/api/db"):
+        if path in ("/api/salud", "/api/db", "/api/v1/salud"):
             estado = db.ping()
+            estado["retencion_dias"] = int(os.getenv("RETENCION_DIAS", "3") or "3")
             self._json(estado, 200 if estado["ok"] else 503)
+            return
+        if path in ("/api/v1/precios", "/api/v1/fuentes"):
+            import api_v1
+
+            clave = self.headers.get("X-API-Key")
+            auth = self.headers.get("Authorization")
+            if not api_v1.api_key_ok(clave, auth):
+                self._json({"ok": False, "error": "API key inválida"}, 401)
+                return
+            try:
+                if path == "/api/v1/fuentes":
+                    self._json(api_v1.resumen())
+                else:
+                    self._json(api_v1.listar_precios(qs))
+            except Exception as exc:
+                self._json({"ok": False, "error": str(exc)}, 500)
             return
         if path == "/api/precios":
             try:
@@ -1118,13 +1135,25 @@ class Handler(SimpleHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    import threading
+
+    from scrapper.retencion import loop as loop_retencion
+    from scrapper.retencion import purgar
+
     estado = db.ping()
     cfg = db.resumen_config()
-    print(f"SQL Server: {cfg['host']}:{cfg['port']} / {cfg['database']}.{cfg.get('schema', 'dbo')} ({cfg['user']})")
+    motor = "PostgreSQL" if db.es_postgres() else "SQL Server"
+    print(f"{motor}: {cfg['host']}:{cfg['port']} / {cfg['database']}.{cfg.get('schema', 'public')} ({cfg['user']})")
     if estado["ok"]:
         print(f"  OK — {estado.get('servidor')} · {estado.get('db')} · {estado.get('usuario')}")
+        try:
+            print("  Retención inicial:", purgar())
+        except Exception as exc:
+            print("  Retención inicial falló:", exc)
     else:
         print(f"  ERROR — {estado['mensaje']}")
+
+    threading.Thread(target=loop_retencion, daemon=True).start()
 
     httpd = ThreadingHTTPServer((HOST, PORT), Handler)
     url = f"http://{HOST}:{PORT}"

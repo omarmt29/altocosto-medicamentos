@@ -116,6 +116,16 @@ def loop() -> None:
                 continue
             jid = job["id"]
             fid = job["fuente_id"]
+            if fid == "farmacias_do":
+                print(f"→ job #{jid} farmacias.do excluida")
+                marcar_fin(
+                    int(jid),
+                    ok=False,
+                    exit_code=0,
+                    mensaje="farmacias.do excluida en este servidor",
+                    log_path=None,
+                )
+                continue
             print(f"→ job #{jid} {fid} …")
             ok, code, msg, log_rel = _run_job(job)
             marcar_fin(jid, ok=ok, exit_code=code, mensaje=msg, log_path=log_rel)

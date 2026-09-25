@@ -388,6 +388,11 @@ def asegurar_tabla(*, forzar: bool = False) -> str:
     qschema, qtabla, full, df = _ids()
     if _TABLA_LISTA == full and not forzar:
         return full
+    from db import es_postgres
+
+    if es_postgres():
+        _TABLA_LISTA = full
+        return full
     schema = resumen_config()["schema"]
     sql = (
         DDL.replace("{qschema}", qschema)

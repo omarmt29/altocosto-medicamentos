@@ -870,6 +870,8 @@ def _row_to_dict(row: Any) -> dict[str, Any]:
 
 def encolar(fuente_id: str, *, solicitado_por: str = "ui", force: bool = False) -> dict[str, Any]:
     asegurar_tabla()
+    if fuente_id == "farmacias_do":
+        raise ValueError("farmacias.do está excluida en este servidor")
     if fuente_id not in FUENTES:
         raise ValueError(f"Fuente desconocida: {fuente_id}")
     qschema, qtabla, _full, _df = _ids()
@@ -950,12 +952,29 @@ def estados_por_fuente() -> dict[str, dict[str, Any]]:
 
 def reclamar_siguiente(worker_id: str) -> dict[str, Any] | None:
     """Toma el job queued más viejo (1 a la vez por worker claim)."""
+    from db import es_postgres
+
     asegurar_tabla()
     qschema, qtabla, _full, _df = _ids()
     with engine().begin() as conn:
-        row = conn.execute(
-            text(
-                f"""
+        if es_postgres():
+            sql = f"""
+                UPDATE {qschema}.{qtabla} AS t
+                SET estado = 'running',
+                    worker_id = :w,
+                    fecha_inicio = CURRENT_TIMESTAMP,
+                    fecha_actualizacion = CURRENT_TIMESTAMP
+                WHERE t.id = (
+                    SELECT id FROM {qschema}.{qtabla}
+                    WHERE estado = 'queued'
+                    ORDER BY id ASC
+                    FOR UPDATE SKIP LOCKED
+                    LIMIT 1
+                )
+                RETURNING *
+            """
+        else:
+            sql = f"""
                 ;WITH cte AS (
                     SELECT TOP 1 *
                     FROM {qschema}.{qtabla} WITH (UPDLOCK, READPAST, ROWLOCK)
@@ -968,8 +987,9 @@ def reclamar_siguiente(worker_id: str) -> dict[str, Any] | None:
                     fecha_inicio = GETDATE(),
                     fecha_actualizacion = GETDATE()
                 OUTPUT INSERTED.*;
-                """
-            ),
+            """
+        row = conn.execute(
+            text(sql),
             {"w": (worker_id or "worker")[:80]},
         ).mappings().first()
     return _row_to_dict(row) if row else None
