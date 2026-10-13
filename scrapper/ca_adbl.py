@@ -107,15 +107,22 @@ def descargar_catalogo(s: requests.Session, *, forzar: bool) -> tuple[list[dict[
         url = meta_path.read_text(encoding="utf-8").strip() if meta_path.exists() else ""
         return leer_xlsx(xlsx_path.read_bytes()), url or str(xlsx_path)
 
-    r = s.get(PUB_URL, timeout=TIMEOUT)
-    r.raise_for_status()
-    url = elegir_xlsx(r.text)
-    print(f"  bajando {url} …")
-    rx = s.get(url, timeout=TIMEOUT)
-    rx.raise_for_status()
-    xlsx_path.write_bytes(rx.content)
-    meta_path.write_text(url, encoding="utf-8")
-    return leer_xlsx(rx.content), url
+    try:
+        r = s.get(PUB_URL, timeout=TIMEOUT)
+        r.raise_for_status()
+        url = elegir_xlsx(r.text)
+        print(f"  bajando {url} …")
+        rx = s.get(url, timeout=TIMEOUT)
+        rx.raise_for_status()
+        xlsx_path.write_bytes(rx.content)
+        meta_path.write_text(url, encoding="utf-8")
+        return leer_xlsx(rx.content), url
+    except Exception as exc:
+        if xlsx_path.exists() and xlsx_path.stat().st_size > 50_000:
+            print(f"  red no disponible ({exc}). Sigo con caché local.")
+            url = meta_path.read_text(encoding="utf-8").strip() if meta_path.exists() else ""
+            return leer_xlsx(xlsx_path.read_bytes()), url or str(xlsx_path)
+        raise RuntimeError(f"ADBL no disponible y sin caché local: {exc}") from exc
 
 
 def _norm_header(h: Any) -> str:
@@ -273,7 +280,16 @@ def main() -> int:
     if solo_fomac:
         print(f" Solo FOMAC ({len(meds)} moléculas)")
     print("=" * 64)
-    filas = recolectar(forzar=forzar, meds=meds)
+    try:
+        filas = recolectar(forzar=forzar, meds=meds)
+    except Exception as exc:
+        print(f"  ERROR ADBL: {exc}")
+        print("  aviso: 0 coincidencias — no se purgan filas existentes")
+        print(
+            f"MERGE 0 filas · obsoletos: 0 · "
+            f"{PAIS} {FARMACIA}: {contar(PAIS, FARMACIA)} · total tabla: {contar()}"
+        )
+        return 0
     ok = sum(1 for f in filas if f["calidad"] == "ok")
     print(f"Lista: {len(meds)} medicamentos")
     print(f"Coincidencias a guardar: {len(filas)}  (ok={ok}, revisar={len(filas) - ok})")

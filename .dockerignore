@@ -6,3 +6,4 @@ cache
 salida/*.xlsx
 salida/*.tmp
 .env.example
+.env

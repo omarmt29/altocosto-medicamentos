@@ -540,7 +540,10 @@ def _proxima_fecha(valores: list[str | None]) -> str | None:
     return pick[1]
 
 
-def construir_info(med: dict[str, Any], sess: requests.Session, fecha_dato: date) -> dict[str, Any]:
+def construir_info(
+    med: dict[str, Any], sess: requests.Session, fecha_dato: date,
+    *, purple_filas: list[dict[str, Any]] | None = None, resolver_anclas: bool = True,
+) -> dict[str, Any]:
     n = int(med["n"])
     aliases = _aliases_busqueda(med)
     aliases_norm = [norm(a) for a in aliases]
@@ -549,7 +552,7 @@ def construir_info(med: dict[str, Any], sess: requests.Session, fecha_dato: date
     seen_a: set[str] = set()
     aliases_norm = [a for a in aliases_norm if not (a in seen_a or seen_a.add(a))]
 
-    purple = listar_por_n(n, solo_ultimo=True)
+    purple = listar_por_n(n, solo_ultimo=True) if purple_filas is None else purple_filas
     es_biologico = bool(purple)
     tiene_ref = False
     tiene_bio = False
@@ -601,7 +604,7 @@ def construir_info(med: dict[str, Any], sess: requests.Session, fecha_dato: date
     tentative = fetch_tentative(sess, aliases)
     generico = False if es_biologico else fetch_generico_flag(sess, aliases)
 
-    ob = patentes_orange_book(aliases_norm, sess=sess)
+    ob = patentes_orange_book(aliases_norm, sess=sess, resolver_anclas=resolver_anclas)
     pb_pat = patentes_purple_book(aliases_norm, sess=sess)
 
     patentes = list(pb_pat.get("patentes") or []) + list(ob.get("patentes") or [])

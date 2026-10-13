@@ -1,14 +1,56 @@
+x-logging: &logs
+  driver: json-file
+  options:
+    max-size: "10m"
+    max-file: "3"
+
 services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: altocosto-postgres
+    environment:
+      POSTGRES_DB: altocosto
+      POSTGRES_USER: altocosto
+      POSTGRES_PASSWORD: ${REDATAM_DB_PASSWORD}
+      TZ: America/Santo_Domingo
+    command:
+      - postgres
+      - -c
+      - shared_buffers=32MB
+      - -c
+      - max_connections=20
+      - -c
+      - work_mem=4MB
+      - -c
+      - maintenance_work_mem=32MB
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./schema/001_tablas.sql:/docker-entrypoint-initdb.d/001_tablas.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U altocosto -d altocosto"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+    mem_limit: 160m
+    oom_score_adj: -500
+    logging: *logs
+
   medicamentos-alto-costo:
     build: .
     container_name: medicamentos-alto-costo
-    network_mode: host
     env_file:
       - .env
     environment:
       HOST: 0.0.0.0
       PORT: "8099"
       RUNNING_IN_CONTAINER: "1"
+      DB_DIALECT: postgres
+      REDATAM_DB_HOST: postgres
+      REDATAM_DB_PORT: "5432"
+      REDATAM_DB_SCHEMA: public
+    ports:
+      - "8099:8099"
     volumes:
       - ./plataforma:/app/plataforma
       - ./servir.py:/app/servir.py
@@ -24,14 +66,17 @@ services:
       - ./schema:/app/schema
       - ./cache:/app/cache
       - ./.env:/app/.env:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
     restart: unless-stopped
-    mem_limit: 280m
-    cpus: 0.4
+    mem_limit: 160m
+    oom_score_adj: -200
+    logging: *logs
 
   medicamentos-alto-costo-worker:
     build: .
     container_name: medicamentos-alto-costo-worker
-    network_mode: host
     command: ["python", "scrapper/worker_cola.py"]
     env_file:
       - .env
@@ -40,6 +85,10 @@ services:
       JOB_WORKER_TIMEOUT_SEC: "7200"
       JOB_WORKER_STALE_MIN: "180"
       RUNNING_IN_CONTAINER: "1"
+      DB_DIALECT: postgres
+      REDATAM_DB_HOST: postgres
+      REDATAM_DB_PORT: "5432"
+      REDATAM_DB_SCHEMA: public
     volumes:
       - ./scrapper:/app/scrapper
       - ./db.py:/app/db.py
@@ -48,8 +97,74 @@ services:
       - ./generar_comparativo.py:/app/generar_comparativo.py
       - ./cache:/app/cache
       - ./.env:/app/.env:ro
-    restart: unless-stopped
-    mem_limit: 450m
-    cpus: 0.6
     depends_on:
-      - medicamentos-alto-costo
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    mem_limit: 160m
+    oom_score_adj: 200
+    logging: *logs
+
+  altocosto-playwright:
+    build:
+      context: .
+      dockerfile: Dockerfile.playwright
+    image: altocosto-playwright
+    profiles: ["hidalgos"]
+    env_file:
+      - .env
+    environment:
+      RUNNING_IN_CONTAINER: "1"
+      DB_DIALECT: postgres
+      REDATAM_DB_HOST: postgres
+      REDATAM_DB_PORT: "5432"
+      REDATAM_DB_SCHEMA: public
+    volumes:
+      - .:/app
+      - ./.env:/app/.env:ro
+    networks:
+      - default
+    shm_size: 128m
+    mem_limit: 512m
+    oom_score_adj: 500
+    restart: "no"
+    logging: *logs
+
+  altocosto-cron:
+    build: .
+    container_name: altocosto-cron
+    command: ["bash", "/app/docker/cron-entrypoint.sh"]
+    env_file:
+      - .env
+    environment:
+      RUNNING_IN_CONTAINER: "1"
+      DB_DIALECT: postgres
+      REDATAM_DB_HOST: postgres
+      REDATAM_DB_PORT: "5432"
+      REDATAM_DB_SCHEMA: public
+      TZ: America/Santo_Domingo
+      HIDALGOS_IMAGE: altocosto-playwright
+      HIDALGOS_NETWORK: altocosto-medicamentos_default
+      HIDALGOS_HOST_ROOT: /var/www/altocosto-medicamentos
+    volumes:
+      - ./scrapper:/app/scrapper
+      - ./db.py:/app/db.py
+      - ./lista.py:/app/lista.py
+      - ./marcas.py:/app/marcas.py
+      - ./generar_comparativo.py:/app/generar_comparativo.py
+      - ./docker:/app/docker
+      - ./cache:/app/cache
+      - ./.env:/app/.env:ro
+      - cron-logs:/var/log
+      - /var/run/docker.sock:/var/run/docker.sock
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    mem_limit: 384m
+    oom_score_adj: 400
+    logging: *logs
+
+volumes:
+  pgdata:
+  cron-logs:

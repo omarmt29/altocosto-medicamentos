@@ -23,12 +23,12 @@ México: Macrofarmacias, Similares (VTEX), Ahorro (Magento). San Pablo suele ir 
 Brasil: Pague Menos, Drogasil, Droga Raia, Panvel (VTEX; Drogasil/Raia/Panvel pueden fallar por WAF/proxy).
 Colombia: Locatel, Farmatodo (Algolia), Carulla (VTEX); Cruz Verde / La Rebaja / Cafam (proxy puede bloquear).
 Argentina: Farmacity.
-Chile: Salcobrand (Algolia), Farmacias Ahumada (Demandware).
+Chile: Salcobrand (Algolia), Farmacias Ahumada (Demandware); Profar (Magento especialidad), Farmex (Shopify), Dr. Simi (VTEX).
 Panamá: Arrocha (Shopify; especialidad online limitada), Pan Am Farma y Farmacias Julios (WooCommerce especialidad).
 Perú: Inkafarma (Algolia), Boticas Perú (Demandware), Farmacia Universal (VTEX).
 Uruguay: Pigalle, Farmacity UY, Antártida, Goes; Farmashop (VTEX; proxy suele bloquear).
 El Salvador: Siman (VTEX); El Farmacéutico (Woo); FarmaValue (API fe-app).
-Ecuador: Pharmacy's, Cruz Azul, Fybeca (VTEX DIFARE; Fybeca puede ir bloqueada).
+Ecuador: Pharmacy's, Cruz Azul, Fybeca (VTEX DIFARE; Fybeca puede ir bloqueada); Medicity (VTEX).
 Honduras: Siman, Kielsa (buscador+DDP), Farmacias del Ahorro (SPA).
 Guatemala: Siman, Batres, Galeno; Meykos (/api/search); Cruz Verde GT; FarmaValue (fg-app).
 Nicaragua: Siman, Kielsa (buscador+DDP), Farmacias del Ahorro (SPA).
@@ -36,6 +36,10 @@ Costa Rica: Siman, Kölbi, Fischel; FarmaValue (API cr-app).
 Paraguay: Punto Farma (SSR search), Prosalud Farma (Woo Store API).
 Bolivia: FSA Tienda Online; Farmacorp (Shopify vía farmacorp.myshopify.com).
 Venezuela: Farmacia SAAS (VTEX); Locatel (VTEX, VES).
+Brasil extra: Drogal (VTEX).
+Colombia extra: Farmalisto (Shopify).
+EE.UU.: Cost Plus Drugs (Pricing API), NADAC (CMS).
+Canadá: ADBL Alberta (Blue Cross Excel).
 """
 
 from __future__ import annotations
@@ -154,6 +158,18 @@ def _correr_scrapers() -> int:
     from scrapper.cl_farmavalue import main as cl_farmavalue
     from scrapper.mx_farmavalue import main as mx_farmavalue
     from scrapper.tt_cva import main as tt_cva
+    from scrapper.cl_profar import main as cl_profar
+    from scrapper.cl_farmex import main as cl_farmex
+    from scrapper.cl_drsimi import main as cl_drsimi
+    from scrapper.br_drogal import main as br_drogal
+    from scrapper.ec_medicity import main as ec_medicity
+    from scrapper.co_farmalisto import main as co_farmalisto
+    from scrapper.us_costplus import main as us_costplus
+    from scrapper.us_nadac import main as us_nadac
+    from scrapper.ca_adbl import main as ca_adbl
+
+    from functools import partial
+    from scrapper.exportaciones_diarias import actualizar, RECURSOS
 
     pasos: list[tuple[str, Any]] = [
         ("farmavalue", farmavalue),
@@ -229,6 +245,16 @@ def _correr_scrapers() -> int:
         ("cl_farmavalue", cl_farmavalue),
         ("mx_farmavalue", mx_farmavalue),
         ("tt_cva", tt_cva),
+        ("cl_profar", cl_profar),
+        ("cl_farmex", cl_farmex),
+        ("cl_drsimi", cl_drsimi),
+        ("br_drogal", br_drogal),
+        ("ec_medicity", ec_medicity),
+        ("co_farmalisto", co_farmalisto),
+        ("us_costplus", us_costplus),
+        ("us_nadac", us_nadac),
+        ("ca_adbl", ca_adbl),
+        *[(f"exportar_{nombre}", partial(actualizar, nombre)) for nombre in RECURSOS],
     ]
 
     from scrapper.repositorio_cron_log import finalizar_corrida, iniciar_corrida
@@ -273,6 +299,9 @@ def _correr_scrapers() -> int:
 
 
 def _meta_fuente(fuente_id: str) -> dict[str, Any]:
+    if fuente_id.startswith("exportar_"):
+        nombre = fuente_id.removeprefix("exportar_")
+        return {"nombre": f"API · {nombre.upper()}", "script": "scrapper/exportaciones_diarias.py"}
     try:
         from scrapper.jobs_cola import FUENTES
 

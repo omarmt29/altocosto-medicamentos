@@ -207,8 +207,18 @@ def asegurar_orange_book(fresh: bool = False, sess: requests.Session | None = No
     return zpath
 
 
+from functools import lru_cache
+
+
 def _leer_ob_txt(zpath: Path, name: str) -> list[dict[str, str]]:
-    with zipfile.ZipFile(zpath) as zf:
+    stat = zpath.stat()
+    return _leer_ob_txt_cache(str(zpath), name, stat.st_mtime_ns, stat.st_size)
+
+
+@lru_cache(maxsize=3)
+def _leer_ob_txt_cache(path: str, name: str, mtime_ns: int, size: int) -> list[dict[str, str]]:
+    # Lectura compartida durante una corrida; mtime/size invalidan una descarga nueva.
+    with zipfile.ZipFile(path) as zf:
         raw = zf.read(name).decode("latin-1", errors="replace")
     reader = csv.DictReader(io.StringIO(raw), delimiter="~")
     return [{k: (v or "").strip() for k, v in row.items()} for row in reader]
@@ -284,6 +294,7 @@ def patentes_orange_book(
     fresh: bool = False,
     sess: requests.Session | None = None,
     permitir_combinados: bool | None = None,
+    resolver_anclas: bool = True,
 ) -> dict[str, Any]:
     """
     Patentes + exclusividades + productos del Orange Book para los aliases.
@@ -338,8 +349,9 @@ def patentes_orange_book(
         )
 
     anchor_maps: dict[tuple[str, str], dict[str, str]] = {}
-    for at, an in apps:
-        anchor_maps[(at, an)] = _anclas_orange_producto(at, an, sess)
+    if resolver_anclas:
+        for at, an in apps:
+            anchor_maps[(at, an)] = _anclas_orange_producto(at, an, sess)
     for prod in productos:
         at, an = prod.get("appl_type") or "", prod.get("appl_no") or ""
         pno = prod.get("product_no") or ""

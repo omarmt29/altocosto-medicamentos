@@ -130,8 +130,9 @@ def buscar_vivo(queries: list[str], hits: list[dict[str, Any]]) -> list[dict[str
 
     with sync_playwright() as p:
         for i, q in enumerate(pendientes, start=1):
+            headless = os.getenv("HIDALGOS_HEADLESS", "1").strip().lower() not in {"0", "false", "no"}
             browser = p.chromium.launch(
-                headless=True,
+                headless=headless,
                 args=[
                     "--disable-blink-features=AutomationControlled",
                     "--disable-dev-shm-usage",

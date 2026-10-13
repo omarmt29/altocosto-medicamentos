@@ -161,4 +161,62 @@ def resumen() -> dict[str, Any]:
         "total": int(total or 0),
         "retencion_dias": RETENCION_DIAS,
         "fuentes": fuentes,
+        **fuentes_adicionales(),
     }
+
+
+def listar_exportacion(nombre: str, qs: dict) -> dict[str, Any]:
+    """Sirve el último snapshot completo publicado por el flujo diario."""
+    from scrapper.exportaciones_diarias import leer, ahora, RECURSOS
+
+    if nombre not in RECURSOS:
+        raise ValueError("Fuente desconocida")
+    snapshot = leer(nombre)
+    estado = leer(f"{nombre}-estado") or {"estado": "pendiente"}
+    if snapshot is None:
+        return {"ok": False, "fuente": nombre, "error": "Sin snapshot; actualización pendiente",
+                "actualizacion": estado, "total": 0, "filas": []}
+    filas = snapshot["filas"]
+    def uno(key):
+        return (qs.get(key) or [None])[0]
+    for campo in ("pais", "moneda", "n_lista", "fecha_dato"):
+        valor = uno(campo) or (uno("fecha") if campo == "fecha_dato" else None)
+        if valor is not None:
+            campo_fila = "fecha" if nombre == "tasas" and campo == "fecha_dato" else campo
+            filas = [f for f in filas if str(f.get(campo_fila)) == str(valor)]
+    q = uno("q")
+    if q:
+        campos = ("medicamento_lista", "nombre_comercial", "nombre_medicamento", "inn", "active_substance")
+        filas = [f for f in filas if any(str(f.get(k) or "").lower().find(q.lower()) >= 0 for k in campos)]
+    limite, offset = _pagina(qs)
+    return {"ok": True, "fuente": nombre, "total": len(filas), "limite": limite, "offset": offset,
+            "actualizado_en": snapshot["actualizado_en"],
+            "desactualizado": snapshot["actualizado_en"][:10] != ahora().date().isoformat(),
+            "actualizacion": estado, "filas": filas[offset:offset + limite]}
+
+
+def fuentes_adicionales() -> dict[str, Any]:
+    from scrapper.fuentes_monedas import FUENTES
+    from scrapper.exportaciones_diarias import leer, ahora, RECURSOS
+    XLSX_URL = "https://www.ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx"
+    FUENTE_PAGE = "https://www.ema.europa.eu/en/medicines/download-medicine-data"
+    ORANGE_ZIP_URL = "https://www.fda.gov/media/76860/download"
+    PURPLE_PATENTS_URL = "https://purplebooksearch.fda.gov/index.cfm?event=patentlist"
+    DOWNLOADS_URL = "https://purplebooksearch.fda.gov/index.cfm?event=downloads"
+
+    estados = {}
+    for nombre in RECURSOS:
+        snapshot = leer(nombre)
+        estados[nombre] = {"endpoint": f"/api/v1/{nombre}", "disponible": snapshot is not None,
+                          "total": len(snapshot["filas"]) if snapshot else 0,
+                          "actualizado_en": snapshot["actualizado_en"] if snapshot else None,
+                          "desactualizado": not snapshot or snapshot["actualizado_en"][:10] != ahora().date().isoformat(),
+                          "actualizacion": leer(f"{nombre}-estado") or {"estado": "pendiente"}}
+    return {"monedas": list(FUENTES.values()), "regulatorias": [
+        {"nombre": "FDA / openFDA Drug Labels", "url": "https://api.fda.gov/drug/label.json", "endpoint": "/api/v1/fda"},
+        {"nombre": "Drugs@FDA", "url": "https://api.fda.gov/drug/drugsfda.json", "endpoint": "/api/v1/fda"},
+        {"nombre": "Orange Book", "url": ORANGE_ZIP_URL, "endpoint": "/api/v1/fda"},
+        {"nombre": "Purple Book", "url": DOWNLOADS_URL, "endpoint": "/api/v1/purple-book"},
+        {"nombre": "Purple Book Patent List", "url": PURPLE_PATENTS_URL, "endpoint": "/api/v1/fda"},
+        {"nombre": "EMA medicines", "url": FUENTE_PAGE, "descarga_url": XLSX_URL, "endpoint": "/api/v1/ema"},
+    ], "exportaciones": estados}

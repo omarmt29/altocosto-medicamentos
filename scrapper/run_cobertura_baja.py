@@ -68,6 +68,15 @@ PASOS = [
     ("Chile · FarmaValue", "scrapper.cl_farmavalue", "main"),
     ("México · FarmaValue", "scrapper.mx_farmavalue", "main"),
     ("Trinidad · CVA Pharmacy", "scrapper.tt_cva", "main"),
+    ("Chile · Profar", "scrapper.cl_profar", "main"),
+    ("Chile · Farmex", "scrapper.cl_farmex", "main"),
+    ("Chile · Dr. Simi", "scrapper.cl_drsimi", "main"),
+    ("Brasil · Drogal", "scrapper.br_drogal", "main"),
+    ("Ecuador · Medicity", "scrapper.ec_medicity", "main"),
+    ("Colombia · Farmalisto", "scrapper.co_farmalisto", "main"),
+    ("EE.UU. · Cost Plus Drugs", "scrapper.us_costplus", "main"),
+    ("EE.UU. · NADAC", "scrapper.us_nadac", "main"),
+    ("Canadá · ADBL Alberta", "scrapper.ca_adbl", "main"),
 ]
 
 

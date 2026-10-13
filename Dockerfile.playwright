@@ -1,0 +1,35 @@
+FROM python:3.12-slim-bookworm
+
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
+ENV TZ=America/Santo_Domingo
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ca-certificates \
+    gcc \
+    libpq5 \
+    tzdata \
+    && ln -sfn /usr/share/zoneinfo/America/Santo_Domingo /etc/localtime \
+    && echo America/Santo_Domingo > /etc/timezone \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir --upgrade pip \
+    && pip install --no-cache-dir \
+        "requests>=2.31.0" \
+        "python-dotenv>=1.0.0" \
+        "psycopg[binary]>=3.1.0" \
+        "SQLAlchemy>=2.0.0" \
+        "playwright>=1.49.0" \
+    && playwright install --with-deps chromium
+
+RUN apt-get update && apt-get install -y --no-install-recommends xvfb xauth x11-utils \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV HIDALGOS_HEADLESS=0
+
+COPY . /app
+
+CMD ["bash", "/app/docker/hidalgos-entry.sh"]

@@ -272,3 +272,29 @@ def tasas_para_web() -> list[dict[str, Any]]:
         except Exception:
             continue
     return out
+
+
+def tasa_dop(s: requests.Session | None = None) -> dict[str, Any]:
+    """Compra/venta y fecha publicada por BCRD; nunca usa una tasa fija antigua."""
+    import re
+    from datetime import date
+
+    ses = s or _session()
+    portal = "https://www.bancentral.gov.do/"
+    r = ses.get(portal, timeout=40)
+    r.raise_for_status()
+    bloque = re.search(r"alt=['\"]Tipo de cambio['\"].*?</table>", r.text, re.S | re.I)
+    if not bloque:
+        raise ValueError("BCRD: no se encontró el bloque de tipo de cambio")
+    html = bloque.group(0)
+    compra = re.search(r"<small>Compra</small>\s*<h5>\s*([\d.]+)", html)
+    venta = re.search(r"<small>Venta</small>\s*<h5>\s*([\d.]+)", html)
+    fecha = re.search(r"(\d{1,2})\s+de\s+(\w+)\s+(\d{4})", html, re.I)
+    if not compra or not venta or not fecha:
+        raise ValueError("BCRD: compra, venta o fecha ausente")
+    meses = {m: i for i, m in enumerate(("enero", "febrero", "marzo", "abril", "mayo", "junio",
+                                         "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"), 1)}
+    dia = date(int(fecha[3]), meses[fecha[2].lower()], int(fecha[1]))
+    return {"moneda": "DOP", "valor": float(venta[1]), "compra": float(compra[1]),
+            "nombre": "BCRD venta", "fecha": dia.isoformat(),
+            "fuente": "Banco Central de la República Dominicana", "link": portal}

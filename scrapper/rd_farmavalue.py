@@ -18,7 +18,7 @@ import os
 import re
 import sys
 import unicodedata
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -147,8 +147,33 @@ def bajar_catalogo(forzar: bool = False) -> list[dict[str, Any]]:
     return data
 
 
+def _clave_precios(catalogo: list[dict[str, Any]]) -> bytes:
+    """La API rota la clave con la fecha, a veces un día después de la medianoche."""
+    ahora = datetime.now()
+    candidatas = [
+        aes_key_desde_fecha(fecha_clave(ahora + timedelta(days=delta)))
+        for delta in (0, -1, 1)
+    ]
+    muestra = [p for p in catalogo[:120] if p.get("precio") or p.get("precio_marcado")]
+    mejor = candidatas[0]
+    mejor_n = -1
+    for key in candidatas:
+        n = 0
+        for p in muestra:
+            g = desencriptar_precio(p.get("precio"), key)
+            m = desencriptar_precio(p.get("precio_marcado"), key)
+            if (g and g > 0) or (m and m > 0):
+                n += 1
+        if n > mejor_n:
+            mejor_n = n
+            mejor = key
+    etiqueta = {candidatas[0]: "hoy", candidatas[1]: "ayer", candidatas[2]: "mañana"}[mejor]
+    print(f"Clave de precio: {etiqueta} ({mejor_n}/{len(muestra)} de la muestra)")
+    return mejor
+
+
 def filas_para_db(catalogo: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    key = aes_key_desde_fecha(fecha_clave())
+    key = _clave_precios(catalogo)
     fecha_dato = datetime.now().date().isoformat()
     out: list[dict[str, Any]] = []
     vistos: set[tuple[Any, int]] = set()
@@ -265,8 +290,10 @@ def main() -> int:
     tabla = asegurar_tabla()
     print(f"Tabla lista: {tabla}")
     res = guardar_filas(filas)
-    if solo_fomac:
+    if solo_fomac or not filas:
         borrados = 0
+        if not filas and not solo_fomac:
+            print("Sin coincidencias: no se purgan las filas ya guardadas.")
     else:
         borrados = purgar_obsoletos(
             PAIS,

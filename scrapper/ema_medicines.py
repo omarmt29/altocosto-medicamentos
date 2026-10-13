@@ -213,6 +213,16 @@ def _es_combinacion_ema(row: dict[str, Any]) -> bool:
     return ";" in inn or ";" in substance
 
 
+from functools import lru_cache
+
+
+@lru_cache(maxsize=2048)
+def _patrones_alias(alias: str):
+    # Reutilizar patrones en el cruce masivo evita agotar la caché global de re.
+    escaped = re.escape(alias)
+    return re.compile(rf"(^| ){escaped}( |$)"), re.compile(rf"(^| ){escaped}[a-z0-9]*( |$)")
+
+
 def _match_ema(inn: str, substance: str, nombre: str, aliases: list[str]) -> bool:
     hay = " ".join(x for x in (inn, substance) if x)
     hn = norm(hay)
@@ -222,9 +232,10 @@ def _match_ema(inn: str, substance: str, nombre: str, aliases: list[str]) -> boo
     for a in aliases:
         if not a:
             continue
-        if hn and re.search(rf"(^| ){re.escape(a)}( |$)", hn):
+        exacto, sufijo = _patrones_alias(a)
+        if hn and exacto.search(hn):
             return True
-        if hn and len(a) >= 6 and re.search(rf"(^| ){re.escape(a)}[a-z0-9]*( |$)", hn):
+        if hn and len(a) >= 6 and sufijo.search(hn):
             return True
         # biosimilares tipo adalimumab-xxxx no aplican en EMA, pero sí nombres compuestos
         if brand and a in brand and len(a) >= 5:

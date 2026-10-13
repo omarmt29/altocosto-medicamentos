@@ -1,10 +1,8 @@
 """
-Scraper US · Mark Cuban Cost Plus Drugs (API pública).
+Scraper US · Mark Cuban Cost Plus Drugs (Pricing API).
 
-API: https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main
-Docs: https://costplusdrugs.github.io/apidocs/
-
-Sin WAF/proxy problemático: catálogo JSON abierto + cotización por cantidad.
+API: https://api.costplusdrugs.com/pricelist/cpd
+Docs: https://mccpdc-llc.github.io/pricing-api-documentation/cpd.html
 """
 
 from __future__ import annotations
@@ -30,17 +28,16 @@ from scrapper.ficha import parse_ficha  # noqa: E402
 from scrapper.matching import clasificar, coincide  # noqa: E402
 from scrapper.report_seeds import seed_match_for_med  # noqa: E402
 from scrapper.repositorio import asegurar_tabla, contar, guardar_filas, purgar_obsoletos  # noqa: E402
-from scrapper.vtex_tienda import fases_busqueda  # noqa: E402
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 CACHE = ROOT / "cache" / "farmacias" / "costplus_us"
-API = "https://us-central1-costplusdrugs-publicapi.cloudfunctions.net/main"
+API = "https://api.costplusdrugs.com/pricelist/cpd"
 PAIS = "Estados Unidos"
 FARMACIA = "Cost Plus Drugs"
 MONEDA = "USD"
-PAUSA = 0.15
-TIMEOUT = 60
+PAUSA = 0.1
+TIMEOUT = 90
 UA = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
@@ -68,44 +65,6 @@ def parse_money(raw: Any) -> float | None:
     return n if n > 0 else None
 
 
-def pack_units(row: dict[str, Any]) -> int:
-    """Unidades cotizables.
-
-    Para comprimidos ``medispan_pack_size`` suele ser 30/90.
-    Para inyectables a menudo viene en mL (0.4, 0.8) → cotizar 1 presentación.
-    """
-    form = str(row.get("form") or "").lower()
-    pill = str(row.get("pill_nonpill") or "").lower() == "pill"
-    raw = row.get("medispan_pack_size")
-    try:
-        n = float(str(raw))
-    except (TypeError, ValueError):
-        n = 0.0
-    if pill and n >= 1:
-        return int(n)
-    # jeringas / kits / cajas: 1 presentación
-    if any(x in form for x in ("syringe", "injector", "pen", "kit", "box", "vial", "solution")):
-        return 1
-    if 0 < n < 1:
-        return 1
-    if n >= 1:
-        return int(n)
-    return 1 if not pill else 30
-
-
-def precio_fila(s: requests.Session, row: dict[str, Any]) -> tuple[float | None, int]:
-    units = pack_units(row)
-    q = cotizar(s, row, units)
-    if q:
-        return q, units
-    unit = parse_money(row.get("unit_price"))
-    if unit and units == 1:
-        return unit, 1
-    if unit and units > 1:
-        return round(unit * units, 2), units
-    return None, units
-
-
 def catalogo(s: requests.Session, *, forzar: bool) -> list[dict[str, Any]]:
     path = CACHE / "_catalog.json"
     if not forzar and path.exists() and path.stat().st_size > 1000:
@@ -115,7 +74,7 @@ def catalogo(s: requests.Session, *, forzar: bool) -> list[dict[str, Any]]:
     time.sleep(PAUSA)
     r = s.get(API, timeout=TIMEOUT)
     r.raise_for_status()
-    data = r.json().get("results") or []
+    data = r.json()
     if not isinstance(data, list):
         data = []
     CACHE.mkdir(parents=True, exist_ok=True)
@@ -123,43 +82,23 @@ def catalogo(s: requests.Session, *, forzar: bool) -> list[dict[str, Any]]:
     return data
 
 
-def cotizar(s: requests.Session, row: dict[str, Any], units: int) -> float | None:
-    """Precio total para `units` unidades (pack típico)."""
-    ndc = str(row.get("ndc") or "").strip()
-    params: dict[str, Any] = {"quantity_units": units}
-    if ndc:
-        params["ndc"] = ndc
-    else:
-        params["medication_name"] = row.get("medication_name") or ""
-        if row.get("strength"):
-            params["strength"] = row["strength"]
-    path = CACHE / f"q_{ndc or 'x'}_{units}.json"
-    if path.exists() and path.stat().st_size > 2:
-        try:
-            cached = json.loads(path.read_text(encoding="utf-8"))
-            q = parse_money(cached.get("requested_quote"))
-            if q:
-                return q
-        except Exception:
-            pass
-    time.sleep(PAUSA)
-    try:
-        r = s.get(API, params=params, timeout=TIMEOUT)
-        if r.status_code != 200:
-            return None
-        results = r.json().get("results") or []
-    except Exception:
-        return None
-    if not results:
-        return None
-    hit = results[0]
-    CACHE.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(hit, ensure_ascii=False), encoding="utf-8")
-    q = parse_money(hit.get("requested_quote"))
-    if q:
-        return q
-    unit = parse_money(hit.get("unit_price") or row.get("unit_price"))
-    return round(unit * units, 2) if unit else None
+def precio_canal(row: dict[str, Any]) -> tuple[float | None, float | None, bool]:
+    """Devuelve (precio, precio_lista, en_stock).
+
+    Precio = total al paciente sin envío (pack + dispensing fee).
+    Precio lista = solo medicamento (sample_pack_price).
+    """
+    ch = row.get("cpd_channel")
+    if not isinstance(ch, dict):
+        return None, None, False
+    lista = parse_money(ch.get("sample_pack_price"))
+    total = parse_money(ch.get("sample_pack_price_total_to_patient_without_shipping"))
+    if not total:
+        total = lista
+    if not lista and total:
+        lista = total
+    en_stock = bool(ch.get("in_stock", True))
+    return total, lista, en_stock
 
 
 def blob_producto(row: dict[str, Any]) -> str:
@@ -169,7 +108,7 @@ def blob_producto(row: dict[str, Any]) -> str:
         row.get("brand_generic"),
         row.get("strength"),
         row.get("form"),
-        row.get("slug"),
+        row.get("url"),
     ]
     return " ".join(str(p) for p in parts if p)
 
@@ -179,7 +118,6 @@ def filas_de_catalogo(
     productos: list[dict[str, Any]],
     fecha_dato: str,
     vistos: set[tuple[str, int]],
-    s: requests.Session,
 ) -> list[dict[str, Any]]:
     out: list[dict[str, Any]] = []
     for row in productos:
@@ -191,18 +129,21 @@ def filas_de_catalogo(
         seed_match = seed_match_for_med(blob, PAIS, med)
         if not coincide(blob, med) and not seed_match:
             continue
-        ndc = str(row.get("ndc") or row.get("slug") or "").strip()
-        if not ndc:
+        sku = str(row.get("external_sku") or "").strip()
+        if not sku:
+            ndcs = row.get("equivalent_ndcs") or []
+            sku = str(ndcs[0]) if ndcs else ""
+        if not sku:
             continue
-        n_lista = int(med["n"])
-        clave = (ndc, n_lista)
-        if clave in vistos:
-            continue
-        units = pack_units(row)
-        precio, units = precio_fila(s, row)
+        precio, precio_lista, en_stock = precio_canal(row)
         if not precio:
             continue
+        n_lista = int(med["n"])
+        clave = (sku, n_lista)
+        if clave in vistos:
+            continue
         vistos.add(clave)
+        pack = row.get("sample_volume") or row.get("sample_pack_size") or row.get("pack_size")
         nombre = " ".join(
             x
             for x in (
@@ -218,33 +159,37 @@ def filas_de_catalogo(
         p_fake = {
             "nombre": nombre,
             "principios_activos": [row.get("medication_name"), brand],
-            "tipo_presentacion": f"{row.get('form') or ''} x {units}",
+            "tipo_presentacion": str(pack or row.get("form") or ""),
             "laboratorio": brand,
         }
         med2, calidad, obs = clasificar(med, p_fake)
         if seed_match and calidad == "ok":
             calidad = "revisar"
         ficha = parse_ficha(nombre, med2)
-        fuente = str(row.get("url") or "").strip() or f"https://www.costplusdrugs.com/medications/{row.get('slug') or ''}/"
+        fuente = str(row.get("url") or "").strip() or "https://www.costplusdrugs.com/"
         out.append(
             {
                 "pais": PAIS,
                 "farmacia": FARMACIA,
                 "fuente_url": fuente[:500],
-                "id_producto_farmacia": ndc[:80],
-                "sku": ndc[:80],
+                "id_producto_farmacia": sku[:80],
+                "sku": sku[:80],
                 "n_lista": int(med2["n"]),
                 "medicamento_lista": str(med2["nombre"]),
                 "programa": str(med2["programa"]),
                 "nombre_comercial": nombre[:500],
-                "principio_activo": ficha.get("principio_activo") or str(row.get("medication_name") or "")[:200],
-                "concentracion": ficha.get("concentracion") or str(row.get("strength") or "")[:80] or None,
-                "presentacion": ficha.get("presentacion")
-                or f"{row.get('form') or 'unit'} x {units}".strip()[:120],
+                "principio_activo": ficha.get("principio_activo")
+                or str(row.get("medication_name") or "")[:200],
+                "concentracion": ficha.get("concentracion")
+                or str(row.get("strength") or "")[:80]
+                or None,
+                "presentacion": ficha.get("presentacion") or str(pack or "")[:120] or None,
                 "laboratorio": (brand or ficha.get("laboratorio") or "")[:200] or None,
                 "precio": precio,
+                "precio_lista": precio_lista or precio,
+                "precio_oferta": None,
                 "moneda": MONEDA,
-                "disponibilidad": "Disponible",
+                "disponibilidad": "Disponible" if en_stock else "Agotado",
                 "calidad": calidad,
                 "observacion": obs,
                 "fecha_publicacion": None,
@@ -256,7 +201,7 @@ def filas_de_catalogo(
 
 def recolectar(*, forzar: bool = False, meds: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
     s = session()
-    print("  bajando catálogo Cost Plus Drugs…")
+    print("  bajando pricelist Cost Plus Drugs…")
     productos = catalogo(s, forzar=forzar)
     print(f"  catálogo: {len(productos)} presentaciones")
     fecha = datetime.now().date().isoformat()
@@ -265,23 +210,7 @@ def recolectar(*, forzar: bool = False, meds: list[dict[str, Any]] | None = None
     trabajo = meds if meds is not None else MEDICAMENTOS
     for med in trabajo:
         n_antes = len(filas)
-        # Primero match sobre catálogo completo (barato); fases solo para seeds extras.
-        filas.extend(filas_de_catalogo(med, productos, fecha, vistos, s))
-        if len(filas) == n_antes:
-            for _fase, aliases in fases_busqueda(PAIS, med):
-                for alias in aliases[:3]:
-                    time.sleep(PAUSA)
-                    try:
-                        r = s.get(API, params={"medication_name": alias, "quantity_units": 30}, timeout=TIMEOUT)
-                        extra = r.json().get("results") or [] if r.status_code == 200 else []
-                    except Exception:
-                        extra = []
-                    if extra:
-                        filas.extend(filas_de_catalogo(med, extra, fecha, vistos, s))
-                        if len(filas) > n_antes:
-                            break
-                if len(filas) > n_antes:
-                    break
+        filas.extend(filas_de_catalogo(med, productos, fecha, vistos))
         n_nuevas = len(filas) - n_antes
         marca = "·" if n_nuevas else " "
         print(f"  {marca} {n_nuevas:3d}  {med['nombre']}")

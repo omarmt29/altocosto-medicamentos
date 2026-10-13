@@ -266,7 +266,8 @@ class Handler(SimpleHTTPRequestHandler):
             estado["retencion_dias"] = int(os.getenv("RETENCION_DIAS", "3") or "3")
             self._json(estado, 200 if estado["ok"] else 503)
             return
-        if path in ("/api/v1/precios", "/api/v1/fuentes"):
+        if path in ("/api/v1/precios", "/api/v1/fuentes", "/api/v1/tasas",
+                    "/api/v1/fda", "/api/v1/purple-book", "/api/v1/ema"):
             import api_v1
 
             clave = self.headers.get("X-API-Key")
@@ -277,8 +278,11 @@ class Handler(SimpleHTTPRequestHandler):
             try:
                 if path == "/api/v1/fuentes":
                     self._json(api_v1.resumen())
-                else:
+                elif path == "/api/v1/precios":
                     self._json(api_v1.listar_precios(qs))
+                else:
+                    respuesta = api_v1.listar_exportacion(path.rsplit("/", 1)[1], qs)
+                    self._json(respuesta, 200 if respuesta["ok"] else 503)
             except Exception as exc:
                 self._json({"ok": False, "error": str(exc)}, 500)
             return

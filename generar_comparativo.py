@@ -331,28 +331,35 @@ def _tasa(valor: float, nombre: str, fecha: str, fuente: str, link: str) -> dict
 def tasas(s: requests.Session) -> dict[str, Any]:
     """Unidades de moneda local por 1 USD, según la cotización de cada país."""
     mercado: dict[str, float] = {}
+    mercado_fecha = ""
     try:
-        mercado = _er_api(s)
+        r = s.get(FX_URL, timeout=60)
+        r.raise_for_status()
+        datos_mercado = r.json()
+        mercado = {str(k).upper(): float(v) for k, v in datos_mercado.get("rates", {}).items()}
+        if datos_mercado.get("time_last_update_unix"):
+            from datetime import timezone
+            mercado_fecha = datetime.fromtimestamp(int(datos_mercado["time_last_update_unix"]), timezone.utc).isoformat()
     except Exception:
         pass
 
-    bcrd_compra = 58.4020
-    bcrd_venta = 58.7482
-    bcrd_fecha = "2026-08-12"
-    try:
-        home = s.get(BCRD_PORTAL, timeout=40)
-        txt = home.text.replace(",", "")
-        nums = re.findall(r"58\.\d{3,4}", txt)
-        if len(nums) >= 2:
-            bcrd_compra = float(nums[0])
-            bcrd_venta = float(nums[1])
-            bcrd_fecha = datetime.now().date().isoformat()
-    except Exception:
-        pass
+    from scrapper.fx import tasa_dop, tasa_pab
 
-    por_usd: dict[str, dict[str, Any]] = {
-        "DOP": _tasa(bcrd_venta, "BCRD venta", bcrd_fecha, "Banco Central de la República Dominicana", BCRD_PORTAL),
-    }
+    try:
+        dop = tasa_dop(s)
+        bcrd_compra, bcrd_venta, bcrd_fecha = dop["compra"], dop["valor"], dop["fecha"]
+        dop_tasa = _tasa(dop["valor"], dop["nombre"], dop["fecha"], dop["fuente"], dop["link"])
+        dop_tasa["compra"] = dop["compra"]
+    except Exception:
+        if not mercado.get("DOP"):
+            raise RuntimeError("BCRD y reserva DOP no disponibles")
+        bcrd_compra = None
+        bcrd_venta, bcrd_fecha = mercado["DOP"], mercado_fecha
+        dop_tasa = _tasa(bcrd_venta, "Reserva (mercado)", mercado_fecha, "open.er-api.com", FX_URL)
+
+    por_usd: dict[str, dict[str, Any]] = {"DOP": dop_tasa}
+    pab = tasa_pab(s)
+    por_usd["PAB"] = _tasa(pab["valor"], pab["nombre"], pab["fecha"], pab["fuente"], pab["link"])
 
     try:
         r = s.get(AR_DOLAR, timeout=25)
@@ -367,7 +374,7 @@ def tasas(s: requests.Session) -> dict[str, Any]:
         )
     except Exception:
         if mercado.get("ARS"):
-            por_usd["ARS"] = _tasa(mercado["ARS"], "Reserva (mercado)", "", "open.er-api.com", FX_URL)
+            por_usd["ARS"] = _tasa(mercado["ARS"], "Reserva (mercado)", mercado_fecha, "open.er-api.com", FX_URL)
 
     try:
         d1 = datetime.now().date().replace(day=1).strftime("%m-%d-%Y")
@@ -390,7 +397,7 @@ def tasas(s: requests.Session) -> dict[str, Any]:
         )
     except Exception:
         if mercado.get("BRL"):
-            por_usd["BRL"] = _tasa(mercado["BRL"], "Reserva (mercado)", "", "open.er-api.com", FX_URL)
+            por_usd["BRL"] = _tasa(mercado["BRL"], "Reserva (mercado)", mercado_fecha, "open.er-api.com", FX_URL)
 
     try:
         r = s.get(f"{CO_TRM}?$limit=1&$order=vigenciadesde DESC", timeout=30)
@@ -407,7 +414,7 @@ def tasas(s: requests.Session) -> dict[str, Any]:
         )
     except Exception:
         if mercado.get("COP"):
-            por_usd["COP"] = _tasa(mercado["COP"], "Reserva (mercado)", "", "open.er-api.com", FX_URL)
+            por_usd["COP"] = _tasa(mercado["COP"], "Reserva (mercado)", mercado_fecha, "open.er-api.com", FX_URL)
 
     try:
         r = s.get(PE_BCRP, timeout=40)
@@ -430,7 +437,7 @@ def tasas(s: requests.Session) -> dict[str, Any]:
         )
     except Exception:
         if mercado.get("PEN"):
-            por_usd["PEN"] = _tasa(mercado["PEN"], "Reserva (mercado)", "", "open.er-api.com", FX_URL)
+            por_usd["PEN"] = _tasa(mercado["PEN"], "Reserva (mercado)", mercado_fecha, "open.er-api.com", FX_URL)
 
     try:
         r = s.get(CL_DOLAR, timeout=25)
@@ -447,7 +454,7 @@ def tasas(s: requests.Session) -> dict[str, Any]:
         )
     except Exception:
         if mercado.get("CLP"):
-            por_usd["CLP"] = _tasa(mercado["CLP"], "Reserva (mercado)", "", "open.er-api.com", FX_URL)
+            por_usd["CLP"] = _tasa(mercado["CLP"], "Reserva (mercado)", mercado_fecha, "open.er-api.com", FX_URL)
 
     try:
         from scrapper.fx import tasa_mxn
@@ -456,11 +463,11 @@ def tasas(s: requests.Session) -> dict[str, Any]:
         por_usd["MXN"] = _tasa(mx["valor"], mx["nombre"], mx["fecha"], mx["fuente"], mx["link"])
     except Exception:
         if mercado.get("MXN"):
-            por_usd["MXN"] = _tasa(mercado["MXN"], "Reserva (mercado)", "", "open.er-api.com", FX_URL)
+            por_usd["MXN"] = _tasa(mercado["MXN"], "Reserva (mercado)", mercado_fecha, "open.er-api.com", FX_URL)
 
     for code in ("CRC", "HNL", "GTQ", "NIO", "UYU", "PAB", "PYG", "GYD", "TTD", "BOB", "VES", "CAD"):
         if code not in por_usd and mercado.get(code):
-            por_usd[code] = _tasa(mercado[code], "Reserva (mercado)", "", "open.er-api.com", FX_URL)
+            por_usd[code] = _tasa(mercado[code], "Reserva (mercado)", mercado_fecha, "open.er-api.com", FX_URL)
 
     return {
         "por_usd": por_usd,
