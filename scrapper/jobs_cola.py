@@ -724,14 +724,23 @@ FUENTES: dict[str, dict[str, Any]] = {
         "argv": [],
         "descripcion": "Pricing API Mark Cuban Cost Plus Drugs (/pricelist/cpd)",
     },
-    "us_nadac": {
-        "nombre": "NADAC (CMS)",
+    "us_healthwarehouse": {
+        "nombre": "HealthWarehouse",
         "grupo": "farmacia",
-        "farmacia": "NADAC (CMS)",
+        "farmacia": "HealthWarehouse",
         "pais": "Estados Unidos",
-        "script": "scrapper/us_nadac.py",
+        "script": "scrapper/us_healthwarehouse.py",
         "argv": [],
-        "descripcion": "NADAC CMS — costo de adquisición promedio (Medicaid open data)",
+        "descripcion": "Farmacia online de EE. UU.; buscador publico y precios directos",
+    },
+    "us_honeybee": {
+        "nombre": "Honeybee Health",
+        "grupo": "farmacia",
+        "farmacia": "Honeybee Health",
+        "pais": "Estados Unidos",
+        "script": "scrapper/us_honeybee.py",
+        "argv": [],
+        "descripcion": "Farmacia online de pago directo; sitemap y variantes publicas",
     },
     "ca_adbl": {
         "nombre": "ADBL Alberta",

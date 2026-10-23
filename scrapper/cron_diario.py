@@ -38,7 +38,7 @@ Bolivia: FSA Tienda Online; Farmacorp (Shopify vía farmacorp.myshopify.com).
 Venezuela: Farmacia SAAS (VTEX); Locatel (VTEX, VES).
 Brasil extra: Drogal (VTEX).
 Colombia extra: Farmalisto (Shopify).
-EE.UU.: Cost Plus Drugs (Pricing API), NADAC (CMS).
+EE.UU.: Cost Plus Drugs (Pricing API), HealthWarehouse y Honeybee Health.
 Canadá: ADBL Alberta (Blue Cross Excel).
 """
 
@@ -165,7 +165,9 @@ def _correr_scrapers() -> int:
     from scrapper.ec_medicity import main as ec_medicity
     from scrapper.co_farmalisto import main as co_farmalisto
     from scrapper.us_costplus import main as us_costplus
-    from scrapper.us_nadac import main as us_nadac
+    from scrapper.us_healthwarehouse import main as us_healthwarehouse
+    from scrapper.us_honeybee import main as us_honeybee
+    from scrapper.us_retirar_nadac import main as us_retirar_nadac
     from scrapper.ca_adbl import main as ca_adbl
 
     from functools import partial
@@ -252,7 +254,9 @@ def _correr_scrapers() -> int:
         ("ec_medicity", ec_medicity),
         ("co_farmalisto", co_farmalisto),
         ("us_costplus", us_costplus),
-        ("us_nadac", us_nadac),
+        ("us_healthwarehouse", us_healthwarehouse),
+        ("us_honeybee", us_honeybee),
+        ("us_retirar_nadac", us_retirar_nadac),
         ("ca_adbl", ca_adbl),
         *[(f"exportar_{nombre}", partial(actualizar, nombre)) for nombre in RECURSOS],
     ]

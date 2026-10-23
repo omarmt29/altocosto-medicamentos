@@ -75,7 +75,9 @@ PASOS = [
     ("Ecuador · Medicity", "scrapper.ec_medicity", "main"),
     ("Colombia · Farmalisto", "scrapper.co_farmalisto", "main"),
     ("EE.UU. · Cost Plus Drugs", "scrapper.us_costplus", "main"),
-    ("EE.UU. · NADAC", "scrapper.us_nadac", "main"),
+    ("EE.UU. · HealthWarehouse", "scrapper.us_healthwarehouse", "main"),
+    ("EE.UU. · Honeybee Health", "scrapper.us_honeybee", "main"),
+    ("EE.UU. · retirar NADAC", "scrapper.us_retirar_nadac", "main"),
     ("Canadá · ADBL Alberta", "scrapper.ca_adbl", "main"),
 ]
 
