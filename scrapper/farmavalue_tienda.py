@@ -27,6 +27,7 @@ from scrapper.matching import (
     principios_txt,
 )
 from scrapper.ficha import parse_ficha
+from scrapper.farmavalue_precios import numero_farmavalue, resolver_precios_farmavalue
 from scrapper.repositorio import asegurar_tabla, contar, guardar_filas, purgar_obsoletos
 
 _AES_PARTES = ("128", "48", "99", "402")
@@ -148,20 +149,18 @@ def filas_para_db(
             print(f"  cruzando catálogo {i}/{len(catalogo)}")
         gondola = desencriptar_precio(p.get("precio"), key)
         marcado = desencriptar_precio(p.get("precio_marcado"), key)
-        precio_lista: float | None = None
-        precio_oferta: float | None = None
-        if marcado and marcado > 0 and gondola and gondola > 0 and gondola < marcado * 0.999:
-            precio_lista = float(marcado)
-            precio_oferta = float(gondola)
-            precio = precio_lista
-        elif marcado and marcado > 0:
-            precio_lista = float(marcado)
-            precio = precio_lista
-        elif gondola and gondola > 0:
-            precio_lista = float(gondola)
-            precio = precio_lista
-        else:
+        # `precio` es el neto y `precio_marcado` el anterior con impuesto.
+        # El total de la ficha es (neto - dcto) * (1 + isv), no el neto.
+        resuelto = resolver_precios_farmavalue(
+            gondola,
+            marcado,
+            numero_farmavalue(p.get("dcto")),
+            numero_farmavalue(p.get("isv")),
+        )
+        if resuelto is None:
             continue
+        precio_lista, precio_oferta = resuelto
+        precio = precio_lista
         texto = blob_producto(p)
         hits = medicamentos_que_pegan(texto)
         if not hits:
