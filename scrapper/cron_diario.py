@@ -278,6 +278,8 @@ def _correr_scrapers() -> int:
     orden += 1
     _ejecutar_y_loguear(corrida_id, orden, "alertas_patentes", _correr_alertas_patentes)
     orden += 1
+    _ejecutar_y_loguear(corrida_id, orden, "alertas_moleculas", _correr_alertas_moleculas)
+    orden += 1
     _ejecutar_y_loguear(corrida_id, orden, "alertas_precios", _correr_alertas_precios)
 
     # Si viene --sin-hidalgos, la corrida queda abierta para append de Hidalgos.
@@ -434,6 +436,22 @@ def _correr_alertas_patentes() -> int:
         return 0 if r.get("ok") else 1
     except Exception as exc:
         print(f"  AVISO alertas patentes: {exc}")
+        return 0
+
+
+def _correr_alertas_moleculas() -> int:
+    """Detecta referencias FDA y autorizaciones EMA nuevas. No falla el cron."""
+    print("=" * 64)
+    print(" Alertas de moléculas nuevas (FDA / EMA)")
+    print("=" * 64)
+    try:
+        from scrapper.alertas_moleculas import detectar_todas
+
+        r = detectar_todas()
+        print(r)
+        return 0 if r.get("ok") else 1
+    except Exception as exc:
+        print(f"  AVISO alertas moléculas: {exc}")
         return 0
 
 
